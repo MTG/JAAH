@@ -1,0 +1,18 @@
+# run DBNBeatTracker from madmom to detect beats. e.g.:
+DBNBeatTracker single Jazz\ \(The\ Smithsonian\ Anthology\,\ 6CD\)\ \[320\]/CD2/01.\ Minor\ Swing.mp3 -o swing_beats.lab
+DBNBeatTracker --min_bpm 170 single Jazz\ \(The\ Smithsonian\ Anthology\,\ 6CD\)\ \[320\]/CD2/01.\ Minor\ Swing.mp3 -o swing_beats.lab
+
+# use sonic visualizer to check.
+# re-evaluate with another --min_bpm --max_bpm if needed.
+# manually correct the beats if needed.
+
+# convert our annotation to "lab" format to view in Sonic Visualizer
+python JazzHarmonyCorpus/utils/json2ChordLab.py Corpus/minor_swing.json swing.lab
+
+# check in Sonic Visualizer.
+
+# Evaluate automatic estimation algorithms
+python JazzHarmonyCorpus/utils/evaluateFile.py Corpus/minor_swing.json
+
+# check scores and visualize estimated chords (from ./evaluation directiry) in SV.
+
