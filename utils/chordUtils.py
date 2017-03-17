@@ -41,37 +41,47 @@ def toMirexLab(startTime, endTime, onsets, symbols) :
         res.append(ChordSegment(res[-1].endTime, endTime, 'N'))
     return mergeSegments(res)
 
-def processChords(blocks, allChords):
+def allDivisors(n, startWith = 1):
+    i = startWith
+    if n < i:
+        return set()
+    if n % i == 0:
+        return set((i, n / i)) |  allDivisors(n / i, i + 1)
+    else:
+        return allDivisors(n, i + 1)
+
+def processChords(numerator, blocks, allChords):
     for block in blocks:
         bars = block.split('|')[1:-1]
         for bar in bars:
             chords = [c for c in re.split('\s+', bar) if c != '']
-            if len(chords) == 1 :
-                chords = chords * 4
-            elif len(chords) == 2 :
-                chords = [chords[0], chords[0], chords[1], chords[1]]
-            elif len(chords) != 4:
+            divisors = allDivisors(numerator)
+            if not (len(chords) in divisors):
                 raise ValueError("Wrong number of chords in a bar: " + bar)
-            allChords.extend(chords)
+            multiplier = numerator / len(chords)
+            newchords = []
+            for c in chords:
+                newchords.extend([c] * multiplier)
+            allChords.extend(newchords)
 
-def processParts(data, beats, chords):
+def processParts(metreNumerator, data, beats, chords):
     if ('parts' in data.keys()):
         for part in data['parts']:
-            processParts(part, beats, chords)
+            processParts(metreNumerator, part, beats, chords)
     else:
+        if 'metre' in data :
+            metreNumerator = int(data['metre'].split('/')[0])
         beats.extend(data['beats'])
-        processChords(data['chords'], chords)
+        processChords(metreNumerator, data['chords'], chords)
 
 def json2lab(infile, outfile):
     with open(infile, 'r') as data_file:
         data = json.load(data_file)
         duration = data['duration']
-        metre = data['metre']
-        if (metre != '4/4'):
-            raise ValueError("Only 4/4 metre is supported so far.")
+        metreNumerator = int(data['metre'].split('/')[0])
         allBeats = []
         allChords = []
-        processParts(data, allBeats, allChords)
+        processParts(metreNumerator, data, allBeats, allChords)
         segments = toMirexLab(0, duration, allBeats, allChords)
         with open(outfile, 'w') as content_file:
             for s in segments:
