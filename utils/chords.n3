@@ -1,0 +1,38 @@
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix vamp:     <http://purl.org/ontology/vamp/> .
+@prefix :         <#> .
+
+:transform a vamp:Transform ;
+    vamp:plugin <http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino> ;
+    vamp:step_size "2048"^^xsd:int ; 
+    vamp:block_size "16384"^^xsd:int ; 
+    vamp:plugin_version """5""" ; 
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "boostn" ] ;
+        vamp:value "0.1"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "rollon" ] ;
+        vamp:value "1.0"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "s" ] ;
+        vamp:value "0.7"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "tuningmode" ] ;
+        vamp:value "0"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "useNNLS" ] ;
+        vamp:value "1"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "usehartesyntax" ] ;
+        vamp:value "1"^^xsd:float ;
+    ] ;
+    vamp:parameter_binding [
+        vamp:parameter [ vamp:identifier "whitening" ] ;
+        vamp:value "1"^^xsd:float ;
+    ] ;
+    vamp:output <http://vamp-plugins.org/rdf/plugins/nnls-chroma#chordino_output_simplechord> .

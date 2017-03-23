@@ -4,6 +4,7 @@ from chordUtils import json2lab
 from subprocess import call
 import json
 
+utils_path = os.path.dirname(os.path.realpath(__file__))
 eval_dir = "evaluation"
 data_root = os.environ['JAZZ_HARMONY_DATA_ROOT']
 if not os.path.exists(eval_dir):
@@ -28,7 +29,7 @@ json2lab(infile, labfile)
 
 # chordino
 call(["sonic-annotator",
-      "-t", "chords.n3",
+      "-t", utils_path + "/chords.n3",
        "-w", "lab",
       "--lab-basedir", eval_dir,
       "--lab-fill-ends",
@@ -44,7 +45,7 @@ with open(chordinoFile, 'r') as content_file:
         content_file.write(content)
 outfile = os.path.join(eval_dir, name + "_chordino_MirexMajMin.txt")
 call([
-    './MusOOEvaluator',
+    'MusOOEvaluator',
     '--testfile', chordinoFile,
     '--reffile', labfile,
     '--chords', 'MirexMajMin',
@@ -52,7 +53,7 @@ call([
 call(['cat', outfile])
 outfile = os.path.join(eval_dir, name + "_chordino_segmentation.txt")
 call([
-    './MusOOEvaluator',
+    'MusOOEvaluator',
     '--testfile', chordinoFile,
     '--reffile', labfile,
     '--segmentation', 'Inner',
