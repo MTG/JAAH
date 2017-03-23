@@ -8,7 +8,7 @@
    "transcriptions": ["Emir Demirel"]
   },
   "mbid": "d63fa5bc-3351-43b0-9678-b93a9cfd28d5",
-  "duration": "TODO",
+  "duration": "173.33",
   "parts":
           [
             {
@@ -27,10 +27,10 @@
                       ],
               "chords":
                       [
-                        "|F:6 |F:6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:6 |Bb:6 |D:7 |D:7 |G:9 |G:9 |C:7 |C:7|",
-                        "|F:6 |F:6 |Bb:6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:6 |Bb:min6 |F:maj7 |D:7 |G:9 |C:7 |F:6 N N N |N |"
+                        "|F:maj6 |F:maj6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |G:9 |C:7 |C:7|",
+                        "|F:maj6 |F:maj6 |Bb:maj6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:min6 |F:maj7 |D:7 |G:9 |C:7 |F:maj6 N N N |N |"
                       ]
             },
             {
@@ -44,8 +44,8 @@
                       ],
               "chords":
                       [
-                        "|F:6 |F:6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:6 |Bb:6 |Bb:6 |D:7 |G:9 |G:9 |C:7 |C:7|"
+                        "|F:maj6 |F:maj6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:maj6 |Bb:maj6 |D:7 |G:9 |G:9 |C:7 |C:7|"
                       ]
             },
             {
@@ -63,10 +63,10 @@
                       ],
               "chords":
                       [
-                        "|F:6 |F:6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:6 |Bb:6 |D:7 |D:7 |G:9 |G:9 |C N |N |",
-                        "|F:6 |F:6 |Bb:6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:6 |Bb:min6 |F:maj7 |N |G:9 |C:7 |F:6 |F:6 |"
+                        "|F:maj6 |F:maj6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |G:9 |C N |N |",
+                        "|F:maj6 |F:maj6 |Bb:maj6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:min6 |F:maj7 |N |G:9 |C:7 |F:maj6 |F:maj6 |"
                       ]
             },
             {
@@ -75,7 +75,7 @@
                       [105.87, 106.19, 106.52, 106.83, 107.16, 107.48, 107.8, 108.12, 108.44, 108.76, 109.09, 109.41, 109.73, 110.07, 110.41, 110.74],
               "chords":
                       [
-                        "|F F:7 |F:6 C:7 |G:min7  |F N N N |"
+                        "|F F:7 |F:maj6 C:7 |G:min7  |F N N N |"
                       ]
 
             },
@@ -94,10 +94,10 @@
                       ],
               "chords":
                       [
-                        "|F:6 |F:6 |G:min7 |G:min7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:6 |Bb:6 |D:7 |D:7 |G:9 |G:9 |C:7 |C:7 |",
-                        "|F:6 |F:6 |Bb:6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:6 |Bb:min6 |F:maj7 |D:7 |G:9 |C:7 |F:6 |F:6 |"
+                        "|F:maj6 |F:maj6 |G:min7 |G:min7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |G:9 |C:7 |C:7 |",
+                        "|F:maj6 |F:maj6 |Bb:maj6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:min6 |F:maj7 |D:7 |G:9 |C:7 |F:maj6 |F:maj6 |"
                       ]
             },
            {
@@ -111,8 +111,8 @@
                       ],
               "chords":
                       [
-                        "|F:6 |F:6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:6 |Bb:6 |D:7 |D:7 |G:9 |C:7 |F |F  |"
+                        "|F:maj6 |F:maj6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |C:7 |F |F  |"
                       ]
             }
 
