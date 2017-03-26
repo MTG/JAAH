@@ -8,7 +8,7 @@
    "transcriptions": []
   },
   "mbid": "c3141ac9-74aa-439e-b9bc-16aae9c4d683",
-  "duration": "TODO",
+  "duration": "425",
    "parts":
            [
              {
@@ -25,9 +25,9 @@
                       [
                         "|F:min |Bb:min7 |C:(3,5,b7,b9) |F:min |",
                         "|F:(3,5,b7,b9) |Bb:min |Eb:(3,5,b7,b9) |Ab |",
-                        "|Db:maj9 |G:hdim7 |G:7/F |C:7/3 |",
-                        "|F:(b3,5,7,9) |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
-                        "|F:(b3,5,7,9) |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |"
+                        "|Db:maj9 |G:hdim7 |G:7/7 |C:7/3 |",
+                        "|F:min |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
+                        "|F:min |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |"
                       ]
              },
              {
@@ -223,8 +223,8 @@
                           "|F:min |Bb:min7 |C:(3,5,b7,b9) |F:min |",
                           "|F:(3,5,b7,b9) |Bb:min |Eb:(3,5,b7,b9) |Ab |",
                           "|Db:maj9 |G:hdim7 |G:7/7 |C:7/3 |",
-                          "|F:(b3,5,7,9) |Bb:(3,5,b7,11) |C:7 |Bb:dim7/F F:min |",
-                          "|F:(b3,5,7,9) |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |Bb:dim7/5 F:min |F:min |"
+                          "|F:min |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
+                          "|F:min |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |Bb:dim7/5 F:min |F:min |"
                       ]
              }
            ]
