@@ -8,7 +8,7 @@
    "transcriptions": []
   },
   "mbid": "20d24e07-a14b-4b44-b372-8ea3b9f21c4e",
-  "duration": "TODO",
+  "duration": "220",
 
   "parts":
           [
@@ -21,7 +21,7 @@
               ],
               "chords":
                       [
-                        "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab:7 |G:(3,5,7,b9)   |"
+                        "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab:7 |G:(3,5,b7,b9)   |"
                       ]
             },
             {
@@ -36,7 +36,7 @@
               ],
                   "chords":
                       [
-                        "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab:7 |G:(3,5,7,b9)   |"
+                        "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab:7 |G:(3,5,b7,b9)   |"
                       ]
                 },
                 {
@@ -126,7 +126,7 @@
                         ],
                 "chords":
                         [
-                          "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab:7 |G:(3,5,7,b9)   |",
+                          "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab:7 |G:(3,5,b7,b9)   |",
                           "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min  |Eb E:dim E:dim E:dim |"
                         ]
 
