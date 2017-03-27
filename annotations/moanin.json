@@ -8,7 +8,7 @@
    "transcriptions": ["Emir Demirel"]
   },
    "mbid": "517cca8f-ab9a-4eee-92d1-1016907b3fc5",
-   "duration": "TODO",
+   "duration": "680",
    "parts":
            [
              {
@@ -30,11 +30,11 @@
                ],
                "chords":
                         [
-                          "|N F |N  |N F |N  |N F |N  |N F |N  |",
-                          "|N F |N  |N F |N  |N F |N  |N F |N  |",
+                          "|N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |",
+                          "|N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |",
                           "|Bb:min7 Ab:(3,5,7,13) |G:(3,5,b7,b9) C:(3,#5,b7,#9)  |Bb   |F:min B:(3,5,9,#11)|",
                           "|Bb:min7 Ab:(3,5,7,13) |G:(3,5,b7,b9,13)  |C:(3,#5,7,#9)  |N |",
-                          "|N F |N  |N F |N  |N F |N  |N F |N  |"
+                          "|N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |"
 
                         ]
 
@@ -55,7 +55,7 @@
                        [
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | ",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |C:min7 B:(3,5,b7,9,#11) |",
-                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim |C:(3,#5,b7) |",
+                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim7 |C:(3,#5,b7) |",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | "
                        ]
 
@@ -76,7 +76,7 @@
                        [
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | ",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |C:min7 B:(3,5,b7,9,#11) |",
-                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim |C:(3,#5,b7) |",
+                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim7 |C:(3,#5,b7) |",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | "
                        ]
 
@@ -97,7 +97,7 @@
                        [
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | ",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |C:min7 B:(3,5,b7,9,#11) |",
-                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim |C:(3,#5,b7) |",
+                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim7 |C:(3,#5,b7) |",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | "
                        ]
 
@@ -118,7 +118,7 @@
                        [
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | ",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |C:min7 B:(3,5,b7,9,#11) |",
-                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim |C:(3,#5,b7) |",
+                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim7 |C:(3,#5,b7) |",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | "
                        ]
 
@@ -139,7 +139,7 @@
                        [
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | ",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |C:min7 B:(3,5,b7,9,#11) |",
-                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim |C:(3,#5,b7) |",
+                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim7 |C:(3,#5,b7) |",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | "
                        ]
 
@@ -160,7 +160,7 @@
                        [
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | ",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |C:min7 B:(3,5,b7,9,#11) |",
-                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim |C:(3,#5,b7) |",
+                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim7 |C:(3,#5,b7) |",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | "
                        ]
 
@@ -181,7 +181,7 @@
                        [
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | ",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |C:min7 B:(3,5,b7,9,#11) |",
-                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim |C:(3,#5,b7) |",
+                         "|Bb:min7 Ab:7 |G:(3,5,b7,b9) C:(3,#5,b7,#9) |F:min6  |F:7  |Bb:min7 Ab:7 |G:(3,5,b7,b9) |G:hdim7 |C:(3,#5,b7) |",
                          "|F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) |F:min6 Ab:7 |G:(3,#5,b7) C:(3,#5,b7,#9) | "
                        ]
 
@@ -205,11 +205,11 @@
                ],
                "chords":
                         [
-                          "|N F |N  |N F |N  |N F |N  |N F |N  |",
-                          "|N F |N  |N F |N  |N F |N  |N F |N  |",
+                          "|N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |",
+                          "|N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |",
                           "|Bb:min7 Ab:(3,5,7,13) |G:(3,5,b7,b9) C:(3,#5,b7,#9)  |Bb   |F:min B:(3,5,9,#11)|",
                           "|Bb:min7 Ab:(3,5,7,13) |G:(3,5,b7,b9,13)  |C:(3,#5,7,#9)  |N |",
-                          "|N F |N  |N F |N  |N F |N  |N F |N  |",
+                          "|N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |N N Bb/5 F |N  |",
                           "|Bb:min7 Ab:(3,5,7,13) |G:(3,5,b7,b9) C:(3,#5,b7,#9)  |Bb |F:min B:(3,5,9,#11)|",
                           "|Bb:min7 Ab:(3,5,7,13) |G:(3,5,b7,b9) C:(3,#5,b7,#9)  |Bb B:dim |F:min B:(3,5,9,#11)|",
                           "|Bb:min7 Ab:(3,5,7,13) |G:(3,5,b7,b9,13)  |F:(b3,5,b7,9) |N |",
