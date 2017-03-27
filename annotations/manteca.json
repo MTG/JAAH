@@ -8,7 +8,7 @@
    "transcriptions": []
   },
   "mbid": "2394cfd9-ea6a-47cc-9aea-00d84c50746f",
-  "duration": "TODO",
+  "duration": "200",
   "parts":
           [
             {
@@ -52,7 +52,7 @@
                         "|Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 Ab:7 |Db:7 Db:7 Gb:7 F:(3,5,b7,#9,b13) |",
                         "|Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 Ab:7 |Db:7 Db:7 Gb:7 F:(3,5,b7,#9,b13) |",
                         "|Ab:min7 |Db:(3,5,b7,b9) |Gb:maj7 |C:hdim7 F:(3,5,b7,b9,b13) |Bb:7 |Eb:7 A:7 |Ab:maj7 |Ab:maj7 |",
-                        "|Ab:min7 |Db:7 |Gb:maj7 |F#:hdim7 B:7 |F:hdim7 |Bb:(3,5,b7,b9) |C:hdim7 |F:(3,5,b7,b9 |",
+                        "|Ab:min7 |Db:7 |Gb:maj7 |F#:hdim7 B:7 |F:hdim7 |Bb:(3,5,b7,b9) |C:hdim7 |F:(3,5,b7,b9) |",
                         "|Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 Ab:7 |Db:7 Db:7 Gb:7 F:(3,5,b7,#9,b13) |"
                       ]
             },
@@ -91,7 +91,7 @@
                         "|Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 Ab:7 |Db:7 Db:7 Gb:7 F:(3,5,b7,#9,b13) |",
                         "|Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 Ab:7 |Db:7 Db:7 Gb:7 F:(3,5,b7,#9,b13) |",
                         "|Ab:min7 |Db:(3,5,b7,b9) |Gb:maj7 |C:hdim7 F:(3,5,b7,b9,b13) |Bb:7 |Eb:7 A:7 |Ab:maj7 |Ab:maj7 |",
-                        "|Ab:min7 |Db:7 |Gb:maj7 |F#:hdim7 B:7 |F:hdim7 |Bb:(3,5,b7,b9) |C:hdim7 |F:(3,5,b7,b9 |",
+                        "|Ab:min7 |Db:7 |Gb:maj7 |F#:hdim7 B:7 |F:hdim7 |Bb:(3,5,b7,b9) |C:hdim7 |F:(3,5,b7,b9) |",
                         "|Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 |Bb:7 Ab:7 |Db:7 Db:7 Gb:7 F:(3,5,b7,#9,b13) |"
                       ]
             },
