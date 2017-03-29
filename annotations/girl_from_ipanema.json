@@ -8,13 +8,13 @@
    "transcriptions": ["Emir Demirel"]
   },
   "mbid": "fd889e33-a067-498f-bbf8-9ffe305bde16",
-  "duration": "TODO",
+  "duration": "340",
   "parts":
           [
             {
               "name":"Intro",
               "beats": [0.19, 0.65, 1.11, 1.56, 2.01, 2.45, 2.91, 3.37, 3.82, 4.27, 4.74, 5.2, 5.67, 6.14, 6.6, 7.06],
-              "chords":["|F:maj7 |F:maj7 |F:maj7 |F:maj7|"]
+              "chords":["|Db:maj6/5 |Db:maj6/5  |Db:maj6/5  |Db:maj6/5 |"]
             },
             {
               "name":"Vocals-Joao Gilberto",
@@ -33,11 +33,11 @@
                       ],
               "chords":
                       [
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F#:hdim |",
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |",
-                       "|F#:maj7 |F#:maj7 |B:7   |B:7   |F#:min7 |F#:min7 |D:7 |D:7 |",
-                       "|G:min7 |G:min7 |Eb:7 |Eb:7 |A:min7 |D:(3,b5,b5,b9) |G:min7 |C:(3,b5,b7,b9)| ",
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |"
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |D:7 |",
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |Db:maj6/5 |",
+                       "|D:maj7 |D:maj7 |G:7   |G:7   |D:min7 |D:min7 |Bb:7 |Bb:7 |",
+                       "|Eb:min7 |Eb:min7 |Cb:7 |Cb:7 |F:min7 |Bb:hdim7 |Eb:min7 |Ab:hdim7| ",
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |Db:maj6/5 |"
 
                       ]
             },
@@ -58,11 +58,11 @@
                       ],
               "chords":
                       [
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |",
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |",
-                       "|F#:maj7 |F#:maj7 |B:7   |B:7   |F#:min7 |F#:min7 |D:7 |D:7 |",
-                       "|G:min7 |G:min7 |Eb:7 |Eb:7 |A:min7 |D:(3,b5,b5,b9) |G:min7 |C:(3,b5,b7,b9)| ",
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |"
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |D:7 |",
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |Db:maj6/5 |",
+                       "|D:maj7 |D:maj7 |G:7   |G:7   |D:min7 |D:min7 |Bb:7 |Bb:7 |",
+                       "|Eb:min7 |Eb:min7 |Cb:7 |Cb:7 |F:min7 |Bb:hdim7 |Eb:min7 |Ab:hdim7| ",
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |Db:maj6/5 |"
 
                       ]
             },
@@ -83,11 +83,11 @@
                       ],
               "chords":
                       [
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |",
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |",
-                       "|F#:maj7 |F#:maj7 |B:7   |B:7   |F#:min7 |F#:min7 |D:7 |D:7 |",
-                       "|G:min7 |G:min7 |Eb:7 |Eb:7 |A:min7 |D:(3,b5,b5,b9) |G:min7 |C:(3,b5,b7,b9)| ",
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |"
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |D:7 |",
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |Db:maj6/5 |",
+                       "|D:maj7 |D:maj7 |G:7   |G:7   |D:min7 |D:min7 |Bb:7 |Bb:7 |",
+                       "|Eb:min7 |Eb:min7 |Cb:7 |Cb:7 |F:min7 |Bb:hdim7 |Eb:min7 |Ab:hdim7| ",
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |Db:maj6/5 |"
 
                       ]
             },
@@ -102,8 +102,8 @@
                       ],
               "chords":
                       [
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |",
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F:maj7 |"
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |D:7 |",
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |Db:maj6/5 |"
                       ]
             },
             {
@@ -117,14 +117,15 @@
 287.41, 287.88, 288.36, 288.82, 289.29, 289.76, 290.22, 290.7, 291.14, 291.62, 292.09, 292.57, 293.03, 293.48, 293.95, 294.4,
 294.88, 295.32, 295.79, 296.25, 296.73, 297.19, 297.67, 298.14, 298.61, 299.06, 299.53, 300.0, 300.46, 300.93, 301.38, 301.85,
 302.32, 302.79, 303.26, 303.72, 304.19, 304.64, 305.09, 305.54, 306.01, 306.46, 306.92, 307.39, 307.85, 308.33, 308.8, 309.26,
-309.73, 310.18, 310.66, 311.11, 311.58, 312.03, 312.5, 312.95, 313.42, 313.88, 314.35, 314.81, 315.29, 315.74, 316.21, 316.65
+309.73, 310.18, 310.66, 311.11, 311.58, 312.03, 312.5, 312.95, 313.42, 313.88, 314.35, 314.81, 315.29, 315.74, 316.21, 316.65,
+                        317.12, 317.59, 318.04, 318.5, 318.96, 319.42, 319.91, 320.36, 320.82, 321.28, 321.73, 322.19, 322.65, 323.11, 323.58, 324.05
                       ],
               "chords":
                       [
-                       "|F#:maj7 |F#:maj7 |B:7   |B:7   |F#:min7 |F#:min7 |D:7 |D:7 |",
-                       "|G:min7 |G:min7 |Eb:7 |Eb:7 |A:min7 |D:(3,b5,b5,b9) |G:min7 |C:(3,b5,b7,b9)| ",
-                       "|F:maj7 |F:maj7 |G:(3,5,b7,#11) |G:(3,5,b7,#11) |G:min7 |Gb:7 |F:maj7 |F#:hdim |",
-                       "|F:maj7 |F#:hdim |F:maj7 |F#:hdim |F:maj7 |F#:hdim |F:maj7 |F#:hdim |F:maj7 |F#:hdim |F:maj7 |F#:hdim |"
+                      "|D:maj7 |D:maj7 |G:7   |G:7   |D:min7 |D:min7 |Bb:7 |Bb:7 |",
+                       "|Eb:min7 |Eb:min7 |Cb:7 |Cb:7 |F:min7 |Bb:hdim7 |Eb:min7 |Ab:hdim7| ",
+                       "|Db:maj6/5  |Db:maj6/5  |Eb:maj9/5 |Eb:maj9/5 |Eb:min9/5 |Ab:7 |Db:maj6/5 |Db:maj6/5 |",
+                       "|Db:maj6/5|D:7 |Db:maj6/5|D:7 |Db:maj6/5|D:7 |Db:maj6/5|D:7 |Db:maj6/5|D:7 |"
                       ]
             }
           ]
