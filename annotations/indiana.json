@@ -21,7 +21,7 @@
                       ],
               "chords":
                       [
-                        "|N |D:7 |E:hdim7 |D:7 |A:min7 |D:7 |G:min7 C:7 |F:maj7 N |N |"
+                        "|N |D:min7 |Eb:7 |D:min7 |A:min7 |D:min7 |G:min7 C:7 |F:maj7 N |N |"
                       ]
             },
             {
@@ -123,9 +123,9 @@
                       ],
               "chords":
                       [
+                        "|F |F# |G |Ab |G |F# |F# G |Ab A |",
                         "|N |N |N |N |N |N |N |N |",
-                        "|N |N |N |N |N |N |N |N |",
-                        "|N |N |N |N |N |N |N |N |",
+                        "|F |F# |G |Ab |G |F# |F# G |Ab A |",
                         "|N |N |N |N |N |N |N |N |"
                       ]
             },
