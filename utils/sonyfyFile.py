@@ -28,9 +28,9 @@ labfile = os.path.join(eval_dir, name + ".lab")
 resultfile = os.path.join(eval_dir, name + ".wav")
 json2lab(infile, labfile)
 sonifyCommand =\
-    "sonify(char(\"" + labfile +\
-    "\"), char(\"" + audiofile +\
-    "\"), char(\"" + resultfile +"\")); quit"
+    "sonify('" + labfile.replace("'", "''")  +\
+    "', '" + audiofile.replace("'", "''") +\
+    "', '" + resultfile.replace("'", "''") +"'); quit"
 call([
 'matlab',
 '-nodesktop',
