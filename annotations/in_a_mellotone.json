@@ -38,8 +38,8 @@
                       ],
               "chords":
                       [
-                        "|Bb:7 |Eb:7 |A:maj7 |A:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |Eb:7 |Eb:7 F:7 |",
-                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab G:7 |F:7 |"
+                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |Eb:7 |Eb:7 F:7 |",
+                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab G:7 |F:7 |"
                       ]
             },
             {
@@ -57,8 +57,8 @@
                       ],
               "chords":
                       [
-                        "|Bb:7 |Eb:7 |A:maj7 |A:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |Eb:7 |Eb:7 F:7 |",
-                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab Eb:7 |Ab:maj7 |"
+                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |Eb:7 |Eb:7 F:7 |",
+                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab Eb:7 |Ab:maj7 |"
                       ]
             },
             {
@@ -77,8 +77,8 @@
                       ],
               "chords":
                       [
-                        "|Bb:7 |Eb:7 |A:maj7 |A:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |Eb:7 |Eb:7 F:7 |",
-                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab Eb:7 |Ab:maj6 |"
+                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |N |N F:7 |",
+                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab Eb:7 |Ab:maj6 |"
                       ]
             }
           ]
