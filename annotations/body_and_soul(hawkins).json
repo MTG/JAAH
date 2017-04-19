@@ -4,11 +4,11 @@
   "title": "Body and Soul",
   "metre": "4/4",
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD2/04. Body & Soul.mp3",
+   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD2/04. Body _ Soul.mp3",
    "transcriptions": []
   },
   "mbid": "0a51dede-9539-4c06-bfd3-e1785595a1a2",
-  "duration": "TODO",
+  "duration": "183",
   "parts":
           [
             {
@@ -35,10 +35,10 @@
                       ],
               "chords":
                       [
-                        "|Eb:min Bb:(3,5,b7,b9) |Eb:7 D:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj6 Bb:7 |",
-                        "|Eb:min Bb:(3,5,b7,b9) |Eb:7 D:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj6 A:7 |",
-                        "|D:maj7 A:7/5 |D/3 D/3 G:min7 C:7 |F#:min7 B:min7 E:min7 A:7 |D:maj7 |D:min7 G:7 |C:maj7 Eb:dim |D:min7 G:7 |C:7 B:7 Bb:7 Bb:7 |",
-                        "|Eb:min Bb:(3,5,b7,b9) |Eb:7 D:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj6 |"
+                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:(3,b7,b9) |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj7 Db:maj7 F:hdim7 Bb:(3,5,b7,b9) |",
+                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:(3,b7,b9) |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db Db E:min7 A:7 |",
+                        "|D:maj7 E:min7 |B:min7 F#:7 G:min7 C:7 |F#:min7 B:min7 E:min7 A:7 |D:maj7 E:min7 |D:min7 G:7 |C:maj7 Eb:dim |D:min7 G:7 |C:7 B:7 Bb:7 Bb:7 |",
+                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 Ab:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |Ab:7 A:dim |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db Db F:hdim7 Bb:7 |"
                       ]
             },
             {
@@ -58,10 +58,10 @@
                       ],
               "chords":
                       [
-                        "|Eb:min Bb:(3,5,b7,b9) |Eb:7 D:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj6 Bb:7 |",
-                        "|Eb:min Bb:(3,5,b7,b9) |Eb:7 D:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj6 A:7 |",
-                        "|D:maj7 A:7/5 |D/3 D/3 G:min7 C:7 |F#:min7 B:min7 E:min7 A:7 |D:maj7 |D:min7 G:7 |C:maj7 Eb:dim |D:min7 G:7 |C:7 B:7 Bb:7 Bb:7 |",
-                        "|Eb:min Bb:(3,5,b7,b9) |Eb:7 D:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:7 |Bb:min7 N N N|N |N |N N N Db:maj6|Db:maj6 |Db:maj6 N |"
+                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:(3,b7,b9) |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj6 Db:maj7 F:hdim7 Bb:(3,5,b7,b9) |",
+                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:(3,b7,b9) |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db Db E:min7 A:7 |",
+                        "|D:maj7 E:min7 |B:min7 F#:7 G:min7 C:7 |F#:min7 B:min7 E:min7 A:7 |D:maj7 E:min7 |D:min7 G:7 |C:maj7 Eb:dim |D:min7 G:7 |C:7 B:7 Bb:7 Bb:7 |",
+                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 Ab:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |Ab:7 A:dim |Bb:7 N N N|N |N |N N N Db:maj6|Db:maj6 |Db:maj6 N |"
                       ]
             }
           ]
