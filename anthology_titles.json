@@ -1,0 +1,1334 @@
+[
+ {
+  "tuning": 442.28, 
+  "artist": "Dick Hyman", 
+  "title": "Maple Leaf Rag", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 01 - Maple Leaf Rag.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "1c60e1f6-51ad-4d20-a236-afd5a31629de", 
+  "duration": 149.97
+ }, 
+ {
+  "tuning": 451.69, 
+  "artist": "Bunk's Brass Band", 
+  "title": "In Gloryland", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 02 - In Gloryland.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "043694ff-e370-43f2-a68b-84a476f96194", 
+  "duration": 183.64
+ }, 
+ {
+  "tuning": 443.32, 
+  "artist": "Original Dixieland Jazz Band", 
+  "title": "Livery Stable Blues", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 03 - Livery Stable Blues.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "cad9a000-cb04-49ae-9c2e-94c16981dbc9", 
+  "duration": 190.64
+ }, 
+ {
+  "tuning": 440.14, 
+  "artist": "King Oliver's Creole Jazz Band", 
+  "title": "Dippermouth Blues", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 04 - Dipper Mouth Blues.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "8fecd84b-8d9e-43c7-865e-4e3e93292260", 
+  "duration": 148.93
+ }, 
+ {
+  "tuning": 449.52, 
+  "artist": "Fletcher Henderson and His Orchestra", 
+  "title": "The Stampede", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 05 - The Stampede.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "b0e36ae6-05c5-4246-99a4-fca6f6681fc1", 
+  "duration": 196.41
+ }, 
+ {
+  "tuning": 436.52, 
+  "artist": "Jelly Roll Morton's Red Hot Peppers", 
+  "title": "Black Bottom Stomp", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 06 - Black Bottom Stomp.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "67a88bd6-864f-4ff7-9579-9d649887deb1", 
+  "duration": 196.11
+ }, 
+ {
+  "tuning": 435.98, 
+  "artist": "Frankie Trumbauer and His Orchestra", 
+  "title": "Singin' the Blues (Til My Daddy Comes Home)", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 07 - Singin' the Blues (Til My Daddy Comes Home).flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "168ea61b-9fdd-4d7f-908a-2970073becd1", 
+  "duration": 184.55
+ }, 
+ {
+  "tuning": 437.58, 
+  "artist": "Bessie Smith; James P. Johnson", 
+  "title": "Black Water Blues", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 08 - Black Water Blues.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "631a1e8b-184d-4967-b1ae-946c3e0a53c9", 
+  "duration": 200.71
+ }, 
+ {
+  "tuning": 446.14, 
+  "artist": "Duke Ellington and His Orchestra", 
+  "title": "Black and Tan Fantasy", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 09 - Black and Tan Fantasy.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "3a68a14f-c514-4262-ba05-08e4e7ace04b", 
+  "duration": 190.0
+ }, 
+ {
+  "tuning": 440.6, 
+  "artist": "Bix Beiderbecke; Paul Whiteman and His Orchestra", 
+  "title": "From Monday On", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 10 - From Monday On.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "e05f0970-2e3e-46ad-a87b-6b6055e6c099", 
+  "duration": 183.13
+ }, 
+ {
+  "tuning": 439.81, 
+  "artist": "Louis Armstrong and His Hot Five", 
+  "title": "West End Blues", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 11 - West End Blues.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "47642404-0c14-4e75-a51b-abb862587fe9", 
+  "duration": 201.29
+ }, 
+ {
+  "tuning": 440.89, 
+  "artist": "Louis Armstrong; Earl Hines", 
+  "title": "Weather Bird", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 12 - Weather Bird.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d172970c-5751-44bf-8a45-65bc3223410e", 
+  "duration": 165.67
+ }, 
+ {
+  "tuning": 440.57, 
+  "artist": "Eddie Condon's Hot Shots", 
+  "title": "That's a Serious Thing", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 13 - That's a Serious Thing.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "57e1ed14-f9a5-45b6-89d5-96932e6cfa30", 
+  "duration": 212.75
+ }, 
+ {
+  "tuning": 451.84, 
+  "artist": "Eddie Lang; Lonnie Johnson", 
+  "title": "A Handful of Riffs", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 14 - Handfull of Riffs.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d8fe08a8-b51e-4588-9547-9731134883f7", 
+  "duration": 187.85
+ }, 
+ {
+  "tuning": 438.89, 
+  "artist": "James P. Johnson", 
+  "title": "You've Got to Be Modernistic", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 15 - You've Got to Be Modernistic.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "35cc8f0f-af78-4e24-865b-2a419e4a6df0", 
+  "duration": 194.01
+ }, 
+ {
+  "tuning": 442.07, 
+  "artist": "Bennie Moten and his Kansas City Orchestra", 
+  "title": "Moten Swing", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 16 - Moten Swing.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "b56a075e-8c13-4ec7-8b60-02eff2202341", 
+  "duration": 205.88
+ }, 
+ {
+  "tuning": 452.76, 
+  "artist": "The Boswell Sisters", 
+  "title": "Everybody Loves My Baby", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 17 - Everybody Loves My Baby.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "c191ada7-4d41-4c10-8d2c-5d9906b693aa", 
+  "duration": 144.28
+ }, 
+ {
+  "tuning": 442.84, 
+  "artist": "New Orleans Feetwarmers", 
+  "title": "Maple Leaf Rag", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 18 - Maple Leaf Rag.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "a1315c6c-9a3c-4ae2-819d-63505727a24c", 
+  "duration": 179.44
+ }, 
+ {
+  "tuning": 436.64, 
+  "artist": "Fats Waller and His Rhythm", 
+  "title": "Dinah", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 19 - Dinah.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d9747359-db30-43f9-82cd-0d9566114658", 
+  "duration": 189.63
+ }, 
+ {
+  "tuning": 434.83, 
+  "artist": "Louis Armstrong and His Orchestra", 
+  "title": "Swing That Music", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 20 - Swing That Music.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "7a3b16fb-d992-4285-954c-8c6cf7566d44", 
+  "duration": 174.07
+ }, 
+ {
+  "tuning": 439.16, 
+  "artist": "Meade \"Lux\" Lewis", 
+  "title": "Honky Tonk Train Blues", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 21 - Honky Tonk Train Blues.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "4b8f321c-8a2d-43ac-858f-096df5dcfa88", 
+  "duration": 180.39
+ }, 
+ {
+  "tuning": 438.49, 
+  "artist": "Billie Holiday; Teddy Wilson and His Orchestra", 
+  "title": "Mean to Me", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 22 - Mean to Me.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "0e9806c6-1342-432b-87b7-11e5e2217311", 
+  "duration": 190.88
+ }, 
+ {
+  "tuning": 444.72, 
+  "artist": "Jimmie Lunceford and His Orchestra", 
+  "title": "For Dancers Only", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 23 - For Dancers Only.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "b26fa5c2-4ddf-48af-9bf7-bd9a9d7d9657", 
+  "duration": 161.49
+ }, 
+ {
+  "tuning": 433.71, 
+  "artist": "Count Basie and His Orchestra", 
+  "title": "One O'Clock Jump", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 24 - One O'Clock Jump.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "f712230f-9df9-4a88-9ee6-02cfc2eb4eb6", 
+  "duration": 185.49
+ }, 
+ {
+  "tuning": 436.22, 
+  "artist": "Chick Webb and His Orchestra", 
+  "title": "Harlem Congo", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 25 - Harlem Congo.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "461c9fea-67b6-43a2-be45-dc291a4a1179", 
+  "duration": 195.89
+ }, 
+ {
+  "tuning": 446.45, 
+  "artist": "Quintette du Hot Club de France", 
+  "title": "Minor Swing", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 01 - Minor Swing.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "490a4ca1-1800-4d21-8d78-b6e9415779db", 
+  "duration": 196.69
+ }, 
+ {
+  "tuning": 437.51, 
+  "artist": "Mary Lou Williams; Andy Kirk and His Clouds of Joy", 
+  "title": "Mary's Idea", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 02 - Mary's Idea.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "0bea9450-5d76-4956-97f0-4db739b9ac1a", 
+  "duration": 180.12
+ }, 
+ {
+  "tuning": 444.75, 
+  "artist": "Lionel Hampton", 
+  "title": "When Lights Are Low", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 03 - When Lights Are Low.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "48ec7a2f-6d38-452d-831b-7020df9a287c", 
+  "duration": 136.29
+ }, 
+ {
+  "tuning": 446.98, 
+  "artist": "Coleman Hawkins and His Orchestra", 
+  "title": "Body and Soul", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 04 - Body and Soul.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "0a51dede-9539-4c06-bfd3-e1785595a1a2", 
+  "duration": 182.73
+ }, 
+ {
+  "tuning": 438.03, 
+  "artist": "Benny Goodman and His Orchestra", 
+  "title": "Honeysuckle Rose", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 05 - Honeysuckle Rose.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "0cd67ec0-b480-4d82-b38d-be022b71dd12", 
+  "duration": 185.97
+ }, 
+ {
+  "tuning": 443.87, 
+  "artist": "Art Tatum", 
+  "title": "Tiger Rag", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 06 - Tiger Rag.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "108f269f-c28e-4a8f-bf39-f6817d4aadbc", 
+  "duration": 137.53
+ }, 
+ {
+  "tuning": 445.85, 
+  "artist": "Duke Ellington and His Famous Orchestra", 
+  "title": "Ko-Ko", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 07 - Ko-Ko.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "887bc584-e245-4feb-a7a1-add0e483dd21", 
+  "duration": 163.27
+ }, 
+ {
+  "tuning": 438.08, 
+  "artist": "Cab Calloway and His Orchestra", 
+  "title": "Hard Times (Topsy Turvy)", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 08 - Hard Times (Topsy Turvy).flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d2d3d206-6d8a-464f-bef5-0f71ef199d0b", 
+  "duration": 200.79
+ }, 
+ {
+  "tuning": 445.71, 
+  "artist": "The Chocolate Dandies", 
+  "title": "I Can't Believe That You're in Love With Me", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 09 - I Can't Believe That You're in Love With Me.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "3fbcaf3e-e57b-4e8d-b903-edbd942fb76d", 
+  "duration": 254.68
+ }, 
+ {
+  "tuning": 443.85, 
+  "artist": "Artie Shaw & His Orchestra", 
+  "title": "Stardust", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 10 - Stardust.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "a65fc12c-76d7-4f8c-b53d-91fd193e2d1a", 
+  "duration": 214.75
+ }, 
+ {
+  "tuning": 436.03, 
+  "artist": "Gene Krupa and His Orchestra", 
+  "title": "Let Me Off Uptown", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 11 - Let Me Off Uptown.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "39b5b10c-3974-4689-bf25-164bf9158230", 
+  "duration": 186.72
+ }, 
+ {
+  "tuning": 447.67, 
+  "artist": "Dizzy Gillespie's All-Star Quintette", 
+  "title": "Shaw 'Nuff", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 12 - Shaw 'Nuff.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "20e0ee5d-f1fd-4b12-b688-40fe9525c2b8", 
+  "duration": 182.39
+ }, 
+ {
+  "tuning": 433.93, 
+  "artist": "Dizzy Gillespie and His Orchestra", 
+  "title": "Manteca", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 13 - Manteca.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "2394cfd9-ea6a-47cc-9aea-00d84c50746f", 
+  "duration": 189.79
+ }, 
+ {
+  "tuning": 433.87, 
+  "artist": "Mary Lou Williams", 
+  "title": "Virgo From the Zodiac Suite", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 14 - Virgo From the Zodiac Suite.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "c71f4631-99b5-4d60-8447-108ffa93e4a2", 
+  "duration": 208.88
+ }, 
+ {
+  "tuning": 442.15, 
+  "artist": "Dexter Gordon", 
+  "title": "Dexter Rides Again", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 15 - Dexter Rides Again.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "2815658d-a6d0-4f37-ac9e-de0f83bba929", 
+  "duration": 196.73
+ }, 
+ {
+  "tuning": 439.09, 
+  "artist": "Lester Young-Buddy Rich Trio", 
+  "title": "I Want to Be Happy", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 16 - I Want to Be Happy.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "cd43bee9-6511-433b-a12c-b3b05badc3c7", 
+  "duration": 240.79
+ }, 
+ {
+  "tuning": 444.27, 
+  "artist": "Bud Powell", 
+  "title": "Indiana", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 17 - Indiana.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "b890d832-b54d-4b61-b30f-36f53df79b3b", 
+  "duration": 166.15
+ }, 
+ {
+  "tuning": 440.46, 
+  "artist": "Charlie Parker Quintet", 
+  "title": "Embraceable You", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 18 - Embraceable You.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "6e8c9071-6cf0-4592-b13f-693cae9b6669", 
+  "duration": 227.96
+ }, 
+ {
+  "tuning": 434.73, 
+  "artist": "Woody Herman and His Orchestra", 
+  "title": "Four Brothers", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 19 - Four Brothers.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "8a9dc1eb-b86c-402c-9e7a-116ee9c06eaf", 
+  "duration": 198.52
+ }, 
+ {
+  "tuning": 439.22, 
+  "artist": "Thelonious Monk Quartet", 
+  "title": "Misterioso", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 20 - Misterioso.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "fc696e6a-b402-45f5-89ae-1d7677510155", 
+  "duration": 204.55
+ }, 
+ {
+  "tuning": 439.13, 
+  "artist": "Tadd Dameron Sextet", 
+  "title": "Lady Bird", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 21 - Lady Bird.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "ce2d8d18-590f-468c-a020-b334ae916caa", 
+  "duration": 173.99
+ }, 
+ {
+  "tuning": 440.31, 
+  "artist": "Machito and His Afro-Cuban Orchestra", 
+  "title": "Tanga", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 22 - Tanga.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "3915e636-961a-4f34-9585-2242f2c9bd33", 
+  "duration": 310.53
+ }, 
+ {
+  "tuning": 437.02, 
+  "artist": "The George Shearing Quintet", 
+  "title": "September in the Rain", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 23 - September in the Rain.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "333f84f9-e2c4-4ebd-aec5-b710307c7c2b", 
+  "duration": 197.25
+ }, 
+ {
+  "tuning": 440.05, 
+  "artist": "Lennie Tristano Sextet", 
+  "title": "Wow", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 24 - Wow.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "97aa4986-e1a8-4f26-adbf-5d0fadae0241", 
+  "duration": 200.23
+ }, 
+ {
+  "tuning": 441.06, 
+  "artist": "Miles Davis Nonet", 
+  "title": "Boplicity", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 01 - Boplicity.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "75711684-1e71-4c0f-8070-89a82520552e", 
+  "duration": 182.71
+ }, 
+ {
+  "tuning": 439.71, 
+  "artist": "Count Basie Octet", 
+  "title": "The Golden Bullet", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 02 - The Golden Bullet.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "f63da1a2-4f9d-44a4-9bfa-14bde9da3f06", 
+  "duration": 150.04
+ }, 
+ {
+  "tuning": 440.49, 
+  "artist": "Shorty Rogers and His Giants", 
+  "title": "Popo", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 03 - Popo.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "48beee05-fc79-44f3-801f-742aa0fa71be", 
+  "duration": 185.11
+ }, 
+ {
+  "tuning": 437.24, 
+  "artist": "The Gerry Mulligan Quartet; Chet Baker", 
+  "title": "Walkin' Shoes", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 04 - Walkin' Shoes.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d0296909-0459-4596-86fd-9140dc1dac6a", 
+  "duration": 194.65
+ }, 
+ {
+  "tuning": 440.58, 
+  "artist": "Stan Kenton", 
+  "title": "23 Degrees North, 82 Degrees West", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 05 - 23 Degrees North, 82 Degrees West.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "8ed097ef-6a98-440e-9f3c-1d652cacf655", 
+  "duration": 192.49
+ }, 
+ {
+  "tuning": 443.48, 
+  "artist": "The Clifford Brown\u2013Max Roach Quintet", 
+  "title": "Daahoud", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 06 - Daahoud.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "38fcd5b0-468a-4314-a662-ee326d657e84", 
+  "duration": 245.47
+ }, 
+ {
+  "tuning": 434.62, 
+  "artist": "The Modern Jazz Quartet", 
+  "title": "Django", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 07 - Django.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "c3141ac9-74aa-439e-b9bc-16aae9c4d683", 
+  "duration": 424.93
+ }, 
+ {
+  "tuning": 440.42, 
+  "artist": "Horace Silver; The Jazz Messengers", 
+  "title": "The Preacher", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 08 - The Preacher.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "c7ff468d-f263-41a4-b644-a935f9290f1c", 
+  "duration": 259.99
+ }, 
+ {
+  "tuning": 447.97, 
+  "artist": "Erroll Garner Trio", 
+  "title": "I'll Remember April", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 09 - I'll Remember April.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "9b3fb2a2-25bf-415d-b7f7-3ff99137e472", 
+  "duration": 263.8
+ }, 
+ {
+  "tuning": 434.95, 
+  "artist": "The Chico Hamilton Quintet", 
+  "title": "Jonaleh", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 10 - Jonaleh.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "84fb16c0-ae52-4539-9cbf-14ea5750ac35", 
+  "duration": 141.09
+ }, 
+ {
+  "tuning": 438.34, 
+  "artist": "Lucky Thompson Trio", 
+  "title": "Tricroism", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 11 - Tricroism.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "080a5a42-6260-4a73-b08c-768df63201bc", 
+  "duration": 276.8
+ }, 
+ {
+  "tuning": 440.67, 
+  "artist": "Sonny Rollins", 
+  "title": "St. Thomas", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 12 - St. Thomas.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "31f6b5f1-96d1-47cf-84e2-371d277577c6", 
+  "duration": 408.57
+ }, 
+ {
+  "tuning": 444.01, 
+  "artist": "Sun Ra and His Arkestra", 
+  "title": "Call for All Deamons", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 13 - Call for All Deamons.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "284a82b6-340f-490e-b13e-d78ef5f69f9b", 
+  "duration": 314.91
+ }, 
+ {
+  "tuning": 441.8, 
+  "artist": "Nat \"King\" Cole and His Trio", 
+  "title": "When I Grow Too Old to Dream", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 14 - When I Grow Too Old to Dream.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "b318406d-5b25-4e4d-8be9-200f5c4e5c0f", 
+  "duration": 214.57
+ }, 
+ {
+  "tuning": 439.21, 
+  "artist": "Louis Armstrong; Ella Fitzgerald", 
+  "title": "Stompin' at the Savoy", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 15 - Stompin' at the Savoy.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "5e6eb87d-7f9b-4ccd-b671-b0cdbc061a20", 
+  "duration": 315.83
+ }, 
+ {
+  "tuning": 441.45, 
+  "artist": "Stan Getz; J.J. Johnson", 
+  "title": "Blues in the Closet", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 16 - Blues in the Closet.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "e3ca10e3-13a5-4fe5-aa23-7af9db3815dc", 
+  "duration": 545.27
+ }, 
+ {
+  "tuning": 441.61, 
+  "artist": "Oscar Peterson Trio", 
+  "title": "Ol' Man River", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 17 - Ol' Man River.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "0409c520-29ce-4e43-b991-e9aa4e196ff7", 
+  "duration": 158.67
+ }, 
+ {
+  "tuning": 443.18, 
+  "artist": "Miles Davis; Gil Evans", 
+  "title": "Summertime", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 18 - Summertime.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "9708585c-b508-4357-b3f4-4a5c0b0af44f", 
+  "duration": 198.29
+ }, 
+ {
+  "tuning": 440.71, 
+  "artist": "Art Blakey & The Jazz Messengers", 
+  "title": "Moanin\u2019", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 01 - Moanin'.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "517cca8f-ab9a-4eee-92d1-1016907b3fc5", 
+  "duration": 576.8
+ }, 
+ {
+  "tuning": 444.13, 
+  "artist": "Count Basie and His Orchestra", 
+  "title": "Meet B. B.", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 02 - Meet B. B..flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "f1e07c20-56ee-4088-9597-6760b6fdd9b6", 
+  "duration": 210.93
+ }, 
+ {
+  "tuning": 442.58, 
+  "artist": "Miles Davis Sextet", 
+  "title": "So What", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 03 - So What.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "614e2800-f17c-45c3-9449-e5eb02e4779c", 
+  "duration": 566.4
+ }, 
+ {
+  "tuning": 439.21, 
+  "artist": "John Coltrane", 
+  "title": "Giant Steps", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 04 - Giant Steps.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "cc14d998-bf97-4c94-a835-d4ed9717bc7a", 
+  "duration": 287.4
+ }, 
+ {
+  "tuning": 441.82, 
+  "artist": "Charles Mingus", 
+  "title": "Better Git It in Your Soul", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 05 - Better Git It in Your Soul.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "5d955440-69c0-4b4a-b79d-170162fc1b12", 
+  "duration": 445.65
+ }, 
+ {
+  "tuning": 444.95, 
+  "artist": "The Dave Brubeck Quartet", 
+  "title": "Blue Rondo \u00e0 la Turk", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 06 - Blue Rondo +%E1 la Turk.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "1207f2b3-1f9d-4bcd-a4f3-5d9a945a5184", 
+  "duration": 406.83
+ }, 
+ {
+  "tuning": 435.27, 
+  "artist": "The Ornette Coleman Quartet", 
+  "title": "Ramblin'", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 07 - Ramblin'.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "17dce3c9-4f12-4528-a706-645d1730490b", 
+  "duration": 398.2
+ }, 
+ {
+  "tuning": 442.38, 
+  "artist": "Cannonball Adderley", 
+  "title": "Work Song", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 08 - Work Song.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "1510f5f6-fd52-4676-a279-270c40bb4259", 
+  "duration": 309.48
+ }, 
+ {
+  "tuning": 442.46, 
+  "artist": "Sarah Vaughan", 
+  "title": "Wrap Your Troubles in Dreams", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 09 - Wrap Your Troubles in Dreams.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "6af0952a-e2f5-4d28-be98-eb03d6228449", 
+  "duration": 153.72
+ }, 
+ {
+  "tuning": 437.71, 
+  "artist": "John Coltrane Quartet", 
+  "title": "My Favorite Things, Part 1 (Single Version)", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 10 - My Favorite Things, Part 1 (Single Version).flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "09620053-4631-4c90-8050-326761f0168f", 
+  "duration": 165.63
+ }, 
+ {
+  "tuning": 444.34, 
+  "artist": "Bill Evans", 
+  "title": "Waltz For Debby", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 11 - Waltz For Debby.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "fe3f1506-433b-457f-866d-b8579df08fc3", 
+  "duration": 424.0
+ }, 
+ {
+  "tuning": 446.32, 
+  "artist": "George Russell Sextet", 
+  "title": "Round Midnight", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 12 - Round Midnight.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d9c398a3-7f64-4afe-83c4-a775430caaba", 
+  "duration": 397.19
+ }, 
+ {
+  "tuning": 433.74, 
+  "artist": "Ella Fitzgerald; Duke Ellington Orchestra", 
+  "title": "Cotton Tail", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 13 - Cotton Tail.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "96cd1df4-1a44-4996-98a5-8449796b2598", 
+  "duration": 220.92
+ }, 
+ {
+  "tuning": 435.97, 
+  "artist": "Art Blakey & The Jazz Messengers", 
+  "title": "One by One", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 01 - One by One.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "3bdc8595-62e3-480f-8096-eb862cd6ba95", 
+  "duration": 383.17
+ }, 
+ {
+  "tuning": 438.77, 
+  "artist": "Stan Getz; Jo\u00e3o Gilberto; Antonio Carlos Jobim", 
+  "title": "The Girl From Ipanema", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 02 - The Girl From Ipanema.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "fd889e33-a067-498f-bbf8-9ffe305bde16", 
+  "duration": 326.37
+ }, 
+ {
+  "tuning": 437.16, 
+  "artist": "John Coltrane", 
+  "title": "A Love Supreme, Part 1: Acknowledgement", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 03 - A Love Supreme, Part I_ Acknowledgement.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "0827b81a-c1df-4601-9b63-226fd3d70feb", 
+  "duration": 469.43
+ }, 
+ {
+  "tuning": 439.91, 
+  "artist": "Miles Davis Quintet", 
+  "title": "E.S.P.", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 04 - E.S.P..flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "61569490-21e1-4068-9c23-85f06fbf293e", 
+  "duration": 332.49
+ }, 
+ {
+  "tuning": 441.17, 
+  "artist": "Clark Terry-Bob Brookmeyer Quintet", 
+  "title": "Haig & Haig", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 05 - Haig _ Haig.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "3a312349-bfa1-4e8d-bef3-3e151cb7b967", 
+  "duration": 271.61
+ }, 
+ {
+  "tuning": 439.43, 
+  "artist": "Jimmy Smith; Wes Montgomery", 
+  "title": "King of the Road", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 06 - King of the Road.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "a02be0e5-a13f-4c74-811a-cc24d9a9a6bb", 
+  "duration": 254.29
+ }, 
+ {
+  "tuning": 437.97, 
+  "artist": "Duke Ellington and His Orchestra", 
+  "title": "Isfahan", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 07 - Isfahan.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2", 
+  "duration": 255.04
+ }, 
+ {
+  "tuning": 440.01, 
+  "artist": "Gary Burton", 
+  "title": "The New National Anthem (from A Genuine Tong Funeral)", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 08 - The New National Anthem (from A Genuine Tong Funeral).flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "88e58044-11e0-4ada-b8ab-e5e59a9767e8", 
+  "duration": 397.61
+ }, 
+ {
+  "tuning": 438.53, 
+  "artist": "Chick Corea", 
+  "title": "Matrix", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 09 - Matrix.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "5a325e03-2252-413a-8e87-6b37ee515258", 
+  "duration": 389.24
+ }, 
+ {
+  "tuning": 442.47, 
+  "artist": "Miles Davis", 
+  "title": "Miles Runs the Voodoo Down", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 10 - Miles Runs the Voodoo Down.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "44676dee-c3e2-4aa3-89ca-c767062f3e20", 
+  "duration": 173.11
+ }, 
+ {
+  "tuning": 436.14, 
+  "artist": "Mahavishnu Orchestra", 
+  "title": "Celestial Terrestrial Commuters", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 11 - Celestial Terrestrial Commuters.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "feb9c54b-46d7-4d15-9dc7-b64cbc35075a", 
+  "duration": 177.53
+ }, 
+ {
+  "tuning": 441.41, 
+  "artist": "Herbie Hancock", 
+  "title": "Watermelon Man", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 12 - Watermelon Man.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "121cde3e-0177-40d3-b502-bf80049bdb0d", 
+  "duration": 391.71
+ }, 
+ {
+  "tuning": 443.66, 
+  "artist": "Toshiko Akiyoshi - Lew Tabackin Big Band", 
+  "title": "Long Yellow Road", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 13 - Long Yellow Road.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "ba2c9816-3a14-45c9-84d3-dbf41273cb79", 
+  "duration": 389.63
+ }, 
+ {
+  "tuning": 440.42, 
+  "artist": "Cecil Taylor", 
+  "title": "Jitney No. 2", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 14 - Jitney No. 2.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "f4950cd2-8ba2-462d-8d6c-dc14ccb9c898", 
+  "duration": 222.48
+ }, 
+ {
+  "tuning": 437.06, 
+  "artist": "Pat Metheny", 
+  "title": "Bright Size Life", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 15 - Bright Size Life.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "430b1158-b2c9-4aff-90fe-7ad48a241ab7", 
+  "duration": 283.51
+ }, 
+ {
+  "tuning": 442.46, 
+  "artist": "Anthony Braxton; Muhal Richard Abrams", 
+  "title": "Maple Leaf Rag", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 01 - Maple Leaf Rag.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "90521ab0-9419-45bc-9576-18a5332aa409", 
+  "duration": 220.51
+ }, 
+ {
+  "tuning": 443.14, 
+  "artist": "Weather Report", 
+  "title": "Birdland", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 02 - Birdland.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d61ae82c-694d-43e6-ba28-e12c947ec925", 
+  "duration": 361.04
+ }, 
+ {
+  "tuning": 442.49, 
+  "artist": "Keith Jarrett", 
+  "title": "My Song", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 03 - My Song.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "02dfc3a1-65db-4649-b681-78aa8c63a039", 
+  "duration": 373.52
+ }, 
+ {
+  "tuning": 434.39, 
+  "artist": "Irakere", 
+  "title": "Iya", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 04 - Iya.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "0023e910-1b82-4093-8eb6-1e57648b5cb5", 
+  "duration": 356.31
+ }, 
+ {
+  "tuning": 453.26, 
+  "artist": "Art Ensemble of Chicago", 
+  "title": "Bush Magic", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 05 - Bush Magic.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "bf1c9d63-acae-4792-b999-27d64026b2c5", 
+  "duration": 310.52
+ }, 
+ {
+  "tuning": 438.04, 
+  "artist": "World Saxophone Quartet", 
+  "title": "Steppin'", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 06 - Steppin'.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "db6767e8-18f3-4f4b-9edf-2863420a985c", 
+  "duration": 439.27
+ }, 
+ {
+  "tuning": 439.53, 
+  "artist": "Steve Coleman Group", 
+  "title": "The Glide Was in the Ride", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 07 - The Glide Was in the Ride.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "1c77a096-86a0-4a68-8ec2-c1cb3d066a8c", 
+  "duration": 241.12
+ }, 
+ {
+  "tuning": 441.65, 
+  "artist": "Abdullah Ibrahim", 
+  "title": "Manenberg Revisited", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 08 - Mannenberg Revisited.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "c0d9a8ee-c548-469f-bee8-ac8a1781908c", 
+  "duration": 370.77
+ }, 
+ {
+  "tuning": 439.84, 
+  "artist": "Michael Brecker", 
+  "title": "Nothing Personal", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 09 - Nothing Personal.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "c8b73d3c-a12f-43c0-8ad9-41ad782390c8", 
+  "duration": 334.4
+ }, 
+ {
+  "tuning": 439.23, 
+  "artist": "Tito Puente", 
+  "title": "Airegin", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 10 - Airegin.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "8454b48d-cd0b-4114-b696-b5429443c597", 
+  "duration": 255.59
+ }, 
+ {
+  "tuning": 443.58, 
+  "artist": "Wynton Marsalis Septet", 
+  "title": "Down the Avenue", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 11 - Down the Avenue.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "42ee4849-d720-4b7c-b6cd-82c30f0a3c2e", 
+  "duration": 288.67
+ }, 
+ {
+  "tuning": 440.71, 
+  "artist": "Nguy\u00ean L\u00ea", 
+  "title": "Ting Ning", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 12 - Ting Ning.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "bfc9f3fc-cf33-4fc7-9edc-ce748e884e78", 
+  "duration": 224.08
+ }, 
+ {
+  "tuning": 445.29, 
+  "artist": "Masada", 
+  "title": "Kilayim", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 13 - Kilayim.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d445c4d9-e198-4459-a6e5-78ceaa7cdba7", 
+  "duration": 204.28
+ }, 
+ {
+  "tuning": 438.46, 
+  "artist": "Medeski Martin & Wood", 
+  "title": "Hey-Hee-Hi-Ho", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 14 - Hey-Hee-Hi-Ho.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "7c471e02-f1da-4d28-a889-f3f802feb5fd", 
+  "duration": 196.97
+ }, 
+ {
+  "tuning": 441.25, 
+  "artist": "Martial Solal; Johnny Griffin", 
+  "title": "Neutralisme", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 15 - Neutralisme.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "3d216b5b-86b1-4aba-ae0f-74771ec444c9", 
+  "duration": 273.55
+ }, 
+ {
+  "tuning": 444.09, 
+  "artist": "Tomasz Sta\u0144ko", 
+  "title": "Suspended Night Variation VIII", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 16 - Suspended Night Variation VIII.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "956efc28-2ea7-4285-9628-0bf98f2ea195", 
+  "duration": 259.87
+ }
+]
