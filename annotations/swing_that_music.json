@@ -39,7 +39,7 @@
                   ],
                   "chords": [
                     "|C   |C   |F:7   |F:7   |C   |C   |A:7   |A:7   |",
-                    "|F   |F:min7   |C   |A:dim   |Ab:7   |G:7   |C   |C   |"
+                    "|F   |F:min7   |C   |A:dim   |Ab:7   |D:min7 G:7   |C   |C   |"
                   ]
                 }
               ]
@@ -73,7 +73,7 @@
                       "chords":
                       [
                        "|C   |C   |F:7   |F:7   |C   |C   |A:7   |A:7   |",
-                    "|F   |F:min7   |C   |A:dim   |Ab:7   |G:7   |C   |C   |"
+                    "|F   |F:min7   |C   |A:dim   |Ab:7   |D:min7 G:7   |C   |C   |"
                       ]
                     }
                   ]
@@ -105,7 +105,7 @@
                       "chords":
                       [
                        "|C   |C   |F:7   |F:7   |C   |C   |A:7   |A:7   |",
-                    "|F   |F:min7   |C   |A:dim   |Ab:7   |G:7   |C   |C   |"
+                    "|F   |F:min7   |C   |A:dim   |Ab:7   |D:min7 G:7   |C   |C   |"
                       ]
 
                     }
