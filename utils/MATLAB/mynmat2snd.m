@@ -139,7 +139,7 @@ end
 		Imaxmin = 5;	%modulation index (max value above Imin)
 
 		% envelopes
-		env=envelope([0 0 -1; 0.2 1 -1; 0.3 0.708 0; 0.8 .631 -1; 1 0 0],du,fs);
+		env=envelope([0 0.9 0; 0.8 .631 -1; 1 0 0],du,fs);
 
 		%disp(['env ' num2str(size(env)) 'tt ' num2str(size(tt))])
 		aa = note(3)*env; 
@@ -231,9 +231,10 @@ end
             
             % Envelope
             ramp=.1;
-            envelope(1:ramp*fs)=t(1:ramp*fs).*t(1:ramp*fs);
-            envelope(length(t)-ramp*fs+1:length(t))=fliplr(envelope(1:ramp*fs));
-            envelope(ramp*fs:end-ramp*fs)=max(envelope);
+            %envelope(1:ramp*fs)=t(1:ramp*fs).*t(1:ramp*fs);
+            %envelope(length(t)-ramp*fs+1:length(t))=fliplr(envelope(1:ramp*fs));
+            %envelope(ramp*fs:end-ramp*fs)=max(envelope);
+            envelope(1:length(t))=1;
             factor=exp(1)/max(envelope);
             y=envelope.*factor;
             s=y.*u;

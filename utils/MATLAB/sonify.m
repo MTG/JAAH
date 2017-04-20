@@ -23,6 +23,11 @@ for i = 1:size(s,1)
    duration = s.Var2(i) - onset;
    chord = char(s.Var3(i));
    if (chord ~= 'N')
+       % TODO: find the real cause.
+       % replace the dirty fix to fight with delay.
+       %if (i > 1)
+       %    onset = onset - 0.07;
+       %end
        nmat = appendChord(nmat, chord2midi(char(chord)), onset, duration, 1, 60, onset, duration);
        segments(end+1, :) = [round(s.Var1(i)*Fs) + 1 round(s.Var2(i)*Fs)];       
    end
@@ -65,7 +70,9 @@ end
 
 %clear sound
 %sound((newChordsAudio + y)/2,Fs);
-audiowrite(outAudioFile, (newChordsAudio + y)/2, Fs);   
+audiowrite(outAudioFile, (newChordsAudio + y)/2, Fs);
+%audiowrite(outAudioFile, newChordsAudio, Fs);   
+
 end
 
 
