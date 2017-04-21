@@ -1,4 +1,4 @@
-function midiNotes = chord2midi(s)
+function midiNotes = chord2midi(s, dd5)
   persistent shortcuts;
   persistent notes;
   persistent degrees;
@@ -47,7 +47,9 @@ function midiNotes = chord2midi(s)
       alterations('b')=-1;
       alterations('#')=1;
   end
-  
+  if nargin<2
+    dd5 = 0
+  end
   c = strsplit(s, ':');
   rc = strsplit(char(c(1)), '/');
   root = char(rc(1));
@@ -59,7 +61,11 @@ function midiNotes = chord2midi(s)
   c = strsplit(char(c), '/');
   pattern = char(c(1));
   if (isKey(shortcuts, pattern))
-      pattern = shortcuts(pattern);
+      if (strcmp(pattern, '7') &&  dd5)
+          pattern = '(3,b7)';
+      else
+          pattern = shortcuts(pattern);
+      end    
   end
   rootMidi = notes(root(1));
   for c = root(2:end)

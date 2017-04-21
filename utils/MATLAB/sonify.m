@@ -1,4 +1,4 @@
-function sonify(annotationFile, inAudioFile, outAudioFile, chordsBalanceCorrection)
+function sonify(annotationFile, inAudioFile, outAudioFile, chordsBalanceCorrection, dd5)
 %SONIFY sonify chord sequence and mix it down with the original audio.
 % annotationFile - chord annotations in "lab" format
 % inAudioFile - audio file to mix with sonification
@@ -8,8 +8,11 @@ function sonify(annotationFile, inAudioFile, outAudioFile, chordsBalanceCorrecti
 %                           Lower numbers make it louder.
 %
 
-if nargin<4
-   chordsBalanceCorrection = 0.075;
+if nargin<5
+   dd5 = 0;
+   if nargin<4
+       chordsBalanceCorrection = 0.075;
+   end
 end
 
 inAudioFile
@@ -23,12 +26,7 @@ for i = 1:size(s,1)
    duration = s.Var2(i) - onset;
    chord = char(s.Var3(i));
    if (chord ~= 'N')
-       % TODO: find the real cause.
-       % replace the dirty fix to fight with delay.
-       %if (i > 1)
-       %    onset = onset - 0.07;
-       %end
-       nmat = appendChord(nmat, chord2midi(char(chord)), onset, duration, 1, 60, onset, duration);
+       nmat = appendChord(nmat, chord2midi(char(chord), dd5), onset, duration, 1, 60, onset, duration);
        segments(end+1, :) = [round(s.Var1(i)*Fs) + 1 round(s.Var2(i)*Fs)];       
    end
 end
