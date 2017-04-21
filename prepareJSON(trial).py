@@ -18,21 +18,22 @@ API_KEY = 'cSpUJKpD'
 
 def get_args():
     # Description for documentation
-    parser = argparse.ArgumentParser(
-        description='Path to the audio files')
-  
+    parser = argparse.ArgumentParser(description='Prepares JSON file with ')
     parser.add_argument(
         '-p', '--path', type=str, help='Path to Audio files', required=True)
     parser.add_argument(
-        '-m', '--mid', type=str, help='MusicBrainzID', required=True)
+        '-m', '--mbid', type=str, help='MusicBrainzID', required=True)
+    parser.add_argument(
+        '-o', type=argparse.FileType('w'), default='draft.json', help='output file (default is: draft.json)')
+
     # Array for all arguments passed to script
     args = parser.parse_args()
     # Assign args to variables
     inputdir = args.path
-    musicbrainzid = args.mid
+    musicbrainzid = args.mbid
     
     # Return all variable values
-    return inputdir, musicbrainzid
+    return inputdir, musicbrainzid, args.o.name
 
 def collectRecordingIds(d, result):
     if (type(d) is dict):
@@ -94,8 +95,8 @@ def extractTuningAndDuration(infile):
 
 ######################################################################
 
-inputDirs,musicbrainzid = get_args()
-
+inputDir, musicbrainzid, outfile = get_args()
+print inputDir, musicbrainzid, outfile
 
 ids = set()
 
@@ -105,30 +106,28 @@ collectRecordingIds(release, recordingsSet)
 
 data_root = os.environ['JAZZ_HARMONY_DATA_ROOT']
 
-
-
 res = []
-for inputDir in inputDirs:
-    for path, dname, fnames in os.walk(inputDir):
-        for fname in fnames:
-            if re.search('(\.wav$)|(\.mp3$)|(\.flac$)', fname):
-                pathname = '/'.join((path, fname))
-                print pathname
-                tuning, duration = extractTuningAndDuration(pathname)
-                print tuning, duration
-                for score, rid, title, artist in aidmatch(pathname):
-                    if (rid in recordingsSet and not rid in ids):
-                        ids.add(rid)
-                        entry = {}
-                        entry['mbid'] = rid
-                        entry['title'] = title
-                        entry['artist'] = artist
-                        entry['tuning'] =  round(tuning, 2)
-                        entry['metre'] = '4/4'
-                        entry['duration'] = round(duration, 2)
-                        pathname = pathname.replace(data_root, '$JAZZ_HARMONY_DATA_ROOT/')
-                        entry['sandbox'] = {'path':pathname, 'transcriptions':[]}
-                        res.append(entry)
-                        break;
+for path, dname, fnames in os.walk(inputDir):
+    for fname in fnames:
+        if re.search('(\.wav$)|(\.mp3$)|(\.flac$)', fname):
+            pathname = '/'.join((path, fname))
+            print pathname
+            tuning, duration = extractTuningAndDuration(pathname)
+            print tuning, duration
+            for score, rid, title, artist in aidmatch(pathname):
+                if (rid in recordingsSet and not rid in ids):
+                    ids.add(rid)
+                    entry = {}
+                    entry['mbid'] = rid
+                    entry['title'] = title
+                    entry['artist'] = artist
+                    entry['tuning'] =  round(tuning, 2)
+                    entry['metre'] = '4/4'
+                    entry['duration'] = round(duration, 2)
+                    pathname = pathname.replace(data_root, '$JAZZ_HARMONY_DATA_ROOT/')
+                    entry['sandbox'] = {'path':pathname, 'transcriptions':[]}
+                    res.append(entry)
+                    break;
 
 json.dump(res, open(outfile,'w'), indent=True)
+print 'Results are written to ', outfile
