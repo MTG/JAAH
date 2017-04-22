@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Jelly Roll Morton's Red Hot Peppers",
-  "title": "Black Bottom Stomp",
-  "metre": "4/4",
+  "tuning": 436.52, 
+  "artist": "Jelly Roll Morton's Red Hot Peppers", 
+  "title": "Black Bottom Stomp", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 1/06 - Jelly Roll Morton's Red Hot Peppers - Black Bottom Stomp.flac",
-   "transcriptions": ["Jaxon Stock & Robert Curnow"]
-  },
-  "mbid": "3801f367-9cd3-4f63-9058-871ceb57b33c",
-  "duration": "195",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 06 - Black Bottom Stomp.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "67a88bd6-864f-4ff7-9579-9d649887deb1", 
+  "duration": 196.11,
   "parts":
           [
             {
@@ -154,7 +154,7 @@
                    ],
               "chords":
                       [
-                         "|Bb:7 |Bb:7 |Eb |Eb |Bb:7 |Bb:7 |Eb N |N |",
+                         "|Bb:7 |Bb:7 |Eb |Eb |Bb:7 |Bb:7 |N |N |",
                         "|Bb:7 |Bb:7 |Eb |Eb |C:7 |C:7 |F:min |F#:dim7 |Eb |Bb:7 |Eb |Eb |"
                       ]
             },
@@ -169,8 +169,8 @@
               ],
               "chords":
                       [
-                        "|Bb:7 |Bb:7 |Eb |Eb |Bb:7 |Bb:7 |Eb N |N |",
-                        "|Bb:7 |Bb:7 |Eb |Eb |C:7 |C:7 |F:min |A:dim7 |Eb |Eb |Eb |Eb |Eb |Eb |Eb|"
+                        "|Bb:7 |Bb:7 |Eb |Eb |Bb:7 |Bb:7 |N |N |",
+                        "|Bb:7 |Bb:7 |Eb |Eb |C:7 |C:7 |F:min |A:dim7 |Eb |Bb:7 |Eb |Eb |Eb |Eb |"
                       ]
             }
 
