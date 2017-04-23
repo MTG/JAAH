@@ -1,16 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Frankie Trumbauer and His Orchestra",
-  "title": "Singin' the Blues (Til My Daddy Comes Home)",
-  "metre": "4/4",
+  "tuning": 435.98, 
+  "artist": "Frankie Trumbauer and His Orchestra", 
+  "title": "Singin' the Blues (Til My Daddy Comes Home)", 
+  "metre": "4/4", 
   "sandbox": {
-    "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD1/07. Singin' The Blues (Till My Daddy Comes Home).mp3",
-    "transcriptions": [
-      "Rino Maiolo"
-    ]
-  },
-  "mbid": "168ea61b-9fdd-4d7f-908a-2970073becd1",
-  "duration": "195",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 07 - Singin' the Blues (Til My Daddy Comes Home).flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "168ea61b-9fdd-4d7f-908a-2970073becd1", 
+  "duration": 184.55,
   "parts": [
     {
       "name":"Intro",
@@ -20,7 +18,7 @@
               ],
       "chords":
               [
-                "|N |N |N |N |"
+                "|Ab |G:min |F:min Eb |F:min Eb |"
               ]
     },
     {
@@ -37,9 +35,9 @@
       ],
       "chords": [
         "|F:min |Bb:7 |Eb |Eb |F:min |Bb:7 |Eb | Eb |",
-        "|G:7 |G:7 |C:7  |C:7 |F:7 |F:7 |Bb:7 N N N |N |",
+        "|G:7 |G:7 |C:7  |C:7 |F:7 |F:7 |N |N |",
         "|F:min |Bb:7 |Eb |Eb |C:7 |C:7 |F:min C:7 |F:min |",
-        "|Ab |A:dim |Eb |C:7 |F:min |Bb:7 |Eb N N N |N |"
+        "|Ab |A:dim |Eb |C:7 |F:min |Bb:7 |N |N |"
       ]
     },
     {
@@ -56,7 +54,7 @@
       ],
       "chords": [
         "|F:min |Bb:7 |Eb |Eb |F:min |Bb:7 |Eb | Eb |",
-        "|G:7 |G:7 |C:7  |C:7 |F:7 |F:7 |Bb:7 N N N |N |",
+        "|G:7 |G:7 |C:7  |C:7 |F:7 |F:7 |N |N |",
         "|F:min |Bb:7 |Eb |Eb |C:7 |C:7 |F:min C:7 |F:min |",
         "|Ab |A:dim |Eb |C:7 |F:min |Bb:7 |Eb |Eb |"
       ]
@@ -75,9 +73,9 @@
       ],
       "chords": [
         "|F:min |Bb:7 |Eb |Eb |F:min |Bb:7 |Eb | Eb |",
-        "|G:7 |G:7 |C:7  |C:7 |F:7 |F:7 |Bb:7 N N N |N |",
+        "|G:7 |G:7 |C:7  |C:7 |F:7 |F:7 |N |N |",
         "|F:min |Bb:7 |Eb |Eb |C:7 |C:7 |F:min C:7 |F:min |",
-        "|Ab |A:dim |Eb N N N |C:7 |F:min |Bb:7 |Eb |Eb |"
+        "|Ab |A:dim |Eb |C:7 |F:min |Bb:7 |Eb Bb:7 |Eb N |"
       ]
     }
   ]
