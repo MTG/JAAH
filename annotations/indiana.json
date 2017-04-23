@@ -17,11 +17,11 @@
               "beats":
                       [
                        0.0, 0.18, 0.38, 0.57, 0.77, 0.96, 1.16, 1.36, 1.57, 1.77, 1.98, 2.18, 2.38, 2.57, 2.78, 2.97, 3.17, 3.37, 3.57, 3.77,
-3.97, 4.17, 4.37, 4.56, 4.76, 4.95, 5.15, 5.34, 5.53, 5.74, 5.94, 6.13, 6.32, 6.51, 6.72, 6.92
+3.83, 4.17, 4.37, 4.56, 4.76, 4.95, 5.15, 5.34, 5.53, 5.74, 5.94, 6.13, 6.32, 6.51, 6.72, 6.92
                       ],
               "chords":
                       [
-                        "|N |D:min7 |Eb:7 |D:min7 |A:min7 |D:min7 |G:min7 C:7 |F:maj7 N |N |"
+                        "|N |D:minmaj7/5 |Eb:7/3 |D:min7/3 |D:min7/3 |D:min7 |C:7 |F:maj7 N |N |"
                       ]
             },
             {
@@ -39,9 +39,9 @@
                       ],
               "chords":
                       [
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
                         "|Bb:maj7 |Bb:min7 Eb:7 |F:maj7 |D:7 |G:7 |G:7 |G:min7 |C:7 |",
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min D:min/7|E:hdim7 A:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min D:min/7|E:hdim7 A:7 |",
                         "|D:min |E:hdim7 A:7 |D:min D:min7/7 |B:hdim7 |A:min7 D:7 |G:min7 C:7 |F:maj7 N N N |N |"
                       ]
             },
@@ -60,9 +60,9 @@
                       ],
               "chords":
                       [
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
                         "|Bb:maj7 |Bb:min7 Eb:7 |F:maj7 |D:7 |G:7 |G:7 |G:min7 |C:7 |",
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min |E:hdim7 A:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min |E:hdim7 A:7 |",
                         "|D:min |E:hdim7 A:7 |D:min6 D:min7/7 |B:hdim7 |A:min7 D:7 |G:min7 C:7 |F:maj6 F#:hdim7 |G:min7 C:7 |"
                       ]
             },
@@ -81,9 +81,9 @@
                       ],
               "chords":
                       [
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
                         "|Bb:maj7 |Bb:min7 Eb:7 |F:maj7 |D:7 |G:7 |G:7 |G:min7 |C:7 |",
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min |E:hdim7 A:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min |E:hdim7 A:7 |",
                         "|D:min |E:hdim7 A:7 |D:min6 D:min7/7 |B:hdim7 |A:min7 D:7 |G:min7 C:7 |F:maj6 F#:hdim7 |G:min7 C:7 |"
                       ]
             },
@@ -102,9 +102,9 @@
                       ],
               "chords":
                       [
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
                         "|Bb:maj7 |Bb:min7 Eb:7 |F:maj7 |D:7 |G:7 |G:7 |G:min7 |C:7 |",
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min |E:hdim7 A:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min |E:hdim7 A:7 |",
                         "|D:min |E:hdim7 A:7 |D:min6 D:min7/7 |B:hdim7 |A:min7 D:7 |G:min7 C:7 |F:maj6 F#:hdim7 |G:min7 C:7 |"
                       ]
             },
@@ -149,9 +149,9 @@
                       ],
               "chords":
                       [
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |G:min7 |C:7 |F:maj7 |C:min7 F:7 |",
                         "|Bb:maj7 |Bb:min7 Eb:7 |F:maj7 |D:7 |G:7 |G:7 |G:min7 |C:7 |",
-                        "|F:maj7 Eb:7 |D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min |E:hdim7 A:7 |",
+                        "|F:maj7|D:7 |G:7 |G:7 |E:hdim7 |A:7 |D:min |E:hdim7 A:7 |",
                         "|D:min |E:hdim7 A:7 |D:min D:min7/7 |B:hdim7 |A:min7 D:7 |G:min7 C:7 |F:maj7 |F:maj7 |",
                         "|F:maj7 |F:maj7 |F:maj7 |F:maj7 |F:maj7 |F:maj7 |F:maj7 |F:maj7 |",
                         "|F:maj7 |F:maj7 |F:maj7 |F:maj7 |F:maj7 | "
