@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO", 
+  "tuning": 443.32, 
   "artist": "Original Dixieland Jazz Band", 
   "title": "Livery Stable Blues", 
   "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD1/03. Livery Stable Blues.mp3", 
-   "transcriptions": ["Norrie Paramor"]
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 03 - Livery Stable Blues.flac", 
+   "transcriptions": []
   }, 
   "mbid": "cad9a000-cb04-49ae-9c2e-94c16981dbc9", 
-  "duration": "TODO",
+  "duration": 190.64,
   "parts":   [
     {
       "name": "intro1",
@@ -20,7 +20,7 @@
             0.0, 0.41
           ],
           "chords": [
-            "|Bb:7 |"
+            "|N |"
           ]
         },
         {
@@ -31,7 +31,7 @@
 6.2, 6.59
           ],
           "chords": [
-            "|Eb:6 Eb:7 Eb:dim Ab:min6 |Eb Ab Eb Eb |B:7  |Bb:7   |"
+            "|Eb:maj6 Eb:7 Eb:dim Ab:min6 |Eb |B:7  |Bb:7 N N N |"
           ]
         }
       ]
@@ -45,8 +45,8 @@
       ],
       "chords": [
         "|Eb |Eb |Eb:7   |Eb:7   |",
-        "|Ab:7    |Ab:7    |Eb     |C7     |",
-        "|F:9   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+        "|Ab    |Ab:7    |Eb     |C:7     |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
       ]
     },
     {
@@ -58,8 +58,8 @@
       ],
       "chords": [
         "|Eb |Eb |Eb:7   |Eb:7   |",
-        "|Ab:7    |Ab:7    |Eb   |C7   |",
-        "|F:9   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+        "|Ab    |Ab:7    |Eb   |C:7   |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
       ]
     },
     {
@@ -71,8 +71,8 @@
       ],
       "chords": [
         "|Eb |Eb |Eb  |Eb:7  |",
-        "|Ab:7    |Ab:7    |Eb   |C7   |",
-        "|F:7   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+        "|Ab    |Ab:7    |Eb   |C:7   |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
       ]
     },
     {
@@ -84,8 +84,8 @@
       ],
       "chords": [
         "|Eb |Eb  |Eb  |Eb:7  |",
-        "|Ab:7    |Ab:7    |Eb   |C7   |",
-        "|F:7   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+        "|Ab    |Ab:7    |Eb   |C:7   |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
       ]
     },
     {
@@ -97,9 +97,9 @@
 89.63, 90.0, 90.36, 90.72, 91.08, 91.45, 91.82, 92.18, 92.53, 92.91, 93.27, 93.64, 94.0, 94.39, 94.76, 95.13
             ],
           "chords": [
-                "|Eb |N  |N  |N  Eb:7 |",
-                "|Ab:7   |Ab:7  |Eb   |C7   |",
-                "|F:7   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+                "|Eb |N  |N  |N  |",
+                "|Ab:7   |Ab:7  |Eb   |C:7   |",
+                "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
 
           ]
     },
@@ -111,9 +111,9 @@
 107.35, 107.72, 108.07, 108.44, 108.8, 109.17, 109.53, 109.89, 110.26, 110.62, 111.0, 111.36, 111.73, 112.11, 112.48, 112.86
       ],
       "chords": [
-        "|Eb |N  |N  |N  Eb:7 |",
-        "|Ab:7    |Ab:7    |Eb   |C7   |",
-        "|F:7   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+        "|Eb |N  |N  |N  |",
+        "|Ab    |Ab:7    |Eb   |C:7   |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
       ]
     },
     {
@@ -125,8 +125,8 @@
       ],
       "chords": [
         "|Eb |Eb  |Eb  |Eb:7  |",
-        "|Ab:7    |Ab:7    |Eb   |C7   |",
-        "|F:7   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+        "|Ab    |Ab:7    |Eb   |C:7   |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
       ]
     },
     {
@@ -138,8 +138,8 @@
       ],
       "chords": [
         "|Eb |Eb  |Eb  |Eb:7  |",
-        "|Ab:7    |Ab:7    |Eb   |C7   |",
-        "|F:7   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+        "|Ab    |Ab:7    |Eb   |C:7   |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
       ]
     },
     {
@@ -148,9 +148,9 @@
 
       ],
       "chords": [
-        "|Eb |N  |N  |N  Eb:7 |",
-        "|Ab:7    |Ab:7    |Eb   |C7   |",
-        "|F:7   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |"
+        "|Eb |N  |N  |N  |",
+        "|Ab    |Ab:7    |Eb   |C:7   |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb   |"
       ]
     },
     {
@@ -165,9 +165,9 @@
 184.15, 184.52, 184.89, 185.27, 185.62, 185.95, 186.26, 186.59
       ],
       "chords": [
-        "|Eb |N  |N  |N  Eb:7 |",
-        "|Ab:7    |Ab:7    |Eb   |C7   |",
-        "|F:7   |Bb:7   |Eb Eb:7 Gb:dim Ab:min6 |Eb   |Eb  |"
+        "|Eb |N  |N  |N  |",
+        "|Ab    |Ab:7    |Eb   |C:7   |",
+        "|F:9   |Bb:7   |Eb Eb:7 Bb:7 Bb:7|Eb N |Eb  |"
       ]
     }
 
