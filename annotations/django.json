@@ -1,14 +1,14 @@
  {
-  "tuning": "TODO",
-  "artist": "The Modern Jazz Quartet",
-  "title": "Django",
-  "metre": "4/4",
+  "tuning": 434.62, 
+  "artist": "The Modern Jazz Quartet", 
+  "title": "Django", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD3/07. Django.mp3",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 07 - Django.flac", 
    "transcriptions": []
-  },
-  "mbid": "c3141ac9-74aa-439e-b9bc-16aae9c4d683",
-  "duration": "425",
+  }, 
+  "mbid": "c3141ac9-74aa-439e-b9bc-16aae9c4d683", 
+  "duration": 424.93,
    "parts":
            [
              {
@@ -25,9 +25,9 @@
                       [
                         "|F:min |Bb:min7 |C:(3,5,b7,b9) |F:min |",
                         "|F:(3,5,b7,b9) |Bb:min |Eb:(3,5,b7,b9) |Ab |",
-                        "|Db:maj9 |G:hdim7 |G:7/7 |C:7/3 |",
-                        "|F:min |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
-                        "|F:min |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |"
+                        "|Db:maj7 |G:hdim7 |G:7/7 |C:7/3 C:7 |",
+                        "|F:min9 |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 |",
+                        "|F:min9 |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |"
                       ]
              },
              {
@@ -46,8 +46,8 @@
                ],
                "chords":
                        [
-                         "|F:min D:hdim7 |G:7 C:7 |F:(3,5,b7,b9) Bb:min |Eb:(3,5,b7,b9) Ab |",
-                         "|Db:(3,5,b7,#11) G:(3,5,b7,b9) |C:7 |F:min D:hdim7 |G:7/7 C:(3,5,b7,b9)/3 |",
+                         "|F:min D:hdim7 |G:aug C:7 |F:(3,5,b7,b9) Bb:min |Eb:(3,5,b7,#9) Ab |",
+                         "|Db:7 G:7/3 |C:7 |F:min D:hdim7 |G:7 C:(3,5,b7,b9) |",
                          "|F:7 Bb:min |Eb:7 Ab:7 |Db:7 C:(3,5,b7,b9) |F:min6 |"
                        ]
              },
@@ -73,7 +73,7 @@
                ],
                "chords":
                        [
-                         "|Bb:min6 G:hdim7 |C:7 F:7 |Bb:7 Eb:7 |Ab:7 Db:7 |",
+                         "|Bb:min7 G:hdim7 |C:7 F:7 |Bb:7 Eb:min7 |Ab:7 Db:7 |",
                          "|Gb:7 |Gb:7 |Db:7 |Db:7 |",
                          "|Gb:7 |Gb:7 |Db:7 |Db:7 |"
                        ]
@@ -87,8 +87,8 @@
                ],
                "chords":
                        [
-                         "|F:min D:hdim7 |G:7 C:7 |F:(3,5,b7,b9) Bb:min |Eb:(3,5,b7,b9) Ab |",
-                         "|Db:(3,5,b7,#11) G:(3,5,b7,b9) |C:7 |F:min D:hdim7 |G:7/7 C:(3,5,b7,b9)/3 |",
+                         "|F:min D:hdim7 |G:7 C:7 |F:(3,5,b7,b9) Bb:min |Eb:(3,5,b7,#9) Ab |",
+                         "|Db:7 G:(3,5,b7,b9) |C:7 |F:min D:hdim7 |G:7 C:(3,5,b7,b9) |",
                          "|F:7 Bb:min |Eb:7 Ab:7 |Db:7 C:(3,5,b7,b9) |F:min6 |"
                        ]
              },
@@ -113,7 +113,7 @@
                ],
                "chords":
                        [
-                         "|Bb:min6 G:hdim7 |C:7 F:7 |Bb:7 Eb:7 |Ab:7 Db:7 |",
+                         "|Bb:min7 G:hdim7 |C:7 F:7 |Bb:7 Eb:min7 |Ab:7 Db:7 |",
                          "|Gb:7 |Gb:7 |Db:7 |Db:7 |",
                          "|Gb:7 |Gb:7 |Db:7 |Db:7 |"
                        ]
@@ -124,7 +124,7 @@
                  205.89, 206.42, 206.92, 207.46, 207.99, 208.5, 209.03, 209.56, 210.07, 210.6, 211.11, 211.62, 212.12, 212.63, 213.16, 213.69
                ],
                "chords":[
-                        "|F:min Bb:min6 |C:7 F:min |F:min Bb:min6 |C:7 F:min |"
+                        "|F:min Bb:min7 |C:(3,5,b13) C:7 F:min F:min |F:min Bb:min7 |C:(3,b7,b13) F:min |"
                ]
              },
              {
@@ -136,8 +136,8 @@
                ],
                "chords":
                        [
-                         "|F:min D:hdim7 |G:7 C:7 |F:(3,5,b7,b9) Bb:min |Eb:(3,5,b7,b9) Ab |",
-                         "|Db:(3,5,b7,#11) G:(3,5,b7,b9) |C:7 |F:min D:hdim7 |G:7/7 C:(3,5,b7,b9)/3 |",
+                         "|F:min D:hdim7 |G:7 C:7 |F:(3,5,b7,b9) Bb:min |Eb:(3,5,b7,#9) Ab |",
+                         "|Db:7 G:(3,5,b7,b9) |C:7 |F:min D:hdim7 |G:7 C:(3,5,b7,b9) |",
                          "|F:7 Bb:min |Eb:7 Ab:7 |Db:7 C:(3,5,b7,b9) |F:min6 |"
                        ]
              },
@@ -162,7 +162,7 @@
                ],
                "chords":
                        [
-                         "|Bb:min6 G:hdim7 |C:7 F:7 |Bb:7 Eb:7 |Ab:7 Db:7 |",
+                         "|Bb:min7 G:hdim7 |C:7 F:7 |Bb:7 Eb:min7 |Ab:7 Db:7 |",
                          "|Gb:7 |Gb:7 |Db:7 |Db:7 |",
                          "|Gb:7 |Gb:7 |Db:7 |Db:7 |"
                        ]
@@ -176,8 +176,8 @@
                ],
                "chords":
                        [
-                         "|F:min D:hdim7 |G:7 C:7 |F:(3,5,b7,b9) Bb:min |Eb:(3,5,b7,b9) Ab |",
-                         "|Db:(3,5,b7,#11) G:(3,5,b7,b9) |C:7 |F:min D:hdim7 |G:7/7 C:(3,5,b7,b9)/3 |",
+                         "|F:min D:hdim7 |G:7 C:7 |F:(3,5,b7,b9) Bb:min |Eb:(3,5,b7,#9) Ab |",
+                         "|Db:7 G:(3,5,b7,b9) |C:7 |F:min D:hdim7 |G:7 C:(3,5,b7,b9) |",
                          "|F:7 Bb:min |Eb:7 Ab:7 |Db:7 C:(3,5,b7,b9) |F:min6 |"
                        ]
              },
@@ -202,7 +202,7 @@
                ],
                "chords":
                        [
-                         "|Bb:min6 G:hdim7 |C:7 F:7 |Bb:7 Eb:7 |Ab:7 Db:7 |",
+                         "|Bb:min7 G:hdim7 |C:7 F:7 |Bb:7 Eb:min7 |Ab:7 Db:7 |",
                          "|Gb:7 |Gb:7 |Db:7 |Db:7 |",
                          "|Gb:7 |Gb:7 |Db:7 |Db:7 |"
                        ]
@@ -215,16 +215,16 @@
 365.32, 366.05, 366.8, 367.56, 368.34, 369.14, 369.89, 370.64, 371.45, 372.2, 372.93, 373.69, 374.48, 375.24, 375.97, 376.73,
 377.53, 378.26, 379.01, 379.77, 380.55, 381.33, 382.06, 382.83, 383.6, 384.36, 385.07, 385.81, 386.58, 387.37, 388.13, 388.92,
 389.73, 390.46, 391.25, 392.01, 392.81, 393.53, 394.29, 395.05, 395.85, 396.57, 397.33, 398.09, 398.88, 399.62, 400.37, 401.17,
-401.91, 402.6, 403.33, 404.06, 404.87, 405.62, 406.37, 407.15, 408.01, 408.86, 409.6, 410.39, 411.15, 411.9, 412.62, 413.36,
+401.91, 402.6, 403.33, 404.06, 404.87, 405.62, 406.37, 407.15, 408.01, 408.86, 409.6, 410.39, 411.74, 411.9, 412.62, 413.36,
 414.13, 414.88, 415.68, 416.42, 417.23, 418.01, 418.78, 419.57, 420.31, 421.09, 421.87, 422.65, 423.43, 424.25
                        ],
                "chords":
                       [
                           "|F:min |Bb:min7 |C:(3,5,b7,b9) |F:min |",
                           "|F:(3,5,b7,b9) |Bb:min |Eb:(3,5,b7,b9) |Ab |",
-                          "|Db:maj9 |G:hdim7 |G:7/7 |C:7/3 |",
-                          "|F:min |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
-                          "|F:min |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |Bb:dim7/5 F:min |F:min |"
+                          "|Db:maj7 |G:hdim7 |G:7/7 |C:7/3 C:7 |",
+                          "|F:min9 |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
+                          "|F:min9 |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |Bb:dim7/5 F:min6 |F:min6 |"
                       ]
              }
            ]
