@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Sidney Bechet\u2019s Blue Note Jazzmen",
-  "title": "Blue Horizon",
-  "metre": "4/4",
+ "tuning": 434.84, 
+  "artist": "Sidney Bechet\u2019s Blue Note Jazzmen", 
+  "title": "Blue Horizon", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 1/11 - Sidney Bechet And His Blue Note Jazz Men - Blue Horizon.flac",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/11 - Sidney Bechet And His Blue Note Jazz Men - Blue Horizon.flac", 
    "transcriptions": []
-  },
-  "mbid": "6a278fcb-224c-4c63-9e65-48cf3f0c1232",
-  "duration": "TODO",
+  }, 
+  "mbid": "6a278fcb-224c-4c63-9e65-48cf3f0c1232", 
+  "duration": 268.56,
   "parts":
           [
             {
@@ -36,12 +36,12 @@
                        ],
               "chords":
                       [
-                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Eb |",
-                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Eb |",
-                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Eb |",
-                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Eb |",
-                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7/5 |Ab:7/5 |Eb |Eb |Bb:7 |Bb:7 |Eb |Eb |",
-                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Eb:7 |"
+                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Bb:7 |",
+                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Bb:7 |",
+                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Bb:7 |",
+                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Bb:7 |",
+                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7/5 |Ab:7/5 |Eb |Eb |Bb:7 |Bb:7 |Eb |Bb:7 |",
+                        "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Eb:maj6 |"
                       ]
             }
           ]
