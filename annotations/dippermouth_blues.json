@@ -1,14 +1,14 @@
 {
-  "tuning": 436.51, 
+  "tuning": 440.14, 
   "artist": "King Oliver's Creole Jazz Band", 
   "title": "Dippermouth Blues", 
   "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/05 - King Oliver's Creole Jazz Band - Dippermouth Blues.flac", 
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 04 - Dipper Mouth Blues.flac", 
    "transcriptions": []
-  },
-  "mbid": "bdf130fd-b72c-4cc1-89d0-1be77ecdbdd8", 
-  "duration": 177.2,
+  }, 
+  "mbid": "8fecd84b-8d9e-43c7-865e-4e3e93292260", 
+  "duration": 148.93,
   "parts":
           [
             {
@@ -19,7 +19,7 @@
                       ],
               "chords":
                       [
-                        "|C:dim7 |C:dim7 |G G:dim |G:7 |"
+                        "|C:dim |C:dim |G:7 F#:7 |G:7 |"
                       ]
             },
             {
@@ -35,8 +35,8 @@
                       ],
               "chords":
                       [
-                        "|C |F:7 |C |C:7 |F:7 |F:7 |C |C |G:7 |G:7 |C F:7 |C |",
-                        "|C |F:7 |C |C:7 |F:7 |F:7 |C |C |G:7 |G:7 |C F:7 |C |"
+                        "|C |F:7 |C |C:7 |F:7 |F:7 |C:maj6 |C:maj6 |G:7 |G:7 |C:maj6 F:7 |C |",
+                        "|C |F:7 |C |C:7 |F:7 |F:7 |C:maj6 |C:maj6 |G:7 |G:7 |C:maj6 F:7 |C |"
                       ]
             },
             {
@@ -52,8 +52,8 @@
                       ],
               "chords":
                       [
-                         "|C C C N |F:7 F:7 F:7 N |C C C N |C:7 C:7 C:7 N |F:7 F:7 F:7 N |F#:dim F#:dim F#:dim N |C C C N |A:7 A:7 A:7 N |D:7 D:7 D:7 N |C G:7 |C |C |",
-                         "|C C C N |F:7 F:7 F:7 N |C C C N |C:7 C:7 C:7 N |F:7 F:7 F:7 N |F#:dim F#:dim F#:dim N |C C C N |A:7 A:7 A:7 N |D:7 D:7 D:7 N |C G:7 |C |C |"
+                         "|C C C N |F F F N |C C C N |C:7 C:7 C:7 N |F F F N |F#:dim F#:dim F#:dim N |C C C N |A:7 A:7 A:7 N |D:7 D:7 D:7 N |G:7 |C |C |",
+                         "|C C C N |F F F N |C C C N |C:7 C:7 C:7 N |F F F N |F#:dim F#:dim F#:dim N |C C C N |A:7 A:7 A:7 N |D:7 D:7 D:7 N |G:7 |C |C |"
                       ]
             },
             {
@@ -66,7 +66,7 @@
                       ],
               "chords":
                       [
-                        "|C |F:7 |C |C:7 |F:7 |F:7 |C |C |G:7 |G:7 |C F:7 |C |"
+                        "|C |F:7 |C |C:7 |F:7 |F:7 |C:maj6 |C:maj6 |G:7 |G:7 |C:maj6 F:7 |C |"
                       ]
             },
             {
@@ -85,8 +85,8 @@
                       ],
               "chords":
                       [
-                        "|C |F:7 |C |C:7 |F:7 |F:7 |C |C |G:7 |G:7 |C F:7 |C |",
-                        "|C |F:7 |C |C:7 |F:7 |F:7 |C |C |G:7 |G:7 |C F:7 |C |",
+                        "|C |F:7 |C |C:7 |F:7 |F:7 |C:maj6 |C:maj6 |G:7 |G:7 |C:maj6 F:7 |C |",
+                        "|C |F:7 |C |C:7 |F:7 |F:7 |C:maj6 |C:maj6 |G:7 |G:7 |C:maj6 F:7 |C |",
                         "|C |F:7 |C |C:7 |F:7 |F:7 |C |C |G:7 |G:7 |C N N N|N |"
                       ]
             },
@@ -101,7 +101,7 @@
                       ],
               "chords":
                       [
-                        "|C |F:7 |C |C:7 |F:7 |F:7 |C |C |G:7 |G:7 |C F:7 |C |F:7 |C |"
+                        "|C |F:7 |C |C:7 |F:7 |F:7 |C:maj6 |C:maj6 |G:7 |G:7 |C:maj6 F:7 |C |C |C C C N |"
                       ]
             }
 
