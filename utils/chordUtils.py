@@ -64,24 +64,24 @@ def processChords(numerator, blocks, allChords):
                 newchords.extend([c] * multiplier)
             allChords.extend(newchords)
 
-def processParts(metreNumerator, data, beats, chords):
+def processParts(metreNumerator, data, beats, chords, choice):
     if ('parts' in data.keys()):
         for part in data['parts']:
-            processParts(metreNumerator, part, beats, chords)
+            processParts(metreNumerator, part, beats, chords, choice)
     else:
         if 'metre' in data :
             metreNumerator = int(data['metre'].split('/')[0])
         beats.extend(data['beats'])
-        processChords(metreNumerator, data['chords'], chords)
+        processChords(metreNumerator, data[choice], chords)
 
-def json2lab(infile, outfile):
+def json2lab(choice, infile, outfile):
     with open(infile, 'r') as data_file:
         data = json.load(data_file)
         duration = data['duration']
         metreNumerator = int(data['metre'].split('/')[0])
         allBeats = []
         allChords = []
-        processParts(metreNumerator, data, allBeats, allChords)
+        processParts(metreNumerator, data, allBeats, allChords, choice)
         segments = toMirexLab(0, duration, allBeats, allChords)
         with open(outfile, 'w') as content_file:
             for s in segments:
