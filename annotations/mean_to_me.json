@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Billie Holiday; Teddy Wilson and His Orchestra",
-  "title": "Mean to Me",
-  "metre": "4/4",
+  "tuning": 438.49, 
+  "artist": "Billie Holiday; Teddy Wilson and His Orchestra", 
+  "title": "Mean to Me", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD1/22. Mean To Me.mp3",
-   "transcriptions": ["Emir Demirel"]
-  },
-  "mbid": "0e9806c6-1342-432b-87b7-11e5e2217311",
-  "duration": "TODO",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 22 - Mean to Me.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "0e9806c6-1342-432b-87b7-11e5e2217311", 
+  "duration": 190.88,
   "parts":
   [
     {
@@ -17,7 +17,7 @@
               [1.02, 1.56, 2.14, 2.69, 3.25, 3.8, 4.34, 4.9, 5.46, 6.03, 6.57, 7.12, 7.66, 8.21, 8.76, 9.35],
       "chords":
               [
-                "|C:maj7 C#:dim7 |D:min7 |C:maj7 C#:dim7 |D:min7 G:7 |"
+                "|C:maj7 C#:dim |D:min7 |C:maj7 C#:dim |D:min7 G:7 |"
               ]
     },
     {
@@ -35,10 +35,10 @@
                ],
       "chords":
               [
-                "|C:maj7 C#:dim7 |D:min7 G:7 |C:maj7 G:min7 |F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |",
-                "|C:maj C#:dim7 |D:min7 G:7 |C:maj7 G:min7 |F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |C:maj6 C:maj6 G:min7 C:7 |",
-                "|F:maj6 |G:min7 C:7 |F:maj6 |Bb:7 A:7 |D:min7 |Bb:7 A:7 |D:7 |G:7 |",
-                "|C:maj7 C#:dim7 |D:min7 G:7 |C:maj7 G:min7 |F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |"
+                "|C:maj7 C#:dim |D:min7 G:7 |C:maj7|F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |",
+                "|C:maj C#:dim |D:min7 G:7 |C:maj7|F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 F:7 |C:maj6 C:maj6 G:min7 C:7 |",
+                "|F:maj6 |G:7 C:7 |F:maj6 |D:min7 A:7 |D:min7 |Bb:7 A:7 |D:7 |G:7 |",
+                "|C:maj7 C#:dim |D:min7 G:7 |C:maj7|F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |"
               ]
     },
     {
@@ -56,10 +56,10 @@
                ],
       "chords":
               [
-                "|C:maj7 C#:dim7 |D:min7 G:7 |C:maj7 G:min7 |F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |",
-                "|C:maj C#:dim7 |D:min7 G:7 |C:maj7 G:min7 |F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |C:maj6 C:maj6 G:min7 C:7 |",
-                "|F:maj6 |G:min7 C:7 |F:maj6 |Bb:7 A:7 |D:min7 |Bb:7 A:7 |D:7 |G:7 |",
-                "|C:maj7 C#:dim7 |D:min7 G:7 |C:maj7 G:min7 |F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |"
+                "|C:maj7 C#:dim |D:min7 G:7 |C:maj7|F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |",
+                "|C:maj C#:dim |D:min7 G:7 |C:maj7|F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 F:7 |C:maj6 C:maj6 G:min7 C:7 |",
+                "|F:maj6 |G:7 C:7 |F:maj6 |D:min7 A:7 |D:min7 |Bb:7 A:7 |D:7 |G:7 |",
+                "|C:maj7 C#:dim |D:min7 G:7 |C:maj7|F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |"
               ]
     },
     {
@@ -73,8 +73,8 @@
                ],
       "chords":
               [
-                "|F:maj6 |G:min7 C:7 |F:maj6 |Bb:7 A:7 |D:min7 |Bb:7 A:7 |D:7 |G:7 |",
-                "|C:maj7 C#:dim7 |D:min7 G:7 |C:maj7 G:min7 |F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |"
+                "|F:maj6 |G:7 C:7 |F:maj6 |D:min7 A:7 |D:min7 |Bb:7 A:7 |D:7 |G:7 |",
+                "|C:maj7 C#:dim |D:min7 G:7 |C:maj7|F:maj7 Bb:7 |E:min7 A:7 |D:min7 G:7 |C:maj6 A:min7 |D:7 G:7 |"
               ]
     }
 

@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Dizzy Gillespie and His Orchestra",
-  "title": "Manteca",
-  "metre": "4/4",
+  "tuning": 433.93, 
+  "artist": "Dizzy Gillespie and His Orchestra", 
+  "title": "Manteca", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD2/13. Manteca.mp3",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 13 - Manteca.flac", 
    "transcriptions": []
-  },
-  "mbid": "2394cfd9-ea6a-47cc-9aea-00d84c50746f",
-  "duration": "200",
+  }, 
+  "mbid": "2394cfd9-ea6a-47cc-9aea-00d84c50746f", 
+  "duration": 189.79,
   "parts":
           [
             {

@@ -1,26 +1,26 @@
 {
-  "tuning": "TODO",
-  "artist": "Duke Ellington & His Orchestra",
-  "title": "In a Mellotone",
-  "metre": "4/4",
+  "tuning": 440.16, 
+  "artist": "Duke Ellington & His Orchestra", 
+  "title": "In a Mellotone", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 3/07 - Duke Ellington And His Famous Orchestra - In A Mellotone.flac",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/07 - Duke Ellington And His Famous Orchestra - In A Mellotone.flac", 
    "transcriptions": []
-  },
-  "mbid": "0d8187d0-854e-4221-adc4-95a49663020b",
-  "duration": "200",
+  }, 
+  "mbid": "0d8187d0-854e-4221-adc4-95a49663020b", 
+  "duration": 199.27,
   "parts":
           [
             {
               "name":"Intro",
               "beats":
                       [
-                        0.46, 0.94, 1.39, 1.82, 2.27, 2.72, 3.16, 3.61, 4.05, 4.51, 4.95, 5.39, 5.84, 6.29, 6.76, 7.2,
-7.64, 8.09, 8.53, 8.96, 9.42, 9.85, 10.31, 10.75, 11.2, 11.63, 12.07, 12.5, 12.94, 13.42, 13.86, 14.33
+                        0.46, 0.94, 1.39, 1.82, 2.043, 2.72, 3.16, 3.61, 4.05, 4.51, 4.92, 5.39, 5.67, 6.29, 6.76, 7.2,
+7.64, 8.09, 8.5, 8.96, 9.24, 9.85, 10.31, 10.75, 11.2, 11.63, 12.07, 12.5, 12.94, 13.42, 13.86, 14.33
                       ],
               "chords":
                       [
-                        "|Ab:maj7 G:7 |Ab:maj7 |Ab:maj7 G:7 |Ab:maj7 |Ab:maj7 G:7 |Ab:maj7 |F:7 |F:7 |"
+                        "|Ab:9 G:9 |Ab:9 |Ab:9 G:9 |Ab:9 |Ab:9 G:9 |Ab:9 Ab:9 G:9 F#:9 |F:9 |F:9 |"
                       ]
             },
             {
@@ -34,12 +34,12 @@
 44.19, 44.65, 45.12, 45.59, 46.06, 46.51, 46.98, 47.45, 47.9, 48.37, 48.83, 49.28, 49.74, 50.2, 50.66, 51.12,
 51.59, 52.04, 52.5, 52.96, 53.42, 53.88, 54.34, 54.79, 55.25, 55.71, 56.17, 56.63, 57.09, 57.55, 58.01, 58.47,
 58.94, 59.39, 59.86, 60.32, 60.77, 61.24, 61.72, 62.17, 62.63, 63.1, 63.55, 64.0, 64.47, 64.92, 65.39, 65.85,
-66.32, 66.78, 67.24, 67.69, 68.15, 68.63, 69.08, 69.54, 69.99, 70.46, 70.93, 71.4, 71.86, 72.3, 72.75, 73.2
+66.32, 66.78, 67.24, 67.69, 68.15, 68.63, 69.08, 69.54, 69.79, 70.46, 70.93, 71.24, 71.624, 72.3, 72.75, 73.2
                       ],
               "chords":
                       [
-                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |Eb:7 |Eb:7 F:7 |",
-                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab G:7 |F:7 |"
+                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:maj7 |Db:min7 |Ab |F:7 |Bb:7 |Bb:7 |Eb:maj6 Eb:maj6 A:dim Ab:dim |G:dim F#:dim Eb Eb |",
+                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab Ab G:7 F#:7 |F:7 |"
                       ]
             },
             {
@@ -57,8 +57,8 @@
                       ],
               "chords":
                       [
-                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |Eb:7 |Eb:7 F:7 |",
-                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab Eb:7 |Ab:maj7 |"
+                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:maj7 |Db:min7 |Ab:maj7 G:7 |F:7 |Bb:7 |Bb:7 |Eb |Eb |",
+                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab Eb:7 |Ab:maj7 |"
                       ]
             },
             {
@@ -77,8 +77,8 @@
                       ],
               "chords":
                       [
-                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Bb:7 |N |N F:7 |",
-                        "|Bb:min7 |Eb:7 |Ab:maj7 |Ab:maj7 |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |Db:hdim7 |Ab:maj7/5 |F:7 |Bb:7 |Eb:7 |Ab Eb:7 |Ab:maj6 |"
+                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:maj7 |Db:min7 |Ab |F:7 |Bb:7 |Bb:7 |N |N |",
+                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab:maj7 Eb:7 |Ab:maj6 |"
                       ]
             }
           ]

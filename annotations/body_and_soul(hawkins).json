@@ -1,23 +1,22 @@
-{
-  "tuning": "TODO",
-  "artist": "Coleman Hawkins and His Orchestra",
-  "title": "Body and Soul",
-  "metre": "4/4",
+{"tuning": 446.98, 
+  "artist": "Coleman Hawkins and His Orchestra", 
+  "title": "Body and Soul", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD2/04. Body _ Soul.mp3",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 04 - Body and Soul.flac", 
    "transcriptions": []
-  },
-  "mbid": "0a51dede-9539-4c06-bfd3-e1785595a1a2",
-  "duration": "183",
+  }, 
+  "mbid": "0a51dede-9539-4c06-bfd3-e1785595a1a2", 
+  "duration": 182.73,
   "parts":
           [
             {
               "name":"Intro ",
               "beats":
-                      [0.26, 0.91, 1.48, 2.10, 2.705, 3.33, 3.90, 4.53, 5.14, 5.76, 6.36, 6.96, 7.50, 8.15, 8.74,9.31 ],
+                      [0.26, 0.91, 1.48, 2.10, 2.554, 3.33, 3.90, 4.53, 5.015, 5.76, 6.36, 6.96, 7.383, 8.15, 8.74,9.31 ],
               "chords":
                       [
-                        "|N |N |N |N |"
+                        "|Gb:min6 |Db:maj7 |A |Ab:7 |"
                       ]
             },
             {
@@ -35,10 +34,10 @@
                       ],
               "chords":
                       [
-                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:(3,b7,b9) |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj7 Db:maj7 F:hdim7 Bb:(3,5,b7,b9) |",
-                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:(3,b7,b9) |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db Db E:min7 A:7 |",
-                        "|D:maj7 E:min7 |B:min7 F#:7 G:min7 C:7 |F#:min7 B:min7 E:min7 A:7 |D:maj7 E:min7 |D:min7 G:7 |C:maj7 Eb:dim |D:min7 G:7 |C:7 B:7 Bb:7 Bb:7 |",
-                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 Ab:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |Ab:7 A:dim |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db Db F:hdim7 Bb:7 |"
+                        "|Eb:min Bb:7 |Eb:min7 Ab:7 |Db:maj7 Ab:7 |F:min7 E:dim7 |Eb:min7 |F:(3,5,b7,b9) F:7/3 |Bb:min7 Ab:7 |Db:maj7 Db:maj7 F:min7 Bb:(3,5,b7,b9) |",
+                        "|Eb:min Bb:7 |Eb:min7 D:7 |Db:maj7 Ab:7 |F:min7 E:dim7 |Eb:min7 |F:(3,5,b7,b9) F:7/3 |Db:maj6 Ab:7 |Db Db E:min7 A:7 |",
+                        "|D:maj7 A:7 |B:min7/3 F#:7 G:min7 G:min7 |D A:7 |D:maj7 E:min7 |D:min7 G:7 |E:min7 Eb:dim |D:min7 G:7 |C:7 B:7 Bb:7 Bb:7 |",
+                        "|Eb:min Bb:7 |Eb:min7 Ab:7 |Db:maj7 Ab:7 |F:min7 E:dim7 |Eb:min7 |F:7 A:dim |Bb:min7 Ab:7 |Db Db F:hdim7 Bb:7 |"
                       ]
             },
             {
@@ -58,10 +57,10 @@
                       ],
               "chords":
                       [
-                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:(3,b7,b9) |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db:maj6 Db:maj7 F:hdim7 Bb:(3,5,b7,b9) |",
-                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |C:hdim7 F:(3,b7,b9) |Bb:min7 Eb:7 Eb:min7 Ab:7 |Db Db E:min7 A:7 |",
-                        "|D:maj7 E:min7 |B:min7 F#:7 G:min7 C:7 |F#:min7 B:min7 E:min7 A:7 |D:maj7 E:min7 |D:min7 G:7 |C:maj7 Eb:dim |D:min7 G:7 |C:7 B:7 Bb:7 Bb:7 |",
-                        "|Eb:min D:(3,#5,b7,11,13) |Eb:min7 Ab:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |Ab:7 A:dim |Bb:7 N N N|N |N |N N N Db:maj6|Db:maj6 |Db:maj6 N |"
+                        "|Eb:min Bb:7 |Eb:min7 D:7 |Db:maj7 Ab:7 |F:min7 E:dim7 |Eb:min7 |F:(3,5,b7,b9) F:7/3 |Bb:min7 Ab:7 |Db:maj7 Db:maj7 F:min7 Bb:(3,5,b7,b9) |",
+                        "|Eb:min Bb:7 |Eb:min7 D:7 |Db:maj7 Eb:min7 |F:min7 E:dim7 |Eb:min7 |F:7 F:7/3 |Db:maj6 Ab:7 |Db Db E:min7 A:7 |",
+                        "|D:maj7 A:7 |B:min7/3 F#:7 G:min7 G:min7 |D A:7 |D:maj7 E:min7 |D:min7 G:7 |E:min7 Eb:dim |D:min7 G:7 |C:7 B:7 Bb:7 Bb:7 |",
+                        "|Eb:min Bb:7 |Eb:min7 D:7 |Db:maj7 Gb:7 |F:min7 E:dim7 |Eb:min7 |Ab:7 A:dim |Db:maj6 N |N |N |N N N Db:maj6|Db:maj6 |Db:maj6 N |"
                       ]
             }
           ]
