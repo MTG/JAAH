@@ -19,7 +19,7 @@ API_KEY = 'cSpUJKpD'
 def get_args():
     # Description for documentation
     parser = argparse.ArgumentParser(
-        description='Path to the audio files')
+        description='Extract metadata from musicbrainzid to .json file')
   
     parser.add_argument(
         '-p', '--path', type=str, help='Path to Audio files', required=True)
@@ -126,10 +126,12 @@ for path, dname, fnames in os.walk(inputDir):
                     entry['artist'] = artist
                     entry['tuning'] =  round(tuning, 2)
                     entry['metre'] = '4/4'
+                    entry['rhythm feel']: []
+                    entry['orchestration']: []
                     entry['duration'] = round(duration, 2)
                     pathname = pathname.replace(data_root, '$JAZZ_HARMONY_DATA_ROOT/')
                     entry['sandbox'] = {'path':pathname, 'transcriptions':[]}
                     res.append(entry)
                     break;
-
+İ
 json.dump(res, open(outfile,'w'), indent=True)
