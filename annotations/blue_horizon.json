@@ -42,6 +42,15 @@
                         "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Bb:7 |",
                         "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7/5 |Ab:7/5 |Eb |Eb |Bb:7 |Bb:7 |Eb |Bb:7 |",
                         "|Eb |Ab:7 |Eb |Eb Eb:7 |Ab:7 |Ab:7 |Eb |Eb |Bb:7 |Bb:7 |Eb |Eb:maj6 |"
+                      ],
+               "keys":
+                      [
+                        "|Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |",
+                        "|Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |",
+                        "|Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |",
+                        "|Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |",
+                        "|Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |",
+                        "|Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |Eb |"
                       ]
             }
           ]
