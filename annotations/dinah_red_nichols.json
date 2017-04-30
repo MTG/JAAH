@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Red Nichols & His Five Pennies",
-  "title": "Dinah",
-  "metre": "4/4",
+  "tuning": 438.34, 
+  "artist": "Red Nichols & His Five Pennies", 
+  "title": "Dinah", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 2/03 - Red Nichols And His Five Pennies - Dinah.flac",
-   "transcriptions": ["Emir Demirel"]
-  },
-  "mbid": "8e09f1ee-053d-42e3-baf5-50af6137549c",
-  "duration": "190",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/03 - Red Nichols And His Five Pennies - Dinah.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "8e09f1ee-053d-42e3-baf5-50af6137549c", 
+  "duration": 195.44,
   "parts":
           [
             {
