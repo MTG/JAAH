@@ -26,8 +26,8 @@
                         "|F:min |Bb:min7 |C:(3,5,b7,b9) |F:min |",
                         "|F:(3,5,b7,b9) |Bb:min |Eb:(3,5,b7,b9) |Ab |",
                         "|Db:maj7 |G:hdim7 |G:7/7 |C:7/3 C:7 |",
-                        "|F:min9 |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 |",
-                        "|F:min9 |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |"
+                        "|F:min |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 |",
+                        "|F:min |Bb:(b3,5,b7,11) |C:(3,b7,b13) |Bb:dim7/5  |"
                       ]
              },
              {
@@ -223,8 +223,8 @@
                           "|F:min |Bb:min7 |C:(3,5,b7,b9) |F:min |",
                           "|F:(3,5,b7,b9) |Bb:min |Eb:(3,5,b7,b9) |Ab |",
                           "|Db:maj7 |G:hdim7 |G:7/7 |C:7/3 C:7 |",
-                          "|F:min9 |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
-                          "|F:min9 |Bb:(b3,5,b7,11) |C:(3,#5,b7) |Bb:dim7/5  |Bb:dim7/5 F:min6 |F:min6 |"
+                          "|F:min |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
+                          "|F:min |Bb:(b3,5,b7,11) |C:(3,b7,b13) |Bb:dim7/5  |Bb:dim7/5 F:min6 |F:min6 |"
                       ]
              }
            ]
