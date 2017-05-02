@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Duke Ellington & His Orchestra",
-  "title": "Cotton Tail",
-  "metre": "4/4",
+  "tuning": 439.66, 
+  "artist": "Duke Ellington & His Orchestra", 
+  "title": "Cotton Tail", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 3/06 - Duke Ellington And His Famous Orchestra - Cotton Tail.flac",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/06 - Duke Ellington And His Famous Orchestra - Cotton Tail.flac", 
    "transcriptions": []
-  },
-  "mbid": "a5fae57b-d0a7-4cc8-958d-f90600c30eb8",
-  "duration": "190",
+  }, 
+  "mbid": "a5fae57b-d0a7-4cc8-958d-f90600c30eb8", 
+  "duration": 191.6,
   "parts":
           [
             {
@@ -25,10 +25,10 @@
                       ],
               "chords":
                       [
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
                          "|D:7 |D:7 |G:7 |G:7 |C:7 |C:7 |F:7 |F:7 |",
-                         "|Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 F:7 |F:7 Bb:maj6|"
+                         "|F:min A:7 |Ab:7 G:7 |F#:7 Bb:maj6 |F:7 |"
                       ]
             },
             {
@@ -46,10 +46,10 @@
                       ],
               "chords":
                       [
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
                          "|D:7 |D:7 |G:7 |G:7 |C:7 |C:7 |F:7 |F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 F:7 |F:7 Bb:maj6|"
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|"
                       ]
             },
             {
@@ -67,10 +67,10 @@
                       ],
               "chords":
                       [
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
                          "|D:7 |D:7 |G:7 |G:7 |C:7 |C:7 |F:7 |F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 F:7 |F:7 Bb:maj6|"
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|"
                       ]
             },
             {
@@ -88,10 +88,10 @@
                       ],
               "chords":
                       [
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
                          "|D:7 |D:7 |G:7 |G:7 |C:7 |C:7 |F:7 |F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 F:7 |F:7 Bb:maj6|"
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|"
                       ]
             },
             {
@@ -109,10 +109,10 @@
                       ],
               "chords":
                       [
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
                          "|D:7 |D:7 |G:7 |G:7 |C:7 |C:7 |F:7 |F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 F:7 |F:7 Bb:maj6|"
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|"
                       ]
             },
             {
@@ -131,10 +131,10 @@
                       ],
               "chords":
                       [
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |C:min7 F:7 |",
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb:maj6|",
                          "|D:7 |D:7 |G:7 |G:7 |C:7 |C:7 |F:7 |F:7 |",
-                         "|Bb:maj6 G:7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:7 Bb:maj6/3 |Eb:maj6 E:dim7 |Bb:maj6/5 F:7 |F:7 Bb:maj6|Bb |"
+                         "|Bb:maj6 G:min7 |C:min7 F:7 |D:min7 G:min7 |C:min7 F:7 |Bb:maj6|Eb:maj6 E:dim7 |Bb:maj6/5 G:min7 |F:7 Bb |Bb |"
                       ]
             }
           ]
