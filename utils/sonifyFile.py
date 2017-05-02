@@ -39,7 +39,7 @@ basename = os.path.basename(infile)
 name, ext = os.path.splitext(basename)
 labfile = os.path.join(eval_dir, name + ".lab")
 resultfile = os.path.join(eval_dir, name + ".wav")
-json2lab(infile, labfile)
+json2lab('chords',infile, labfile)
 sonifyCommand =\
     "sonify('" + labfile.replace("'", "''")  +\
     "', '" + audiofile.replace("'", "''") +\

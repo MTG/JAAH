@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Jelly Roll Morton",
-  "title": "King Porter Stomp",
-  "metre": "4/4",
+  "tuning": 441.32, 
+  "artist": "Jelly Roll Morton", 
+  "title": "King Porter Stomp", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 1/09 - Jelly Roll Morton - King Porter Stomp.flac",
-   "transcriptions": ["Jelly Roll Morton"]
-  },
-  "mbid": "3f6f7104-11bc-41f4-96b0-11ed31a948d4",
-  "duration": "176",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/09 - Jelly Roll Morton - King Porter Stomp.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "3f6f7104-11bc-41f4-96b0-11ed31a948d4", 
+  "duration": 176.67,
   "parts":
           [
             {
@@ -19,7 +19,7 @@
                     ],
               "chords":
                     [
-                      "|Ab G:7 |Ab G:7 |Eb:7 Bb:min |Eb:7 |"
+                      "|Ab B:dim |Ab B:dim |Eb:7 Bb:min |Eb:7 |"
                     ]
             },
             {
@@ -37,10 +37,10 @@
                       ],
               "chords":
                       [
-                        "|Ab G:7 |F:7 |Bb:min |Bb:min |Eb:7 |Eb:7 |Ab F:7 |Eb:7 |",
-                        "|Ab G:7 |F:7 |Bb:min |Bb:min |Db D:dim7 |Ab/5 F:7|Bb:7 Eb:7 |Ab Eb:7 |",
-                        "|Ab G:7 |F:7 |Bb:min |Bb:min |Eb:7 |Eb:7 |Ab F:7 |Eb:7 |",
-                        "|Ab G:7 |F:7 |Bb:min |Bb:min |Db D:dim7 |Ab/5 F:7|Bb:7 Eb:7 |Ab |"
+                        "|Ab Gb:7 |F:7 |Bb:min |Bb:min |Eb:7 |Eb:7 |Ab F:7 |Eb:7 |",
+                        "|Ab Gb:7 |F:7 |Bb:min |Bb:min |Db D:dim7 |Ab/5 F:7|Bb:7 Eb:7 |Ab Eb:7 |",
+                        "|Ab Gb:7 |F:7 |Bb:min |Bb:min |Eb:7 |Eb:7 |Ab F:7 |Eb:7 |",
+                        "|Ab Gb:7 |F:7 |Bb:min |Bb:min |Db D:dim7 |Ab/5 F:7|Bb:7 Eb:7 |Ab |"
                       ]
             },
             {
@@ -62,7 +62,7 @@
                         "|F:min |C:7 |F:7 |Bb:min |Ab:maj6 |Bb:7 |Eb:7 |Eb:7 |",
                         "|F:min |C:7 |F:min |Db:maj6 D:dim7 |Ab |Eb:7 |Ab |Ab |",
                         "|F:min |C:7 |F:7 |Bb:min |Ab:maj6 |Bb:7 |Eb:7 |Eb:7 |",
-                        "|F:min |C:7 |F:min |Db:maj6 D:dim7 |Ab |Eb:7 |Ab |Ab G:7 Ab Ab |",
+                        "|F:min |C:7 |F:min |Db:maj6 D:dim7 |Ab |Eb:7 |Ab |Ab |",
                         "|Ab |Ab |Ab |Ab |"
                       ]
             },
@@ -112,7 +112,7 @@
                         "|Gb G:dim7 |Db:7/5 |Gb G:dim7 |Db |Gb:maj6 G:dim7 |Db/5 Bb:7 |Eb:7 |Ab:7 |",
                         "|Gb G:dim7 |Db:7/5 |Gb G:dim7 |Db |Gb:maj6 G:dim7 |Db/5 Bb:7 |Eb:7 |Ab:7 |",
                         "|Gb G:dim7 |Db:7/5 |Gb G:dim7 |Db |Gb:maj6 G:dim7 |Db/5 Bb:7 |Eb:7 |Ab:7 |",
-                        "|Gb G:dim7 |Db:7/5 |Gb G:dim7 |Ab:7 Db:maj9 |N |"
+                        "|Gb G:dim7 |Db:7/5 |Gb G:dim7 |Ab:7 Db |N |"
                       ]
             }
 
