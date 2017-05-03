@@ -1,35 +1,35 @@
 {
-  "tuning": "TODO",
-  "artist": "Miles Davis Nonet",
-  "title": "Boplicity",
-  "metre": "4/4",
+  "tuning": 441.8, 
+  "artist": "Miles Davis", 
+  "title": "Boplicity", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD3/01. Boplicity.mp3",
-   "transcriptions": ["Jazz Horn Music"]
-  },
-  "mbid": "75711684-1e71-4c0f-8070-89a82520552e",
-  "duration": "174",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 4/01 - Miles Davis And His Orchestra - Boplicity.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "242a39de-944d-4fc2-b5ec-1ae4733aa103", 
+  "duration": 180.73,
   "parts":
           [
             {
               "name":"Head - AABA",
               "beats":
                       [
-                        0.54, 0.96, 1.41, 1.85, 2.28, 2.74, 3.18, 3.61, 4.08, 4.52, 4.97, 5.43, 5.88, 6.33, 6.78, 7.21,
+                    0.54, 0.96, 1.41, 1.85, 2.28, 2.74, 3.18, 3.61, 4.08, 4.52, 4.97, 5.43, 5.88, 6.33, 6.78, 7.21,
 7.67, 8.12, 8.56, 9.01, 9.46, 9.91, 10.35, 10.8, 11.25, 11.69, 12.13, 12.55, 13.01, 13.44, 13.88, 14.32,
 14.77, 15.19, 15.66, 16.11, 16.56, 17.0, 17.46, 17.89, 18.34, 18.8, 19.24, 19.71, 20.14, 20.58, 21.02, 21.47,
 21.91, 22.37, 22.82, 23.26, 23.71, 24.17, 24.61, 25.06, 25.53, 25.98, 26.44, 26.88, 27.32, 27.75, 28.2, 28.64,
-29.08, 29.54, 29.99, 30.42, 30.88, 31.33, 31.77, 32.21, 32.64, 33.08, 33.52, 33.97, 34.42, 34.86, 35.29, 35.74,
+29.08, 29.54, 29.83, 30.42, 30.88, 31.33, 31.77, 32.21, 32.64, 33.08, 33.52, 33.97, 34.42, 34.86, 35.29, 35.74,
 36.17, 36.62, 37.04, 37.5, 37.94, 38.38, 38.82, 39.27, 39.73, 40.17, 40.61, 41.05, 41.49, 41.92, 42.37, 42.8,
 43.26, 43.7, 44.16, 44.6, 45.05, 45.5, 45.96, 46.4, 46.87, 47.34, 47.78, 48.24, 48.69, 49.11, 49.56, 50.0,
 50.45, 50.91, 51.35, 51.79, 52.26, 52.69, 53.14, 53.58, 54.02, 54.48, 54.92, 55.36, 55.8, 56.24, 56.66, 57.11
                       ],
               "chords":
                       [
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |",
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |",
-                        "|C:min7 |F:7 |Bb:maj9 |Bb:maj9 |Bb:min7 |Eb:(3,#5,b7,b9) |Ab Ab:min7 |G:min7 C:(3,5,b7,b9,13)|",
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |"
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F:maj7 D:7 |G:min7 C:7|F:maj7 |",
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F:maj7 D:7 |G:min7 C:7|F:maj7 |",
+                        "|C:min7 C#:(3,5,b7,#11) |F:7 |Bb:(3,6,9) |Bb:(3,6,9)|Bb:min7 |Eb:(3,#5,7) G:maj7|Eb:maj7 Ab:min7 |G:min7 C:maj6|",
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F D:7 |G:min7 C:7|F:maj7 |"
                       ]
             },
             {
@@ -47,11 +47,11 @@
                       ],
               "chords":
                       [
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |",
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |",
-                        "|C:min7 |F:7 |Bb:maj9 |Bb:maj9 |Bb:min7 |Eb:(3,#5,b7,b9) |",
-                        "|Bb:min7 |Eb:7 |Db Ab |C:7 |",
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |"
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F:maj7 D:7 |G:min7 C:7|F:maj7 |",
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F:maj7 D:7 |G:min7 C:7|F:maj7 |",
+                        "|C:min7  C#:(3,5,b7,#11) |D:7 F:(3,5,b7,#11)  |Bb:(3,6,9) |Bb:(3,6,9)|Bb:min7 |Eb:(3,#5,7) G:maj7|",
+                        "|Bb:min7 |Eb:7 |Ab:maj7 |C:7 |",
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F:maj7 D:7 |G:min7 C:7|F:maj7 |"
                       ]
             },
             {
@@ -71,10 +71,10 @@
                       ],
               "chords":
                       [
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |",
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |",
-                        "|C:min7 |F:7 |Bb:maj9 |Bb:maj9 |Bb:min7 |Eb:(3,#5,b7,b9) |Ab Ab:min7 |G:min7 C:(3,5,b7,b9,13)|",
-                        "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |F:(3,5,b7,#11,13) |F:(3,5,b7,#11,13) |"
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F:maj7 D:7 |G:min7 C:7|F:maj7 |",
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F:maj7 D:7 |G:min7 C:7|F:maj7 |",
+                        "|C:min7  C#:(3,5,b7,#11) |D:7 F:(3,5,b7,#11)  |Bb:(3,6,9) |Bb:(3,6,9)|Bb:min7 |Eb:(3,#5,7) G:maj7|Eb:maj7 Ab:min7 |G:min7 C:maj6|",
+                        "|F:maj9 |G:min7 C:7|F:maj7|C:min7 F:(3,5,b7,b13)|Bb B:dim|F:maj7 D:7 |G:min7 C:7|F:maj7 |F:min6 |F:min6 |"
                       ]
             }
           ]
