@@ -1,5 +1,6 @@
 import json
 import re
+import numpy as np
 
 class ChordSegment :
     startTime = 0.0
@@ -36,10 +37,13 @@ def toMirexLab(startTime, endTime, onsets, symbols) :
         res.append(ChordSegment(startTime, onsets[0], 'N'))
     for i in xrange(len(symbols)) :
         sym = symbols[i]
-        res.append(ChordSegment(onsets[i], onsets[i+1], sym))
+        if (onsets[i] < onsets[i+1]):
+            res.append(ChordSegment(onsets[i], onsets[i+1], sym))
+        else:
+            raise ValueError("wrong beats order: " + str(onsets[i]) + ", " + str(onsets[i+1]))
     if (res[-1].endTime < endTime) :
         res.append(ChordSegment(res[-1].endTime, endTime, 'N'))
-    return mergeSegments(res)
+    return res
 
 def allDivisors(n, startWith = 1):
     i = startWith
@@ -82,8 +86,28 @@ def json2lab(choice, infile, outfile):
         allBeats = []
         allChords = []
         processParts(metreNumerator, data, allBeats, allChords, choice)
-        segments = toMirexLab(0, duration, allBeats, allChords)
+        segments = mergeSegments(toMirexLab(0, duration, allBeats, allChords))
         with open(outfile, 'w') as content_file:
             for s in segments:
                 content_file.write(str(s) + '\n')
+
+def saveDatasetChroma(outfile, chromas,
+    labels,
+    kinds,
+    mbids,
+    start_times,
+    durations):
+    np.savez(
+        outfile,
+        chromas=chromas,
+        labels=labels,
+        kinds=kinds,
+        mbids=mbids,
+        start_times=start_times,
+        durations=durations)
+
+def loadDatasetChroma(infile):
+    az = np.load(infile)
+    return az['chromas'], az['labels'], az['kinds'], az['mbids'], az['start_times'], az['durations']
+
 
