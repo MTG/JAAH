@@ -5,12 +5,15 @@
   "metre": "4/4", 
   "sandbox": {
 <<<<<<< HEAD
+<<<<<<< HEAD
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 01 - Boplicity.flac", 
    "transcriptions": []
   }, 
   "mbid": "75711684-1e71-4c0f-8070-89a82520552e", 
   "duration": 182.71,
 =======
+=======
+>>>>>>> 9c93696ef10e14db81f4b75507a2aba22f397142
    "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 01 - Boplicity.flac",
    "transcriptions": ["Jazz Horn Music"]
   },
