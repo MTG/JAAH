@@ -1,14 +1,14 @@
 {
-  "tuning": "TODO",
-  "artist": "Louis Armstrong and His Hot Five",
-  "title": "Potato Head Blues",
-  "metre": "4/4",
+  "tuning": 443.27, 
+  "artist": "Louis Armstrong and His Hot Five", 
+  "title": "Potato Head Blues", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 1/14 - Louis Armstrong And His Hot Seven - Potato Head Blues.flac",
-   "transcriptions": ["Emir Demirel"]
-  },
-  "mbid": "d63fa5bc-3351-43b0-9678-b93a9cfd28d5",
-  "duration": "173.33",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/14 - Louis Armstrong And His Hot Seven - Potato Head Blues.flac", 
+   "transcriptions": []
+  }, 
+  "mbid": "d63fa5bc-3351-43b0-9678-b93a9cfd28d5", 
+  "duration": 177.33,
   "parts":
           [
             {
