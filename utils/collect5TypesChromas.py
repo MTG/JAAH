@@ -154,10 +154,11 @@ def process(infile) :
             s = int(float(segments[i].startTime) * sampleRate / stepSize)
             e = int(float(segments[i].endTime) * sampleRate / stepSize)
             # roll ->  C (and from 'A' based to 'C' based)
-            shift = pitch - 3
+            shift = -3 - pitch
             if (shift < 0) :
                 shift = 12 + shift
             chromas[i]= np.roll(np.median(chroma[s:e], axis=0), shift=shift, axis=0)
+            #chromas[i]= np.median(chroma[s:e], axis=0)
             labels[i] = segments[i].symbol
             kinds[i] = kind
             mbids[i]=mbid
@@ -206,4 +207,3 @@ chordUtils.saveDatasetChroma(
     durations=durations)
 print 'output is written to ', args.output.name
 # TODO: visualization of single chroma and disttribution
-# BUGS: NaNs in chroma matrix.
