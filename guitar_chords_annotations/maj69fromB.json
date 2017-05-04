@@ -1,0 +1,23 @@
+{
+  "tuning": "TODO",
+  "artist": "seva",
+  "title": "maj7",
+  "metre": "2/4",
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT/GuitarChords/audio/maj69fromB.wav",
+   "transcriptions": []
+  },
+  "mbid": "00000000-0000-0000-0000-000000000000",
+  "duration": "21.5",
+  "parts": [
+    {
+      "name": "one&only",
+      "beats": [
+        2.62, 3.28, 4.0, 4.68, 5.33, 6.03, 6.68, 7.33, 8.01, 8.68, 9.38, 10.04, 10.74, 11.4, 12.11, 12.82, 13.49, 14.19, 14.85, 15.49, 16.17, 16.85, 17.53, 18.22,
+        18.96, 19.67, 20.35, 21.1
+      ],
+      "chords":[
+        "|B N|C N|C# N|D N|D# N|E N|F N|F# N|G N|G# N|A N|A# N|",
+        "|B|"]
+    }]
+}
