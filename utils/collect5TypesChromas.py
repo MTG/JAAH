@@ -96,8 +96,9 @@ shortcuts={'maj':'(3,5)', 'min':'(b3,5)', 'dim':'(b3,b5)', 'aug':'(3,#5)', 'maj7
 'maj9':'(3,5,7,9)', 'min9':'(b3,5,b7,9)', 'sus4':'(4,5)'}
 
 def toPitchAndKind(label):
-    parts = label.split(':')
-    note = parts[0].split('/')[0]
+    partsAndBass = label.split('/')
+    parts = partsAndBass[0].split(':')
+    note = parts[0]
     if (note[0] == 'N'):
         return 9, 'unclassified'
     pitch=pitches[note[0]]
@@ -111,14 +112,19 @@ def toPitchAndKind(label):
     if (kind in shortcuts):
         kind = shortcuts[kind]
     degrees = set(re.sub("[\(\)]", "", kind).split(','))
+    # TODO after the dataset is fixed (bass -> pitch class set).
+    if (len(partsAndBass) > 1):
+        degrees.add(partsAndBass[1])
     if ('3' in degrees and 'b7' in degrees):
         kind='dom'
-    elif ('3' in degrees and '5' in degrees):
+    elif ('3' in degrees and not '#5' in degrees and not 'b5' in degrees and not '4' in degrees):
         kind='maj'
     elif ('b3' in degrees):
         if ('b5' in degrees and 'b7' in degrees):
             kind='hdim7'
-        elif ('b5' in degrees and 'bb7' in degrees):
+        #elif ('b5' in degrees and 'bb7' in degrees):
+        # TODO: discuss this questionable decision.
+        elif ('b5' in degrees):
             kind = 'dim7'
         elif ('5' in degrees):
             kind = 'min'
