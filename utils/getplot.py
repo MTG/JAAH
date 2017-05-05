@@ -45,16 +45,24 @@ statname = df.pop(0)
 
 for i in range(len(data)):
     d.append(str(data[i][index]))
+
+###PLOTTING
     
 labels, values = zip(*Counter(df).items())
 indexes=np.arange(len(labels))
-width=1
-plt.bar(indexes,values, width = 0.6)
+
+
+ax=plt.bar(indexes,values, width = 0.6)
+ax=plt.style.use('fivethirtyeight')
+width=0.6
+
 plt.xticks(indexes + width * 0.5, labels, rotation = 'vertical')
 plt.legend((statname,))
 
+
+
 plt.ylabel('Quantity')
 plt.xlabel('Index')
-plt.title('Histogram')
+plt.title('Stats')
 
 plt.show()
