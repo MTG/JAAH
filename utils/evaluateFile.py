@@ -25,7 +25,7 @@ audio_name, audio_ext = os.path.splitext(audio_basename)
 basename = os.path.basename(infile)
 name, ext = os.path.splitext(basename)
 labfile = os.path.join(eval_dir, name + ".lab")
-json2lab(infile, labfile)
+json2lab('chords',infile, labfile)
 
 # chordino
 call(["sonic-annotator",
