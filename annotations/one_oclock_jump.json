@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Count Basie and His Orchestra",
-  "title": "One O'Clock Jump",
-  "metre": "4/4",
+  "tuning": 433.71, 
+  "artist": "Count Basie and His Orchestra", 
+  "title": "One O'Clock Jump", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD1/24. One O'Clock Jump.mp3",
+   "path": "Tracks/Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 24 - One O'Clock Jump.flac", 
+   "key": ["F - Db"], 
    "transcriptions": []
-  },
-  "mbid": "f712230f-9df9-4a88-9ee6-02cfc2eb4eb6",
-  "duration": "183",
+  }, 
+  "mbid": "f712230f-9df9-4a88-9ee6-02cfc2eb4eb6", 
+  "duration": 185.49,
   "parts":
           [
             {
@@ -20,7 +21,7 @@
                        ],
               "chords":
                       [
-                        "|F:maj6 D:7/3 |G:min7 C:7 |F:maj6 D:7/3 |G:min7 C:7 |F:maj6 D:7 |G:min7 C:7 |F:maj6 C:7 |F |"
+                        "|F:maj6 D:7/3 |G:min7 C:7 |F:maj6 D:7/3 |G:min7 C:7 |F:maj6 D:7/3 |G:min7 C:7 |F:maj6 C:7 |F |"
                       ]
             },
             {
@@ -36,8 +37,8 @@
                       ],
               "chords":
                       [
-                        "|F:7 |Bb:7 |F:7 |F:aug |Bb:7 |Bb:7 |F:7 |A:min7 D:7 |G:min7 |C:7 |F:7 C:7 |F |",
-                        "|F:7 |Bb:7 |F:7 |F:aug |Bb:7 |Bb:7 |F:7 |A:min7 D:7 |G:min7 |C:7 |F:7 C:7 |F |"
+                        "|F |Bb:7 |F |F:aug |Bb:7 |Bb:7 |F |A:min D:7 |G:min7 |C:7 |F C:7 |F |",
+                        "|F |Bb:7 |F |F |Bb:7 |Bb:7 |F:7 |A:min D:7 |G:min7 |C:7 |F C:7 |Ab:7 |"
                       ]
             },
             {
@@ -53,8 +54,8 @@
                       ],
               "chords":
                       [
-                        "|Db:7 |Gb:7 |Db:7 |Db:aug |Gb:7 |Gb:7 |Db:7 |F:min7 Bb:7 |Eb:min7 |Ab:7 |Db:7 Ab:7 |Db:7 |",
-                        "|Db:7 |Gb:7 |Db:7 |Db:aug |Gb:7 |Gb:7 |Db:7 |F:min7 Bb:7 |Eb:min7 |Ab:7 |Db:7 Ab:7 |Db:7 |"
+                        "|Db |Gb:7 |Db |Db |Gb:7 |Gb:7 |Db |Bb:7 |Eb:min7 |Ab:7 |Db Ab:7 |Db |",
+                        "|Db |Gb:7 |Db |Db |Gb:7 |Gb:7 |Db |Bb:7 |Eb:min7 |Ab:7 |Db Ab:7 |Db |"
                       ]
             },
             {
@@ -70,8 +71,8 @@
                       ],
               "chords":
                       [
-                        "|Db:7 |Gb:7 |Db:7 |Db:aug |Gb:7 |Gb:7 |Db:7 |F:min7 Bb:7 |Eb:min7 |Ab:7 |Db:7 Ab:7 |Db:7 |",
-                        "|Db:7 |Gb:7 |Db:7 |Db:aug |Gb:7 |Gb:7 |Db:7 |F:min7 Bb:7 |Eb:min7 |Ab:7 |Db:7 Ab:7 |Db:7 |"
+                        "|Db |Gb:7 |Db |Db |Gb:7 |Gb:7 |Db |Bb:7 |Eb:min7 |Ab:7 |Db Ab:7 |Db |",
+                        "|Db |Gb:7 |Db |Db |Gb:7 |Gb:7 |Db |Bb:7 |Eb:min7 |Ab:7 |Db Ab:7 |Db |"
                       ]
             },
             {
@@ -87,8 +88,8 @@
                       ],
               "chords":
                       [
-                        "|Db:7 |Gb:7 |Db:7 |Db:aug |Gb:7 |Gb:7 |Db:7 |F:min7 Bb:7 |Eb:min7 |Ab:7 |Db:7 Ab:7 |Db:7 |",
-                        "|Db:7 |Gb:7 |Db:7 |Db:aug |Gb:7 |Gb:7 |Db:7 |F:min7 Bb:7 |Eb:min7 |Ab:7 |Db:7 Ab:7 |Db:7 |"
+                        "|Db |Gb:7 |Db |Db |Gb:7 |Gb:7 |Db |Bb:7 |Eb:min7 |Ab:7 |Db Ab:7 |Db |",
+                        "|Db |Gb:7 |Db |Db |Gb:7 |Gb:7 |Db |Bb:7 |Eb:min7 |Ab:7 |Db Ab:7 |Db |"
                       ]
             },
             {
@@ -105,8 +106,8 @@
                       ],
               "chords":
                       [
-                        "|Db:7 |Gb:7 |Db:7 |Db:aug |Gb:7 |Gb:7 |Db:7 |F:min7 Bb:7 |Eb:min7 |Ab:7 |Db:7 Ab:7 |Db:7 |",
-                        "|Db:7 |Gb:7 |Db:7 |Db:aug |Gb:7 |Gb:7 |Db:7 |F:min7 Bb:7 |Eb:min7 |Ab:7 |Db:7 Ab:7 |Db:7 |"
+                        "|Db |Gb:7 |Db |Db |Gb:7 |Gb:7 |Db |Bb:7 |Eb:min7 |Ab:7 |Db Ab:7 |Db |",
+                        "|Db |Gb:7 |Db |Db |Gb:7 |Gb:7 |Db |Bb:7 |Eb:min7 |Ab:7 |Db Ab:7 |Db |"
                       ]
             }
 
