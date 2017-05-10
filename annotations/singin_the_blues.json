@@ -4,8 +4,9 @@
   "title": "Singin' the Blues (Til My Daddy Comes Home)", 
   "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 07 - Singin' the Blues (Til My Daddy Comes Home).flac", 
-   "transcriptions": []
+  "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 07 - Singin' the Blues (Til My Daddy Comes Home).flac", 
+   "transcriptions": [],
+   "key":["Eb"]
   }, 
   "mbid": "168ea61b-9fdd-4d7f-908a-2970073becd1", 
   "duration": 184.55,
