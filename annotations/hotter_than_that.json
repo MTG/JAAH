@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Louis Armstrong and His Hot Five",
-  "title": "Hotter Than That",
-  "metre": "4/4",
+  "tuning": 449.82, 
+  "artist": "Louis Armstrong and His Hot Five", 
+  "title": "Hotter Than That", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 1/16 - Louis Armstrong And His Hot Five - Hotter Than That.flac",
-   "transcriptions": []
-  },
-  "mbid": "8fbdddb7-a518-46b3-9a2c-e0193669e002",
-  "duration": "181",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/16 - Louis Armstrong And His Hot Five - Hotter Than That.flac", 
+   "transcriptions": [],
+   "key":["Eb"]
+  }, 
+  "mbid": "8fbdddb7-a518-46b3-9a2c-e0193669e002", 
+  "duration": 181.49,
   "parts":
           [
             {
@@ -20,7 +21,7 @@
                       ],
               "chords":
                       [
-                        "|Ab |A:dim |Eb |C:7 |F:7 |Bb:7 |Eb:7 Ab |Eb |"
+                        "|Ab |A:dim |Eb |C |F:7 |Bb:7 |Eb:7 Ab |Eb |"
                       ]
             },
             {
@@ -143,7 +144,7 @@
                       ],
               "chords":
                       [
-                        "|N |N |N |N |A:hdim7 |A:dim7 |"
+                        "|N |N |N |N |C:min6 |C:min6 |"
                       ]
             }
 
