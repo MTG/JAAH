@@ -126,12 +126,10 @@ for path, dname, fnames in os.walk(inputDir):
                     entry['artist'] = artist
                     entry['tuning'] =  round(tuning, 2)
                     entry['metre'] = '4/4'
-                    entry['rhythm feel']: []
-                    entry['orchestration']: []
                     entry['duration'] = round(duration, 2)
                     pathname = pathname.replace(data_root, '$JAZZ_HARMONY_DATA_ROOT/')
-                    entry['sandbox'] = {'path':pathname, 'transcriptions':[]}
+                    entry['sandbox'] = {'path':pathname, 'transcriptions':[], 'key':[]}
                     res.append(entry)
                     break;
-İ
+
 json.dump(res, open(outfile,'w'), indent=True)
