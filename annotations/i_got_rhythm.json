@@ -1,14 +1,15 @@
  {
-  "tuning": "TODO",
-  "artist": "Don Byas; Slam Stewart",
-  "title": "I Got Rhythm",
-  "metre": "4/4",
+  "tuning": 446.43, 
+  "artist": "Don Byas; Slam Stewart", 
+  "title": "I Got Rhythm", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 3/09 - Don Byas And Slam Stewart - I Got Rhythm.flac",
-   "transcriptions": []
-  },
-  "mbid": "34d74fae-5764-4015-aa6a-2c27b5cdb0f2",
-  "duration": "299",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/09 - Don Byas And Slam Stewart - I Got Rhythm.flac", 
+   "transcriptions": [],
+   "key": ["Bb"]
+  }, 
+  "mbid": "34d74fae-5764-4015-aa6a-2c27b5cdb0f2", 
+  "duration": 304.84,
    "parts":
            [
              {
@@ -131,7 +132,7 @@
                "name":"Chorus 6",
                "beats":
                        [
-                        1134.84, 135.05, 135.26, 135.47, 135.69, 135.89, 136.09, 136.29, 136.5, 136.7, 136.92, 137.14, 137.36, 137.57, 137.77, 137.97,
+                        134.84, 135.05, 135.26, 135.47, 135.69, 135.89, 136.09, 136.29, 136.5, 136.7, 136.92, 137.14, 137.36, 137.57, 137.77, 137.97,
 138.18, 138.38, 138.58, 138.78, 138.99, 139.2, 139.42, 139.64, 139.86, 140.08, 140.29, 140.5, 140.71, 140.91, 141.11, 141.31,
 141.51, 141.71, 141.92, 142.12, 142.33, 142.53, 142.73, 142.93, 143.13, 143.33, 143.53, 143.73, 143.93, 144.13, 144.34, 144.54,
 144.75, 144.95, 145.16, 145.36, 145.57, 145.77, 145.98, 146.18, 146.38, 146.58, 146.78, 146.98, 147.18, 147.39, 147.59, 147.8,
