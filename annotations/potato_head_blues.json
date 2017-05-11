@@ -12,7 +12,7 @@
   "parts":
           [
             {
-              "name":"Head - AB",
+              "name":"Head - ABAC",
               "beats":
                       [
                          0.55, 0.85, 1.16, 1.48, 1.79, 2.1, 2.41, 2.73, 3.05, 3.37, 3.71, 4.04, 4.36, 4.69, 5.0, 5.32,
@@ -27,14 +27,14 @@
                       ],
               "chords":
                       [
-                        "|F:maj6 |F:maj6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|F:maj6 |E:7/3 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
                         "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |G:9 |C:7 |C:7|",
-                        "|F:maj6 |F:maj6 |Bb:maj6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:maj6 |Bb:min6 |F:maj7 |D:7 |G:9 |C:7 |F:maj6 N N N |N |"
+                        "|F:maj6 |E:7/3 |Bb:maj6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |B:min6 |F:maj7 |D:7 |G:9 |C:7 |F:maj6 N N N |N |"
                       ]
             },
             {
-              "name":"Trumpet-A",
+              "name":"Trumpet-C",
               "beats":
                       [
              42.35, 42.69, 43.04, 43.39, 43.73, 44.05, 44.38, 44.7, 45.04, 45.37, 45.7, 46.03, 46.36, 46.69, 47.02, 47.35,
@@ -44,12 +44,12 @@
                       ],
               "chords":
                       [
-                        "|F:maj6 |F:maj6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:maj6 |Bb:maj6 |Bb:maj6 |D:7 |G:9 |G:9 |C:7 |C:7|"
+                        "|F |F |Bb |G:min7 |G:min |G:min |G:7 |C:7|",
+                        "|F |F |F |Bb:maj6 |G:7 |C:7 |G:7 |C:7|"
                       ]
             },
             {
-              "name":"Clarinet - AB",
+              "name":"Clarinet - ABAC",
               "beats":
                       [
                        63.73, 64.07, 64.41, 64.74, 65.07, 65.42, 65.75, 66.08, 66.43, 66.75, 67.08, 67.42, 67.76, 68.09, 68.42, 68.74,
@@ -63,10 +63,10 @@
                       ],
               "chords":
                       [
-                        "|F:maj6 |F:maj6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |G:9 |C N |N |",
-                        "|F:maj6 |F:maj6 |Bb:maj6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:maj6 |Bb:min6 |F:maj7 |N |G:9 |C:7 |F:maj6 |F:maj6 |"
+                        "|F:maj6 |E:7/3 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |G:9 |C N N N |N |",
+                        "|F:maj6 |E:7/3 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
+                        "|Bb:maj6 N N N |N |F N N N |N |G:9 |C:7 |F:maj6 |F:maj6 |"
                       ]
             },
             {
@@ -75,12 +75,12 @@
                       [105.87, 106.19, 106.52, 106.83, 107.16, 107.48, 107.8, 108.12, 108.44, 108.76, 109.09, 109.41, 109.73, 110.07, 110.41, 110.74],
               "chords":
                       [
-                        "|F F:7 |F:maj6 C:7 |G:min7  |F N N N |"
+                        "|G:min Bb |A:min G:7 |C:7 |F N N N |"
                       ]
 
             },
             {
-              "name": "Trumpet solo - AB",
+              "name": "Trumpet solo - ABAC",
               "beats":
                       [
                         111.07, 111.4, 111.73, 112.05, 112.38, 112.7, 113.04, 113.37, 113.71, 114.02, 114.35, 114.68, 115.02, 115.34, 115.69, 116.02,
@@ -94,14 +94,14 @@
                       ],
               "chords":
                       [
-                        "|F:maj6 |F:maj6 |G:min7 |G:min7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |G:9 |C:7 |C:7 |",
-                        "|F:maj6 |F:maj6 |Bb:maj6 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:maj6 |Bb:min6 |F:maj7 |D:7 |G:9 |C:7 |F:maj6 |F:maj6 |"
+                        "|F:maj6 N N N |N |Bb:maj6 N N N |N |F:7 N N N |N |G:min7 N N N |N |",
+                        "|Bb:maj6 N N N |N |D:7 N N N |N |G:9 N N N |N |N |N |",
+                        "|F:maj6 N N N |N |Bb:maj6 N N N |N |F:7 N N N |N |G:min7 N N N |N |",
+                        "|Bb:maj6 N N N |N |F:maj7 N N N |N |G:9 N N N |N |F:maj6 N N N |N |"
                       ]
             },
            {
-              "name":"Head(final) - A",
+              "name":"Head(final) - AB",
               "beats":
                       [
                         152.68, 153.02, 153.35, 153.69, 154.02, 154.33, 154.65, 154.97, 155.29, 155.62, 155.94, 156.27, 156.59, 156.91, 157.22, 157.54,
@@ -112,7 +112,7 @@
               "chords":
                       [
                         "|F:maj6 |F:maj6 |G:min7 |C:7 |F:7 |F:7 |G:min7 |G:min7 |",
-                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |C:7 |F |F  |"
+                        "|Bb:maj6 |Bb:maj6 |D:7 |D:7 |G:9 |C:7 |F |F N |"
                       ]
             }
 
