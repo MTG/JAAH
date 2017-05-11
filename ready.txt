@@ -17,3 +17,10 @@ annotations/dinah.json
 annotations/dinah_red_nichols.json
 annotations/east_st_louis.json
 annotations/cotton_tail.json
+annotations/one_oclock_jump.json
+annotations/these_foolish_things.json
+annotations/hotter_than_that.json
+annotations/potato_head_blues.json
+annotations/black_bottom_stomp.json
+annotations/king_porter_stomp.json
+
