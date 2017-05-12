@@ -23,4 +23,9 @@ annotations/hotter_than_that.json
 annotations/potato_head_blues.json
 annotations/black_bottom_stomp.json
 annotations/king_porter_stomp.json
+annotations/i_got_rhythm.json
+annotations/dinah_fats_waller.json
+annotations/west_coast_blues.json
+annotations/black_and_tan_fantasy.json
+
 
