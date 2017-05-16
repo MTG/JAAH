@@ -115,6 +115,23 @@ def toPitchAndKind(label):
     # TODO after the dataset is fixed (bass -> pitch class set).
     if (len(partsAndBass) > 1):
         degrees.add(partsAndBass[1])
+
+    if ('3' in degrees):
+        if ('b7' in degrees):
+            kind='dom'
+        else:
+            kind='maj'
+    elif ('b3' in degrees):
+        if ('b5' in degrees):
+            if ('b7' in degrees):
+                kind='hdim7'
+            else:
+                kind='dim'
+        else:
+            kind='min'
+    else:
+        kind='unclassified'
+    '''
     if ('3' in degrees and 'b7' in degrees):
         kind='dom'
     elif ('3' in degrees and not '#5' in degrees and not 'b5' in degrees and not '4' in degrees):
@@ -132,6 +149,7 @@ def toPitchAndKind(label):
             kind='unclassified'
     else:
         kind = 'unclassified'
+    '''
     return pitch, kind
 
 def process(infile) :
@@ -180,9 +198,9 @@ if not os.path.exists(eval_dir):
 
 parser = argparse.ArgumentParser(
     description='Collect chroma statistics on given dataset'
-                ' (distribution by 5 basic chord types: maj, min, dom, dim7, hdim7 + unclassified')
+                ' (distribution by 5 basic chord types: maj, min, dom, dim, hdim7 + unclassified')
 
-parser.add_argument('infile', type=argparse.FileType('r'), help='npz input file')
+parser.add_argument('infile', type=argparse.FileType('r'), help='txt input file (with list of json annotations)')
 parser.add_argument('--output', '-o', type=argparse.FileType('w'), default='out.npz', help='output .npz file')
 
 args = parser.parse_args()
