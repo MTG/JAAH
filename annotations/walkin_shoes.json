@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "The Gerry Mulligan Quartet; Chet Baker",
-  "title": "Walkin' Shoes",
-  "metre": "4/4",
+  "tuning": 437.24, 
+  "artist": "The Gerry Mulligan Quartet; Chet Baker", 
+  "title": "Walkin' Shoes", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD3/04. Walkin' Shoes.mp3",
-   "transcriptions": ["Emir Demirel"]
-  },
-  "mbid": "d0296909-0459-4596-86fd-9140dc1dac6a",
-  "duration": "TODO",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 04 - Walkin' Shoes.flac", 
+   "transcriptions": [],
+   "key":["G"]
+  }, 
+  "mbid": "d0296909-0459-4596-86fd-9140dc1dac6a", 
+  "duration": 194.65,
   "parts":
           [
             {
@@ -33,7 +34,7 @@
                         "|G |C:7 |G |B:hdim7 E:7 |A:min7 |C#:min7 F#:7 |B:hdim7 Bb:7 |A:min7 |",
                         "|G |C:7 |G |B:hdim7 E:7 |A:min7 |C#:min7 F#:7 |B:hdim7 Bb:7 |A:min7 |",
                         "|B:7 |B:7 |E:min6 |E:min6 |E:min7 |A:7 |A:min7 |N N N N |",
-                        "|G |C:7 |G |B:hdim7 E:7 |A:hdim7 E:9 |A:min7 D:hdim7 |N |N |"
+                        "|G |C:7 |G |B:hdim7 E:7 |A:hdim7 E:9 |A:min7 A:min7 D:7 G |N |N |"
 
                       ]
             },
