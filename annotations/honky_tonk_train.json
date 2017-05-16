@@ -1,14 +1,15 @@
 {
-	"tuning": "TODO",
-	"artist": "Meade Lux Lewis",
-	"title": "Honky Tonk Train Blues",
-	"metre": "4/4",
-	"sandbox": {
-		"path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 2/06 - Meade 'Lux' Lewis - Honky Tonk Train Blues.flac",
-		"transcriptions": []
-	},
-	"mbid": "817cc435-8d8d-4676-9f86-136dc3b3ef69",
-	"duration": "TODO",
+	"tuning": 439.16, 
+  "artist": "Meade \"Lux\" Lewis", 
+  "title": "Honky Tonk Train Blues", 
+  "metre": "4/4", 
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 21 - Honky Tonk Train Blues.flac", 
+   "transcriptions": [],
+   "key":["G"]
+  }, 
+  "mbid": "4b8f321c-8a2d-43ac-858f-096df5dcfa88", 
+  "duration": 180.39,
 	"parts": [
 		{
 			"name": "intro",
@@ -23,7 +24,7 @@
 			"beats": [
 				3.01, 3.35, 3.71, 4.07, 4.43, 4.78, 5.13, 5.48,
 				5.84, 6.2, 6.54, 6.9, 7.27, 7.64, 8.0, 8.35,
-				8.71,9.07, 9.43, 9.78, 10.14, 10.49, 10.84, 11.2,
+				8.71, 9.07, 9.43, 9.78, 10.14, 10.49, 10.84, 11.2,
 				11.55, 11.91, 12.25, 12.6, 12.96, 13.33, 13.68, 14.03,
 				14.39, 14.74, 15.1, 15.44, 15.79, 16.15,16.51, 16.86,
 				17.22, 17.57, 17.91, 18.26, 18.62, 18.99, 19.35,19.71
