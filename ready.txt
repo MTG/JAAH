@@ -27,5 +27,7 @@ annotations/i_got_rhythm.json
 annotations/dinah_fats_waller.json
 annotations/west_coast_blues.json
 annotations/black_and_tan_fantasy.json
+annotations/walkin_shoes.json
+annotations/honeysuckle_rose.json
 
 
