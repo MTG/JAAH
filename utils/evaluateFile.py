@@ -16,7 +16,7 @@ parser = argparse.ArgumentParser(
                 ' (distribution by 5 basic chord types: maj, min, dom, dim7, hdim7 + unclassified')
 
 parser.add_argument('infile', type=argparse.FileType('r'), help='input json file')
-parser.add_argument('--chords', default='5JazzFunctions', help='preset name for --chords parameter of MusOOEvaluator (https://github.com/MTG/MusOOEvaluator)')
+parser.add_argument('--chords', default='5JazzFunctions', help='preset name for --chords parameter of MusOOEvaluator (https://github.com/MTG/MusOOEvaluator). Default is 5JazzFunctions.')
 
 args = parser.parse_args()
 infile = args.infile.name
