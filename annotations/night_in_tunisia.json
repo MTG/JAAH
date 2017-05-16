@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO", 
+  "tuning": 439.01, 
   "artist": "Bud Powell Trio", 
   "title": "Night in Tunisia", 
   "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 3/21 - Bud Powell Trio - Night In Tunisia.flac", 
-   "transcriptions": []
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/21 - Bud Powell Trio - Night In Tunisia.flac", 
+   "transcriptions": [],
+   "key":["D:min"]
   }, 
   "mbid": "a0acca3d-7d17-4ee8-8087-e5d4b46fa047", 
-  "duration": "260",
+  "duration": 256.47,
   "parts":
           [
             {
