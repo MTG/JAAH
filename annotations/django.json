@@ -27,7 +27,7 @@
                         "|F:(3,5,b7,b9) |Bb:min |Eb:(3,5,b7,b9) |Ab |",
                         "|Db:maj7 |G:hdim7 |G:7/7 |C:7/3 C:7 |",
                         "|F:min |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 |",
-                        "|F:min |Bb:(b3,5,b7,11) |C:(3,b7,b13) |Bb:dim7/5  |"
+                        "|F:min |Bb:(b3,5,b7,11) |C:aug |Bb:dim7/5  |"
                       ]
              },
              {
@@ -124,7 +124,7 @@
                  205.89, 206.42, 206.92, 207.46, 207.99, 208.5, 209.03, 209.56, 210.07, 210.6, 211.11, 211.62, 212.12, 212.63, 213.16, 213.69
                ],
                "chords":[
-                        "|F:min Bb:min7 |C:(3,5,b13) C:7 F:min F:min |F:min Bb:min7 |C:(3,b7,b13) F:min |"
+                        "|F:min Bb:min7 |C:aug C:7 F:min F:min |F:min Bb:min7 |C:aug F:min |"
                ]
              },
              {
@@ -224,7 +224,7 @@
                           "|F:(3,5,b7,b9) |Bb:min |Eb:(3,5,b7,b9) |Ab |",
                           "|Db:maj7 |G:hdim7 |G:7/7 |C:7/3 C:7 |",
                           "|F:min |Bb:(3,5,b7,11) |C:7 |Bb:dim7/5 F:min |",
-                          "|F:min |Bb:(b3,5,b7,11) |C:(3,b7,b13) |Bb:dim7/5  |Bb:dim7/5 F:min6 |F:min6 |"
+                          "|F:min |Bb:(b3,5,b7,11) |C:aug |Bb:dim7/5  |Bb:dim7/5 F:min6 |F:min6 |"
                       ]
              }
            ]

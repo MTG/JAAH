@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Wes Montgomery",
-  "title": "West Coast Blues (abridged)",
-  "metre": "6/4",
+  "tuning": 434.32, 
+  "artist": "Wes Montgomery", 
+  "title": "West Coast Blues (abridged)", 
+  "metre": "6/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 5/02 - Wes Montgomery Quartet - West Coast Blues [Abridged].flac",
-   "transcriptions": ["Igor De Bruyn"]
-  },
-  "mbid": "02ffe965-bd93-45bd-ae9f-5671261871ae",
-  "duration": "TODO",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 5/02 - Wes Montgomery Quartet - West Coast Blues [Abridged].flac", 
+   "transcriptions": [],
+   "key": ["Bb"]
+  }, 
+  "mbid": "02ffe965-bd93-45bd-ae9f-5671261871ae", 
+  "duration": 336.47,
   "parts":
           [
             {
@@ -21,7 +22,7 @@
                       ],
               "chords":
                       [
-                        "|Bb   |Ab   |Bb   |B:min7 E:7 |Eb   |Eb   |Bb   |Bb   |F:7   |Eb:7   |Bb:7   |F:7    |"
+                        "|Bb   |Ab   |Bb   |B:min7 E:7 |Eb:7   |Eb:7   |Bb   |Bb   |F:7   |Eb:7   |Bb:7   |F:7    |"
                       ]
             },
             {
@@ -35,7 +36,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -50,7 +51,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -65,7 +66,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -80,7 +81,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -95,7 +96,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -110,7 +111,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -125,7 +126,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -140,7 +141,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -155,7 +156,7 @@
               "chords":
                       [
                         "|Bb:7   |Ab:7   |Bb:7   |B:min7 E:7 |",
-                        "|Eb   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
+                        "|Eb:7   |Eb:min7 Ab:7 |D:min G:7 |Db:min7 Gb:7   |",
                         "|C:min7 F:7 |C:min7 F:7 |Bb:maj7 Db:7 |Gb:maj7 B:7 |"
                       ]
             },
@@ -183,7 +184,7 @@
                       [
                         "|Bb:maj7 Bb:maj7 Bb:maj7 Ab:min7 Ab:min7 Db:7 |Gb:maj7 Gb:maj7 Gb:maj7 Gb:min7 Gb:min7 Cb:7 |",
                         "|Bb:maj7 Bb:maj7 Bb:maj7 Ab:min7 Ab:min7 Db:7 |Gb:maj7 Gb:maj7 Gb:maj7 Gb:min7 Gb:min7 Cb:7 |",
-                        "|Bb:(3,5,6,7,#11) |Bb:(3,5,6,7,#11) |"
+                        "|Bb:(3,5,6,7,#11) |Bb:(3,5,6,9,#11) |"
                       ]
             }
 

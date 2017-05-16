@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Dexter Gordon Quartet",
-  "title": "Bikini",
-  "metre": "4/4",
+  "tuning": 440.84, 
+  "artist": "Dexter Gordon Quartet", 
+  "title": "Bikini", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 3/22 - Dexter Gordon Quartet - Bikini.flac",
-   "transcriptions": ["Emir Demirel"]
-  },
-  "mbid": "b5c9ca7e-ba9f-4ebf-8609-f4dc24339594",
-  "duration": "220",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/22 - Dexter Gordon Quartet - Bikini.flac", 
+   "transcriptions": [],
+   "key":["Bb:min"]
+  }, 
+  "mbid": "b5c9ca7e-ba9f-4ebf-8609-f4dc24339594", 
+  "duration": 218.56,
   "parts":
           [
             {
@@ -53,14 +54,14 @@
                       ],
               "chords":
                       [
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
                         "|Bb:7 |Bb:7 |Eb:7 |Eb:7 |Ab:7 |Ab:7 |Db:maj6 |C:min7 F:7 |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
                         "|Bb:7 |Bb:7 |Eb:7 |Eb:7 |Ab:7 |Ab:7 |Db:maj6 |C:min7 F:7 |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |"
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|"
                       ]
             },
             {
@@ -82,10 +83,10 @@
                       ],
               "chords":
                       [
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
                         "|Bb:7 |Bb:7 |Eb:7 |Eb:7 |Ab:7 |Ab:7 |Db:maj6 |C:min7 F:7 |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
                         "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |"
                       ]
             },
@@ -109,9 +110,9 @@
               "chords":
                       [
                         "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |Bb:min7 |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |",
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|",
                         "|N |N |N |N |N |N |N |N |",
-                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |G:7 |G |G |"
+                        "|Bb:min7 |Bb:min7 |Bb:min7 |Bb:min7 |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:hdim7 |F:(3,5,b7,b9) |Bb:min7 |F:7|G |G |"
                       ]
             }
           ]
