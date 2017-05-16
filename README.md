@@ -3,7 +3,7 @@ Jazz harmony corpus and auxulary tools facilitating it's building.
 
 Dependencies:
    * musicbrainzngs: https://github.com/alastair/python-musicbrainzngs
-   * MusOOEvaluator: https://github.com/jpauwels/MusOOEvaluator
+   * MusOOEvaluator: https://github.com/MTG/MusOOEvaluator.git
    * madmom: https://github.com/CPJKU/madmom
    * for sonfication MATLAB is needed and the following toolboxes:
       * Loudness toolbox (http://genesis-acoustics.com/en/loudness_online-32.html)
