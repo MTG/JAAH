@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Dick Hyman",
-  "title": "Maple Leaf Rag",
-  "metre": "2/4",
+  "tuning": 442.28, 
+  "artist": "Dick Hyman", 
+  "title": "Maple Leaf Rag", 
+  "metre": "2/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD1/01. Maple Leaf Rag.mp3",
-   "transcriptions": ["Scott Joplin"]
-  },
-  "mbid": "1c60e1f6-51ad-4d20-a236-afd5a31629de",
-  "duration": "146",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 01 - Maple Leaf Rag.flac", 
+   "transcriptions": [],
+   "key":["Ab"]
+  }, 
+  "mbid": "1c60e1f6-51ad-4d20-a236-afd5a31629de", 
+  "duration": 149.97,
   "parts":
           [
             {
