@@ -4,7 +4,7 @@
   "title": "One O'Clock Jump", 
   "metre": "4/4", 
   "sandbox": {
-   "path": "Tracks/Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 24 - One O'Clock Jump.flac", 
+   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 24 - One O'Clock Jump.flac", 
    "key": ["F - Db"], 
    "transcriptions": []
   }, 
