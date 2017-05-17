@@ -3,6 +3,7 @@ import sys
 from chordUtils import json2lab
 from subprocess import call
 import json
+import argparse
 
 utils_path = os.path.dirname(os.path.realpath(__file__))
 eval_dir = "evaluation"
@@ -10,11 +11,16 @@ data_root = os.environ['JAZZ_HARMONY_DATA_ROOT']
 if not os.path.exists(eval_dir):
     os.mkdir(eval_dir)
 
-try:
-    infile = sys.argv[1]
-except:
-    print "usage:", sys.argv[0], "<input json file>"
-    sys.exit()
+parser = argparse.ArgumentParser(
+    description='Collect chroma statistics on given dataset'
+                ' (distribution by 5 basic chord types: maj, min, dom, dim7, hdim7 + unclassified')
+
+parser.add_argument('infile', type=argparse.FileType('r'), help='input json file')
+parser.add_argument('--chords', default='5JazzFunctions', help='preset name for --chords parameter of MusOOEvaluator (https://github.com/MTG/MusOOEvaluator). Default is 5JazzFunctions.')
+
+args = parser.parse_args()
+infile = args.infile.name
+chords = args.chords
 
 with open(infile) as json_file:
     audiofile = json.load(json_file)['sandbox']['path'].replace('$JAZZ_HARMONY_DATA_ROOT', data_root)
@@ -48,7 +54,7 @@ call([
     'MusOOEvaluator',
     '--testfile', chordinoFile,
     '--reffile', labfile,
-    '--chords', 'MirexMajMin',
+    '--chords', chords,
     '--output', outfile])
 call(['cat', outfile])
 outfile = os.path.join(eval_dir, name + "_chordino_segmentation.txt")
