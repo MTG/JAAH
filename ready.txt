@@ -37,3 +37,7 @@ annotations/django.json
 annotations/ko-ko(ellington).json
 annotations/cotton_tail_fitzgerald.json
 annotations/body_and_soul(goodman).json
+annotations/handful_of_riffs.json
+annotations/in_gloryland.json
+annotations/struttin_with_some_barbecue.json
+annotations/blue_7.json
