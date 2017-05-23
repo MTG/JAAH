@@ -5,6 +5,7 @@ annotations/parkers_mood.json
 annotations/west_end_blues.json
 annotations/mean_to_me.json
 annotations/minor_swing.json
+annotations/indiana.json
 annotations/st_thomas.json
 annotations/dippermouth_blues.json
 annotations/livery_stable_blues.json
@@ -41,3 +42,6 @@ annotations/handful_of_riffs.json
 annotations/in_gloryland.json
 annotations/struttin_with_some_barbecue.json
 annotations/blue_7.json
+annotations/embraceable_you.json
+annotations/summertime.json
+
