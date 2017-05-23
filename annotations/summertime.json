@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Miles Davis; Gil Evans",
-  "title": "Summertime",
-  "metre": "4/4",
+  "tuning": 443.18, 
+  "artist": "Miles Davis; Gil Evans", 
+  "title": "Summertime", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 4/12 - Miles Davis With Gil Evans' Orchestra - Summertime.flac",
-   "transcriptions": []
-  },
-  "mbid": "430f5cf3-55df-4334-b67c-ff219b439fd6",
-  "duration": "TODO",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 18 - Summertime.flac", 
+   "transcriptions": [],
+   "key":["Bb:min"]
+  }, 
+  "mbid": "9708585c-b508-4357-b3f4-4a5c0b0af44f", 
+  "duration": 198.29,
   "parts":
           [
             {
@@ -30,8 +31,8 @@
                       ],
               "chords":
                       [
-                        "|G:min D:7 |G:min D:7 |G:min D:7 |G:min D:7 |C:min |C:min A:7 |D:7 C:min|C:min |",
-                        "|G:min D:7 |G:min D:7 |G:min |C:(3,5,#11,13) |Bb:maj6 |A:min6 D:7 |G:min D:7 |G:min D:7 |"
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Eb:min |Eb:min C:7 |F:7 Eb:min |Eb:min |",
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min |Eb:(3,5,#11,13) |Db:maj6 |C:min6 F:7 |Bb:min F:7 |Bb:min F:7 |"
                       ]
             },
             {
@@ -45,8 +46,8 @@
                       ],
               "chords":
                       [
-                        "|G:min D:7 |G:min D:7 |G:min D:7 |G:min D:7 |C:min |C:min A:7 |D:7 C:min|D:(3,#5,b7,#9) |",
-                        "|G:min D:7 |G:min D:7 |G:min |C:(3,5,#11,13) |Bb:maj6 |A:min6 D:7 |G:min D:7 |G:min D:7 |"
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Eb:min |Eb:min C:7 |F:7 Eb:min |Eb:min |",
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min |Eb:(3,5,#11,13) |Db:maj6 |C:min6 F:7 |Bb:min F:7 |Bb:min F:7 |"
                       ]
             },
             {
@@ -60,8 +61,8 @@
                       ],
               "chords":
                       [
-                        "|G:min D:7 |G:min D:7 |G:min D:7 |G:min D:7 |C:min |C:min A:7 |D:7 C:min|D:(3,#5,b7,#9) |",
-                        "|G:min D:7 |G:min D:7 |G:min |C:(3,5,#11,13) |Bb:maj6 |A:min6 D:7 |G:min D:7 |G:min D:7 |"
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Eb:min |Eb:min C:7 |F:7 Eb:min |Eb:min |",
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min |Eb:(3,5,#11,13) |Db:maj6 |C:min6 F:7 |Bb:min F:7 |Bb:min F:7 |"
                       ]
             },
             {
@@ -75,8 +76,8 @@
                       ],
               "chords":
                       [
-                        "|G:min D:7 |G:min D:7 |G:min D:7 |G:min D:7 |C:min |C:min A:7 |D:7 C:min|D:(3,#5,b7,#9) |",
-                        "|G:min D:7 |G:min D:7 |G:min |C:(3,5,#11,13) |Bb:maj6 |A:min6 D:7 |G:min D:7 |G:min D:7 |"
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Eb:min |Eb:min C:7 |F:7 Eb:min |Eb:min |",
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min |Eb:(3,5,#11,13) |Db:maj6 |C:min6 F:7 |Bb:min F:7 |Bb:min F:7 |"
                       ]
             },
             {
@@ -92,9 +93,9 @@
                       ],
               "chords":
                       [
-                        "|G:min D:7 |G:min D:7 |G:min D:7 |G:min D:7 |C:min |C:min A:7 |D:7 C:min|C:min |",
-                        "|G:min D:7 |G:min D:7 |G:min |C:(3,5,#11,13) |Bb:maj6 |A:min6 D:7 |G:min D:7 |G:min D:7 |",
-                        "|G:min |G:min |G:min |G:min |G:min|"
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Bb:min F:7 |Eb:min |Eb:min C:7 |F:7 Eb:min |Eb:min |",
+                        "|Bb:min F:7 |Bb:min F:7 |Bb:min |Eb:(3,5,#11,13) |Db:maj6 |C:min6 F:7 |Bb:min F:7 |Bb:min F:7 |",
+                        "|Bb:min |Bb:min |Bb:min |Bb:min |"
                       ]
             }
 
