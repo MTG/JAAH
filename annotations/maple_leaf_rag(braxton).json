@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Anthony Braxton; Muhal Richard Abrams",
-  "title": "Maple Leaf Rag",
-  "metre": "2/4",
+  "tuning": 442.46, 
+  "artist": "Anthony Braxton; Muhal Richard Abrams", 
+  "title": "Maple Leaf Rag", 
+  "metre": "2/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz (The Smithsonian Anthology, 6CD) [320]/CD6/01. Maple Leaf Rag.mp3",
-   "transcriptions": []
-  },
-  "mbid": "90521ab0-9419-45bc-9576-18a5332aa409",
-  "duration": "217",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 01 - Maple Leaf Rag.flac", 
+   "transcriptions": [],
+   "key":["Ab"]
+  }, 
+  "mbid": "90521ab0-9419-45bc-9576-18a5332aa409", 
+  "duration": 220.51,
   "parts":
           [
             {
@@ -121,7 +122,7 @@
 198.37, 198.89, 199.44, 199.96, 200.46, 200.94, 201.44, 201.95, 202.44, 202.9, 203.41, 203.96, 204.47, 204.98, 205.49, 206.02,
 206.56, 207.08, 207.59, 208.11, 208.62, 209.08, 209.59, 210.07, 210.55, 211.07, 211.56, 212.02, 212.51, 213.02, 213.56, 214.04,
 214.55, 215.09, 215.59, 216.06
-                      ],
+],
               "chords":
                       [
                         "|Db |Db |Ab |Ab |Eb:7 |Eb:7 |Ab |Ab |",
