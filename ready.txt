@@ -48,3 +48,6 @@ annotations/maple_leaf_rag(braxton).json
 annotations/stompin_at_the_savoy.json
 annotations/when_lights_are_low.json
 annotations/rockin_chair.json
+annotations/from_monday_on.json
+annotations/i_cant_believe_you_are_in_love_with_me.json
+annotations/work_song.json
