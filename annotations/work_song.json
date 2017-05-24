@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Cannonball Adderley",
-  "title": "Work Song",
-  "metre": "4/4",
+  "tuning": 442.38, 
+  "artist": "Cannonball Adderley", 
+  "title": "Work Song", 
+  "metre": "4/4", 
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 08 - Work Song.flac",
-   "transcriptions": []
-  },
-  "mbid": "1510f5f6-fd52-4676-a279-270c40bb4259",
-  "duration": "306",
+   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 08 - Work Song.flac", 
+   "transcriptions": [],
+   "key":["F:min"]
+  }, 
+  "mbid": "1510f5f6-fd52-4676-a279-270c40bb4259", 
+  "duration": 309.48,
   "parts":
           [
             {
