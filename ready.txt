@@ -57,3 +57,6 @@ annotations/bikini.json
 annotations/manteca.json
 annotations/singin_the_blues.json
 annotations/maple_leaf_rag(bechet).json
+annotations/st_louis_blues.json
+annotations/bags_groove.json
+annotations/blues_for_alice.json
