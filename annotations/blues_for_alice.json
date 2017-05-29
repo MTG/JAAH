@@ -1,14 +1,15 @@
 {
-  "tuning": "TODO",
-  "artist": "Charlie Parker Quintet",
-  "title": "Blues For Alice",
-  "metre": "4/4",
+  "tuning": 446.22, 
+  "artist": "Charlie Parker", 
+  "title": "Blues for Alice", 
+  "metre": "4/4", 
   "sandbox": {
-  "path": "$JAZZ_HARMONY_DATA_ROOT/Extra Songs/Charlie Parker Quintet - Blues for Alice.mp3",
-   "transcriptions": ["Omnibook"]
-  },
-  "mbid": "a938db71-af38-4c0f-b804-d92362b8a932",
-  "duration": "167",
+   "path": "Tracks/Extra Songs//Charlie Parker Quintet - Blues for Alice.mp3", 
+   "key": ["F"], 
+   "transcriptions": []
+  }, 
+  "mbid": "a938db71-af38-4c0f-b804-d92362b8a932", 
+  "duration": 169.06,
   "parts":
           [
             {
@@ -19,7 +20,7 @@
                       ],
               "chords":
                       [
-                        "|N |N |N |N |"
+                        "|F |Ab:7 |C#:7 |F#:(3,5,b7,#11) |"
                       ]
             },
             {
@@ -103,7 +104,7 @@
               "chords":
                       [
                         "|F:maj7 |E:hdim7 A:7 |D:min G:7 |C:min F:7 |Bb:7 |Bb:min Eb:7 |A:min D:7 |Ab:min Db:7 |G:min7 |C:7 |F:7 |F:7 |",
-                        "|F:maj7 |F:maj7 |F:maj7 |F:maj6 |"
+                        "|F:maj7 |F:maj7 |F:maj7 |F:maj7 |"
                       ]
             }
 
