@@ -34,7 +34,7 @@
         "chords":
         [
             "|C:min F:min |C:min |",
-            "|C:min D:hdim7 |C:min/3 D:hdim7 |C:min7 F#:7 |D:hdim7 G:7 |C:min7/3 D:hdim7 |C:min C#:7 |D:7 C#:7|C:min G:7 |"
+            "|C:min D:hdim7 |C:min/3 D:hdim7 |C:min7 F#:7 |D:hdim7 G:7 |C:min/3 D:hdim7 |C:min C#:7 |D:7 C#:7|C:min G:7 |"
         ]
     },
     {
@@ -47,7 +47,7 @@
         "chords":
         [
             
-            "|C:min D:hdim7 |C:min/3 D:hdim7 |C:min7 F#:7 |D:hdim7 G:7 |C:min7/3 D:hdim7 |C:min C#:7 |D:7 C#:7|C:min G:7 |"
+            "|C:min D:hdim7 |C:min/3 D:hdim7 |C:min7 F#:7 |D:hdim7 G:7 |C:min/3 D:hdim7 |C:min C#:7 |D:7 C#:7|C:min G:7 |"
         ]
     },
     {
@@ -73,7 +73,7 @@
         ],
         "chords":
         [
-            "|G:7 |G:7 |C:min D:hdim7 |C:min |D:hdim7 |C:min/b13 |"
+            "|G:7 |G:7 |C:min D:hdim7 |C:min |D:hdim7 |G:(3,5,b7,b9) |"
         ]
     },
     {
@@ -87,7 +87,7 @@
         "chords":
         [
             "|G:7 C:7 |F:7 Bb:7 |",
-            "|C:min D:hdim7 |C:min/3 D:hdim7 |C:min7 F#:7 |D:hdim7 G:7 |C:min7/3 D:hdim7 |C:min7 C#:7 |D:7 C#:7|C:min7 |"
+            "|C:min D:hdim7 |C:min/3 D:hdim7 |C:min7 F#:7 |D:hdim7 G:7 |C:mi/3 D:hdim7 |C:min7 C#:7 |D:7 C#:7|C:min7 |"
         ]
     },
     {
@@ -115,7 +115,7 @@
         ],
         "chords":
         [
-            "|C:min D:hdim7 |C:min/3 D:hdim7 |C:min7 F#:7 |D:hdim7 G:7 |C:min7/3 D:hdim7 |C:min C#:7 |D:7 C#:7|C:min |"
+            "|C:min D:hdim7 |C:min D:hdim7 |C:min7 F#:7 |D:hdim7 G:7 |C:min/3 D:hdim7 |C:min C#:7 |D:7 C#:7|C:min N |"
         ]
     }
   ]
