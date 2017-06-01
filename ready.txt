@@ -61,3 +61,9 @@ annotations/st_louis_blues.json
 annotations/bags_groove.json
 annotations/blues_for_alice.json
 annotations/blue_serge.json
+annotations/misterioso.json
+annotations/evidence.json
+annotations/the_stampede.json
+annotations/lester_leaps_in.json
+annotations/weather_bird.json
+annotations/moten_swing.json
