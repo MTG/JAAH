@@ -67,3 +67,4 @@ annotations/the_stampede.json
 annotations/lester_leaps_in.json
 annotations/weather_bird.json
 annotations/moten_swing.json
+annotations/new_east_st_louis.json
