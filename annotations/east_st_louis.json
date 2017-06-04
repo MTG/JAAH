@@ -5,7 +5,8 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/01 - Duke Ellington And His Orchestra - East St. Louis Toodle-Oo.flac", 
-   "transcriptions": []
+   "transcriptions": [],
+   "key":["C:min"]
   }, 
   "mbid": "20d24e07-a14b-4b44-b372-8ea3b9f21c4e", 
   "duration": 219.03,
@@ -21,7 +22,7 @@
               ],
               "chords":
                       [
-                        "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab |G:(3,b7,b13) F:min6 Eb:maj6 D:min7 |"
+                        "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab |G:(3,5,b7,b13) F:min6 Eb:maj6 D:min7 |"
                       ]
             },
             {
@@ -36,7 +37,7 @@
               ],
                   "chords":
                       [
-                        "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab |G:(3,b7,b13) F:min6 Eb:maj6 D:min7 |"
+                        "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab |G:(3,5,b7,b13) F:min6 Eb:maj6 D:min7 |"
                       ]
                 },
                 {
@@ -79,7 +80,7 @@
                 ]
              },
              {
-                "name": "Solo_bari - C",
+                "name": "Solo_bari - CC'",
                 "beats":
                         [
                           72.98, 73.46, 73.91, 74.36, 74.81, 75.26, 75.72, 76.18, 76.63, 77.08, 77.52, 77.97, 78.44, 78.89, 79.34, 79.8,
@@ -97,7 +98,7 @@
                         ]
              },
             {
-                "name": "Solo_trombone - C",
+                "name": "Solo_trombone - CC'",
                 "beats":
                         [
                           105.5, 105.97, 106.46, 106.92, 107.39, 107.85, 108.32, 108.78, 109.25, 109.71, 110.19, 110.63, 111.09, 111.56, 112.03, 112.48, 112.94, 113.4, 113.88, 114.33, 114.8, 115.26, 115.71, 116.14,
@@ -114,7 +115,7 @@
                         ]
             },
             {
-                "name": "Solo tenor - A ",
+                "name": "Solo tenor - AA ",
                 "beats":
                         [
                           138.36, 138.83, 139.3, 139.75, 140.2, 140.68, 141.14, 141.58, 142.04, 142.49, 142.93, 143.38, 143.8, 144.26, 144.68, 145.13,
@@ -125,13 +126,13 @@
                         ],
                 "chords":
                         [
-                          "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab |G:(3,b7,b13) F:min6 Eb:maj6 D:min7 |",
+                          "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min Ab |G:(3,5,b7,b13) F:min6 Eb:maj6 D:min7 |",
                           "|C:min |D:dim |C:min |D:dim |C:min |D:dim |C:min  |Eb E:dim E:dim E:dim |"
                         ]
 
             },
             {
-                 "name":"Ensemble - C ",
+                 "name":"Ensemble - CC' ",
                  "beats":
                          [
                            167.17, 167.63, 168.09, 168.55, 169.0, 169.44, 169.88, 170.33, 170.78, 171.23, 171.68, 172.15, 172.59, 173.05, 173.49, 173.95,
@@ -149,7 +150,7 @@
                          ]
             },
             {
-                 "name":"Finale - C ",
+                 "name":"Finale - A ",
                  "beats":
                          [
                             199.11, 199.57, 200.04, 200.48, 200.96, 201.41, 201.88, 202.33, 202.79, 203.25, 203.71, 204.16, 204.64, 205.09, 205.52, 205.98,
