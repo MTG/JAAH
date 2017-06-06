@@ -71,3 +71,5 @@ annotations/new_east_st_louis.json
 annotations/for_dancers_only.json
 annotations/dead_man_blues.json
 annotations/everybody_loves_my_baby.json
+annotations/organ_grinders_swing.json
+annotations/big_butter_and_eggman.json
