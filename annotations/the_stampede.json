@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 05 - The Stampede.flac", 
    "transcriptions": [],
-   "key":[]
+   "key":["Ab"]
   }, 
   "mbid": "b0e36ae6-05c5-4246-99a4-fca6f6681fc1", 
   "duration": 196.41,
@@ -22,7 +22,7 @@
             ],
             "chords":
             [
-                "|N |N |N |Ab:7 |Db/3 Db:min/b3 |Ab/#5 Ab:7 |Db/3 Db:min/b3 |Ab |",
+                "|N |N |N |Ab:7 |Db/3 Db:min/b3 |Ab/b5 Ab:7 |Db/3 Db:min/b3 |Ab |",
                 "|N |N |N |Ab:7 |Db/3 Db:min/b3 |Ab F:7 |Bb:7 Eb:7 |Ab |"
             ]
         },
