@@ -74,3 +74,6 @@ annotations/everybody_loves_my_baby.json
 annotations/organ_grinders_swing.json
 annotations/big_butter_and_eggman.json
 annotations/sweethearts_on_parade.json
+annotations/breakfast_feud.json
+annotations/the_man_i_love.json
+annotations/airegin.json
