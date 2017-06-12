@@ -1,0 +1,20 @@
+{
+  "tuning": "TODO",
+  "artist": "seva",
+  "title": "min6",
+  "metre": "2/4",
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT/GuitarChords/audio/min6fromC.wav",
+   "transcriptions": []
+  },
+  "mbid": "00000000-0000-0000-0000-000000000000",
+  "duration": "67",
+  "parts": [
+    {
+      "name": "one&only",
+      "beats": [
+         2.5, 3.18, 3.88, 4.53, 5.22, 5.9, 6.59, 7.24, 7.94, 8.59, 9.29, 9.97, 10.69, 11.38, 12.08, 12.76, 13.42, 14.12, 14.84, 15.51, 16.16, 16.77, 17.41, 18.03, 18.66, 19.29, 19.92],
+      "chords":[
+        "|C#:min6 N|D:min6 N|D#:min6 N|E:min6 N|F:min6 N|F#:min6 N|G:min6 N|G#:min6 N|A:min6 N|A#:min6 N|B:min6|"]
+    }]
+}

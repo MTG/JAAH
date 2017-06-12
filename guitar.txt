@@ -2,3 +2,6 @@ guitar_chords_annotations/maj35fromE.json
 guitar_chords_annotations/maj69fromB.json
 guitar_chords_annotations/maj6fromFsharp.json
 guitar_chords_annotations/maj7fromF.json
+guitar_chords_annotations/min35fromE.json
+guitar_chords_annotations/min6fromC.json
+guitar_chords_annotations/min6fromG.json
