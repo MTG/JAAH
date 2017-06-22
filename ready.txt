@@ -80,3 +80,4 @@ annotations/airegin.json
 annotations/subconscious_lee.json
 annotations/black_water_blues.json
 annotations/blues_in_the_closet.json
+annotations/september_in_the_rain.json
