@@ -82,3 +82,4 @@ annotations/black_water_blues.json
 annotations/blues_in_the_closet.json
 annotations/september_in_the_rain.json
 annotations/watermelon_man.json
+annotations/harlem_congo.json
