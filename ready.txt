@@ -85,3 +85,5 @@ annotations/watermelon_man.json
 annotations/harlem_congo.json
 annotations/doggin_around.json
 annotations/lady_bird.json
+annotations/crazeology.json
+annotations/the_golden_bullet.json
