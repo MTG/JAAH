@@ -88,3 +88,5 @@ annotations/lady_bird.json
 annotations/crazeology.json
 annotations/the_golden_bullet.json
 annotations/oh_lady_be_good.json
+annotations/thats_a_serious.thing.json
+annotations/dexter_rides_again.json
