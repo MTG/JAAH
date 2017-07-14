@@ -99,3 +99,5 @@ annotations/lost_your_head_blues.json
 annotations/i_gotta_right_to_sing_the_blues.json
 annotations/moanin.json
 annotations/shaw_nuff.json
+annotations/the_preacher.json
+annotations/one_by_one.json
