@@ -101,3 +101,6 @@ annotations/moanin.json
 annotations/shaw_nuff.json
 annotations/the_preacher.json
 annotations/one_by_one.json
+annotations/wrappin_it_up.json
+annotations/riverboat_shuffle.json
+annotations/diminuendo_and_crescendo_in_blue.json
