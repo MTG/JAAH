@@ -106,3 +106,5 @@ annotations/riverboat_shuffle.json
 annotations/diminuendo_and_crescendo_in_blue.json
 annotations/four_or_five_times.json
 annotations/concerto_for_cootie.json
+annotations/all_alone.json
+annotations/grandpas_spells.json
