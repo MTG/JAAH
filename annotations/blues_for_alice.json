@@ -4,7 +4,7 @@
   "title": "Blues for Alice", 
   "metre": "4/4", 
   "sandbox": {
-   "path": "Tracks/Extra Songs//Charlie Parker Quintet - Blues for Alice.mp3", 
+   "path": "$JAZZ_HARMONY_DATA_ROOT/Extra Songs//Charlie Parker Quintet - Blues for Alice.mp3",
    "key": ["F"], 
    "transcriptions": []
   }, 
