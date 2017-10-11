@@ -1,0 +1,22 @@
+{
+  "tuning": "TODO",
+  "artist": "seva",
+  "title": "hdim7",
+  "metre": "2/4",
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT/GuitarChords/audio/hdim7fromG.wav",
+   "transcriptions": []
+  },
+  "mbid": "00000000-0000-0000-0000-000000000000",
+  "duration": "16.3",
+  "parts": [
+    {
+      "name": "one&only",
+      "beats": [
+         1.41, 2.05, 2.73, 3.4, 4.12, 4.76, 5.46, 6.17, 6.85, 7.5, 8.2, 8.9, 9.54, 10.27, 10.92, 11.63,
+         12.28, 12.99, 13.65, 14.31, 14.99, 15.67],
+      "chords":[
+        "|G:hdim7 N|G#:hdim7 N|A:hdim7 N|A#:hdim7 N|B:hdim7 N|C:hdim7 N|C#:hdim7 N|D:hdim7 N|",
+        "|D#:hdim7 N|E:hdim7 N|"]
+    }]
+}

@@ -1,0 +1,22 @@
+{
+  "tuning": "TODO",
+  "artist": "seva",
+  "title": "dim7",
+  "metre": "2/4",
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT/GuitarChords/audio/dim7fromG.wav",
+   "transcriptions": []
+  },
+  "mbid": "00000000-0000-0000-0000-000000000000",
+  "duration": "15.8",
+  "parts": [
+    {
+      "name": "one&only",
+      "beats": [
+         1.47, 2.11, 2.73, 3.4, 4.12, 4.78, 5.49, 6.15, 6.85, 7.55, 8.2, 8.91, 9.59, 10.23, 10.93, 11.65,
+         12.31, 13.05, 13.75, 14.36, 15.0, 15.65],
+      "chords":[
+        "|G:dim7 N|G#:dim7 N|A:dim7 N|A#:dim7 N|B:dim7 N|C:dim7 N|C#:dim7 N|D:dim7 N|",
+        "|D#:dim7 N|E:dim7 N|"]
+    }]
+}
