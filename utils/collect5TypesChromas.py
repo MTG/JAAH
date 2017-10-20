@@ -47,10 +47,8 @@ def smooth(x, window_len=11, window='hanning'):
     for i in range(np.size(x,1)):
       if np.size(x, 0) < window_len:
           raise ValueError, "Input vector needs to be bigger than window size."
-
       if window_len < 3:
           return x
-
       if not window in ['flat', 'hanning', 'hamming', 'bartlett', 'blackman']:
           raise ValueError, "Window is on of 'flat', 'hanning', 'hamming', 'bartlett', 'blackman'"
       xx = x[:, i]
@@ -115,7 +113,6 @@ def toPitchAndKind(label):
     # TODO after the dataset is fixed (bass -> pitch class set).
     if (len(partsAndBass) > 1):
         degrees.add(partsAndBass[1])
-
     if ('3' in degrees):
         if ('b7' in degrees):
             kind='dom'
@@ -177,10 +174,16 @@ def process(infile) :
             pitch, kind = toPitchAndKind(segments[i].symbol)
             s = int(float(segments[i].startTime) * sampleRate / stepSize)
             e = int(float(segments[i].endTime) * sampleRate / stepSize)
+            if (s == e):
+                print "empty segment ", segments[i].startTime, segments[i].endTime
+                raise
+            # print s, e
+            # print segments[i].startTime, segments[i].endTime
             # roll ->  C (and from 'A' based to 'C' based)
             shift = -3 - pitch
             if (shift < 0) :
                 shift = 12 + shift
+            # np.median is quite questionable. ? just sample for s? or for every beat from s to e?
             chromas[i]= np.roll(np.median(chroma[s:e], axis=0), shift=shift, axis=0)
             #chromas[i]= np.median(chroma[s:e], axis=0)
             labels[i] = segments[i].symbol
@@ -190,7 +193,6 @@ def process(infile) :
             durations[i] = float(segments[i].endTime) - float(segments[i].startTime)
         return chromas, labels, kinds, mbids, start_times, durations
 
-utils_path = os.path.dirname(os.path.realpath(__file__))
 eval_dir = "evaluation"
 data_root = os.environ['JAZZ_HARMONY_DATA_ROOT']
 if not os.path.exists(eval_dir):
