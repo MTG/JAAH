@@ -5,86 +5,10 @@ from subprocess import call
 import json
 import argparse
 import chordUtils
-import essentia.standard
-import vamp
 import numpy as np
 import re
 
 sampleRate = 44100
-
-def smooth(x, window_len=11, window='hanning'):
-    """smooth the data using a window with requested size.
-
-    This method is based on the convolution of a scaled window with the signal.
-    The signal is prepared by introducing reflected copies of the signal
-    (with the window size) in both ends so that transient parts are minimized
-    in the begining and end part of the output signal.
-
-    input:
-        x: the input signal
-        window_len: the dimension of the smoothing window; should be an odd integer
-        window: the type of window from 'flat', 'hanning', 'hamming', 'bartlett', 'blackman'
-            flat window will produce a moving average smoothing.
-
-    output:
-        the smoothed signal
-
-    example:
-
-    t=linspace(-2,2,0.1)
-    x=sin(t)+randn(len(t))*0.1
-    y=smooth(x)
-
-    see also:
-
-    numpy.hanning, numpy.hamming, numpy.bartlett, numpy.blackman, numpy.convolve
-    scipy.signal.lfilter
-
-    TODO: the window parameter could be the window itself if an array instead of a string
-    NOTE: length(output) != length(input), to correct this: return y[(window_len/2-1):-(window_len/2)] instead of just y.
-    """
-    y = np.zeros(x.shape)
-    for i in range(np.size(x,1)):
-      if np.size(x, 0) < window_len:
-          raise ValueError, "Input vector needs to be bigger than window size."
-      if window_len < 3:
-          return x
-      if not window in ['flat', 'hanning', 'hamming', 'bartlett', 'blackman']:
-          raise ValueError, "Window is on of 'flat', 'hanning', 'hamming', 'bartlett', 'blackman'"
-      xx = x[:, i]
-      s = np.r_[xx[window_len - 1:0:-1], xx, xx[-1:-window_len:-1]]
-      # print(len(s))
-      if window == 'flat':  # moving average
-          w = np.ones(window_len, 'd')
-      else:
-          w = eval('np.' + window + '(window_len)')
-      start = int(window_len / 2)
-      end = start + len(xx)
-      y[:,i] = np.convolve(w / w.sum(), s, mode='valid')[start:end]
-    return y
-
-def chromaFromAudio(audiofile, stepSize=2048):
-    mywindow = np.array([0.001769, 0.015848, 0.043608, 0.084265, 0.136670, 0.199341, 0.270509, 0.348162, 0.430105, 0.514023,
-                0.597545, 0.678311, 0.754038, 0.822586, 0.882019, 0.930656, 0.967124, 0.990393, 0.999803, 0.999803,
-                0.999803, 0.999803, 0.999803, 0.999803, 0.999803, 0.999803, 0.999803, 0.999803, 0.999803, 0.999803,
-                0.999803, 0.999803, 0.999803,  0.999803, 0.999803,
-                0.999803, 0.999803, 0.999803, 0.999803, 0.999803, 0.999803, 0.999803, 0.999650, 0.996856, 0.991283,
-                      0.982963, 0.971942, 0.958281, 0.942058, 0.923362, 0.902299, 0.878986, 0.853553, 0.826144,
-                      0.796910, 0.766016, 0.733634, 0.699946, 0.665140, 0.629410, 0.592956, 0.555982, 0.518696,
-                      0.481304, 0.444018, 0.407044, 0.370590, 0.334860, 0.300054, 0.266366, 0.233984, 0.203090,
-                      0.173856, 0.146447, 0.121014, 0.097701, 0.076638, 0.057942, 0.041719, 0.028058, 0.017037,
-                      0.008717, 0.003144, 0.000350])
-    audio = essentia.standard.MonoLoader(filename=audiofile, sampleRate=sampleRate)()
-    parameters = {}
-    stepsize, semitones = vamp.collect(
-        audio, sampleRate, "nnls-chroma:nnls-chroma", output="semitonespectrum", step_size=stepSize)["matrix"]
-    chroma = np.zeros((semitones.shape[0], 12))
-    for i in range(semitones.shape[0]):
-        tones = semitones[i] * mywindow
-        cc = chroma[i]
-        for j in range(tones.size):
-            cc[j % 12] = cc[j % 12] + tones[j]
-    return smooth(chroma, window_len= int(2.75 * sampleRate / stepSize), window='hanning').astype('float32')
 
 pitches = {'C':0, 'D':2, 'E':4, 'F':5, 'G':7, 'A':9, 'B':11}
 alt={'b':-1, '#':1}
@@ -160,10 +84,10 @@ def process(infile) :
         allBeats = []
         allChords = []
         chordUtils.processParts(metreNumerator, data, allBeats, allChords, 'chords')
-        segments = chordUtils.toMirexLab(0, duration, allBeats, allChords)
+        segments = chordUtils.toBeatChordSegments(0, duration, allBeats, allChords)
         #
         stepSize = 2048
-        chroma = chromaFromAudio(audiofile, stepSize=stepSize)
+        chroma, l = chordUtils.chromaFromAudio(audiofile, sampleRate=sampleRate, stepSize=stepSize)
         chromas = np.zeros((len(segments), 12), dtype='float32')
         labels = np.empty(len(segments), dtype='object')
         kinds = np.empty(len(segments), dtype='object')
@@ -184,8 +108,8 @@ def process(infile) :
             if (shift < 0) :
                 shift = 12 + shift
             # np.median is quite questionable. ? just sample for s? or for every beat from s to e?
-            chromas[i]= np.roll(np.median(chroma[s:e], axis=0), shift=shift, axis=0)
-            #chromas[i]= np.median(chroma[s:e], axis=0)
+            # chromas[i]= np.roll(np.median(chroma[s:e], axis=0), shift=shift, axis=0)
+            chromas[i]= np.roll(chroma[s], shift=shift, axis=0)
             labels[i] = segments[i].symbol
             kinds[i] = kind
             mbids[i]=mbid
