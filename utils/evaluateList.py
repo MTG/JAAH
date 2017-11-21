@@ -1,6 +1,9 @@
 import argparse
 from subprocess import call
-from chordUtils import evaluateFileList, callJazz
+from validation import evaluateFileList
+import chordModel
+import os
+import lowLevelFeatures as ll
 
 parser = argparse.ArgumentParser(
     description='Evaluate chord prediction accuracy on given file list')
@@ -15,17 +18,24 @@ listFile = args.infile.name
 
 res = ""
 if (args.chordino):
-    accuracy = evaluateFileList(listFile)
-    res = res + "\nChordino accuracy for the dataset:" + str(accuracy) + "%"
+    accuracyByFile, totalAccuracy = evaluateFileList(listFile)
+    res = res + "\nChordino accuracy for the dataset:" + str(totalAccuracy) + "%"
 
 if (args.jazz):
-    accuracy = evaluateFileList(
+    thisPath = os.path.dirname(os.path.realpath(__file__))
+    estimator = chordModel.ChordEstimator(
+        ll.ChromaEvaluationParameters(stepSize=2048, smoothingTime=3),
+        chordModel.loadModel(os.path.join(thisPath, 'gauss275log-ratio-sphere.pkl')),
+        chordModel.TRIVIAL_TRANSITION_MATRIX)
+    accuracyByFile, totalAccuracy = evaluateFileList(
         listFile,
         eval_dir="tmp_jazz_evaluation",
         truth_dir="tmp_true_chords",
         nameListFile="tmp_names.txt",
-        predictionFun=callJazz)
-    res = res + "\nJazz accuracy for the dataset:" + str(accuracy) + "%"
+        predictionFun=lambda jazz_dir, audiofile, name :
+        chordModel.callJazz(estimator, jazz_dir, audiofile, name)
+    )
+    res = res + "\nJazz accuracy for the dataset:" + str(totalAccuracy) + "%"
 
 call(['cat', listFile])
 print res;

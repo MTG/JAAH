@@ -3,6 +3,8 @@ import numpy as np
 import joblib
 from sklearn import preprocessing
 from sklearn.mixture import GaussianMixture
+import os.path as path
+import os
 
 PITCH_CLASS_NAMES = ["C", "Db", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
 CHORD_KINDS = ["maj", "min", "dom", "hdim7", "dim"]
@@ -16,6 +18,7 @@ for p in xrange(len(PITCH_CLASS_NAMES)):
 N_PITCH_CLASSES = len(PITCH_CLASS_NAMES)
 N_CHORD_KINDS = len(CHORD_KINDS)
 N_CHORDS = len(CHORD_NAMES)
+TRIVIAL_TRANSITION_MATRIX = np.ones((N_CHORDS, N_CHORDS), dtype='float') / N_CHORDS
 
 ######################################################################
 # Utility functions
@@ -43,6 +46,74 @@ def removeUnclassified(chromaSegments):
         chromaSegments.mbids[chromaSegments.kinds != 'unclassified'],
         chromaSegments.startTimes[chromaSegments.kinds != 'unclassified'],
         chromaSegments.durations[chromaSegments.kinds != 'unclassified'])
+
+def viterbiStep(logProbs, logMatrix):
+    newLogProbs = np.zeros(len(logProbs))
+    bestIndices = np.zeros(len(logProbs), dtype='int')
+    for i in xrange(len(logProbs)):
+        pathLogProbs = logProbs + logMatrix[:, i]
+        p = np.argmax(pathLogProbs)
+        newLogProbs[i] = pathLogProbs[p]
+        bestIndices[i] = p
+    return newLogProbs, bestIndices
+
+
+def viterbi(trellis, logMatrix):
+    paths = np.zeros(trellis.shape, dtype='int')
+    s = trellis[0,:]
+    for i in xrange(1, trellis.shape[0]):
+        s, prev = viterbiStep(s, logMatrix)
+        paths[i, :] = prev
+        s = s + trellis[i,:]
+    best = np.empty(trellis.shape[0], dtype='int')
+    strength = np.empty(trellis.shape[0], dtype='float')
+    p = np.argmax(s)
+    for i in xrange(trellis.shape[0] - 1, -1, -1):
+        best[i] = p
+        strength[i] = np.exp(trellis[i,p])
+        p = paths[i, p]
+    return best, strength
+
+class ChordSegment :
+    startTime = 0.0
+    endTime = 0.0
+    symbol = ''
+    def __init__(self, startTime, endTime, symbol):
+        self.startTime = startTime
+        self.endTime = endTime
+        self.symbol = symbol
+    def __repr__(self):
+        return str(self.startTime) + '\t' + str(self.endTime) + '\t' + self.symbol
+
+def mergeSegments(chordSegments) :
+    if (len(chordSegments) < 2) :
+        return chordSegments
+    res = []
+    currentSegment = chordSegments[0]
+    for segment in chordSegments[1:] :
+        if (segment.symbol == currentSegment.symbol):
+            currentSegment.endTime = segment.endTime
+        else:
+            res.append(currentSegment)
+            currentSegment = segment
+    res.append(currentSegment)
+    return res
+
+def toMirexLab(startTime, endTime, beatSegments, symbols, strengths) :
+    if (len(beatSegments.startTimes) < len(symbols) or len(symbols) != len(strengths)) :
+        raise ValueError("inappropriate lists lengths")
+    res = []
+    if (startTime < beatSegments.startTimes[0]) :
+        res.append(ChordSegment(startTime, beatSegments.startTimes[0], 'N'))
+    for i in xrange(len(symbols)) :
+        sym = symbols[i] if strengths[i] > 0 else 'N'
+        res.append(ChordSegment(
+            beatSegments.startTimes[i],
+            beatSegments.startTimes[i] + beatSegments.durations[i],
+            sym))
+    if (res[-1].endTime < endTime) :
+        res.append(ChordSegment(res[-1].endTime, endTime, 'N'))
+    return mergeSegments(res)
 
 ######################################################################
 # Models
@@ -106,20 +177,8 @@ class BasicChordGMM(ChordEmissionProbabilityModel):
         self.basicGMMParameters=basicGMMParameters
         self.gmms = gmms
 
-    def __init__(
-            self,
-            basicGMMParameters,
-            max_iter=200,
-            random_state = 8):
-        self.basicGMMParameters=basicGMMParameters
-        self.gmms = map(lambda x:
-            GaussianMixture(
-                n_components=basicGMMParameters.nComponents[x],
-                covariance_type=basicGMMParameters.covarianceTypes[x],
-                max_iter=max_iter,
-                random_state = random_state), xrange(N_CHORD_KINDS))
-        self.gmms = map(lambda x:
-            GaussianMixture(1), xrange(N_CHORD_KINDS))
+    #def __getnewargs__(self):
+    #    return (BasicChordGMM.__repr__(self),)
 
     def preprocess(self, originalChromas):
         chromas = originalChromas
@@ -180,6 +239,61 @@ def trainBasicChordGMM(
         basicGMMParameters,
         jsonListFile):
     chromaEvaluator = ll.AnnotatedChromaEvaluator(chromaEvaluationParameters)
-    gmm = BasicChordGMM(basicGMMParameters)
+    gmms = map(lambda x:
+            GaussianMixture(
+                n_components=basicGMMParameters.nComponents[x],
+                covariance_type=basicGMMParameters.covarianceTypes[x],
+                max_iter=200,
+                random_state = 8), xrange(N_CHORD_KINDS))
+    gmm = BasicChordGMM(basicGMMParameters, gmms)
     gmm.fit(chromaEvaluator.loadChromasForAnnotationFileList(jsonListFile))
     return gmm
+
+class ChordEstimator:
+    def __init__(self,
+        chromaEvaluationParameters,
+        chordEmissionProbabilityModel,
+        transitionMatrix):
+        self.chromaEvaluationParameters = chromaEvaluationParameters
+        self.emissionModel = chordEmissionProbabilityModel
+        self.logTransitionMatrix = np.log(transitionMatrix)
+
+    def estimate(self, audioFile):
+        infile = str(path.realpath(audioFile))
+        beatSegments = ll.rnnBeatSegments(infile)
+        chromaSegments = ll.loadNNLSChromas(
+            infile,
+            self.chromaEvaluationParameters.stepSize,
+            self.chromaEvaluationParameters.smoothingTime,
+            self.chromaEvaluationParameters.sampleRate,
+            beatSegments.startTimes,
+            beatSegments.durations)
+        logProbs = self.emissionModel.logProbabilities(chromaSegments.chromas)
+        # No HMM
+        #indices = np.argmax(logProbs, axis=1)
+        #syms = map(lambda x: CHORD_NAMES[x], indices)
+        #s = logProbs[xrange(len(indices)), indices]
+        #strengths = np.exp(s)
+        #strengths[s == 0] = 0
+        # HMM
+        indices, strengths = viterbi(logProbs, self.logTransitionMatrix)
+        syms = map(lambda x: CHORD_NAMES[x], indices)
+        return beatSegments, syms, strengths
+
+    def estimateToMIREXFile(self, audioFile, outfile):
+        beatSegments, syms, strengths = self.estimate(audioFile)
+        duration = ll.audioDuration(path.realpath(audioFile))
+        segments = toMirexLab(0.0, duration, beatSegments, syms, strengths)
+        with open(outfile, 'w') as content_file:
+            for s in segments:
+                content_file.write(str(s) + '\n')
+
+def loadModel(filename):
+    return joblib.load(filename)
+
+def callJazz(chordEstimator, jazz_dir, audioInFile, name, jazz_ext = 'lab'):
+    if not path.exists(jazz_dir):
+        os.mkdir(jazz_dir)
+    oursFile = os.path.join(jazz_dir, name + "." + jazz_ext)
+    chordEstimator.estimateToMIREXFile(path.realpath(audioInFile), path.realpath(oursFile))
+    return oursFile

@@ -1,11 +1,12 @@
 import os
 import json
 import argparse
-from chordUtils import json2lab
-from chordUtils import callChordino
-from chordUtils import callJazz
-from chordUtils import callMusOOEvaluatorForSingleFile
+from commonUtils.commonUtils import json2lab
+from commonUtils.validation import callChordino, callMusOOEvaluatorForSingleFile, extractMusOOAverageScore
+from validation import callMusOOEvaluatorForSingleFile
 from chordUtils import extractMusOOAverageScore
+import chordModel
+import lowLevelFeatures as ll
 
 utils_path = os.path.dirname(os.path.realpath(__file__))
 data_root = os.environ['JAZZ_HARMONY_DATA_ROOT']
@@ -58,7 +59,7 @@ labfile = os.path.join(truth_dir, name + "." + truth_ext)
 json2lab('chords', infile, labfile)
 
 if (chordino_dir != '' and chordino_ext != ''):
-    chordinoFile = callChordino(chordino_dir, chordino_ext, audiofile, name)
+    chordinoFile = callChordino(chordino_dir, audiofile, name, chordino_ext = chordino_ext)
 
     if (do_eval):
         chordsQualityFile, segmentationQualityFile = callMusOOEvaluatorForSingleFile(
@@ -75,7 +76,13 @@ if (chordino_dir != '' and chordino_ext != ''):
 
 if (jazz_dir != '' and jazz_ext != ''):
     # our algorithm
-    jazzFile = callJazz(jazz_dir, jazz_ext, audiofile, name)
+    thisPath = os.path.dirname(os.path.realpath(__file__))
+    estimator = chordModel.ChordEstimator(
+        ll.ChromaEvaluationParameters(stepSize=2048, smoothingTime=2.75),
+        chordModel.loadModel(os.path.join(thisPath, 'gauss275log-ratio-sphere.pkl')),
+        chordModel.TRIVIAL_TRANSITION_MATRIX)
+    jazzFile = chordModel.callJazz(estimator, jazz_dir, jazz_ext, audiofile, name)
+
     if (do_eval):
         outfile = os.path.join(jazz_dir, name + "." + jazz_ext +".MirexMajMin.txt")
         chordsQualityFile, segmentationQualityFile = callMusOOEvaluatorForSingleFile(

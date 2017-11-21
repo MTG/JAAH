@@ -6,7 +6,7 @@ import numpy as np
 import os
 
 parser = argparse.ArgumentParser(
-    description='Split file lists to folds with train and test set')
+    description='Split file lists to folds for crossvalidation with train and test set')
 
 parser.add_argument('infile', type=argparse.FileType('r'), help='txt input file (with list of json annotations)')
 parser.add_argument('--folds', type=int, default=5, help='number of folds')
