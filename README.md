@@ -1,6 +1,12 @@
 # JazzHarmonyCorpus
 Jazz harmony corpus and auxulary tools facilitating it's building.
 
+To run toolsm the following environment variables must be set:
+   * JAZZ_HARMONY_DATA_ROOT path to base directory with audio data which is refered from
+     annotations.
+   * JAZZ_HARMONY_CACHE_DIR path to the directory where cache (e.g. with chroma features
+     and beats) will reside.
+
 Dependencies:
    * musicbrainzngs: https://github.com/alastair/python-musicbrainzngs
    * MusOOEvaluator (MTG fork): https://github.com/MTG/MusOOEvaluator.git

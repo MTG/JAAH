@@ -1,0 +1,23 @@
+{
+  "tuning": "TODO",
+  "artist": "seva",
+  "title": "dom9b5",
+  "metre": "2/4",
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT/GuitarChords/audio/dom9b5fromG.wav",
+   "transcriptions": []
+  },
+  "mbid": "dom9b5fromG",
+  "duration": "16.9",
+  "parts": [
+    {
+      "name": "one&only",
+      "beats": [
+         1.86, 2.53, 3.18, 3.87, 4.53, 5.17, 5.87, 6.55, 7.27, 7.9, 8.57, 9.26, 9.91, 10.6, 11.32, 12.06,
+12.76, 13.42, 14.12, 14.85, 15.51, 16.22],
+      "chords":[
+        "|G:(3,b7,b5)  N|G#:(3,b7,b5) N|A:(3,b7,b5)  N|A#:(3,b7,b5) N|",
+        "|B:(3,b7,b5)  N|C:(3,b7,b5)  N|C#:(3,b7,b5) N|D:(3,b7,b5)  N|",
+        "|D#:(3,b7,b5) N|E:(3,b7,b5) N|"]
+    }]
+}

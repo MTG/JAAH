@@ -1,0 +1,21 @@
+{
+  "tuning": "TODO",
+  "artist": "seva",
+  "title": "min9",
+  "metre": "2/4",
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT/GuitarChords/audio/min9fromC.wav",
+   "transcriptions": []
+  },
+  "mbid": "min9fromC",
+  "duration": "19.7",
+  "parts": [
+    {
+      "name": "one&only",
+      "beats": [
+         1.73, 2.41, 3.04, 3.7, 4.4, 5.04, 5.73, 6.44, 7.1, 7.8, 8.46, 9.17, 9.83, 10.55, 11.22, 11.91,
+         12.56, 13.28, 13.94, 14.6, 15.32, 16.02, 16.67, 17.35, 17.99, 18.63, 19.24],
+      "chords":[
+        "|C:min9 N|C#:min9 N|D:min9 N|D#:min9 N|E:min9 N|F:min9 N|F#:min9 N|G:min9 N|G#:min9 N|A:min9 N|A#:min9 N|B:min9 N|"]
+    }]
+}

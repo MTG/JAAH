@@ -1,0 +1,21 @@
+{
+  "tuning": "TODO",
+  "artist": "seva",
+  "title": "min7",
+  "metre": "2/4",
+  "sandbox": {
+   "path": "$JAZZ_HARMONY_DATA_ROOT/GuitarChords/audio/min7fromC.wav",
+   "transcriptions": []
+  },
+  "mbid": "min7fromC",
+  "duration": "20.6",
+  "parts": [
+    {
+      "name": "one&only",
+      "beats": [
+         2.68, 3.31, 3.98, 4.64, 5.32, 6.0, 6.68, 7.37, 7.98, 8.69, 9.32, 10.13, 10.85, 11.54, 12.2, 12.88,
+         13.53, 14.22, 14.87, 15.53, 16.26, 16.95, 17.68, 18.37, 19.04, 19.66, 20.29],
+      "chords":[
+        "|C:min7 N|C#:min7 N|D:min7 N|D#:min7 N|E:min7 N|F:min7 N|F#:min7 N|G:min7 N|G#:min7 N|A:min7 N|A#:min7 N|B:min7 N|"]
+    }]
+}

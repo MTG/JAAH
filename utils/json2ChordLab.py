@@ -1,5 +1,5 @@
 import sys
-from chordUtils import json2lab
+from commonUtils import json2lab
 import argparse
 
 def get_args():

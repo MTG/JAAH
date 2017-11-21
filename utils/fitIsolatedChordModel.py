@@ -1,6 +1,6 @@
 import os
 import sys
-from chordUtils import json2lab
+from commonUtils import json2lab
 from subprocess import call
 import json
 import argparse

@@ -4,7 +4,7 @@
   "title": "Weather Bird", 
   "metre": "4/4", 
   "sandbox": {
-   "path": "Tracks/Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 12 - Weather Bird.flac", 
+   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 12 - Weather Bird.flac",
    "transcriptions": [],
    "key":["Ab"]
   }, 
