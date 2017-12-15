@@ -5,6 +5,7 @@ import matplotlib
 from matplotlib.patches import Polygon
 from matplotlib.collections import PatchCollection
 import numpy as np
+from scipy.stats import beta
 
 degrees=['I', 'IIb', 'II', 'IIIb', 'III', 'IV', 'Vb', 'V', 'VIb', 'VI', 'VIIb', 'VII']
 
@@ -109,16 +110,80 @@ def plotLabels(ax, degrees, x0 = 0.5, y0 = math.sqrt(3)/2, angle = 2 * math.pi /
         ax.text(x[i, 0], x[i, 1], degrees[i], ha="center", va="center", size=size,
             bbox=bbox_props)
 
-def plotHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
+def plotHexagram(ax, chroma, degrees, step = 30, gap = 0.005, labelSize = 12, captionDegrees = None):
+    if (captionDegrees == None):
+        captionDegrees = degrees
     ax.axes.set_xlim(-0.5, 1.5)
     ax.axes.set_ylim(0, 1.75)
-    degreesTernaryPlot(ax, chroma, 'I', 'III', 'V', step, gap=gap)
-    degreesTernaryPlot(ax, chroma, 'I', 'V', 'VII', step, angle=math.pi / 3.0, gap=gap)
-    degreesTernaryPlot(ax, chroma, 'I', 'VII', 'VI', step, angle=0, gap=gap)
-    degreesTernaryPlot(ax, chroma, 'I', 'VI', 'II', step, angle=-math.pi / 3.0, gap=gap)
-    degreesTernaryPlot(ax, chroma, 'I', 'II', 'IV', step, angle=- 2.0 * math.pi / 3.0, gap=gap)
-    degreesTernaryPlot(ax, chroma, 'I', 'IV', 'III', step, angle=- 3.0 * math.pi / 3.0, gap=gap)
-    plotLabels(ax, ['I', 'III', 'V', 'VII', 'VI', 'II', 'IV'], size = labelSize)
+    angle = 2 * math.pi / 3.0
+    for i in xrange(6):
+        degreesTernaryPlot(
+            ax,
+            chroma,
+            degrees[0], degrees[i + 1], degrees[(i+1) % 6 + 1],
+            step, angle=angle, gap=gap)
+        angle -= math.pi / 3.0
+    plotLabels(ax, captionDegrees, size = labelSize)
+
+def plotMajHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
+    plotHexagram(ax, chroma, degrees = ['I', 'III', 'V', 'VII', 'VI', 'II', 'IV'], step=step, gap = gap, labelSize = labelSize)
+
+def plotMinHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
+    plotHexagram(ax, chroma, degrees = ['I', 'IIIb', 'V', 'VIIb', 'VI', 'II', 'IV'], step=step, gap = gap, labelSize = labelSize)
+
+def plotDomHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
+    plotHexagram(ax, chroma, degrees = ['I', 'III', 'V', 'VIIb', 'VI', 'II', 'IV'], step=step, gap = gap, labelSize = labelSize)
+
+def plotHdim7Hexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
+    plotHexagram(ax, chroma, degrees = ['I', 'IIIb', 'Vb', 'VIIb', 'VIb', 'IIb', 'IV'], step=step, gap = gap, labelSize = labelSize)
+
+def plotDimHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
+    plotHexagram(
+        ax,
+        chroma,
+        degrees = ['I', 'IIIb', 'Vb', 'VI', 'VI', 'IIb', 'IV'],
+        step=step,
+        gap = gap,
+        labelSize = labelSize,
+        captionDegrees=['I', 'IIIb', 'Vb', 'VIIbb', 'VIIbb', 'IIb', 'IV'])
 
 def estimatePartition(partition, chromas):
     return np.sum(chromas[:, partition], axis=1)
+
+# sort chord/sclae degrees according to method ('mean', 'entropy', 'beta-likelihood')
+def sortedDegrees(chromas, method='mean', flip = False, convertToIndices=False):
+    av = np.mean(chromas, axis=0)
+    t = np.empty(len(degrees), dtype=[('degree', object), ('entropy', float), ('mean', float), ('beta-likelihood', float)])
+    for i in xrange(len(degrees)):
+        partition = [i]
+        a = estimatePartition(partition, chromas)
+        params = beta.fit(a, floc=0, fscale=1)
+        e = beta.entropy(*params)
+        bl = beta.logpdf(a, *params).sum()
+        t[i] = (degrees[i], e, av[i], bl)
+        #print np.array(degrees)[partition], e, av[i], ll
+    t.sort(order=method)
+    d = t['degree']
+    if (flip):
+        d = np.flip(d, axis=0)
+    if (convertToIndices):
+        return [degrees.index(x) for x in d]
+    else:
+        return d
+
+def plotStrongWeakHexagrams(
+        ax1,
+        ax2,
+        chromas,
+        sortedDegrees,
+        step = 30, gap = 0.005, labelSize = 12):
+    weakest = np.empty(7, dtype='object')
+    weakest[1:7] = sortedDegrees[0:6]
+    weakest[0] = sortedDegrees[11]
+    strongest = np.empty(7, dtype='object')
+    strongest[0] = sortedDegrees[11]
+    strongest[1:7] = sortedDegrees[5:11]
+    plotHexagram(ax1, chromas, weakest, step = step, gap = gap, labelSize = labelSize)
+    plotHexagram(ax2, chromas, strongest, step = step, gap = gap, labelSize = labelSize)
+
+

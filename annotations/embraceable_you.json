@@ -59,7 +59,7 @@
         [
             "|D:min D:min/7 |D:min/b7 D:min/b7 B:hdim7 E:(3,5,b7,b9) |A:min7 |D:7 G:7 |C:maj7 A:min7 |D:min7 G:7 |C:7 |C#:min7 F#:7 |",
             "|F:maj7 |B:min7 E:7 |G:min7 |G:min7 G:min7 A:hdim7 D:(3,5,b7,b9) |G:min7 |Eb:7 |F:maj7 |F:maj7 F:7 |",
-            "|Bb:maj7 |E:hdim7 A:(3,5,b7,b9) |D:min D:min/b7 |B:hdim7 Bb:min7 |F:maj7 |G:hdim7 C:7 |B:min7 D:min7 |F:maj6 |"
+            "|Bb:maj7 |E:hdim7 A:(3,5,b7,b9) |D:min D:min/b7 |B:hdim7 Bb:min7 |F:maj7 |G:hdim7 C:7 |B:min7 D:min7 |F:maj6 F:maj6 F:maj6 N|"
         ]
     }
   ]
