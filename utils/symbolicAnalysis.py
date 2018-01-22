@@ -5,6 +5,7 @@ import numpy as np
 import lowLevelFeatures as ll
 from collections import Counter
 import chordModel
+import os
 
 class SymbolicAnalysisSegment :
     def __init__(self, labels, kind, root, duration, nBeats):
@@ -85,6 +86,30 @@ def makeTransitionCRootPart(twoGrams, harmonicRhythm):
         column[column == 0] = pUnobserved
         column /= sum(column)
     return result
+
+def harmonicRhythmForFile(annoFileName):
+   with open(annoFileName) as json_file:
+       data = json.load(json_file)
+       duration = data['duration']
+       metreNumerator = int(data['metre'].split('/')[0])
+       allBeats = []
+       allChords = []
+       commonUtils.processParts(metreNumerator, data, allBeats, allChords, 'chords')
+       segments = merge(toSymbolicAnalysisSegments(
+           commonUtils.toBeatChordSegments(0, duration, allBeats, allChords)))
+        # remove unclassified.
+       nBeats = map(lambda x: x.nBeats, filter(lambda x: x.kind!= ll.UNCLASSIFIED, segments))
+       return float(sum(nBeats)) / len(nBeats)
+
+def harmonicRhythmForEachFileInList(fileList):
+    resultByFile = {}
+    with open(fileList) as list_file:
+        for line in list_file:
+            infile = line.rstrip()
+            basename = os.path.basename(infile)
+            name, jsonExt = os.path.splitext(basename)
+            resultByFile[name] = harmonicRhythmForFile(infile)
+    return resultByFile
 
 def estimateFrequencies(listFileName, top = 300, maxNGram = 2000):
     allLabels = np.array([], dtype='object')
