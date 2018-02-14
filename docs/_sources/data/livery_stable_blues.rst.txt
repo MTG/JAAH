@@ -1,0 +1,130 @@
+.. index:: Livery Stable Blues, Original Dixieland Jazz Band
+.. _hyperlink-name: "Livery Stable Blues" Original Dixieland Jazz Band
+
+"Livery Stable Blues" Original Dixieland Jazz Band/1917
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `cad9a000-cb04-49ae-9c2e-94c16981dbc9`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 190.64 s
+   * - Recording Dates
+     - 1917-02-26 - 1917-02-26
+   * - Composer(s)
+     - Nick LaRocca
+.. _cad9a000-cb04-49ae-9c2e-94c16981dbc9: https://musicbrainz.org/recording/cad9a000-cb04-49ae-9c2e-94c16981dbc9
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - trombone
+     - Eddie Edwards 
+   * - clarinet
+     - Larry Shields 
+   * - piano
+     - Henry Ragas 
+   * - drums
+     - Tony Sbarbaro 
+   * - cornet
+     - Nick LaRocca 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 114
+   * - Mean BPM
+     - 158.308854385
+   * - Mean Harmonic Rhythm
+     - 3.92105263158
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 213
+     - 42.3459244533
+     - 79.06
+     - 41.4708350818
+   * - dom
+     - 232
+     - 46.1232604374
+     - 84.84
+     - 44.5027276542
+   * - dim
+     - 1
+     - 0.198807157058
+     - 0.41
+     - 0.215065044062
+   * - min
+     - 1
+     - 0.198807157058
+     - 0.38
+     - 0.199328577423
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/livery_stable_blues.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/livery_stable_blues.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/livery_stable_blues.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`livery_stable_blues.json <../../../annotations/livery_stable_blues.json>`
+
+.. literalinclude:: ../../../annotations/livery_stable_blues.json
+   :language: javascript

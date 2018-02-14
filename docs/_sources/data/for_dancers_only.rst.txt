@@ -1,0 +1,138 @@
+.. index:: For Dancers Only, Jimmie Lunceford and His Orchestra
+.. _hyperlink-name: "For Dancers Only" Jimmie Lunceford and His Orchestra
+
+"For Dancers Only" Jimmie Lunceford and His Orchestra/1937
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `b26fa5c2-4ddf-48af-9bf7-bd9a9d7d9657`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb
+   * - Durtion
+     - 161.49 s
+   * - Recording Dates
+     - 1937-06-15 - 1937-06-15
+   * - Composer(s)
+     - Sy Oliver, Don Raye, Vic Schoen
+.. _b26fa5c2-4ddf-48af-9bf7-bd9a9d7d9657: https://musicbrainz.org/recording/b26fa5c2-4ddf-48af-9bf7-bd9a9d7d9657
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Joe Thomas 
+   * - baritone saxophone
+     - Earl Carruthers 
+   * - alto saxophone
+     - Willie Smith, Dan Grissom, Ed Brown 
+   * - guitar
+     - Al Norris 
+   * - double bass
+     - Moses Allen 
+   * - drums
+     - Jimmy Crawford 
+   * - trombone
+     - Eddie Durham, Russell Bowles, Elmer Crumbley 
+   * - piano
+     - Edwin Wilcox 
+   * - trumpet
+     - Eddie Tompkins, Sy Oliver, Paul Webster 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 202
+   * - Mean BPM
+     - 148.987553409
+   * - Mean Harmonic Rhythm
+     - 1.9801980198
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 174
+     - 43.391521197
+     - 67.18
+     - 41.6000990773
+   * - dom
+     - 114
+     - 28.4289276808
+     - 44.06
+     - 27.2834231222
+   * - dim
+     - 50
+     - 12.4688279302
+     - 19.32
+     - 11.9635890767
+   * - min
+     - 62
+     - 15.4613466334
+     - 23.79
+     - 14.7315623258
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/for_dancers_only.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/for_dancers_only.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/for_dancers_only.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`for_dancers_only.json <../../../annotations/for_dancers_only.json>`
+
+.. literalinclude:: ../../../annotations/for_dancers_only.json
+   :language: javascript

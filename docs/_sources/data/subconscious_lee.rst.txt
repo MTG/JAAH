@@ -1,0 +1,120 @@
+.. index:: Subconscious Lee, Lennie Tristano
+.. _hyperlink-name: "Subconscious Lee" Lennie Tristano
+
+"Subconscious Lee" Lennie Tristano/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `aa95b666-fbf4-4854-bcd5-b1e9900cba84`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - C
+   * - Durtion
+     - 168.4 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _aa95b666-fbf4-4854-bcd5-b1e9900cba84: https://musicbrainz.org/recording/aa95b666-fbf4-4854-bcd5-b1e9900cba84
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 84
+   * - Mean BPM
+     - 242.992874109
+   * - Mean Harmonic Rhythm
+     - 8.09523809524
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 176
+     - 25.8064516129
+     - 42.59
+     - 25.2909738717
+   * - dom
+     - 376
+     - 55.1319648094
+     - 91.16
+     - 54.1330166271
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 128
+     - 18.7683284457
+     - 31.02
+     - 18.4204275534
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/subconscious_lee.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/subconscious_lee.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/subconscious_lee.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`subconscious_lee.json <../../../annotations/subconscious_lee.json>`
+
+.. literalinclude:: ../../../annotations/subconscious_lee.json
+   :language: javascript

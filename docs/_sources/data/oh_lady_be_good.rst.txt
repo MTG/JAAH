@@ -1,0 +1,132 @@
+.. index:: Oh, Lady Be Good, Charlie Parker with Jazz at the Philharmonic
+.. _hyperlink-name: "Oh, Lady Be Good" Charlie Parker with Jazz at the Philharmonic
+
+"Oh, Lady Be Good" Charlie Parker with Jazz at the Philharmonic/1946
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `cb202ce1-d335-428f-942f-0f92ee1a6077`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - G
+   * - Durtion
+     - 191.49 s
+   * - Recording Dates
+     - 1946-01-28 - 1946-01-28
+   * - Composer(s)
+     - George Gershwin
+.. _cb202ce1-d335-428f-942f-0f92ee1a6077: https://musicbrainz.org/recording/cb202ce1-d335-428f-942f-0f92ee1a6077
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - drumset
+     - Lee Young 
+   * - alto saxophone
+     - Willie Smith, Charlie Parker 
+   * - tenor saxophone
+     - Lester Young 
+   * - double bass
+     - Billy Hadnott 
+   * - piano
+     - Arnold Ross 
+   * - trumpet
+     - Howard McGhee, Al Killian 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 131
+   * - Mean BPM
+     - 125.959580135
+   * - Mean Harmonic Rhythm
+     - 3.0534351145
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 6
+     - 1.49253731343
+     - 2.58
+     - 1.34732884224
+   * - maj
+     - 124
+     - 30.8457711443
+     - 53.4
+     - 27.8865737114
+   * - dom
+     - 133
+     - 33.0845771144
+     - 56.98
+     - 29.7561230351
+   * - dim
+     - 12
+     - 2.98507462687
+     - 5.17
+     - 2.69987988929
+   * - min
+     - 125
+     - 31.0945273632
+     - 53.91
+     - 28.152906157
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/oh_lady_be_good.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/oh_lady_be_good.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/oh_lady_be_good.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`oh_lady_be_good.json <../../../annotations/oh_lady_be_good.json>`
+
+.. literalinclude:: ../../../annotations/oh_lady_be_good.json
+   :language: javascript

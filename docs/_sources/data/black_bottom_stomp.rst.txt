@@ -1,0 +1,134 @@
+.. index:: Black Bottom Stomp, Jelly Roll Morton's Red Hot Peppers
+.. _hyperlink-name: "Black Bottom Stomp" Jelly Roll Morton's Red Hot Peppers
+
+"Black Bottom Stomp" Jelly Roll Morton's Red Hot Peppers/1926
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `67a88bd6-864f-4ff7-9579-9d649887deb1`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 196.11 s
+   * - Recording Dates
+     - 1926-09-15 - 1926-09-15
+   * - Composer(s)
+     - Ferdinand Joseph LaMothe, Jelly Roll Morton
+.. _67a88bd6-864f-4ff7-9579-9d649887deb1: https://musicbrainz.org/recording/67a88bd6-864f-4ff7-9579-9d649887deb1
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - double bass
+     - John Lindsay 
+   * - drums
+     - Andrew Hilaire 
+   * - trombone
+     - Kid Ory 
+   * - piano
+     - Jelly Roll Morton 
+   * - banjo
+     - Johnny St. Cyr 
+   * - clarinet
+     - Omer Simeon 
+   * - cornet
+     - George Mitchell 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 151
+   * - Mean BPM
+     - 247.820100964
+   * - Mean Harmonic Rhythm
+     - 4.92715231788
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 293
+     - 36.1728395062
+     - 69.06
+     - 35.2149303962
+   * - dom
+     - 344
+     - 42.4691358025
+     - 81.15
+     - 41.3798378461
+   * - dim
+     - 44
+     - 5.43209876543
+     - 10.24
+     - 5.22155932895
+   * - min
+     - 63
+     - 7.77777777778
+     - 14.68
+     - 7.48559481923
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/black_bottom_stomp.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/black_bottom_stomp.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/black_bottom_stomp.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`black_bottom_stomp.json <../../../annotations/black_bottom_stomp.json>`
+
+.. literalinclude:: ../../../annotations/black_bottom_stomp.json
+   :language: javascript

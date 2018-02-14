@@ -1,0 +1,132 @@
+.. index:: That's a Serious Thing, Eddie Condon's Hot Shots
+.. _hyperlink-name: "That's a Serious Thing" Eddie Condon's Hot Shots
+
+"That's a Serious Thing" Eddie Condon's Hot Shots/1929
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `57e1ed14-f9a5-45b6-89d5-96932e6cfa30`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 212.75 s
+   * - Recording Dates
+     - 1929-02-08 - 1929-02-08
+   * - Composer(s)
+     - Eddie Condon, Jack Teagarden, Mezz Mezzrow, Joe Sullivan
+.. _57e1ed14-f9a5-45b6-89d5-96932e6cfa30: https://musicbrainz.org/recording/57e1ed14-f9a5-45b6-89d5-96932e6cfa30
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Happy Caldwell, Mezz Mezzrow 
+   * - drums
+     - George Stafford 
+   * - trombone
+     - Jack Teagarden 
+   * - piano
+     - Joe Sullivan 
+   * - banjo
+     - Eddie Condon 
+   * - trumpet
+     - Leonard "Ham" Davis 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 102
+   * - Mean BPM
+     - 98.7074030552
+   * - Mean Harmonic Rhythm
+     - 3.41176470588
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 116
+     - 33.1428571429
+     - 64.94
+     - 30.5240893067
+   * - dom
+     - 201
+     - 57.4285714286
+     - 112.42
+     - 52.8413631022
+   * - dim
+     - 31
+     - 8.85714285714
+     - 17.35
+     - 8.15511163337
+   * - min
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/thats_a_serious_thing.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/thats_a_serious_thing.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/thats_a_serious_thing.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`thats_a_serious_thing.json <../../../annotations/thats_a_serious_thing.json>`
+
+.. literalinclude:: ../../../annotations/thats_a_serious_thing.json
+   :language: javascript

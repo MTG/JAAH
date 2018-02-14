@@ -1,0 +1,134 @@
+.. index:: The Girl From Ipanema, Stan Getz & João Gilberto feat. Antonio Carlos Jobim
+.. _hyperlink-name: "The Girl From Ipanema" Stan Getz & João Gilberto feat. Antonio Carlos Jobim
+
+"The Girl From Ipanema" Stan Getz & João Gilberto feat. Antonio Carlos Jobim/1963
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `fd889e33-a067-498f-bbf8-9ffe305bde16`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 326.37 s
+   * - Recording Dates
+     - 1963-03-18 - 1963-03-19
+   * - Composer(s)
+     - Antônio Carlos Jobim
+.. _fd889e33-a067-498f-bbf8-9ffe305bde16: https://musicbrainz.org/recording/fd889e33-a067-498f-bbf8-9ffe305bde16
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - drums
+     - Milton Banana 
+   * - drumset
+     - Milton Banana 
+   * - guest and piano
+     - Antônio Carlos Jobim 
+   * - tenor saxophone
+     - Stan Getz 
+   * - bass guitar
+     - Tommy Williams 
+   * - guitars
+     - João Gilberto 
+   * - piano
+     - Antônio Carlos Jobim 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 106
+   * - Mean BPM
+     - 128.320617704
+   * - Mean Harmonic Rhythm
+     - 6.56603773585
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 352
+     - 50.4297994269
+     - 162.08
+     - 49.6614272145
+   * - dom
+     - 200
+     - 28.6532951289
+     - 92.11
+     - 28.2225694764
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 144
+     - 20.6303724928
+     - 66.44
+     - 20.3572632289
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/girl_from_ipanema.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/girl_from_ipanema.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/girl_from_ipanema.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`girl_from_ipanema.json <../../../annotations/girl_from_ipanema.json>`
+
+.. literalinclude:: ../../../annotations/girl_from_ipanema.json
+   :language: javascript

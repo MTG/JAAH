@@ -1,0 +1,136 @@
+.. index:: In Gloryland, Bunk's Brass Band
+.. _hyperlink-name: "In Gloryland" Bunk's Brass Band
+
+"In Gloryland" Bunk's Brass Band/1945
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `043694ff-e370-43f2-a68b-84a476f96194`_
+   * - Time Signature
+     - 2/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 183.64 s
+   * - Recording Dates
+     - 1945-05-18 - 1945-05-18
+   * - Composer(s)
+     - Emmett Sidney Dean
+.. _043694ff-e370-43f2-a68b-84a476f96194: https://musicbrainz.org/recording/043694ff-e370-43f2-a68b-84a476f96194
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - soprano clarinet
+     - George Lewis 
+   * - tenor horn / alto horn
+     - Isidore Barbarin 
+   * - baritone horn
+     - Adolphe "Tats" Alexander Jr. 
+   * - other instruments
+     - Joe "Red" Clark 
+   * - trombone
+     - Jim Robinson 
+   * - bass drum
+     - Lawrence Marrero 
+   * - snare drum
+     - Warren “Baby” Dodds 
+   * - trumpet
+     - Louis "Kid Shots" Madison, Bunk Johnson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 45
+   * - Mean BPM
+     - 96.7109562187
+   * - Mean Harmonic Rhythm
+     - 6.04444444444
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 240
+     - 81.0810810811
+     - 142.4
+     - 77.5430189501
+   * - dom
+     - 32
+     - 10.8108108108
+     - 18.71
+     - 10.1884121107
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/in_gloryland.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/in_gloryland.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/in_gloryland.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`in_gloryland.json <../../../annotations/in_gloryland.json>`
+
+.. literalinclude:: ../../../annotations/in_gloryland.json
+   :language: javascript

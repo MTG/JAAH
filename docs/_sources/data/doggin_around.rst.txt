@@ -1,0 +1,120 @@
+.. index:: Doggin' Around, Count Basie & His Orchestra
+.. _hyperlink-name: "Doggin' Around" Count Basie & His Orchestra
+
+"Doggin' Around" Count Basie & His Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `699579f6-d24a-4c64-9950-b6281c8a3b2e`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 180.51 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _699579f6-d24a-4c64-9950-b6281c8a3b2e: https://musicbrainz.org/recording/699579f6-d24a-4c64-9950-b6281c8a3b2e
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 101
+   * - Mean BPM
+     - 245.304969254
+   * - Mean Harmonic Rhythm
+     - 6.65346534653
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 291
+     - 39.4308943089
+     - 70.27
+     - 38.9285912138
+   * - dom
+     - 381
+     - 51.6260162602
+     - 91.68
+     - 50.7894299485
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/doggin_around.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/doggin_around.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/doggin_around.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`doggin_around.json <../../../annotations/doggin_around.json>`
+
+.. literalinclude:: ../../../annotations/doggin_around.json
+   :language: javascript

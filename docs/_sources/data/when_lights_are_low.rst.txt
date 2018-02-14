@@ -1,0 +1,120 @@
+.. index:: When Lights Are Low, Lionel Hampton and His Orchestra
+.. _hyperlink-name: "When Lights Are Low" Lionel Hampton and His Orchestra
+
+"When Lights Are Low" Lionel Hampton and His Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `be26b916-d04f-44fd-8ec3-47586711b4dd`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 136.29 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _be26b916-d04f-44fd-8ec3-47586711b4dd: https://musicbrainz.org/recording/be26b916-d04f-44fd-8ec3-47586711b4dd
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 167
+   * - Mean BPM
+     - 189.302223201
+   * - Mean Harmonic Rhythm
+     - 2.37125748503
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 18
+     - 4.18604651163
+     - 5.45
+     - 3.99882603272
+   * - maj
+     - 146
+     - 33.9534883721
+     - 44.37
+     - 32.5555800132
+   * - dom
+     - 142
+     - 33.023255814
+     - 43.05
+     - 31.5870570108
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 90
+     - 20.9302325581
+     - 27.28
+     - 20.01614205
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/when_lights_are_low.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/when_lights_are_low.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/when_lights_are_low.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`when_lights_are_low.json <../../../annotations/when_lights_are_low.json>`
+
+.. literalinclude:: ../../../annotations/when_lights_are_low.json
+   :language: javascript

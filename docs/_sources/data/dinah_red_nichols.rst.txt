@@ -1,0 +1,120 @@
+.. index:: Dinah, Red Nichols & His Five Pennies
+.. _hyperlink-name: "Dinah" Red Nichols & His Five Pennies
+
+"Dinah" Red Nichols & His Five Pennies/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `8e09f1ee-053d-42e3-baf5-50af6137549c`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 195.44 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _8e09f1ee-053d-42e3-baf5-50af6137549c: https://musicbrainz.org/recording/8e09f1ee-053d-42e3-baf5-50af6137549c
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 53
+   * - Mean BPM
+     - 125.869832174
+   * - Mean Harmonic Rhythm
+     - 7.43396226415
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 200
+     - 48.7804878049
+     - 93.76
+     - 47.9738027016
+   * - dom
+     - 132
+     - 32.1951219512
+     - 61.99
+     - 31.7181743758
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 62
+     - 15.1219512195
+     - 28.87
+     - 14.7717969709
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/dinah_red_nichols.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/dinah_red_nichols.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/dinah_red_nichols.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`dinah_red_nichols.json <../../../annotations/dinah_red_nichols.json>`
+
+.. literalinclude:: ../../../annotations/dinah_red_nichols.json
+   :language: javascript

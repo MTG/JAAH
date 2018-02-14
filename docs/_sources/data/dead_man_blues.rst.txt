@@ -1,0 +1,120 @@
+.. index:: Dead Man Blues, Jelly Roll Morton's Red Hot Peppers
+.. _hyperlink-name: "Dead Man Blues" Jelly Roll Morton's Red Hot Peppers
+
+"Dead Man Blues" Jelly Roll Morton's Red Hot Peppers/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `c38bec92-e409-4bff-b148-75ff64c955ff`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 193.87 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _c38bec92-e409-4bff-b148-75ff64c955ff: https://musicbrainz.org/recording/c38bec92-e409-4bff-b148-75ff64c955ff
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 82
+   * - Mean BPM
+     - 116.985608913
+   * - Mean Harmonic Rhythm
+     - 4.57317073171
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 203
+     - 53.7037037037
+     - 94.69
+     - 48.8420075308
+   * - dom
+     - 148
+     - 39.1534391534
+     - 68.38
+     - 35.2710579254
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 24
+     - 6.34920634921
+     - 10.87
+     - 5.606849951
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/dead_man_blues.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/dead_man_blues.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/dead_man_blues.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`dead_man_blues.json <../../../annotations/dead_man_blues.json>`
+
+.. literalinclude:: ../../../annotations/dead_man_blues.json
+   :language: javascript

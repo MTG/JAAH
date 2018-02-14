@@ -1,0 +1,120 @@
+.. index:: Lester Leaps In, Count Basie and the Kansas City 7
+.. _hyperlink-name: "Lester Leaps In" Count Basie and the Kansas City 7
+
+"Lester Leaps In" Count Basie and the Kansas City 7/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `89b0b7f7-564a-4ae9-9402-5c5576ac2f9d`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 195.37 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _89b0b7f7-564a-4ae9-9402-5c5576ac2f9d: https://musicbrainz.org/recording/89b0b7f7-564a-4ae9-9402-5c5576ac2f9d
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 264
+   * - Mean BPM
+     - 241.388135333
+   * - Mean Harmonic Rhythm
+     - 2.66287878788
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 191
+     - 24.3002544529
+     - 47.08
+     - 24.0978655884
+   * - dom
+     - 286
+     - 36.3867684478
+     - 69.97
+     - 35.81409633
+   * - dim
+     - 32
+     - 4.07124681934
+     - 7.9
+     - 4.04360956135
+   * - min
+     - 194
+     - 24.6819338422
+     - 47.4
+     - 24.2616573681
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/lester_leaps_in.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/lester_leaps_in.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/lester_leaps_in.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`lester_leaps_in.json <../../../annotations/lester_leaps_in.json>`
+
+.. literalinclude:: ../../../annotations/lester_leaps_in.json
+   :language: javascript

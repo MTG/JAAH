@@ -1,0 +1,132 @@
+.. index:: Moanin’, Art Blakey & The Jazz Messengers
+.. _hyperlink-name: "Moanin’" Art Blakey & The Jazz Messengers
+
+"Moanin’" Art Blakey & The Jazz Messengers/1958
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `517cca8f-ab9a-4eee-92d1-1016907b3fc5`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F:min
+   * - Durtion
+     - 576.8 s
+   * - Recording Dates
+     - 1958-10-30 - 1958-10-30
+   * - Composer(s)
+     - Bobby Timmons
+.. _517cca8f-ab9a-4eee-92d1-1016907b3fc5: https://musicbrainz.org/recording/517cca8f-ab9a-4eee-92d1-1016907b3fc5
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - drumset
+     - Art Blakey 
+   * - tenor saxophone
+     - Benny Golson 
+   * - double bass
+     - Jymie Merritt 
+   * - drums
+     - Art Blakey 
+   * - piano
+     - Bobby Timmons 
+   * - trumpet
+     - Lee Morgan 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 490
+   * - Mean BPM
+     - 127.947295423
+   * - Mean Harmonic Rhythm
+     - 2.15102040816
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 36
+     - 2.92682926829
+     - 16.7
+     - 2.89528432732
+   * - maj
+     - 68
+     - 5.52845528455
+     - 30.91
+     - 5.35887656033
+   * - dom
+     - 630
+     - 51.2195121951
+     - 295.66
+     - 51.258668516
+   * - dim
+     - 2
+     - 0.162601626016
+     - 0.91
+     - 0.157766990291
+   * - min
+     - 318
+     - 25.8536585366
+     - 148.96
+     - 25.8252427184
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/moanin.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/moanin.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/moanin.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`moanin.json <../../../annotations/moanin.json>`
+
+.. literalinclude:: ../../../annotations/moanin.json
+   :language: javascript

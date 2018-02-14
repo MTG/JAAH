@@ -1,0 +1,126 @@
+.. index:: Tricroism, Lucky Thompson Trio
+.. _hyperlink-name: "Tricroism" Lucky Thompson Trio
+
+"Tricroism" Lucky Thompson Trio/1956
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `080a5a42-6260-4a73-b08c-768df63201bc`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 276.8 s
+   * - Recording Dates
+     - 1956-01-24 - 1956-01-24
+   * - Composer(s)
+     - 
+.. _080a5a42-6260-4a73-b08c-768df63201bc: https://musicbrainz.org/recording/080a5a42-6260-4a73-b08c-768df63201bc
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Skeeter Best 
+   * - tenor saxophone
+     - Lucky Thompson 
+   * - double bass
+     - Oscar Pettiford 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 173
+   * - Mean BPM
+     - 158.23699422
+   * - Mean Harmonic Rhythm
+     - 3.83815028902
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 10
+     - 1.3698630137
+     - 3.75
+     - 1.35476878613
+   * - maj
+     - 223
+     - 30.5479452055
+     - 83.15
+     - 30.0397398844
+   * - dom
+     - 311
+     - 42.602739726
+     - 116.39
+     - 42.0484104046
+   * - dim
+     - 30
+     - 4.1095890411
+     - 11.22
+     - 4.05346820809
+   * - min
+     - 90
+     - 12.3287671233
+     - 33.69
+     - 12.1712427746
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/tricotism.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/tricotism.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/tricotism.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`tricotism.json <../../../annotations/tricotism.json>`
+
+.. literalinclude:: ../../../annotations/tricotism.json
+   :language: javascript

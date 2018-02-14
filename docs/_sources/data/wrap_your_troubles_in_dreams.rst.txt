@@ -1,0 +1,122 @@
+.. index:: Wrap Your Troubles in Dreams, Sarah Vaughan
+.. _hyperlink-name: "Wrap Your Troubles in Dreams" Sarah Vaughan
+
+"Wrap Your Troubles in Dreams" Sarah Vaughan/1960
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `6af0952a-e2f5-4d28-be98-eb03d6228449`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - A
+   * - Durtion
+     - 153.72 s
+   * - Recording Dates
+     - 1960-10-19 - 1960-10-19
+   * - Composer(s)
+     - 
+.. _6af0952a-e2f5-4d28-be98-eb03d6228449: https://musicbrainz.org/recording/6af0952a-e2f5-4d28-be98-eb03d6228449
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - Jimmy Jones 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 132
+   * - Mean BPM
+     - 122.56049961
+   * - Mean Harmonic Rhythm
+     - 2.25757575758
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 6
+     - 1.91082802548
+     - 2.632
+     - 1.71220400729
+   * - maj
+     - 56
+     - 17.8343949045
+     - 26.903
+     - 17.5013010669
+   * - dom
+     - 114
+     - 36.3057324841
+     - 54.834
+     - 35.6713505074
+   * - dim
+     - 26
+     - 8.28025477707
+     - 12.08
+     - 7.85844392402
+   * - min
+     - 96
+     - 30.5732484076
+     - 45.645
+     - 29.693598751
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/wrap_your_troubles_in_dreams.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/wrap_your_troubles_in_dreams.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/wrap_your_troubles_in_dreams.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`wrap_your_troubles_in_dreams.json <../../../annotations/wrap_your_troubles_in_dreams.json>`
+
+.. literalinclude:: ../../../annotations/wrap_your_troubles_in_dreams.json
+   :language: javascript

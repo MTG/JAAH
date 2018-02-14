@@ -1,0 +1,132 @@
+.. index:: Blues in the Closet, Stan Getz and J.J. Johnson
+.. _hyperlink-name: "Blues in the Closet" Stan Getz and J.J. Johnson
+
+"Blues in the Closet" Stan Getz and J.J. Johnson/1957
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `e3ca10e3-13a5-4fe5-aa23-7af9db3815dc`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 545.27 s
+   * - Recording Dates
+     - 1957-10-19 - 1957-10-19
+   * - Composer(s)
+     - 
+.. _e3ca10e3-13a5-4fe5-aa23-7af9db3815dc: https://musicbrainz.org/recording/e3ca10e3-13a5-4fe5-aa23-7af9db3815dc
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Herb Ellis 
+   * - tenor saxophone
+     - Stan Getz 
+   * - double bass
+     - Ray Brown 
+   * - drums
+     - Connie Kay 
+   * - trombone
+     - J.J. Johnson 
+   * - piano
+     - Oscar Peterson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 474
+   * - Mean BPM
+     - 228.657362408
+   * - Mean Harmonic Rhythm
+     - 4.37974683544
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dom
+     - 1818
+     - 87.4879692012
+     - 454.4
+     - 83.3348616282
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 258
+     - 12.4157844081
+     - 64.39
+     - 11.8088286537
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/blues_in_the_closet.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/blues_in_the_closet.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/blues_in_the_closet.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`blues_in_the_closet.json <../../../annotations/blues_in_the_closet.json>`
+
+.. literalinclude:: ../../../annotations/blues_in_the_closet.json
+   :language: javascript

@@ -1,0 +1,120 @@
+.. index:: King Porter Stomp, Jelly Roll Morton
+.. _hyperlink-name: "King Porter Stomp" Jelly Roll Morton
+
+"King Porter Stomp" Jelly Roll Morton/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `3f6f7104-11bc-41f4-96b0-11ed31a948d4`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 176.67 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _3f6f7104-11bc-41f4-96b0-11ed31a948d4: https://musicbrainz.org/recording/3f6f7104-11bc-41f4-96b0-11ed31a948d4
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 169
+   * - Mean BPM
+     - 181.355068772
+   * - Mean Harmonic Rhythm
+     - 3.12426035503
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 184
+     - 34.456928839
+     - 60.21
+     - 34.0804890474
+   * - dom
+     - 220
+     - 41.1985018727
+     - 71.63
+     - 40.544518028
+   * - dim
+     - 46
+     - 8.61423220974
+     - 14.72
+     - 8.33191826569
+   * - min
+     - 78
+     - 14.606741573
+     - 25.54
+     - 14.4563310126
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/king_porter_stomp.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/king_porter_stomp.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/king_porter_stomp.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`king_porter_stomp.json <../../../annotations/king_porter_stomp.json>`
+
+.. literalinclude:: ../../../annotations/king_porter_stomp.json
+   :language: javascript

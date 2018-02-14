@@ -1,0 +1,122 @@
+.. index:: Black Water Blues, Bessie Smith and James P. Johnson
+.. _hyperlink-name: "Black Water Blues" Bessie Smith and James P. Johnson
+
+"Black Water Blues" Bessie Smith and James P. Johnson/1927
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `631a1e8b-184d-4967-b1ae-946c3e0a53c9`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - A
+   * - Durtion
+     - 200.71 s
+   * - Recording Dates
+     - 1927-02-17 - 1927-02-17
+   * - Composer(s)
+     - Bessie Smith
+.. _631a1e8b-184d-4967-b1ae-946c3e0a53c9: https://musicbrainz.org/recording/631a1e8b-184d-4967-b1ae-946c3e0a53c9
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - James P. Johnson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 71
+   * - Mean BPM
+     - 103.432813512
+   * - Mean Harmonic Rhythm
+     - 4.84507042254
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 164
+     - 47.3988439306
+     - 93.44
+     - 46.554730706
+   * - dom
+     - 166
+     - 47.9768786127
+     - 94.34
+     - 47.0031388571
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 14
+     - 4.04624277457
+     - 7.95
+     - 3.96093866773
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/black_water_blues.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/black_water_blues.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/black_water_blues.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`black_water_blues.json <../../../annotations/black_water_blues.json>`
+
+.. literalinclude:: ../../../annotations/black_water_blues.json
+   :language: javascript

@@ -1,0 +1,132 @@
+.. index:: Dippermouth Blues, King Oliver’s Creole Jazz Band
+.. _hyperlink-name: "Dippermouth Blues" King Oliver’s Creole Jazz Band
+
+"Dippermouth Blues" King Oliver’s Creole Jazz Band/1923
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `8fecd84b-8d9e-43c7-865e-4e3e93292260`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 148.93 s
+   * - Recording Dates
+     - 1923-04-06 - 1923-04-06
+   * - Composer(s)
+     - King Oliver
+.. _8fecd84b-8d9e-43c7-865e-4e3e93292260: https://musicbrainz.org/recording/8fecd84b-8d9e-43c7-865e-4e3e93292260
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - drums
+     - Warren “Baby” Dodds 
+   * - trombone
+     - Honoré Dutrey 
+   * - piano
+     - Lil Hardin Armstrong 
+   * - banjo
+     - Bill Johnson, Bud Scott 
+   * - clarinet
+     - Johnny Dodds 
+   * - cornet
+     - King Oliver, Louis Armstrong 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 87
+   * - Mean BPM
+     - 184.516215672
+   * - Mean Harmonic Rhythm
+     - 4.94252873563
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 202
+     - 44.1048034934
+     - 64.16
+     - 43.0806419123
+   * - dom
+     - 214
+     - 46.7248908297
+     - 67.69
+     - 45.4508829652
+   * - dim
+     - 14
+     - 3.05676855895
+     - 4.52
+     - 3.03498287786
+   * - min
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/dippermouth_blues.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/dippermouth_blues.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/dippermouth_blues.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`dippermouth_blues.json <../../../annotations/dippermouth_blues.json>`
+
+.. literalinclude:: ../../../annotations/dippermouth_blues.json
+   :language: javascript

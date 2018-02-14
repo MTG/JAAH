@@ -1,0 +1,142 @@
+.. index:: Cotton Tail, Ella Fitzgerald with the Duke Ellington Orchestra
+.. _hyperlink-name: "Cotton Tail" Ella Fitzgerald with the Duke Ellington Orchestra
+
+"Cotton Tail" Ella Fitzgerald with the Duke Ellington Orchestra/1965
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `96cd1df4-1a44-4996-98a5-8449796b2598`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 220.92 s
+   * - Recording Dates
+     - 1965-10-19 - 1965-10-19
+   * - Composer(s)
+     - Duke Ellington
+.. _96cd1df4-1a44-4996-98a5-8449796b2598: https://musicbrainz.org/recording/96cd1df4-1a44-4996-98a5-8449796b2598
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - bass trombone
+     - Chuck Connors 
+   * - clarinet and tenor saxophone
+     - Jimmy Hamilton 
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Johnny Hodges 
+   * - tenor saxophone
+     - Paul Gonsalves 
+   * - alto saxophone and clarinet
+     - Russell Procope 
+   * - double bass
+     - John Lamb 
+   * - drums
+     - Louie Bellson 
+   * - trombone
+     - Buster Cooper, Lawrence Brown 
+   * - piano
+     - Duke Ellington, Jimmy Jones 
+   * - trumpet
+     - Cootie Williams, Mercer Ellington, Herbie Jones, William “Cat” Anderson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 388
+   * - Mean BPM
+     - 291.689299294
+   * - Mean Harmonic Rhythm
+     - 2.67010309278
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 260
+     - 24.208566108
+     - 53.12
+     - 24.0449031324
+   * - dom
+     - 498
+     - 46.3687150838
+     - 100.03
+     - 45.278833967
+   * - dim
+     - 46
+     - 4.28305400372
+     - 9.19
+     - 4.15987687851
+   * - min
+     - 232
+     - 21.6014897579
+     - 46.68
+     - 21.1298207496
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/cotton_tail_fitzgerald.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/cotton_tail_fitzgerald.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/cotton_tail_fitzgerald.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`cotton_tail_fitzgerald.json <../../../annotations/cotton_tail_fitzgerald.json>`
+
+.. literalinclude:: ../../../annotations/cotton_tail_fitzgerald.json
+   :language: javascript

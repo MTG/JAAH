@@ -1,0 +1,140 @@
+.. index:: Airegin, Tito Puente
+.. _hyperlink-name: "Airegin" Tito Puente
+
+"Airegin" Tito Puente/1989
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `8454b48d-cd0b-4114-b696-b5429443c597`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 255.59 s
+   * - Recording Dates
+     - 1989-07-31 - 1989-08-01
+   * - Composer(s)
+     - Sonny Rollins
+.. _8454b48d-cd0b-4114-b696-b5429443c597: https://musicbrainz.org/recording/8454b48d-cd0b-4114-b696-b5429443c597
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - bongos
+     - Johnny Rodriguez 
+   * - timbales
+     - Tito Puente 
+   * - synthesizer
+     - Rebeca Mauleón 
+   * - double bass
+     - Bobby Rodriguez 
+   * - saxophone
+     - Mitchell Frohman, Mary Fettig 
+   * - bongos and shekere
+     - John Santos 
+   * - trombone
+     - Sam Burtis 
+   * - piano
+     - Sonny Bravo 
+   * - trumpet
+     - David "Piro" Rodríguez, Robbie Kwock 
+   * - congas
+     - José Madera 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 220
+   * - Mean BPM
+     - 215.501388943
+   * - Mean Harmonic Rhythm
+     - 3.8
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 156
+     - 16.9934640523
+     - 42.58
+     - 16.6594937204
+   * - hdim7
+     - 38
+     - 4.1394335512
+     - 10.39
+     - 4.06510426856
+   * - min
+     - 380
+     - 41.394335512
+     - 103.47
+     - 40.4828044916
+   * - dom
+     - 262
+     - 28.5403050109
+     - 71.68
+     - 28.0449156853
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/airegin.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/airegin.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/airegin.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`airegin.json <../../../annotations/airegin.json>`
+
+.. literalinclude:: ../../../annotations/airegin.json
+   :language: javascript

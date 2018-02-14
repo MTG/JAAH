@@ -1,0 +1,120 @@
+.. index:: Grandpa's Spells, Jelly Roll Morton's Red Hot Peppers
+.. _hyperlink-name: "Grandpa's Spells" Jelly Roll Morton's Red Hot Peppers
+
+"Grandpa's Spells" Jelly Roll Morton's Red Hot Peppers/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `cc86ea4d-7a0b-443e-85f5-7352313de2e5`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - C
+   * - Durtion
+     - 175.36 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _cc86ea4d-7a0b-443e-85f5-7352313de2e5: https://musicbrainz.org/recording/cc86ea4d-7a0b-443e-85f5-7352313de2e5
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 151
+   * - Mean BPM
+     - 205.976277372
+   * - Mean Harmonic Rhythm
+     - 3.68874172185
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 177
+     - 29.4019933555
+     - 50.49
+     - 28.7921989051
+   * - dom
+     - 320
+     - 53.1561461794
+     - 91.45
+     - 52.1498631387
+   * - dim
+     - 48
+     - 7.97342192691
+     - 13.68
+     - 7.80109489051
+   * - min
+     - 12
+     - 1.99335548173
+     - 3.42
+     - 1.95027372263
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/grandpas_spells.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/grandpas_spells.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/grandpas_spells.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`grandpas_spells.json <../../../annotations/grandpas_spells.json>`
+
+.. literalinclude:: ../../../annotations/grandpas_spells.json
+   :language: javascript

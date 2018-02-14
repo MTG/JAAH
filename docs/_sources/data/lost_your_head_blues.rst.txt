@@ -1,0 +1,120 @@
+.. index:: Lost Your Head Blues, Bessie Smith
+.. _hyperlink-name: "Lost Your Head Blues" Bessie Smith
+
+"Lost Your Head Blues" Bessie Smith/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `bdf130fd-b72c-4cc1-89d0-1be77ecdbdd8`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 177.2 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _bdf130fd-b72c-4cc1-89d0-1be77ecdbdd8: https://musicbrainz.org/recording/bdf130fd-b72c-4cc1-89d0-1be77ecdbdd8
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 40
+   * - Mean BPM
+     - 87.3589164786
+   * - Mean Harmonic Rhythm
+     - 6.4
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 136
+     - 52.7131782946
+     - 91.05
+     - 51.3826185102
+   * - dom
+     - 116
+     - 44.9612403101
+     - 77.25
+     - 43.5948081264
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 4
+     - 1.5503875969
+     - 2.705
+     - 1.52652370203
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/lost_your_head_blues.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/lost_your_head_blues.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/lost_your_head_blues.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`lost_your_head_blues.json <../../../annotations/lost_your_head_blues.json>`
+
+.. literalinclude:: ../../../annotations/lost_your_head_blues.json
+   :language: javascript

@@ -1,0 +1,120 @@
+.. index:: Struttin' With Some Barbecue, Louis Armstrong and His Hot Five
+.. _hyperlink-name: "Struttin' With Some Barbecue" Louis Armstrong and His Hot Five
+
+"Struttin' With Some Barbecue" Louis Armstrong and His Hot Five/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `6259ce42-b0b2-4967-bb4a-a7c19d05ed4d`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 182.87 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _6259ce42-b0b2-4967-bb4a-a7c19d05ed4d: https://musicbrainz.org/recording/6259ce42-b0b2-4967-bb4a-a7c19d05ed4d
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 86
+   * - Mean BPM
+     - 189.642915732
+   * - Mean Harmonic Rhythm
+     - 5.82558139535
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 241
+     - 41.6955017301
+     - 74.38
+     - 40.6737026303
+   * - dom
+     - 173
+     - 29.9307958478
+     - 53.26
+     - 29.1245146826
+   * - dim
+     - 8
+     - 1.38408304498
+     - 2.44
+     - 1.33428118335
+   * - min
+     - 79
+     - 13.6678200692
+     - 24.23
+     - 13.2498496199
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/struttin_with_some_barbecue.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/struttin_with_some_barbecue.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/struttin_with_some_barbecue.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`struttin_with_some_barbecue.json <../../../annotations/struttin_with_some_barbecue.json>`
+
+.. literalinclude:: ../../../annotations/struttin_with_some_barbecue.json
+   :language: javascript

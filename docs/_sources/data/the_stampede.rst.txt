@@ -1,0 +1,138 @@
+.. index:: The Stampede, Fletcher Henderson and His Orchestra
+.. _hyperlink-name: "The Stampede" Fletcher Henderson and His Orchestra
+
+"The Stampede" Fletcher Henderson and His Orchestra/1926
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `b0e36ae6-05c5-4246-99a4-fca6f6681fc1`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 196.41 s
+   * - Recording Dates
+     - 1926-05-14 - 1926-05-14
+   * - Composer(s)
+     - Fletcher Henderson
+.. _b0e36ae6-05c5-4246-99a4-fca6f6681fc1: https://musicbrainz.org/recording/b0e36ae6-05c5-4246-99a4-fca6f6681fc1
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - clarinet and tenor saxophone
+     - Coleman Hawkins 
+   * - tuba
+     - Ralph Escudero 
+   * - alto saxophone and clarinet
+     - Buster Bailey, Don Redman 
+   * - drums
+     - Kaiser Marshall 
+   * - trombone
+     - Benny Morton 
+   * - piano
+     - Fletcher Henderson 
+   * - banjo
+     - Charlie Dixon 
+   * - trumpet
+     - Joe Smith, Russell Smith 
+   * - cornet
+     - Rex Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 143
+   * - Mean BPM
+     - 223.002902093
+   * - Mean Harmonic Rhythm
+     - 4.58041958042
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 46
+     - 6.30136986301
+     - 11.88
+     - 6.04857186498
+   * - dom
+     - 462
+     - 63.2876712329
+     - 122.79
+     - 62.5171834428
+   * - dim
+     - 27
+     - 3.69863013699
+     - 7.24
+     - 3.68616669212
+   * - min
+     - 120
+     - 16.4383561644
+     - 32.13
+     - 16.3586375439
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/the_stampede.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/the_stampede.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/the_stampede.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`the_stampede.json <../../../annotations/the_stampede.json>`
+
+.. literalinclude:: ../../../annotations/the_stampede.json
+   :language: javascript

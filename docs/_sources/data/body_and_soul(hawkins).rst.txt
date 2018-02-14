@@ -1,0 +1,134 @@
+.. index:: Body and Soul, Coleman Hawkins and His Orchestra
+.. _hyperlink-name: "Body and Soul" Coleman Hawkins and His Orchestra
+
+"Body and Soul" Coleman Hawkins and His Orchestra/1939
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `0a51dede-9539-4c06-bfd3-e1785595a1a2`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Db
+   * - Durtion
+     - 182.73 s
+   * - Recording Dates
+     - 1939-10-11 - 1939-10-11
+   * - Composer(s)
+     - Johnny Green
+.. _0a51dede-9539-4c06-bfd3-e1785595a1a2: https://musicbrainz.org/recording/0a51dede-9539-4c06-bfd3-e1785595a1a2
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - alto saxophone
+     - Eustis Moore, Jackie Fields 
+   * - tenor saxophone
+     - Coleman Hawkins 
+   * - double bass
+     - William Oscar Smith 
+   * - drums
+     - Arthur Herbert 
+   * - trombone
+     - Earl Hardy 
+   * - piano
+     - Gene Rodgers 
+   * - trumpet
+     - Tommy Lindsay, Joe Guy 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 129
+   * - Mean BPM
+     - 95.2224593663
+   * - Mean Harmonic Rhythm
+     - 2.11627906977
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 1
+     - 0.344827586207
+     - 0.63
+     - 0.344770973568
+   * - maj
+     - 55
+     - 18.9655172414
+     - 34.169
+     - 18.6991736442
+   * - dom
+     - 89
+     - 30.6896551724
+     - 56.087
+     - 30.6939199912
+   * - dim
+     - 20
+     - 6.89655172414
+     - 12.61
+     - 6.90089202649
+   * - min
+     - 108
+     - 37.2413793103
+     - 67.954
+     - 37.1882011711
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/body_and_soul(hawkins).json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/body_and_soul(hawkins).json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/body_and_soul(hawkins).json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`body_and_soul(hawkins).json <../../../annotations/body_and_soul(hawkins).json>`
+
+.. literalinclude:: ../../../annotations/body_and_soul(hawkins).json
+   :language: javascript

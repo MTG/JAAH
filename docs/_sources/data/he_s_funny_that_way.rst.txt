@@ -1,0 +1,120 @@
+.. index:: He's Funny That Way, Billie Holiday
+.. _hyperlink-name: "He's Funny That Way" Billie Holiday
+
+"He's Funny That Way" Billie Holiday/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `6d6020a9-3816-4bd1-8a2f-8672b0ea2921`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 160.71 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _6d6020a9-3816-4bd1-8a2f-8672b0ea2921: https://musicbrainz.org/recording/6d6020a9-3816-4bd1-8a2f-8672b0ea2921
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 101
+   * - Mean BPM
+     - 102.296061228
+   * - Mean Harmonic Rhythm
+     - 2.69306930693
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 12
+     - 4.3795620438
+     - 6.95
+     - 4.32455976604
+   * - maj
+     - 114
+     - 41.6058394161
+     - 65.89
+     - 40.9993155373
+   * - dom
+     - 82
+     - 29.9270072993
+     - 47.5
+     - 29.5563437247
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 64
+     - 23.3576642336
+     - 37.06
+     - 23.0601704934
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/he_s_funny_that_way.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/he_s_funny_that_way.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/he_s_funny_that_way.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`he_s_funny_that_way.json <../../../annotations/he_s_funny_that_way.json>`
+
+.. literalinclude:: ../../../annotations/he_s_funny_that_way.json
+   :language: javascript

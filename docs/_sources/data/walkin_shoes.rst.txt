@@ -1,0 +1,128 @@
+.. index:: Walkin' Shoes, The Gerry Mulligan Quartet with Chet Baker
+.. _hyperlink-name: "Walkin' Shoes" The Gerry Mulligan Quartet with Chet Baker
+
+"Walkin' Shoes" The Gerry Mulligan Quartet with Chet Baker/1952
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `d0296909-0459-4596-86fd-9140dc1dac6a`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - G
+   * - Durtion
+     - 194.65 s
+   * - Recording Dates
+     - 1952-10-15 - 1952-10-16
+   * - Composer(s)
+     - 
+.. _d0296909-0459-4596-86fd-9140dc1dac6a: https://musicbrainz.org/recording/d0296909-0459-4596-86fd-9140dc1dac6a
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - baritone saxophone
+     - Gerry Mulligan 
+   * - trumpet
+     - Chet Baker 
+   * - drums
+     - Chico Hamilton 
+   * - double bass
+     - Bob Whitlock 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 120
+   * - Mean BPM
+     - 133.778576933
+   * - Mean Harmonic Rhythm
+     - 3.34166666667
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 40
+     - 9.21658986175
+     - 17.46
+     - 8.96994605703
+   * - maj
+     - 104
+     - 23.9631336406
+     - 45.92
+     - 23.5910608785
+   * - dom
+     - 141
+     - 32.4884792627
+     - 61.65
+     - 31.6722322117
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 116
+     - 26.7281105991
+     - 50.43
+     - 25.9080400719
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/walkin_shoes.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/walkin_shoes.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/walkin_shoes.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`walkin_shoes.json <../../../annotations/walkin_shoes.json>`
+
+.. literalinclude:: ../../../annotations/walkin_shoes.json
+   :language: javascript

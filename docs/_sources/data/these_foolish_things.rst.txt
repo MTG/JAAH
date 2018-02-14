@@ -1,0 +1,120 @@
+.. index:: These Foolish Things, Billie Holiday
+.. _hyperlink-name: "These Foolish Things" Billie Holiday
+
+"These Foolish Things" Billie Holiday/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `454d929d-f954-48bb-ac2c-755e349eb08d`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 217.29 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - Jack Strachey, Harry Link
+.. _454d929d-f954-48bb-ac2c-755e349eb08d: https://musicbrainz.org/recording/454d929d-f954-48bb-ac2c-755e349eb08d
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 109
+   * - Mean BPM
+     - 62.4050807676
+   * - Mean Harmonic Rhythm
+     - 2.05504587156
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 10
+     - 4.42477876106
+     - 9.34
+     - 4.29840305582
+   * - maj
+     - 64
+     - 28.3185840708
+     - 62.04
+     - 28.5517050946
+   * - dom
+     - 75
+     - 33.185840708
+     - 72.31
+     - 33.2781075981
+   * - dim
+     - 4
+     - 1.76991150442
+     - 3.76
+     - 1.73040636937
+   * - min
+     - 71
+     - 31.4159292035
+     - 67.36
+     - 31.0000460214
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/these_foolish_things.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/these_foolish_things.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/these_foolish_things.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`these_foolish_things.json <../../../annotations/these_foolish_things.json>`
+
+.. literalinclude:: ../../../annotations/these_foolish_things.json
+   :language: javascript

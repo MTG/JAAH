@@ -1,0 +1,120 @@
+.. index:: Hotter Than That, Louis Armstrong and His Hot Five
+.. _hyperlink-name: "Hotter Than That" Louis Armstrong and His Hot Five
+
+"Hotter Than That" Louis Armstrong and His Hot Five/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `8fbdddb7-a518-46b3-9a2c-e0193669e002`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb
+   * - Durtion
+     - 181.49 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _8fbdddb7-a518-46b3-9a2c-e0193669e002: https://musicbrainz.org/recording/8fbdddb7-a518-46b3-9a2c-e0193669e002
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 55
+   * - Mean BPM
+     - 214.88787261
+   * - Mean Harmonic Rhythm
+     - 9.09090909091
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 13
+     - 2.0
+     - 3.6
+     - 1.98358036255
+   * - maj
+     - 276
+     - 42.4615384615
+     - 76.15
+     - 41.9582346135
+   * - dom
+     - 199
+     - 30.6153846154
+     - 54.89
+     - 30.2440905835
+   * - dim
+     - 4
+     - 0.615384615385
+     - 1.12
+     - 0.617113890572
+   * - min
+     - 8
+     - 1.23076923077
+     - 2.24
+     - 1.23422778114
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/hotter_than_that.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/hotter_than_that.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/hotter_than_that.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`hotter_than_that.json <../../../annotations/hotter_than_that.json>`
+
+.. literalinclude:: ../../../annotations/hotter_than_that.json
+   :language: javascript

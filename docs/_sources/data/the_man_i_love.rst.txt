@@ -1,0 +1,120 @@
+.. index:: The Man I Love, Coleman Hawkins Quartet
+.. _hyperlink-name: "The Man I Love" Coleman Hawkins Quartet
+
+"The Man I Love" Coleman Hawkins Quartet/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `4bca287b-305f-42f8-8a7b-c0bd58e884ce`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 309.43 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _4bca287b-305f-42f8-8a7b-c0bd58e884ce: https://musicbrainz.org/recording/4bca287b-305f-42f8-8a7b-c0bd58e884ce
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 172
+   * - Mean BPM
+     - 205.151407427
+   * - Mean Harmonic Rhythm
+     - 5.95348837209
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 104
+     - 9.82986767486
+     - 30.01
+     - 9.69847784636
+   * - maj
+     - 240
+     - 22.6843100189
+     - 69.26
+     - 22.3830914908
+   * - dom
+     - 328
+     - 31.0018903592
+     - 94.54
+     - 30.5529522024
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 352
+     - 33.2703213611
+     - 102.05
+     - 32.9799954756
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/the_man_i_love.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/the_man_i_love.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/the_man_i_love.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`the_man_i_love.json <../../../annotations/the_man_i_love.json>`
+
+.. literalinclude:: ../../../annotations/the_man_i_love.json
+   :language: javascript

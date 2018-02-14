@@ -1,0 +1,120 @@
+.. index:: Riverboat Shuffle, Frankie Trumbauer and His Orchestra
+.. _hyperlink-name: "Riverboat Shuffle" Frankie Trumbauer and His Orchestra
+
+"Riverboat Shuffle" Frankie Trumbauer and His Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `5f08d6f0-73a2-41db-a06b-ab5db714bc3e`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 190.8 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _5f08d6f0-73a2-41db-a06b-ab5db714bc3e: https://musicbrainz.org/recording/5f08d6f0-73a2-41db-a06b-ab5db714bc3e
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 109
+   * - Mean BPM
+     - 206.918238994
+   * - Mean Harmonic Rhythm
+     - 6.01834862385
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 216
+     - 32.8267477204
+     - 61.36
+     - 32.1593291405
+   * - dom
+     - 356
+     - 54.103343465
+     - 100.45
+     - 52.6467505241
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 84
+     - 12.7659574468
+     - 23.59
+     - 12.3637316562
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/riverboat_shuffle.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/riverboat_shuffle.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/riverboat_shuffle.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`riverboat_shuffle.json <../../../annotations/riverboat_shuffle.json>`
+
+.. literalinclude:: ../../../annotations/riverboat_shuffle.json
+   :language: javascript

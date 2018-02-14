@@ -1,0 +1,126 @@
+.. index:: Night in Tunisia, Bud Powell Trio
+.. _hyperlink-name: "Night in Tunisia" Bud Powell Trio
+
+"Night in Tunisia" Bud Powell Trio/1951
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `a0acca3d-7d17-4ee8-8087-e5d4b46fa047`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - D:min
+   * - Durtion
+     - 256.47 s
+   * - Recording Dates
+     - 1951-05-01 - 1951-05-01
+   * - Composer(s)
+     - John Gillespie, Frank Paparelli, Dizzy Gillespie
+.. _a0acca3d-7d17-4ee8-8087-e5d4b46fa047: https://musicbrainz.org/recording/a0acca3d-7d17-4ee8-8087-e5d4b46fa047
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - Bud Powell 
+   * - double bass
+     - Curley Russell 
+   * - drumset
+     - Max Roach 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 164
+   * - Mean BPM
+     - 163.293952509
+   * - Mean Harmonic Rhythm
+     - 4.04268292683
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 74
+     - 10.6017191977
+     - 26.41
+     - 10.2975006823
+   * - maj
+     - 17
+     - 2.43553008596
+     - 6.07
+     - 2.36674854759
+   * - dom
+     - 292
+     - 41.8338108883
+     - 107.54
+     - 41.9308301166
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 280
+     - 40.1146131805
+     - 101.53
+     - 39.5874761181
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/night_in_tunisia.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/night_in_tunisia.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/night_in_tunisia.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`night_in_tunisia.json <../../../annotations/night_in_tunisia.json>`
+
+.. literalinclude:: ../../../annotations/night_in_tunisia.json
+   :language: javascript

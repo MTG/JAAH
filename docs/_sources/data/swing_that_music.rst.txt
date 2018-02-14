@@ -1,0 +1,136 @@
+.. index:: Swing That Music, Louis Armstrong and His Orchestra
+.. _hyperlink-name: "Swing That Music" Louis Armstrong and His Orchestra
+
+"Swing That Music" Louis Armstrong and His Orchestra/1936
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `7a3b16fb-d992-4285-954c-8c6cf7566d44`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 174.07 s
+   * - Recording Dates
+     - 1936-05-18 - 1936-05-18
+   * - Composer(s)
+     - Horace Gerlach, Louis Armstrong
+.. _7a3b16fb-d992-4285-954c-8c6cf7566d44: https://musicbrainz.org/recording/7a3b16fb-d992-4285-954c-8c6cf7566d44
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Lee Blair 
+   * - alto saxophone
+     - Charlie Holmes, Henry Jones 
+   * - tenor saxophone
+     - Greely Walton, Bingie Madison 
+   * - double bass
+     - George "Pops" Foster 
+   * - drums
+     - Paul Barbarin 
+   * - trombone
+     - Jimmy Archey, Snub Mosley 
+   * - piano
+     - Luis Russell 
+   * - trumpet
+     - Louis Bacon, Gus Aiken, Leonard "Ham" Davis, Louis Armstrong 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 145
+   * - Mean BPM
+     - 309.53064859
+   * - Mean Harmonic Rhythm
+     - 6.17931034483
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 56
+     - 6.23608017817
+     - 10.65
+     - 6.11822829896
+   * - maj
+     - 364
+     - 40.5345211581
+     - 68.84
+     - 39.547308554
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 56
+     - 6.23608017817
+     - 10.55
+     - 6.06078014592
+   * - dom
+     - 420
+     - 46.7706013363
+     - 79.39
+     - 45.6080886999
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/swing_that_music.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/swing_that_music.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/swing_that_music.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`swing_that_music.json <../../../annotations/swing_that_music.json>`
+
+.. literalinclude:: ../../../annotations/swing_that_music.json
+   :language: javascript

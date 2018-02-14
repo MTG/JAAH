@@ -1,0 +1,126 @@
+.. index:: Minor Swing, Quintette du Hot Club de France
+.. _hyperlink-name: "Minor Swing" Quintette du Hot Club de France
+
+"Minor Swing" Quintette du Hot Club de France/1937
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `490a4ca1-1800-4d21-8d78-b6e9415779db`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 193.816 s
+   * - Recording Dates
+     - 1937-11-25 - 1937-11-25
+   * - Composer(s)
+     - Django Reinhardt, Stéphane Grappelli
+.. _490a4ca1-1800-4d21-8d78-b6e9415779db: https://musicbrainz.org/recording/490a4ca1-1800-4d21-8d78-b6e9415779db
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Django Reinhardt, Joseph Reinhardt, Eugène Vées 
+   * - violin
+     - Stéphane Grappelli 
+   * - double bass
+     - Louis Vola 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 105
+   * - Mean BPM
+     - 198.745201635
+   * - Mean Harmonic Rhythm
+     - 6.05714285714
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dom
+     - 180
+     - 28.0373831776
+     - 53.32
+     - 27.5106286375
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 456
+     - 71.0280373832
+     - 135.89
+     - 70.1128905766
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/minor_swing.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/minor_swing.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/minor_swing.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`minor_swing.json <../../../annotations/minor_swing.json>`
+
+.. literalinclude:: ../../../annotations/minor_swing.json
+   :language: javascript

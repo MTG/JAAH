@@ -1,0 +1,130 @@
+.. index:: Work Song, Cannonball Adderley
+.. _hyperlink-name: "Work Song" Cannonball Adderley
+
+"Work Song" Cannonball Adderley/1960
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `1510f5f6-fd52-4676-a279-270c40bb4259`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F:min
+   * - Durtion
+     - 309.48 s
+   * - Recording Dates
+     - 1960-03-29 - 1960-03-29
+   * - Composer(s)
+     - 
+.. _1510f5f6-fd52-4676-a279-270c40bb4259: https://musicbrainz.org/recording/1510f5f6-fd52-4676-a279-270c40bb4259
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - Barry Harris 
+   * - double bass
+     - Sam Jones 
+   * - alto saxophone
+     - Cannonball Adderley 
+   * - drums
+     - Louis Hayes 
+   * - cornet
+     - Nat Adderley 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 135
+   * - Mean BPM
+     - 165.568049632
+   * - Mean Harmonic Rhythm
+     - 5.0962962963
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 36
+     - 4.21545667447
+     - 12.65
+     - 4.08750161561
+   * - maj
+     - 25
+     - 2.92740046838
+     - 8.94
+     - 2.8887165568
+   * - dom
+     - 164
+     - 19.2037470726
+     - 58.707
+     - 18.9695618457
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 463
+     - 54.2154566745
+     - 165.82
+     - 53.5801990436
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/work_song.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/work_song.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/work_song.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`work_song.json <../../../annotations/work_song.json>`
+
+.. literalinclude:: ../../../annotations/work_song.json
+   :language: javascript

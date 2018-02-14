@@ -1,0 +1,144 @@
+.. index:: Blue Serge, Duke Ellington and His Famous Orchestra
+.. _hyperlink-name: "Blue Serge" Duke Ellington and His Famous Orchestra
+
+"Blue Serge" Duke Ellington and His Famous Orchestra/1941
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `ab0af81c-1658-4212-8da3-3135c7a06396`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - C:min
+   * - Durtion
+     - 205.4 s
+   * - Recording Dates
+     - 1941-02-15 - 1941-02-15
+   * - Composer(s)
+     - Mercer Ellington
+.. _ab0af81c-1658-4212-8da3-3135c7a06396: https://musicbrainz.org/recording/ab0af81c-1658-4212-8da3-3135c7a06396
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - valve trombone
+     - Juan Tizol 
+   * - tenor saxophone
+     - Ben Webster, Barney Bigard 
+   * - drumset
+     - Sonny Greer 
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Otto Hardwick, Johnny Hodges 
+   * - guitar
+     - Fred Guy 
+   * - double bass
+     - Jimmy Blanton 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Ray Nance, Wallace Jones 
+   * - clarinet
+     - Barney Bigard 
+   * - cornet
+     - Rex Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 112
+   * - Mean BPM
+     - 79.746835443
+   * - Mean Harmonic Rhythm
+     - 2.26785714286
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 56
+     - 20.5128205128
+     - 41.26
+     - 20.0876338851
+   * - maj
+     - 18
+     - 6.59340659341
+     - 13.02
+     - 6.3388510224
+   * - dom
+     - 94
+     - 34.4322344322
+     - 68.94
+     - 33.5637779942
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 86
+     - 31.5018315018
+     - 63.37
+     - 30.8519961052
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/blue_serge.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/blue_serge.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/blue_serge.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`blue_serge.json <../../../annotations/blue_serge.json>`
+
+.. literalinclude:: ../../../annotations/blue_serge.json
+   :language: javascript

@@ -1,0 +1,120 @@
+.. index:: Blue 7, Sonny Rollins
+.. _hyperlink-name: "Blue 7" Sonny Rollins
+
+"Blue 7" Sonny Rollins/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `27c5ca66-7079-49b6-a7f1-961cecbea199`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 674.6 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _27c5ca66-7079-49b6-a7f1-961cecbea199: https://musicbrainz.org/recording/27c5ca66-7079-49b6-a7f1-961cecbea199
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 168
+   * - Mean BPM
+     - 133.946042099
+   * - Mean Harmonic Rhythm
+     - 6.7619047619
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dom
+     - 1136
+     - 75.4316069057
+     - 509.17
+     - 75.4773198933
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/blue_7.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/blue_7.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/blue_7.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`blue_7.json <../../../annotations/blue_7.json>`
+
+.. literalinclude:: ../../../annotations/blue_7.json
+   :language: javascript

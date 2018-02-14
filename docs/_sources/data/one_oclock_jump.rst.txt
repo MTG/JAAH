@@ -1,0 +1,136 @@
+.. index:: One O'Clock Jump, Count Basie and His Orchestra
+.. _hyperlink-name: "One O'Clock Jump" Count Basie and His Orchestra
+
+"One O'Clock Jump" Count Basie and His Orchestra/1937
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `f712230f-9df9-4a88-9ee6-02cfc2eb4eb6`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F - Db
+   * - Durtion
+     - 185.49 s
+   * - Recording Dates
+     - 1937-07-07 - 1937-07-07
+   * - Composer(s)
+     - Count Basie
+.. _f712230f-9df9-4a88-9ee6-02cfc2eb4eb6: https://musicbrainz.org/recording/f712230f-9df9-4a88-9ee6-02cfc2eb4eb6
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Freddie Green 
+   * - alto saxophone
+     - Earle Warren, Jack Washington 
+   * - tenor saxophone
+     - Herschel Evans, Lester Young 
+   * - double bass
+     - Walter Page 
+   * - drums
+     - Jo Jones 
+   * - trombone
+     - Dan Minor, George Hunt 
+   * - piano
+     - Count Basie 
+   * - trumpet
+     - Buck Clayton, Bobby Moore, Ed Lewis 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 118
+   * - Mean BPM
+     - 166.262332201
+   * - Mean Harmonic Rhythm
+     - 4.33898305085
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 224
+     - 43.579766537
+     - 79.0
+     - 42.5898970295
+   * - dom
+     - 238
+     - 46.3035019455
+     - 83.8
+     - 45.1776376085
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 50
+     - 9.72762645914
+     - 17.61
+     - 9.49377324923
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/one_oclock_jump.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/one_oclock_jump.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/one_oclock_jump.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`one_oclock_jump.json <../../../annotations/one_oclock_jump.json>`
+
+.. literalinclude:: ../../../annotations/one_oclock_jump.json
+   :language: javascript

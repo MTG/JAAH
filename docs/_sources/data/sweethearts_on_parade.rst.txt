@@ -1,0 +1,120 @@
+.. index:: Sweethearts on Parade, Louis Armstrong & His Orchestra
+.. _hyperlink-name: "Sweethearts on Parade" Louis Armstrong & His Orchestra
+
+"Sweethearts on Parade" Louis Armstrong & His Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `79e051ea-feea-492f-954f-dd7f4bb1c832`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F
+   * - Durtion
+     - 200.53 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _79e051ea-feea-492f-954f-dd7f4bb1c832: https://musicbrainz.org/recording/79e051ea-feea-492f-954f-dd7f4bb1c832
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 94
+   * - Mean BPM
+     - 125.068568294
+   * - Mean Harmonic Rhythm
+     - 4.09574468085
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 187
+     - 44.7368421053
+     - 88.05
+     - 43.9086420984
+   * - dom
+     - 162
+     - 38.7559808612
+     - 76.22
+     - 38.0092754201
+   * - dim
+     - 6
+     - 1.43540669856
+     - 2.83
+     - 1.41126016057
+   * - min
+     - 30
+     - 7.17703349282
+     - 14.29
+     - 7.12611579315
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/sweethearts_on_parade.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/sweethearts_on_parade.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/sweethearts_on_parade.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`sweethearts_on_parade.json <../../../annotations/sweethearts_on_parade.json>`
+
+.. literalinclude:: ../../../annotations/sweethearts_on_parade.json
+   :language: javascript

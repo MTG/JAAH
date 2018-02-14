@@ -1,0 +1,120 @@
+.. index:: St. Louis Blues, Bessie Smith featuring Louis Armstrong
+.. _hyperlink-name: "St. Louis Blues" Bessie Smith featuring Louis Armstrong
+
+"St. Louis Blues" Bessie Smith featuring Louis Armstrong/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `c0574bda-0b9c-4233-a201-f20766434c27`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - D
+   * - Durtion
+     - 193.17 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _c0574bda-0b9c-4233-a201-f20766434c27: https://musicbrainz.org/recording/c0574bda-0b9c-4233-a201-f20766434c27
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 82
+   * - Mean BPM
+     - 66.4699487498
+   * - Mean Harmonic Rhythm
+     - 2.57317073171
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 55
+     - 25.7009345794
+     - 49.05
+     - 25.3921416369
+   * - dom
+     - 128
+     - 59.8130841121
+     - 115.19
+     - 59.6314127453
+   * - dim
+     - 3
+     - 1.40186915888
+     - 2.59
+     - 1.34078790702
+   * - min
+     - 25
+     - 11.6822429907
+     - 21.87
+     - 11.3216337941
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/st_louis_blues.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/st_louis_blues.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/st_louis_blues.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`st_louis_blues.json <../../../annotations/st_louis_blues.json>`
+
+.. literalinclude:: ../../../annotations/st_louis_blues.json
+   :language: javascript

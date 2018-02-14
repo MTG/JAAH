@@ -1,0 +1,134 @@
+.. index:: Singin' the Blues (Til My Daddy Comes Home), Frankie Trumbauer and His Orchestra
+.. _hyperlink-name: "Singin' the Blues (Til My Daddy Comes Home)" Frankie Trumbauer and His Orchestra
+
+"Singin' the Blues (Til My Daddy Comes Home)" Frankie Trumbauer and His Orchestra/1927
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `168ea61b-9fdd-4d7f-908a-2970073becd1`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb
+   * - Durtion
+     - 184.55 s
+   * - Recording Dates
+     - 1927-02-04 - 1927-02-04
+   * - Composer(s)
+     - J. Russel Robinson, Con Conrad
+.. _168ea61b-9fdd-4d7f-908a-2970073becd1: https://musicbrainz.org/recording/168ea61b-9fdd-4d7f-908a-2970073becd1
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Frankie Trumbauer 
+   * - guitar
+     - Eddie Lang 
+   * - drums
+     - Chauncey Morehouse 
+   * - trombone
+     - Bill Rank 
+   * - piano
+     - Paul Madeira 
+   * - clarinet
+     - Jimmy Dorsey 
+   * - cornet
+     - Bix Beiderbecke 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 76
+   * - Mean BPM
+     - 130.371173124
+   * - Mean Harmonic Rhythm
+     - 4.81578947368
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 116
+     - 28.927680798
+     - 51.97
+     - 28.1603901382
+   * - dom
+     - 164
+     - 40.897755611
+     - 73.05
+     - 39.5827688973
+   * - dim
+     - 12
+     - 2.99251870324
+     - 5.44
+     - 2.94771064752
+   * - min
+     - 74
+     - 18.4538653367
+     - 33.23
+     - 18.0059604443
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/singin_the_blues.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/singin_the_blues.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/singin_the_blues.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`singin_the_blues.json <../../../annotations/singin_the_blues.json>`
+
+.. literalinclude:: ../../../annotations/singin_the_blues.json
+   :language: javascript

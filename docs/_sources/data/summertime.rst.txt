@@ -1,0 +1,144 @@
+.. index:: Summertime, Miles Davis: orchestra under the direction of Gil Evans
+.. _hyperlink-name: "Summertime" Miles Davis: orchestra under the direction of Gil Evans
+
+"Summertime" Miles Davis: orchestra under the direction of Gil Evans/1958
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `9708585c-b508-4357-b3f4-4a5c0b0af44f`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb:min
+   * - Durtion
+     - 198.29 s
+   * - Recording Dates
+     - 1958-08-04 - 1958-08-04
+   * - Composer(s)
+     - 
+.. _9708585c-b508-4357-b3f4-4a5c0b0af44f: https://musicbrainz.org/recording/9708585c-b508-4357-b3f4-4a5c0b0af44f
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - alto flute and bass clarinet
+     - Danny Bank 
+   * - bass trombone
+     - Dick Hixson 
+   * - clarinet and flute
+     - Jerome Richardson 
+   * - flugelhorn and trumpet
+     - Miles Davis 
+   * - tuba
+     - Bill Barber 
+   * - alto saxophone
+     - Cannonball Adderley 
+   * - trombone
+     - Jimmy Cleveland, Frank Rehak, Joe Bennett 
+   * - double bass
+     - Paul Chambers 
+   * - drums
+     - Jimmy Cobb 
+   * - French horn
+     - Willie Ruff, Gunther Schuller, Julius Watkins 
+   * - trumpet
+     - Ernie Royal, Johnny Coles, Bernie Glow, Louis R. Mucci 
+   * - alto flute and clarinet and flute
+     - Romeo Penque 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 126
+   * - Mean BPM
+     - 103.484794997
+   * - Mean Harmonic Rhythm
+     - 2.69841269841
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 40
+     - 11.6959064327
+     - 22.12
+     - 11.1553784861
+   * - dom
+     - 110
+     - 32.1637426901
+     - 61.06
+     - 30.7932825659
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 190
+     - 55.5555555556
+     - 114.35
+     - 57.6680619295
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/summertime.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/summertime.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/summertime.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`summertime.json <../../../annotations/summertime.json>`
+
+.. literalinclude:: ../../../annotations/summertime.json
+   :language: javascript

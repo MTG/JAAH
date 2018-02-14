@@ -1,0 +1,136 @@
+.. index:: Everybody Loves My Baby, The Boswell Sisters
+.. _hyperlink-name: "Everybody Loves My Baby" The Boswell Sisters
+
+"Everybody Loves My Baby" The Boswell Sisters/1932
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `c191ada7-4d41-4c10-8d2c-5d9906b693aa`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - G:min
+   * - Durtion
+     - 144.28 s
+   * - Recording Dates
+     - 1932-02-24 - 1932-02-24
+   * - Composer(s)
+     - Spencer Williams, Jack Palmer
+.. _c191ada7-4d41-4c10-8d2c-5d9906b693aa: https://musicbrainz.org/recording/c191ada7-4d41-4c10-8d2c-5d9906b693aa
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - double bass
+     - Joe Tarto 
+   * - guitar
+     - Dick McDonough 
+   * - alto saxophone and clarinet
+     - Jimmy Dorsey 
+   * - drums
+     - Stan King 
+   * - trombone
+     - Tommy Dorsey 
+   * - violin
+     - Harry Hoffman 
+   * - piano
+     - Martha Boswell 
+   * - trumpet
+     - Bunny Berigan 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 73
+   * - Mean BPM
+     - 242.029387302
+   * - Mean Harmonic Rhythm
+     - 7.84931506849
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 112
+     - 19.2439862543
+     - 24.66
+     - 17.0917660105
+   * - dom
+     - 233
+     - 40.0343642612
+     - 54.76
+     - 37.9539783754
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 228
+     - 39.175257732
+     - 58.18
+     - 40.324369282
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/everybody_loves_my_baby.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/everybody_loves_my_baby.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/everybody_loves_my_baby.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`everybody_loves_my_baby.json <../../../annotations/everybody_loves_my_baby.json>`
+
+.. literalinclude:: ../../../annotations/everybody_loves_my_baby.json
+   :language: javascript

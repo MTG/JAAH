@@ -1,0 +1,120 @@
+.. index:: Body and Soul, The Benny Goodman Trio
+.. _hyperlink-name: "Body and Soul" The Benny Goodman Trio
+
+"Body and Soul" The Benny Goodman Trio/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `b7f4e20c-b9f9-45c5-b955-fe2cf18f4345`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Db
+   * - Durtion
+     - 211.03 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _b7f4e20c-b9f9-45c5-b955-fe2cf18f4345: https://musicbrainz.org/recording/b7f4e20c-b9f9-45c5-b955-fe2cf18f4345
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 142
+   * - Mean BPM
+     - 92.6882433777
+   * - Mean Harmonic Rhythm
+     - 2.28169014085
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 2
+     - 0.613496932515
+     - 1.27
+     - 0.60181016917
+   * - maj
+     - 60
+     - 18.4049079755
+     - 38.34
+     - 18.1680329811
+   * - dom
+     - 114
+     - 34.9693251534
+     - 71.51
+     - 33.8861773208
+   * - dim
+     - 14
+     - 4.29447852761
+     - 8.78
+     - 4.16054589395
+   * - min
+     - 134
+     - 41.1042944785
+     - 84.79
+     - 40.1791214519
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/body_and_soul(goodman).json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/body_and_soul(goodman).json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/body_and_soul(goodman).json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`body_and_soul(goodman).json <../../../annotations/body_and_soul(goodman).json>`
+
+.. literalinclude:: ../../../annotations/body_and_soul(goodman).json
+   :language: javascript

@@ -1,0 +1,132 @@
+.. index:: I Can't Get Started, Dizzy Gillespie Sextet
+.. _hyperlink-name: "I Can't Get Started" Dizzy Gillespie Sextet
+
+"I Can't Get Started" Dizzy Gillespie Sextet/1945
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `24fe0c12-91a4-435b-9282-634526e562c7`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - C
+   * - Durtion
+     - 186.16 s
+   * - Recording Dates
+     - 1945-01-09 - 1945-01-09
+   * - Composer(s)
+     - Vernon Duke
+.. _24fe0c12-91a4-435b-9282-634526e562c7: https://musicbrainz.org/recording/24fe0c12-91a4-435b-9282-634526e562c7
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - drumset
+     - Shelly Manne 
+   * - tenor saxophone
+     - Don Byas 
+   * - double bass
+     - Oscar Pettiford 
+   * - trombone
+     - Trummy Young 
+   * - piano
+     - Clyde Hart 
+   * - trumpet
+     - Dizzy Gillespie 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 69
+   * - Mean BPM
+     - 58.3369144822
+   * - Mean Harmonic Rhythm
+     - 2.44927536232
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 18
+     - 9.94475138122
+     - 18.41
+     - 9.88934250107
+   * - maj
+     - 39
+     - 21.546961326
+     - 39.79
+     - 21.374086807
+   * - dom
+     - 82
+     - 45.3038674033
+     - 84.34
+     - 45.3051138805
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 30
+     - 16.5745856354
+     - 30.51
+     - 16.3891276321
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/i_cant_get_started.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/i_cant_get_started.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/i_cant_get_started.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`i_cant_get_started.json <../../../annotations/i_cant_get_started.json>`
+
+.. literalinclude:: ../../../annotations/i_cant_get_started.json
+   :language: javascript

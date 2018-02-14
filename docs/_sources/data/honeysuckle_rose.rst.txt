@@ -1,0 +1,138 @@
+.. index:: Honeysuckle Rose, Benny Goodman and His Orchestra
+.. _hyperlink-name: "Honeysuckle Rose" Benny Goodman and His Orchestra
+
+"Honeysuckle Rose" Benny Goodman and His Orchestra/1939
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `0cd67ec0-b480-4d82-b38d-be022b71dd12`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Db
+   * - Durtion
+     - 185.97 s
+   * - Recording Dates
+     - 1939-11-29 - 1939-11-29
+   * - Composer(s)
+     - Fats Waller
+.. _0cd67ec0-b480-4d82-b38d-be022b71dd12: https://musicbrainz.org/recording/0cd67ec0-b480-4d82-b38d-be022b71dd12
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - electric guitar
+     - Charlie Christian 
+   * - alto saxophone
+     - Buff Estes, Toots Mondello 
+   * - tenor saxophone
+     - Jerry Jerome, Bus Bassey 
+   * - double bass
+     - Artie Bernstein 
+   * - drums
+     - Nick Fatool 
+   * - trombone
+     - Vernon Brown, Red Ballard, Ted Vesely 
+   * - clarinet
+     - Benny Goodman 
+   * - trumpet
+     - Ziggy Elman, Johnny Martel, Jimmy Maxwell 
+   * - piano
+     - Fletcher Henderson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 263
+   * - Mean BPM
+     - 211.00177448
+   * - Mean Harmonic Rhythm
+     - 2.44106463878
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 187
+     - 28.5932721713
+     - 51.43
+     - 27.654998118
+   * - dom
+     - 263
+     - 40.2140672783
+     - 72.48
+     - 38.974028069
+   * - dim
+     - 30
+     - 4.5871559633
+     - 8.26
+     - 4.44157659838
+   * - min
+     - 162
+     - 24.7706422018
+     - 44.9
+     - 24.143679088
+
+top 2-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTop2GramsForFile('../../../annotations/honeysuckle_rose.json')
+
+top N-grams
+-----------------------------------------------
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.showTopNGramsForFile('../../../annotations/honeysuckle_rose.json')
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+   :include-source: False
+
+   import siteUtils
+   siteUtils.show5HexagramsForFile('../../../annotations/honeysuckle_rose.json')
+
+Source Annotation
+-----------------------------------------------
+
+:download:`honeysuckle_rose.json <../../../annotations/honeysuckle_rose.json>`
+
+.. literalinclude:: ../../../annotations/honeysuckle_rose.json
+   :language: javascript
