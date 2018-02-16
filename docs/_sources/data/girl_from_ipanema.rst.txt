@@ -71,7 +71,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -81,12 +81,7 @@ Symbolic Staistics From Annotation
      - 50.4297994269
      - 162.08
      - 49.6614272145
-   * - dom
-     - 200
-     - 28.6532951289
-     - 92.11
-     - 28.2225694764
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -96,34 +91,36 @@ Symbolic Staistics From Annotation
      - 20.6303724928
      - 66.44
      - 20.3572632289
+   * - dom
+     - 200
+     - 28.6532951289
+     - 92.11
+     - 28.2225694764
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/girl_from_ipanema.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/girl_from_ipanema.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/girl_from_ipanema.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/girl_from_ipanema.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/girl_from_ipanema.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/girl_from_ipanema.json'])
 
 Source Annotation
 -----------------------------------------------

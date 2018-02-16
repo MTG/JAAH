@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.showTopNGramsForFile('../../../annotations/one_oclock_jump.json')
+siteUtils.showTopNGramsForFileList(['../../../annotations/one_oclock_jump.json'])

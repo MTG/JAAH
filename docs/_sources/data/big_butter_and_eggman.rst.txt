@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 222
-     - 37.3737373737
-     - 66.08
-     - 36.5486725664
-   * - dom
-     - 288
-     - 48.4848484848
-     - 85.56
-     - 47.3230088496
    * - dim
      - 18
      - 3.0303030303
      - 5.35
      - 2.95907079646
+   * - maj
+     - 222
+     - 37.3737373737
+     - 66.08
+     - 36.5486725664
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 64
      - 10.7744107744
      - 19.1
      - 10.564159292
+   * - dom
+     - 288
+     - 48.4848484848
+     - 85.56
+     - 47.3230088496
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/big_butter_and_eggman.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/big_butter_and_eggman.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/big_butter_and_eggman.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/big_butter_and_eggman.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/big_butter_and_eggman.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/big_butter_and_eggman.json'])
 
 Source Annotation
 -----------------------------------------------

@@ -99,33 +99,30 @@ Symbolic Staistics From Annotation
      - 79.39
      - 45.6080886999
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/swing_that_music.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/swing_that_music.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/swing_that_music.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/swing_that_music.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/swing_that_music.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/swing_that_music.json'])
 
 Source Annotation
 -----------------------------------------------

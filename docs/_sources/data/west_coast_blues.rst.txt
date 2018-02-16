@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 18.0722891566
      - 60.46
      - 17.9689125331
-   * - dom
-     - 502
-     - 60.4819277108
-     - 198.7
-     - 59.054299046
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 21.2048192771
      - 69.46
      - 20.6437423842
+   * - dom
+     - 502
+     - 60.4819277108
+     - 198.7
+     - 59.054299046
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/west_coast_blues.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/west_coast_blues.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/west_coast_blues.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/west_coast_blues.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/west_coast_blues.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/west_coast_blues.json'])
 
 Source Annotation
 -----------------------------------------------

@@ -69,59 +69,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 6
-     - 1.49253731343
-     - 2.58
-     - 1.34732884224
-   * - maj
-     - 124
-     - 30.8457711443
-     - 53.4
-     - 27.8865737114
-   * - dom
-     - 133
-     - 33.0845771144
-     - 56.98
-     - 29.7561230351
    * - dim
      - 12
      - 2.98507462687
      - 5.17
      - 2.69987988929
+   * - maj
+     - 124
+     - 30.8457711443
+     - 53.4
+     - 27.8865737114
+   * - hdim7
+     - 6
+     - 1.49253731343
+     - 2.58
+     - 1.34732884224
    * - min
      - 125
      - 31.0945273632
      - 53.91
      - 28.152906157
+   * - dom
+     - 133
+     - 33.0845771144
+     - 56.98
+     - 29.7561230351
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/oh_lady_be_good.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/oh_lady_be_good.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/oh_lady_be_good.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/oh_lady_be_good.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/oh_lady_be_good.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/oh_lady_be_good.json'])
 
 Source Annotation
 -----------------------------------------------

@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.showTop2GramsForFile('../../../annotations/django.json')
+siteUtils.showTop2GramsForFileList(['../../../annotations/django.json'])

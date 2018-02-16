@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 191
-     - 24.3002544529
-     - 47.08
-     - 24.0978655884
-   * - dom
-     - 286
-     - 36.3867684478
-     - 69.97
-     - 35.81409633
    * - dim
      - 32
      - 4.07124681934
      - 7.9
      - 4.04360956135
+   * - maj
+     - 191
+     - 24.3002544529
+     - 47.08
+     - 24.0978655884
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 194
      - 24.6819338422
      - 47.4
      - 24.2616573681
+   * - dom
+     - 286
+     - 36.3867684478
+     - 69.97
+     - 35.81409633
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/lester_leaps_in.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/lester_leaps_in.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/lester_leaps_in.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/lester_leaps_in.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/lester_leaps_in.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/lester_leaps_in.json'])
 
 Source Annotation
 -----------------------------------------------

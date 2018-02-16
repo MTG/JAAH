@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 53.7037037037
      - 94.69
      - 48.8420075308
-   * - dom
-     - 148
-     - 39.1534391534
-     - 68.38
-     - 35.2710579254
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 6.34920634921
      - 10.87
      - 5.606849951
+   * - dom
+     - 148
+     - 39.1534391534
+     - 68.38
+     - 35.2710579254
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/dead_man_blues.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/dead_man_blues.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/dead_man_blues.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/dead_man_blues.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/dead_man_blues.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/dead_man_blues.json'])
 
 Source Annotation
 -----------------------------------------------

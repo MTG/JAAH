@@ -83,59 +83,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 2
-     - 0.689655172414
-     - 1.29
-     - 0.714800243808
-   * - maj
-     - 42
-     - 14.4827586207
-     - 25.68
-     - 14.2295118302
-   * - dom
-     - 34
-     - 11.724137931
-     - 20.48
-     - 11.3481465063
    * - dim
      - 90
      - 31.0344827586
      - 54.87
      - 30.4039452541
+   * - maj
+     - 42
+     - 14.4827586207
+     - 25.68
+     - 14.2295118302
+   * - hdim7
+     - 2
+     - 0.689655172414
+     - 1.29
+     - 0.714800243808
    * - min
      - 120
      - 41.3793103448
      - 73.35
      - 40.6438743281
+   * - dom
+     - 34
+     - 11.724137931
+     - 20.48
+     - 11.3481465063
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/new_east_st_louis.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/new_east_st_louis.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/new_east_st_louis.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/new_east_st_louis.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/new_east_st_louis.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/new_east_st_louis.json'])
 
 Source Annotation
 -----------------------------------------------

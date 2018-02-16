@@ -6,15 +6,99 @@
 Welcome to JazzHarmony dataset's documentation!
 ===============================================
 
+Dataset statistics
+------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 16655
+   * - Mean BPM
+     - 162.9490882
+   * - Mean Harmonic Rhythm
+     - 3.73233263284
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - hdim7
+     - 1264
+     - 1.9152095518
+     - 506.782
+     - 2.0854082653
+   * - maj
+     - 18219
+     - 27.6053819813
+     - 6493.197
+     - 26.7195099511
+   * - dom
+     - 28470
+     - 43.1376708385
+     - 10234.817
+     - 42.1162787266
+   * - dim
+     - 1602
+     - 2.42734628322
+     - 562.14
+     - 2.31320647193
+   * - min
+     - 12607
+     - 19.1020940028
+     - 4513.739
+     - 18.5740389714
+
+Histogram by year
+-----------------
+
+TODO
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   import commonUtils
+   siteUtils.showTop2GramsForFileList(commonUtils.loadFileListPlusPrefix('../../ready.txt', '../../'))
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   import commonUtils
+   siteUtils.showTopNGramsForFileList(commonUtils.loadFileListPlusPrefix('../../ready.txt', '../../'))
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   import commonUtils
+   siteUtils.show5HexagramsForFileList(commonUtils.loadFileListPlusPrefix('../../ready.txt', '../../'))
+
+Contents
+--------
+
 .. toctree::
    :maxdepth: 1
    :glob:
-   :caption: Contents:
 
    data/*
 
 Indices and tables
-==================
+------------------
 
 * :ref:`genindex`
 * :ref:`modindex`

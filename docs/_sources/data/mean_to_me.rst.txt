@@ -73,59 +73,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 102
-     - 30.2670623145
-     - 56.46
-     - 29.5787929589
-   * - dom
-     - 138
-     - 40.9495548961
-     - 80.59
-     - 42.2202430847
    * - dim
      - 18
      - 5.3412462908
      - 9.91
      - 5.19174350377
+   * - maj
+     - 102
+     - 30.2670623145
+     - 56.46
+     - 29.5787929589
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 78
      - 23.1454005935
      - 42.9
      - 22.474853311
+   * - dom
+     - 138
+     - 40.9495548961
+     - 80.59
+     - 42.2202430847
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/mean_to_me.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/mean_to_me.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/mean_to_me.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/mean_to_me.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/mean_to_me.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/mean_to_me.json'])
 
 Source Annotation
 -----------------------------------------------

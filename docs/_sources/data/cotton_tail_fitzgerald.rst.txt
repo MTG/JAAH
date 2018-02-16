@@ -79,59 +79,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 260
-     - 24.208566108
-     - 53.12
-     - 24.0449031324
-   * - dom
-     - 498
-     - 46.3687150838
-     - 100.03
-     - 45.278833967
    * - dim
      - 46
      - 4.28305400372
      - 9.19
      - 4.15987687851
+   * - maj
+     - 260
+     - 24.208566108
+     - 53.12
+     - 24.0449031324
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 232
      - 21.6014897579
      - 46.68
      - 21.1298207496
+   * - dom
+     - 498
+     - 46.3687150838
+     - 100.03
+     - 45.278833967
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/cotton_tail_fitzgerald.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/cotton_tail_fitzgerald.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/cotton_tail_fitzgerald.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/cotton_tail_fitzgerald.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/cotton_tail_fitzgerald.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/cotton_tail_fitzgerald.json'])
 
 Source Annotation
 -----------------------------------------------

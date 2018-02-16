@@ -61,59 +61,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 241
-     - 43.1899641577
-     - 69.91
-     - 42.1983461097
-   * - dom
-     - 185
-     - 33.1541218638
-     - 53.23
-     - 32.1301382266
    * - dim
      - 36
      - 6.45161290323
      - 10.42
      - 6.28961187904
+   * - maj
+     - 241
+     - 43.1899641577
+     - 69.91
+     - 42.1983461097
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 28
      - 5.01792114695
      - 8.12
      - 4.9013098328
+   * - dom
+     - 185
+     - 33.1541218638
+     - 53.23
+     - 32.1301382266
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/weather_bird.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/weather_bird.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/weather_bird.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/weather_bird.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/weather_bird.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/weather_bird.json'])
 
 Source Annotation
 -----------------------------------------------

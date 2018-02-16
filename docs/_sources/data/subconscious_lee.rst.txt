@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 25.8064516129
      - 42.59
      - 25.2909738717
-   * - dom
-     - 376
-     - 55.1319648094
-     - 91.16
-     - 54.1330166271
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 18.7683284457
      - 31.02
      - 18.4204275534
+   * - dom
+     - 376
+     - 55.1319648094
+     - 91.16
+     - 54.1330166271
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/subconscious_lee.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/subconscious_lee.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/subconscious_lee.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/subconscious_lee.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/subconscious_lee.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/subconscious_lee.json'])
 
 Source Annotation
 -----------------------------------------------

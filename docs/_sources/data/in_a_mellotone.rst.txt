@@ -107,33 +107,30 @@ Symbolic Staistics From Annotation
      - 99.06
      - 49.7114467807
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/in_a_mellotone.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/in_a_mellotone.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/in_a_mellotone.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/in_a_mellotone.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/in_a_mellotone.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/in_a_mellotone.json'])
 
 Source Annotation
 -----------------------------------------------

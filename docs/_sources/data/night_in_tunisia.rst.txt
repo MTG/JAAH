@@ -63,59 +63,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 74
-     - 10.6017191977
-     - 26.41
-     - 10.2975006823
-   * - maj
-     - 17
-     - 2.43553008596
-     - 6.07
-     - 2.36674854759
-   * - dom
-     - 292
-     - 41.8338108883
-     - 107.54
-     - 41.9308301166
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 17
+     - 2.43553008596
+     - 6.07
+     - 2.36674854759
+   * - hdim7
+     - 74
+     - 10.6017191977
+     - 26.41
+     - 10.2975006823
    * - min
      - 280
      - 40.1146131805
      - 101.53
      - 39.5874761181
+   * - dom
+     - 292
+     - 41.8338108883
+     - 107.54
+     - 41.9308301166
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/night_in_tunisia.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/night_in_tunisia.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/night_in_tunisia.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/night_in_tunisia.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/night_in_tunisia.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/night_in_tunisia.json'])
 
 Source Annotation
 -----------------------------------------------

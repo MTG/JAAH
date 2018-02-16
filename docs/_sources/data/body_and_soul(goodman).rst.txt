@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 2
-     - 0.613496932515
-     - 1.27
-     - 0.60181016917
-   * - maj
-     - 60
-     - 18.4049079755
-     - 38.34
-     - 18.1680329811
-   * - dom
-     - 114
-     - 34.9693251534
-     - 71.51
-     - 33.8861773208
    * - dim
      - 14
      - 4.29447852761
      - 8.78
      - 4.16054589395
+   * - maj
+     - 60
+     - 18.4049079755
+     - 38.34
+     - 18.1680329811
+   * - hdim7
+     - 2
+     - 0.613496932515
+     - 1.27
+     - 0.60181016917
    * - min
      - 134
      - 41.1042944785
      - 84.79
      - 40.1791214519
+   * - dom
+     - 114
+     - 34.9693251534
+     - 71.51
+     - 33.8861773208
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/body_and_soul(goodman).json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/body_and_soul(goodman).json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/body_and_soul(goodman).json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/body_and_soul(goodman).json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/body_and_soul(goodman).json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/body_and_soul(goodman).json'])
 
 Source Annotation
 -----------------------------------------------

@@ -65,59 +65,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 48
-     - 6.23376623377
-     - 13.53
-     - 6.19051976574
-   * - maj
-     - 20
-     - 2.5974025974
-     - 5.55
-     - 2.53934846266
-   * - dom
-     - 170
-     - 22.0779220779
-     - 47.7
-     - 21.824670571
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 20
+     - 2.5974025974
+     - 5.55
+     - 2.53934846266
+   * - hdim7
+     - 48
+     - 6.23376623377
+     - 13.53
+     - 6.19051976574
    * - min
      - 490
      - 63.6363636364
      - 137.47
      - 62.8980600293
+   * - dom
+     - 170
+     - 22.0779220779
+     - 47.7
+     - 21.824670571
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/bikini.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/bikini.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/bikini.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/bikini.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/bikini.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/bikini.json'])
 
 Source Annotation
 -----------------------------------------------

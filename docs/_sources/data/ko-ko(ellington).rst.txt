@@ -83,7 +83,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -93,12 +93,7 @@ Symbolic Staistics From Annotation
      - 0.0
      - 0
      - 0.0
-   * - dom
-     - 56
-     - 13.3971291866
-     - 21.18
-     - 12.9723770442
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -108,34 +103,36 @@ Symbolic Staistics From Annotation
      - 86.1244019139
      - 136.26
      - 83.4568506155
+   * - dom
+     - 56
+     - 13.3971291866
+     - 21.18
+     - 12.9723770442
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/ko-ko(ellington).json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/ko-ko(ellington).json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/ko-ko(ellington).json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/ko-ko(ellington).json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/ko-ko(ellington).json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/ko-ko(ellington).json'])
 
 Source Annotation
 -----------------------------------------------

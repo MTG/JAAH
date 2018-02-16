@@ -67,7 +67,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -77,12 +77,7 @@ Symbolic Staistics From Annotation
      - 0.0
      - 0
      - 0.0
-   * - dom
-     - 358
-     - 95.7219251337
-     - 291.64
-     - 74.4530392382
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -92,34 +87,36 @@ Symbolic Staistics From Annotation
      - 0.534759358289
      - 1.62
      - 0.413571264456
+   * - dom
+     - 358
+     - 95.7219251337
+     - 291.64
+     - 74.4530392382
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/watermelon_man.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/watermelon_man.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/watermelon_man.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/watermelon_man.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/watermelon_man.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/watermelon_man.json'])
 
 Source Annotation
 -----------------------------------------------

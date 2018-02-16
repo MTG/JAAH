@@ -75,59 +75,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 187
-     - 28.5932721713
-     - 51.43
-     - 27.654998118
-   * - dom
-     - 263
-     - 40.2140672783
-     - 72.48
-     - 38.974028069
    * - dim
      - 30
      - 4.5871559633
      - 8.26
      - 4.44157659838
+   * - maj
+     - 187
+     - 28.5932721713
+     - 51.43
+     - 27.654998118
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 162
      - 24.7706422018
      - 44.9
      - 24.143679088
+   * - dom
+     - 263
+     - 40.2140672783
+     - 72.48
+     - 38.974028069
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/honeysuckle_rose.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/honeysuckle_rose.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/honeysuckle_rose.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/honeysuckle_rose.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/honeysuckle_rose.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/honeysuckle_rose.json'])
 
 Source Annotation
 -----------------------------------------------

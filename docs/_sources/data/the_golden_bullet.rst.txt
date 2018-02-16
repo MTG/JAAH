@@ -73,7 +73,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -83,12 +83,7 @@ Symbolic Staistics From Annotation
      - 38.2239382239
      - 55.69
      - 37.1167688616
-   * - dom
-     - 216
-     - 41.6988416988
-     - 60.13
-     - 40.0759797387
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -98,34 +93,36 @@ Symbolic Staistics From Annotation
      - 10.4247104247
      - 15.04
      - 10.0239936017
+   * - dom
+     - 216
+     - 41.6988416988
+     - 60.13
+     - 40.0759797387
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/the_golden_bullet.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/the_golden_bullet.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/the_golden_bullet.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/the_golden_bullet.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/the_golden_bullet.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/the_golden_bullet.json'])
 
 Source Annotation
 -----------------------------------------------

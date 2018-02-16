@@ -103,33 +103,30 @@ Symbolic Staistics From Annotation
      - 71.68
      - 28.0449156853
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/airegin.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/airegin.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/airegin.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/airegin.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/airegin.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/airegin.json'])
 
 Source Annotation
 -----------------------------------------------

@@ -59,7 +59,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -69,12 +69,7 @@ Symbolic Staistics From Annotation
      - 64.3724696356
      - 114.24
      - 63.3294528522
-   * - dom
-     - 166
-     - 33.6032388664
-     - 58.92
-     - 32.6625644437
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -84,34 +79,36 @@ Symbolic Staistics From Annotation
      - 0.80971659919
      - 1.4
      - 0.776096235933
+   * - dom
+     - 166
+     - 33.6032388664
+     - 58.92
+     - 32.6625644437
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/honky_tonk_train.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/honky_tonk_train.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/honky_tonk_train.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/honky_tonk_train.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/honky_tonk_train.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/honky_tonk_train.json'])
 
 Source Annotation
 -----------------------------------------------

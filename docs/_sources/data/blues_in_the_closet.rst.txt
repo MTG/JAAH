@@ -69,7 +69,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -79,12 +79,7 @@ Symbolic Staistics From Annotation
      - 0.0
      - 0
      - 0.0
-   * - dom
-     - 1818
-     - 87.4879692012
-     - 454.4
-     - 83.3348616282
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -94,34 +89,36 @@ Symbolic Staistics From Annotation
      - 12.4157844081
      - 64.39
      - 11.8088286537
+   * - dom
+     - 1818
+     - 87.4879692012
+     - 454.4
+     - 83.3348616282
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/blues_in_the_closet.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/blues_in_the_closet.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/blues_in_the_closet.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/blues_in_the_closet.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/blues_in_the_closet.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/blues_in_the_closet.json'])
 
 Source Annotation
 -----------------------------------------------

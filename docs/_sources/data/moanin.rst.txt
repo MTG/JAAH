@@ -69,59 +69,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 36
-     - 2.92682926829
-     - 16.7
-     - 2.89528432732
-   * - maj
-     - 68
-     - 5.52845528455
-     - 30.91
-     - 5.35887656033
-   * - dom
-     - 630
-     - 51.2195121951
-     - 295.66
-     - 51.258668516
    * - dim
      - 2
      - 0.162601626016
      - 0.91
      - 0.157766990291
+   * - maj
+     - 68
+     - 5.52845528455
+     - 30.91
+     - 5.35887656033
+   * - hdim7
+     - 36
+     - 2.92682926829
+     - 16.7
+     - 2.89528432732
    * - min
      - 318
      - 25.8536585366
      - 148.96
      - 25.8252427184
+   * - dom
+     - 630
+     - 51.2195121951
+     - 295.66
+     - 51.258668516
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/moanin.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/moanin.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/moanin.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/moanin.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/moanin.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/moanin.json'])
 
 Source Annotation
 -----------------------------------------------

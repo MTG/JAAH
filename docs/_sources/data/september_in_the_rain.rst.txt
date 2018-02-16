@@ -67,59 +67,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 18
-     - 4.52261306533
-     - 8.56
-     - 4.33967046895
-   * - maj
-     - 168
-     - 42.2110552764
-     - 80.37
-     - 40.7452471483
-   * - dom
-     - 132
-     - 33.1658291457
-     - 63.12
-     - 32.0
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 168
+     - 42.2110552764
+     - 80.37
+     - 40.7452471483
+   * - hdim7
+     - 18
+     - 4.52261306533
+     - 8.56
+     - 4.33967046895
    * - min
      - 78
      - 19.5979899497
      - 37.35
      - 18.9353612167
+   * - dom
+     - 132
+     - 33.1658291457
+     - 63.12
+     - 32.0
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/september_in_the_rain.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/september_in_the_rain.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/september_in_the_rain.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/september_in_the_rain.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/september_in_the_rain.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/september_in_the_rain.json'])
 
 Source Annotation
 -----------------------------------------------

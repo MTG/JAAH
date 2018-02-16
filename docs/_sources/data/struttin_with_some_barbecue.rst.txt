@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 241
-     - 41.6955017301
-     - 74.38
-     - 40.6737026303
-   * - dom
-     - 173
-     - 29.9307958478
-     - 53.26
-     - 29.1245146826
    * - dim
      - 8
      - 1.38408304498
      - 2.44
      - 1.33428118335
+   * - maj
+     - 241
+     - 41.6955017301
+     - 74.38
+     - 40.6737026303
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 79
      - 13.6678200692
      - 24.23
      - 13.2498496199
+   * - dom
+     - 173
+     - 29.9307958478
+     - 53.26
+     - 29.1245146826
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/struttin_with_some_barbecue.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/struttin_with_some_barbecue.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/struttin_with_some_barbecue.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/struttin_with_some_barbecue.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/struttin_with_some_barbecue.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/struttin_with_some_barbecue.json'])
 
 Source Annotation
 -----------------------------------------------

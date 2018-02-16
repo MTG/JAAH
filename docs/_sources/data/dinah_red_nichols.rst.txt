@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 48.7804878049
      - 93.76
      - 47.9738027016
-   * - dom
-     - 132
-     - 32.1951219512
-     - 61.99
-     - 31.7181743758
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 15.1219512195
      - 28.87
      - 14.7717969709
+   * - dom
+     - 132
+     - 32.1951219512
+     - 61.99
+     - 31.7181743758
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/dinah_red_nichols.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/dinah_red_nichols.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/dinah_red_nichols.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/dinah_red_nichols.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/dinah_red_nichols.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/dinah_red_nichols.json'])
 
 Source Annotation
 -----------------------------------------------

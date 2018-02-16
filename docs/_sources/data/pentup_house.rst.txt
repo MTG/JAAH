@@ -67,7 +67,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -77,12 +77,7 @@ Symbolic Staistics From Annotation
      - 30.2521008403
      - 160.13
      - 29.981838267
-   * - dom
-     - 488
-     - 29.2917166867
-     - 155.48
-     - 29.1111984871
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -92,34 +87,36 @@ Symbolic Staistics From Annotation
      - 28.8115246098
      - 153.69
      - 28.7760489805
+   * - dom
+     - 488
+     - 29.2917166867
+     - 155.48
+     - 29.1111984871
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/pentup_house.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/pentup_house.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/pentup_house.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/pentup_house.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/pentup_house.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/pentup_house.json'])
 
 Source Annotation
 -----------------------------------------------

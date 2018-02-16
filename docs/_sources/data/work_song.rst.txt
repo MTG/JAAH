@@ -67,59 +67,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 36
-     - 4.21545667447
-     - 12.65
-     - 4.08750161561
-   * - maj
-     - 25
-     - 2.92740046838
-     - 8.94
-     - 2.8887165568
-   * - dom
-     - 164
-     - 19.2037470726
-     - 58.707
-     - 18.9695618457
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 25
+     - 2.92740046838
+     - 8.94
+     - 2.8887165568
+   * - hdim7
+     - 36
+     - 4.21545667447
+     - 12.65
+     - 4.08750161561
    * - min
      - 463
      - 54.2154566745
      - 165.82
      - 53.5801990436
+   * - dom
+     - 164
+     - 19.2037470726
+     - 58.707
+     - 18.9695618457
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/work_song.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/work_song.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/work_song.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/work_song.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/work_song.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/work_song.json'])
 
 Source Annotation
 -----------------------------------------------

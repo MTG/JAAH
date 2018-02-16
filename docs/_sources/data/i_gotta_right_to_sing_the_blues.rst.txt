@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 23
-     - 6.80473372781
-     - 11.68
-     - 6.36165577342
-   * - maj
-     - 32
-     - 9.4674556213
-     - 16.28
-     - 8.86710239651
-   * - dom
-     - 159
-     - 47.0414201183
-     - 81.22
-     - 44.2374727669
    * - dim
      - 8
      - 2.36686390533
      - 4.22
      - 2.29847494553
+   * - maj
+     - 32
+     - 9.4674556213
+     - 16.28
+     - 8.86710239651
+   * - hdim7
+     - 23
+     - 6.80473372781
+     - 11.68
+     - 6.36165577342
    * - min
      - 98
      - 28.9940828402
      - 50.48
      - 27.4945533769
+   * - dom
+     - 159
+     - 47.0414201183
+     - 81.22
+     - 44.2374727669
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/i_gotta_right_to_sing_the_blues.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/i_gotta_right_to_sing_the_blues.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/i_gotta_right_to_sing_the_blues.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/i_gotta_right_to_sing_the_blues.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/i_gotta_right_to_sing_the_blues.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/i_gotta_right_to_sing_the_blues.json'])
 
 Source Annotation
 -----------------------------------------------

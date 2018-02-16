@@ -75,59 +75,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 24
-     - 4.49438202247
-     - 8.42
-     - 4.43648242795
-   * - maj
-     - 32
-     - 5.9925093633
-     - 11.16
-     - 5.88018336056
-   * - dom
-     - 456
-     - 85.393258427
-     - 157.92
-     - 83.2077559408
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 32
+     - 5.9925093633
+     - 11.16
+     - 5.88018336056
+   * - hdim7
+     - 24
+     - 4.49438202247
+     - 8.42
+     - 4.43648242795
    * - min
      - 16
      - 2.99625468165
      - 5.61
      - 2.9558986248
+   * - dom
+     - 456
+     - 85.393258427
+     - 157.92
+     - 83.2077559408
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/manteca.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/manteca.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/manteca.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/manteca.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/manteca.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/manteca.json'])
 
 Source Annotation
 -----------------------------------------------

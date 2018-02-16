@@ -69,59 +69,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 202
-     - 44.1048034934
-     - 64.16
-     - 43.0806419123
-   * - dom
-     - 214
-     - 46.7248908297
-     - 67.69
-     - 45.4508829652
    * - dim
      - 14
      - 3.05676855895
      - 4.52
      - 3.03498287786
+   * - maj
+     - 202
+     - 44.1048034934
+     - 64.16
+     - 43.0806419123
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 0
      - 0.0
      - 0
      - 0.0
+   * - dom
+     - 214
+     - 46.7248908297
+     - 67.69
+     - 45.4508829652
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/dippermouth_blues.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/dippermouth_blues.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/dippermouth_blues.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/dippermouth_blues.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/dippermouth_blues.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/dippermouth_blues.json'])
 
 Source Annotation
 -----------------------------------------------

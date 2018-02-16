@@ -67,59 +67,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 213
-     - 42.3459244533
-     - 79.06
-     - 41.4708350818
-   * - dom
-     - 232
-     - 46.1232604374
-     - 84.84
-     - 44.5027276542
    * - dim
      - 1
      - 0.198807157058
      - 0.41
      - 0.215065044062
+   * - maj
+     - 213
+     - 42.3459244533
+     - 79.06
+     - 41.4708350818
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 1
      - 0.198807157058
      - 0.38
      - 0.199328577423
+   * - dom
+     - 232
+     - 46.1232604374
+     - 84.84
+     - 44.5027276542
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/livery_stable_blues.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/livery_stable_blues.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/livery_stable_blues.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/livery_stable_blues.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/livery_stable_blues.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/livery_stable_blues.json'])
 
 Source Annotation
 -----------------------------------------------

@@ -75,7 +75,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -85,12 +85,7 @@ Symbolic Staistics From Annotation
      - 42.6229508197
      - 78.93
      - 41.5421052632
-   * - dom
-     - 125
-     - 34.1530054645
-     - 63.26
-     - 33.2947368421
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -100,34 +95,36 @@ Symbolic Staistics From Annotation
      - 18.8524590164
      - 35.08
      - 18.4631578947
+   * - dom
+     - 125
+     - 34.1530054645
+     - 63.26
+     - 33.2947368421
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/black_and_tan_fantasy.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/black_and_tan_fantasy.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/black_and_tan_fantasy.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/black_and_tan_fantasy.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/black_and_tan_fantasy.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/black_and_tan_fantasy.json'])
 
 Source Annotation
 -----------------------------------------------

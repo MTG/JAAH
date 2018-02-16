@@ -65,59 +65,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 8
-     - 3.37552742616
-     - 6.75
-     - 3.64864864865
-   * - maj
-     - 77
-     - 32.4894514768
-     - 60.186
-     - 32.532972973
-   * - dom
-     - 101
-     - 42.6160337553
-     - 79.274
-     - 42.8508108108
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 77
+     - 32.4894514768
+     - 60.186
+     - 32.532972973
+   * - hdim7
+     - 8
+     - 3.37552742616
+     - 6.75
+     - 3.64864864865
    * - min
      - 46
      - 19.4092827004
      - 34.95
      - 18.8918918919
+   * - dom
+     - 101
+     - 42.6160337553
+     - 79.274
+     - 42.8508108108
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/parkers_mood.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/parkers_mood.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/parkers_mood.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/parkers_mood.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/parkers_mood.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/parkers_mood.json'])
 
 Source Annotation
 -----------------------------------------------

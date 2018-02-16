@@ -67,59 +67,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 96
-     - 11.4558472554
-     - 20.42
-     - 11.1141348718
-   * - maj
-     - 134
-     - 15.9904534606
-     - 29.22
-     - 15.9037718391
-   * - dom
-     - 290
-     - 34.6062052506
-     - 61.77
-     - 33.6199858488
    * - dim
      - 40
      - 4.77326968974
      - 8.55
      - 4.65356773526
+   * - maj
+     - 134
+     - 15.9904534606
+     - 29.22
+     - 15.9037718391
+   * - hdim7
+     - 96
+     - 11.4558472554
+     - 20.42
+     - 11.1141348718
    * - min
      - 276
      - 32.9355608592
      - 59.11
      - 32.1722092201
+   * - dom
+     - 290
+     - 34.6062052506
+     - 61.77
+     - 33.6199858488
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/shaw_nuff.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/shaw_nuff.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/shaw_nuff.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/shaw_nuff.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/shaw_nuff.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/shaw_nuff.json'])
 
 Source Annotation
 -----------------------------------------------

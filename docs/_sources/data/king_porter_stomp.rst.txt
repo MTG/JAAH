@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 184
-     - 34.456928839
-     - 60.21
-     - 34.0804890474
-   * - dom
-     - 220
-     - 41.1985018727
-     - 71.63
-     - 40.544518028
    * - dim
      - 46
      - 8.61423220974
      - 14.72
      - 8.33191826569
+   * - maj
+     - 184
+     - 34.456928839
+     - 60.21
+     - 34.0804890474
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 78
      - 14.606741573
      - 25.54
      - 14.4563310126
+   * - dom
+     - 220
+     - 41.1985018727
+     - 71.63
+     - 40.544518028
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/king_porter_stomp.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/king_porter_stomp.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/king_porter_stomp.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/king_porter_stomp.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/king_porter_stomp.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/king_porter_stomp.json'])
 
 Source Annotation
 -----------------------------------------------

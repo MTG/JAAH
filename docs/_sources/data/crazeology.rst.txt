@@ -69,59 +69,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 236
-     - 30.6493506494
-     - 54.56
-     - 30.3178484108
-   * - dom
-     - 280
-     - 36.3636363636
-     - 64.45
-     - 35.8135141142
    * - dim
      - 34
      - 4.41558441558
      - 7.85
      - 4.36208046232
+   * - maj
+     - 236
+     - 30.6493506494
+     - 54.56
+     - 30.3178484108
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 184
      - 23.8961038961
      - 42.58
      - 23.6608135141
+   * - dom
+     - 280
+     - 36.3636363636
+     - 64.45
+     - 35.8135141142
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/crazeology.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/crazeology.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/crazeology.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/crazeology.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/crazeology.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/crazeology.json'])
 
 Source Annotation
 -----------------------------------------------

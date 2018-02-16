@@ -67,59 +67,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 17
-     - 7.08333333333
-     - 16.15
-     - 7.08457624145
-   * - maj
-     - 57
-     - 23.75
-     - 53.21
-     - 23.3418143534
-   * - dom
-     - 64
-     - 26.6666666667
-     - 60.2
-     - 26.4081417793
    * - dim
      - 4
      - 1.66666666667
      - 3.35
      - 1.46955606247
+   * - maj
+     - 57
+     - 23.75
+     - 53.21
+     - 23.3418143534
+   * - hdim7
+     - 17
+     - 7.08333333333
+     - 16.15
+     - 7.08457624145
    * - min
      - 97
      - 40.4166666667
      - 90.47
      - 39.6867871556
+   * - dom
+     - 64
+     - 26.6666666667
+     - 60.2
+     - 26.4081417793
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/embraceable_you.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/embraceable_you.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/embraceable_you.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/embraceable_you.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/embraceable_you.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/embraceable_you.json'])
 
 Source Annotation
 -----------------------------------------------

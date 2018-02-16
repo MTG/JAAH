@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 177
-     - 29.4019933555
-     - 50.49
-     - 28.7921989051
-   * - dom
-     - 320
-     - 53.1561461794
-     - 91.45
-     - 52.1498631387
    * - dim
      - 48
      - 7.97342192691
      - 13.68
      - 7.80109489051
+   * - maj
+     - 177
+     - 29.4019933555
+     - 50.49
+     - 28.7921989051
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 12
      - 1.99335548173
      - 3.42
      - 1.95027372263
+   * - dom
+     - 320
+     - 53.1561461794
+     - 91.45
+     - 52.1498631387
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/grandpas_spells.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/grandpas_spells.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/grandpas_spells.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/grandpas_spells.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/grandpas_spells.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/grandpas_spells.json'])
 
 Source Annotation
 -----------------------------------------------

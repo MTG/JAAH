@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.showTopNGramsForFile('../../../annotations/django.json')
+siteUtils.showTopNGramsForFileList(['../../../annotations/django.json'])

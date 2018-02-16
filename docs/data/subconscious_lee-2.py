@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.showTopNGramsForFile('../../../annotations/subconscious_lee.json')
+siteUtils.showTopNGramsForFileList(['../../../annotations/subconscious_lee.json'])

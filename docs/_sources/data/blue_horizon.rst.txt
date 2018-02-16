@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 47.0588235294
      - 129.28
      - 48.1382186476
-   * - dom
-     - 152
-     - 52.5951557093
-     - 138.58
-     - 51.6011319631
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 0.0
      - 0
      - 0.0
+   * - dom
+     - 152
+     - 52.5951557093
+     - 138.58
+     - 51.6011319631
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/blue_horizon.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/blue_horizon.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/blue_horizon.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/blue_horizon.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/blue_horizon.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/blue_horizon.json'])
 
 Source Annotation
 -----------------------------------------------

@@ -59,59 +59,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 156
-     - 53.7931034483
-     - 77.98
-     - 51.9970660799
-   * - dom
-     - 84
-     - 28.9655172414
-     - 41.26
-     - 27.5121691005
    * - dim
      - 22
      - 7.58620689655
      - 11.11
      - 7.40814829633
+   * - maj
+     - 156
+     - 53.7931034483
+     - 77.98
+     - 51.9970660799
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 26
      - 8.96551724138
      - 12.89
      - 8.5950523438
+   * - dom
+     - 84
+     - 28.9655172414
+     - 41.26
+     - 27.5121691005
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/maple_leaf_rag(hyman).json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/maple_leaf_rag(hyman).json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/maple_leaf_rag(hyman).json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/maple_leaf_rag(hyman).json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/maple_leaf_rag(hyman).json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/maple_leaf_rag(hyman).json'])
 
 Source Annotation
 -----------------------------------------------

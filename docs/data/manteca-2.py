@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.showTopNGramsForFile('../../../annotations/manteca.json')
+siteUtils.showTopNGramsForFileList(['../../../annotations/manteca.json'])

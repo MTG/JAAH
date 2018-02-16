@@ -65,7 +65,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -75,12 +75,7 @@ Symbolic Staistics From Annotation
      - 50.9572901325
      - 143.26
      - 49.8469032707
-   * - dom
-     - 416
-     - 30.6332842415
-     - 85.86
-     - 29.8747390397
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -90,34 +85,36 @@ Symbolic Staistics From Annotation
      - 18.2621502209
      - 51.28
      - 17.8427279054
+   * - dom
+     - 416
+     - 30.6332842415
+     - 85.86
+     - 29.8747390397
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/giant_steps.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/giant_steps.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/giant_steps.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/giant_steps.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/giant_steps.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/giant_steps.json'])
 
 Source Annotation
 -----------------------------------------------

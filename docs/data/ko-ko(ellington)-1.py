@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.showTop2GramsForFile('../../../annotations/ko-ko(ellington).json')
+siteUtils.showTop2GramsForFileList(['../../../annotations/ko-ko(ellington).json'])

@@ -73,7 +73,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -83,12 +83,7 @@ Symbolic Staistics From Annotation
      - 19.2439862543
      - 24.66
      - 17.0917660105
-   * - dom
-     - 233
-     - 40.0343642612
-     - 54.76
-     - 37.9539783754
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -98,34 +93,36 @@ Symbolic Staistics From Annotation
      - 39.175257732
      - 58.18
      - 40.324369282
+   * - dom
+     - 233
+     - 40.0343642612
+     - 54.76
+     - 37.9539783754
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/everybody_loves_my_baby.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/everybody_loves_my_baby.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/everybody_loves_my_baby.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/everybody_loves_my_baby.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/everybody_loves_my_baby.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/everybody_loves_my_baby.json'])
 
 Source Annotation
 -----------------------------------------------

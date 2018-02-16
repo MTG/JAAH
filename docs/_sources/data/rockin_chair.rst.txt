@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 20
-     - 7.40740740741
-     - 13.74
-     - 7.53578676027
-   * - maj
-     - 70
-     - 25.9259259259
-     - 47.73
-     - 26.1778094664
-   * - dom
-     - 86
-     - 31.8518518519
-     - 58.26
-     - 31.9530521582
    * - dim
      - 1
      - 0.37037037037
      - 0.67
      - 0.36746558438
+   * - maj
+     - 70
+     - 25.9259259259
+     - 47.73
+     - 26.1778094664
+   * - hdim7
+     - 20
+     - 7.40740740741
+     - 13.74
+     - 7.53578676027
    * - min
      - 39
      - 14.4444444444
      - 25.85
      - 14.1775900839
+   * - dom
+     - 86
+     - 31.8518518519
+     - 58.26
+     - 31.9530521582
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/rockin_chair.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/rockin_chair.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/rockin_chair.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/rockin_chair.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/rockin_chair.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/rockin_chair.json'])
 
 Source Annotation
 -----------------------------------------------

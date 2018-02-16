@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 39.4308943089
      - 70.27
      - 38.9285912138
-   * - dom
-     - 381
-     - 51.6260162602
-     - 91.68
-     - 50.7894299485
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 0.0
      - 0
      - 0.0
+   * - dom
+     - 381
+     - 51.6260162602
+     - 91.68
+     - 50.7894299485
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/doggin_around.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/doggin_around.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/doggin_around.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/doggin_around.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/doggin_around.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/doggin_around.json'])
 
 Source Annotation
 -----------------------------------------------

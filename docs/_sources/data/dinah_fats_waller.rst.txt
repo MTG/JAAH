@@ -69,59 +69,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 280
-     - 41.5430267062
-     - 75.06
-     - 39.5823445657
-   * - dom
-     - 250
-     - 37.0919881306
-     - 66.8
-     - 35.2264936983
    * - dim
      - 30
      - 4.45103857567
      - 8.09
      - 4.26620260507
+   * - maj
+     - 280
+     - 41.5430267062
+     - 75.06
+     - 39.5823445657
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 112
      - 16.6172106825
      - 29.94
      - 15.7886410378
+   * - dom
+     - 250
+     - 37.0919881306
+     - 66.8
+     - 35.2264936983
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/dinah_fats_waller.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/dinah_fats_waller.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/dinah_fats_waller.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/dinah_fats_waller.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/dinah_fats_waller.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/dinah_fats_waller.json'])
 
 Source Annotation
 -----------------------------------------------

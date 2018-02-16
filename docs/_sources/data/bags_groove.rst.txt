@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 0.0
      - 0
      - 0.0
-   * - dom
-     - 378
-     - 87.0967741935
-     - 147.04
-     - 84.8617764183
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 12.4423963134
      - 20.89
      - 12.0563282738
+   * - dom
+     - 378
+     - 87.0967741935
+     - 147.04
+     - 84.8617764183
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/bags_groove.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/bags_groove.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/bags_groove.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/bags_groove.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/bags_groove.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/bags_groove.json'])
 
 Source Annotation
 -----------------------------------------------

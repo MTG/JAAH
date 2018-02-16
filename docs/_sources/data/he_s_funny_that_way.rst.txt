@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 12
-     - 4.3795620438
-     - 6.95
-     - 4.32455976604
-   * - maj
-     - 114
-     - 41.6058394161
-     - 65.89
-     - 40.9993155373
-   * - dom
-     - 82
-     - 29.9270072993
-     - 47.5
-     - 29.5563437247
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 114
+     - 41.6058394161
+     - 65.89
+     - 40.9993155373
+   * - hdim7
+     - 12
+     - 4.3795620438
+     - 6.95
+     - 4.32455976604
    * - min
      - 64
      - 23.3576642336
      - 37.06
      - 23.0601704934
+   * - dom
+     - 82
+     - 29.9270072993
+     - 47.5
+     - 29.5563437247
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/he_s_funny_that_way.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/he_s_funny_that_way.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/he_s_funny_that_way.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/he_s_funny_that_way.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/he_s_funny_that_way.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/he_s_funny_that_way.json'])
 
 Source Annotation
 -----------------------------------------------

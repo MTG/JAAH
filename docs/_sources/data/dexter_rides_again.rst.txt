@@ -67,7 +67,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -77,12 +77,7 @@ Symbolic Staistics From Annotation
      - 42.9906542056
      - 79.86
      - 40.5937071113
-   * - dom
-     - 316
-     - 49.2211838006
-     - 91.32
-     - 46.4189498297
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -92,34 +87,36 @@ Symbolic Staistics From Annotation
      - 2.49221183801
      - 4.63
      - 2.35347938799
+   * - dom
+     - 316
+     - 49.2211838006
+     - 91.32
+     - 46.4189498297
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/dexter_rides_again.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/dexter_rides_again.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/dexter_rides_again.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/dexter_rides_again.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/dexter_rides_again.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/dexter_rides_again.json'])
 
 Source Annotation
 -----------------------------------------------

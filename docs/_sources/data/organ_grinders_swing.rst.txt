@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 64.0522875817
      - 99.82
      - 62.1273417564
-   * - dom
-     - 60
-     - 19.6078431373
-     - 30.35
-     - 18.8896495923
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 0.0
      - 0
      - 0.0
+   * - dom
+     - 60
+     - 19.6078431373
+     - 30.35
+     - 18.8896495923
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/organ_grinders_swing.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/organ_grinders_swing.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/organ_grinders_swing.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/organ_grinders_swing.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/organ_grinders_swing.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/organ_grinders_swing.json'])
 
 Source Annotation
 -----------------------------------------------

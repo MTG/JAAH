@@ -75,59 +75,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 206
-     - 24.2352941176
-     - 50.24
-     - 25.647046812
-   * - dom
-     - 335
-     - 39.4117647059
-     - 74.46
-     - 38.0111286947
    * - dim
      - 32
      - 3.76470588235
      - 6.75
      - 3.44581142478
+   * - maj
+     - 206
+     - 24.2352941176
+     - 50.24
+     - 25.647046812
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 135
      - 15.8823529412
      - 33.1
      - 16.897238246
+   * - dom
+     - 335
+     - 39.4117647059
+     - 74.46
+     - 38.0111286947
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/harlem_congo.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/harlem_congo.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/harlem_congo.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/harlem_congo.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/harlem_congo.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/harlem_congo.json'])
 
 Source Annotation
 -----------------------------------------------

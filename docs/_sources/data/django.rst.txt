@@ -65,59 +65,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 32
-     - 4.56490727532
-     - 19.44
-     - 4.57487115525
-   * - maj
-     - 37
-     - 5.27817403709
-     - 26.93
-     - 6.33751441414
-   * - dom
-     - 415
-     - 59.2011412268
-     - 238.94
-     - 56.2304379545
    * - dim
      - 24
      - 3.42368045649
      - 15.44
      - 3.63353964182
+   * - maj
+     - 37
+     - 5.27817403709
+     - 26.93
+     - 6.33751441414
+   * - hdim7
+     - 32
+     - 4.56490727532
+     - 19.44
+     - 4.57487115525
    * - min
      - 191
      - 27.2467902996
      - 119.36
      - 28.0893323606
+   * - dom
+     - 415
+     - 59.2011412268
+     - 238.94
+     - 56.2304379545
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/django.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/django.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/django.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/django.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/django.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/django.json'])
 
 Source Annotation
 -----------------------------------------------

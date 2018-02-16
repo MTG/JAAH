@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 32.8267477204
      - 61.36
      - 32.1593291405
-   * - dom
-     - 356
-     - 54.103343465
-     - 100.45
-     - 52.6467505241
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 12.7659574468
      - 23.59
      - 12.3637316562
+   * - dom
+     - 356
+     - 54.103343465
+     - 100.45
+     - 52.6467505241
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/riverboat_shuffle.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/riverboat_shuffle.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/riverboat_shuffle.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/riverboat_shuffle.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/riverboat_shuffle.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/riverboat_shuffle.json'])
 
 Source Annotation
 -----------------------------------------------

@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.showTop2GramsForFile('../../../annotations/these_foolish_things.json')
+siteUtils.showTop2GramsForFileList(['../../../annotations/these_foolish_things.json'])

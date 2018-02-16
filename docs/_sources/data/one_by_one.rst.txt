@@ -69,59 +69,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 150
-     - 18.337408313
-     - 67.37
-     - 17.5822741864
-   * - maj
-     - 78
-     - 9.53545232274
-     - 33.92
-     - 8.85246757314
-   * - dom
-     - 288
-     - 35.2078239609
-     - 128.95
-     - 33.6534697393
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 78
+     - 9.53545232274
+     - 33.92
+     - 8.85246757314
+   * - hdim7
+     - 150
+     - 18.337408313
+     - 67.37
+     - 17.5822741864
    * - min
      - 300
      - 36.6748166259
      - 133.79
      - 34.9166166454
+   * - dom
+     - 288
+     - 35.2078239609
+     - 128.95
+     - 33.6534697393
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/one_by_one.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/one_by_one.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/one_by_one.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/one_by_one.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/one_by_one.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/one_by_one.json'])
 
 Source Annotation
 -----------------------------------------------

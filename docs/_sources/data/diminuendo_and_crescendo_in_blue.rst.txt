@@ -81,59 +81,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 15
-     - 1.30434782609
-     - 4.66
-     - 1.29333074297
-   * - maj
-     - 283
-     - 24.6086956522
-     - 88.07
-     - 24.442840887
-   * - dom
-     - 712
-     - 61.9130434783
-     - 220.64
-     - 61.236157753
    * - dim
      - 74
      - 6.4347826087
      - 22.85
      - 6.34176126114
+   * - maj
+     - 283
+     - 24.6086956522
+     - 88.07
+     - 24.442840887
+   * - hdim7
+     - 15
+     - 1.30434782609
+     - 4.66
+     - 1.29333074297
    * - min
      - 60
      - 5.21739130435
      - 18.77
      - 5.20940301407
+   * - dom
+     - 712
+     - 61.9130434783
+     - 220.64
+     - 61.236157753
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/diminuendo_and_crescendo_in_blue.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/diminuendo_and_crescendo_in_blue.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/diminuendo_and_crescendo_in_blue.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/diminuendo_and_crescendo_in_blue.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/diminuendo_and_crescendo_in_blue.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/diminuendo_and_crescendo_in_blue.json'])
 
 Source Annotation
 -----------------------------------------------

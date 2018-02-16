@@ -67,7 +67,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -77,12 +77,7 @@ Symbolic Staistics From Annotation
      - 48.9082969432
      - 77.43
      - 44.5025576183
-   * - dom
-     - 112
-     - 24.4541484716
-     - 38.17
-     - 21.9380424162
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -92,34 +87,36 @@ Symbolic Staistics From Annotation
      - 26.2008733624
      - 41.27
      - 23.7197540089
+   * - dom
+     - 112
+     - 24.4541484716
+     - 38.17
+     - 21.9380424162
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/lady_bird.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/lady_bird.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/lady_bird.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/lady_bird.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/lady_bird.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/lady_bird.json'])
 
 Source Annotation
 -----------------------------------------------

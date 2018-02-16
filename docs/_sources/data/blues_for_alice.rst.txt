@@ -57,59 +57,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 18
-     - 3.86266094421
-     - 6.41
-     - 3.79155329469
-   * - maj
-     - 56
-     - 12.017167382
-     - 20.14
-     - 11.9129303206
-   * - dom
-     - 232
-     - 49.7854077253
-     - 82.74
-     - 48.9412043062
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 56
+     - 12.017167382
+     - 20.14
+     - 11.9129303206
+   * - hdim7
+     - 18
+     - 3.86266094421
+     - 6.41
+     - 3.79155329469
    * - min
      - 158
      - 33.9055793991
      - 56.41
      - 33.3668520052
+   * - dom
+     - 232
+     - 49.7854077253
+     - 82.74
+     - 48.9412043062
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/blues_for_alice.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/blues_for_alice.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/blues_for_alice.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/blues_for_alice.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/blues_for_alice.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/blues_for_alice.json'])
 
 Source Annotation
 -----------------------------------------------

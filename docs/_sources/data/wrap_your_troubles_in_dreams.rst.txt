@@ -59,59 +59,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 6
-     - 1.91082802548
-     - 2.632
-     - 1.71220400729
-   * - maj
-     - 56
-     - 17.8343949045
-     - 26.903
-     - 17.5013010669
-   * - dom
-     - 114
-     - 36.3057324841
-     - 54.834
-     - 35.6713505074
    * - dim
      - 26
      - 8.28025477707
      - 12.08
      - 7.85844392402
+   * - maj
+     - 56
+     - 17.8343949045
+     - 26.903
+     - 17.5013010669
+   * - hdim7
+     - 6
+     - 1.91082802548
+     - 2.632
+     - 1.71220400729
    * - min
      - 96
      - 30.5732484076
      - 45.645
      - 29.693598751
+   * - dom
+     - 114
+     - 36.3057324841
+     - 54.834
+     - 35.6713505074
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/wrap_your_troubles_in_dreams.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/wrap_your_troubles_in_dreams.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/wrap_your_troubles_in_dreams.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/wrap_your_troubles_in_dreams.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/wrap_your_troubles_in_dreams.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/wrap_your_troubles_in_dreams.json'])
 
 Source Annotation
 -----------------------------------------------

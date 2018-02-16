@@ -73,7 +73,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -83,12 +83,7 @@ Symbolic Staistics From Annotation
      - 43.579766537
      - 79.0
      - 42.5898970295
-   * - dom
-     - 238
-     - 46.3035019455
-     - 83.8
-     - 45.1776376085
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -98,34 +93,36 @@ Symbolic Staistics From Annotation
      - 9.72762645914
      - 17.61
      - 9.49377324923
+   * - dom
+     - 238
+     - 46.3035019455
+     - 83.8
+     - 45.1776376085
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/one_oclock_jump.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/one_oclock_jump.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/one_oclock_jump.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/one_oclock_jump.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/one_oclock_jump.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/one_oclock_jump.json'])
 
 Source Annotation
 -----------------------------------------------

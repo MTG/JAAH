@@ -81,7 +81,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -91,12 +91,7 @@ Symbolic Staistics From Annotation
      - 11.6959064327
      - 22.12
      - 11.1553784861
-   * - dom
-     - 110
-     - 32.1637426901
-     - 61.06
-     - 30.7932825659
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -106,34 +101,36 @@ Symbolic Staistics From Annotation
      - 55.5555555556
      - 114.35
      - 57.6680619295
+   * - dom
+     - 110
+     - 32.1637426901
+     - 61.06
+     - 30.7932825659
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/summertime.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/summertime.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/summertime.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/summertime.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/summertime.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/summertime.json'])
 
 Source Annotation
 -----------------------------------------------

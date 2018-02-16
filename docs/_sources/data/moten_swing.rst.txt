@@ -77,59 +77,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 196
-     - 29.6072507553
-     - 59.72
-     - 29.0071886536
-   * - dom
-     - 336
-     - 50.7552870091
-     - 102.41
-     - 49.7425684865
    * - dim
      - 10
      - 1.51057401813
      - 3.05
      - 1.48144550223
+   * - maj
+     - 196
+     - 29.6072507553
+     - 59.72
+     - 29.0071886536
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 118
      - 17.8247734139
      - 35.94
      - 17.4567709345
+   * - dom
+     - 336
+     - 50.7552870091
+     - 102.41
+     - 49.7425684865
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/moten_swing.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/moten_swing.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/moten_swing.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/moten_swing.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/moten_swing.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/moten_swing.json'])
 
 Source Annotation
 -----------------------------------------------

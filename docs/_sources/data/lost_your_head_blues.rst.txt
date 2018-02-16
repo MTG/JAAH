@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 52.7131782946
      - 91.05
      - 51.3826185102
-   * - dom
-     - 116
-     - 44.9612403101
-     - 77.25
-     - 43.5948081264
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 1.5503875969
      - 2.705
      - 1.52652370203
+   * - dom
+     - 116
+     - 44.9612403101
+     - 77.25
+     - 43.5948081264
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/lost_your_head_blues.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/lost_your_head_blues.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/lost_your_head_blues.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/lost_your_head_blues.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/lost_your_head_blues.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/lost_your_head_blues.json'])
 
 Source Annotation
 -----------------------------------------------

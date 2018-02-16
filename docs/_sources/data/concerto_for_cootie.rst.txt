@@ -81,59 +81,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 2
-     - 0.606060606061
-     - 1.18
-     - 0.590383749437
-   * - maj
-     - 134
-     - 40.6060606061
-     - 81.06
-     - 40.5563616351
-   * - dom
-     - 86
-     - 26.0606060606
-     - 51.0
-     - 25.5165857808
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 134
+     - 40.6060606061
+     - 81.06
+     - 40.5563616351
+   * - hdim7
+     - 2
+     - 0.606060606061
+     - 1.18
+     - 0.590383749437
    * - min
      - 29
      - 8.78787878788
      - 17.42
      - 8.71566518237
+   * - dom
+     - 86
+     - 26.0606060606
+     - 51.0
+     - 25.5165857808
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/concerto_for_cootie.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/concerto_for_cootie.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/concerto_for_cootie.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/concerto_for_cootie.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/concerto_for_cootie.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/concerto_for_cootie.json'])
 
 Source Annotation
 -----------------------------------------------

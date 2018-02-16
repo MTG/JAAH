@@ -69,7 +69,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -79,12 +79,7 @@ Symbolic Staistics From Annotation
      - 34.3366778149
      - 85.8
      - 33.6893356369
-   * - dom
-     - 504
-     - 56.1872909699
-     - 140.33
-     - 55.1005182975
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -94,34 +89,36 @@ Symbolic Staistics From Annotation
      - 9.36454849498
      - 23.43
      - 9.19978011622
+   * - dom
+     - 504
+     - 56.1872909699
+     - 140.33
+     - 55.1005182975
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/i_cant_believe_you_are_in_love_with_me.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/i_cant_believe_you_are_in_love_with_me.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/i_cant_believe_you_are_in_love_with_me.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/i_cant_believe_you_are_in_love_with_me.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/i_cant_believe_you_are_in_love_with_me.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/i_cant_believe_you_are_in_love_with_me.json'])
 
 Source Annotation
 -----------------------------------------------

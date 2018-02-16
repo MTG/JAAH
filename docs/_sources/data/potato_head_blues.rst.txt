@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
+   * - dim
      - 0
      - 0.0
      - 0
@@ -67,12 +67,7 @@ Symbolic Staistics From Annotation
      - 22.1172022684
      - 38.37
      - 21.6376247674
-   * - dom
-     - 187
-     - 35.3497164461
-     - 61.29
-     - 34.5626797496
-   * - dim
+   * - hdim7
      - 0
      - 0.0
      - 0
@@ -82,34 +77,36 @@ Symbolic Staistics From Annotation
      - 14.7448015123
      - 25.49
      - 14.3743303446
+   * - dom
+     - 187
+     - 35.3497164461
+     - 61.29
+     - 34.5626797496
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/potato_head_blues.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/potato_head_blues.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/potato_head_blues.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/potato_head_blues.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/potato_head_blues.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/potato_head_blues.json'])
 
 Source Annotation
 -----------------------------------------------

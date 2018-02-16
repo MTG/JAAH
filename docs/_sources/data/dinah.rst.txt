@@ -63,59 +63,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 273
-     - 50.36900369
-     - 76.63
-     - 49.3029940382
-   * - dom
-     - 167
-     - 30.8118081181
-     - 46.16
-     - 29.6988934465
    * - dim
      - 1
      - 0.184501845018
      - 0.6
      - 0.386034143585
+   * - maj
+     - 273
+     - 50.36900369
+     - 76.63
+     - 49.3029940382
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 99
      - 18.2656826568
      - 28.0
      - 18.0149267006
+   * - dom
+     - 167
+     - 30.8118081181
+     - 46.16
+     - 29.6988934465
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/dinah.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/dinah.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/dinah.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/dinah.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/dinah.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/dinah.json'])
 
 Source Annotation
 -----------------------------------------------

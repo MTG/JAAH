@@ -63,59 +63,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 10
-     - 1.3698630137
-     - 3.75
-     - 1.35476878613
-   * - maj
-     - 223
-     - 30.5479452055
-     - 83.15
-     - 30.0397398844
-   * - dom
-     - 311
-     - 42.602739726
-     - 116.39
-     - 42.0484104046
    * - dim
      - 30
      - 4.1095890411
      - 11.22
      - 4.05346820809
+   * - maj
+     - 223
+     - 30.5479452055
+     - 83.15
+     - 30.0397398844
+   * - hdim7
+     - 10
+     - 1.3698630137
+     - 3.75
+     - 1.35476878613
    * - min
      - 90
      - 12.3287671233
      - 33.69
      - 12.1712427746
+   * - dom
+     - 311
+     - 42.602739726
+     - 116.39
+     - 42.0484104046
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/tricotism.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/tricotism.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/tricotism.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/tricotism.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/tricotism.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/tricotism.json'])
 
 Source Annotation
 -----------------------------------------------

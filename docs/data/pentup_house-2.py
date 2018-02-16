@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.showTopNGramsForFile('../../../annotations/pentup_house.json')
+siteUtils.showTopNGramsForFileList(['../../../annotations/pentup_house.json'])

@@ -79,59 +79,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 170
-     - 23.8095238095
-     - 47.15
-     - 23.7507555914
-   * - dom
-     - 280
-     - 39.2156862745
-     - 76.73
-     - 38.6510175297
    * - dim
      - 10
      - 1.40056022409
      - 2.74
      - 1.3802135805
+   * - maj
+     - 170
+     - 23.8095238095
+     - 47.15
+     - 23.7507555914
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 200
      - 28.0112044818
      - 54.77
      - 27.5891597824
+   * - dom
+     - 280
+     - 39.2156862745
+     - 76.73
+     - 38.6510175297
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/four_brothers.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/four_brothers.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/four_brothers.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/four_brothers.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/four_brothers.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/four_brothers.json'])
 
 Source Annotation
 -----------------------------------------------

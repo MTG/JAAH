@@ -1,2 +1,2 @@
 import siteUtils
-siteUtils.show5HexagramsForFile('../../../annotations/breakfast_feud.json')
+siteUtils.show5HexagramsForFileList(['../../../annotations/breakfast_feud.json'])

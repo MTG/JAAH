@@ -73,59 +73,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 8
-     - 3.2
-     - 8.02
-     - 3.14460476788
-   * - maj
-     - 88
-     - 35.2
-     - 88.46
-     - 34.6847553325
-   * - dom
-     - 127
-     - 50.8
-     - 127.9
-     - 50.1489962359
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
+   * - maj
+     - 88
+     - 35.2
+     - 88.46
+     - 34.6847553325
+   * - hdim7
+     - 8
+     - 3.2
+     - 8.02
+     - 3.14460476788
    * - min
      - 8
      - 3.2
      - 7.99
      - 3.13284190715
+   * - dom
+     - 127
+     - 50.8
+     - 127.9
+     - 50.1489962359
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/isfahan.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/isfahan.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/isfahan.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/isfahan.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/isfahan.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/isfahan.json'])
 
 Source Annotation
 -----------------------------------------------

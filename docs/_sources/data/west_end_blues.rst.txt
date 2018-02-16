@@ -69,59 +69,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 114
-     - 42.2222222222
-     - 83.42
-     - 41.4426946197
-   * - dom
-     - 134
-     - 49.6296296296
-     - 97.2
-     - 48.2885389239
    * - dim
      - 4
      - 1.48148148148
      - 2.85
      - 1.41586765363
+   * - maj
+     - 114
+     - 42.2222222222
+     - 83.42
+     - 41.4426946197
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 0
      - 0.0
      - 0
      - 0.0
+   * - dom
+     - 134
+     - 49.6296296296
+     - 97.2
+     - 48.2885389239
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/west_end_blues.json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/west_end_blues.json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/west_end_blues.json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/west_end_blues.json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/west_end_blues.json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/west_end_blues.json'])
 
 Source Annotation
 -----------------------------------------------

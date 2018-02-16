@@ -61,59 +61,56 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - maj
-     - 228
-     - 54.5454545455
-     - 117.96
-     - 53.4941725999
-   * - dom
-     - 126
-     - 30.1435406699
-     - 65.03
-     - 29.4907260442
    * - dim
      - 26
      - 6.22009569378
      - 13.39
      - 6.07228697111
+   * - maj
+     - 228
+     - 54.5454545455
+     - 117.96
+     - 53.4941725999
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
    * - min
      - 36
      - 8.61244019139
      - 18.42
      - 8.35336265929
+   * - dom
+     - 126
+     - 30.1435406699
+     - 65.03
+     - 29.4907260442
 
-top 2-grams
+Top Bigrams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTop2GramsForFile('../../../annotations/maple_leaf_rag(braxton).json')
+   siteUtils.showTop2GramsForFileList(['../../../annotations/maple_leaf_rag(braxton).json'])
 
-top N-grams
+Top N-grams
 -----------------------------------------------
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.showTopNGramsForFile('../../../annotations/maple_leaf_rag(braxton).json')
+   siteUtils.showTopNGramsForFileList(['../../../annotations/maple_leaf_rag(braxton).json'])
 
 Chroma Statistics
 -----------------------------------------------
 Chord type chroma distribution (hexagrams)
 
 .. plot::
-   :include-source: False
 
    import siteUtils
-   siteUtils.show5HexagramsForFile('../../../annotations/maple_leaf_rag(braxton).json')
+   siteUtils.show5HexagramsForFileList(['../../../annotations/maple_leaf_rag(braxton).json'])
 
 Source Annotation
 -----------------------------------------------
