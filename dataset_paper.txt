@@ -61,6 +61,9 @@ TODOs (for each delivery entity):
       * Discuss anf implements guidelines to segmentation.
         What should be a smallest segmentation element? So far: chorus (?may be use parts - e.g. A1, A2,...)
         Are there any part taxonomy (e.g. "intro", "break")?.
+        E.g. see:
+        https://github.com/DDMAL/salami-data-public/blob/master/funct_vocab_dictionary.txt
+        http://pythonhosted.org/jams/namespace.html (segment part, segment function)
    * Jazzomat integration
       * Automatically comapre accuracy of chords and beat tracking
         with our annotations (on co-occured tracks). Discuss.
