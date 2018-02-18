@@ -1,0 +1,129 @@
+.. index:: Maple Leaf Rag, New Orleans Feetwarmers
+.. _hyperlink-name: "Maple Leaf Rag" New Orleans Feetwarmers
+
+"Maple Leaf Rag" New Orleans Feetwarmers/1932
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `a1315c6c-9a3c-4ae2-819d-63505727a24c`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb
+   * - Durtion
+     - 179.44 s
+   * - Recording Dates
+     - 1932-09-15 - 1932-09-15
+   * - Composer(s)
+     - Scott Joplin
+.. _a1315c6c-9a3c-4ae2-819d-63505727a24c: https://musicbrainz.org/recording/a1315c6c-9a3c-4ae2-819d-63505727a24c
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - soprano saxophone
+     - Sidney Bechet 
+   * - double bass
+     - Wilson Myers 
+   * - drums
+     - Morris Morand 
+   * - trombone
+     - Teddy Nixon 
+   * - piano
+     - Hank Duncan 
+   * - trumpet
+     - Tommy Ladnier 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 153
+   * - Mean BPM
+     - 260.142666072
+   * - Mean Harmonic Rhythm
+     - 5.01960784314
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 44
+     - 5.65552699229
+     - 9.92
+     - 5.52831029871
+   * - maj
+     - 418
+     - 53.7275064267
+     - 93.72
+     - 52.2291573785
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 56
+     - 7.19794344473
+     - 12.53
+     - 6.98283548819
+   * - dom
+     - 250
+     - 32.1336760925
+     - 55.89
+     - 31.1469014712
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/maple_leaf_rag(bechet).json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/maple_leaf_rag(bechet).json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/maple_leaf_rag(bechet).json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`maple_leaf_rag(bechet).json <../../../annotations/maple_leaf_rag(bechet).json>`
+
+.. literalinclude:: ../../../annotations/maple_leaf_rag(bechet).json
+   :language: javascript

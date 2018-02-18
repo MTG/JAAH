@@ -1,0 +1,119 @@
+.. index:: Honky Tonk Train Blues, Meade "Lux" Lewis
+.. _hyperlink-name: "Honky Tonk Train Blues" Meade "Lux" Lewis
+
+"Honky Tonk Train Blues" Meade "Lux" Lewis/1936
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `4b8f321c-8a2d-43ac-858f-096df5dcfa88`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - G
+   * - Durtion
+     - 180.39 s
+   * - Recording Dates
+     - 1936-05-07 - 1936-05-07
+   * - Composer(s)
+     - Meade Lux Lewis
+.. _4b8f321c-8a2d-43ac-858f-096df5dcfa88: https://musicbrainz.org/recording/4b8f321c-8a2d-43ac-858f-096df5dcfa88
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - Meade Lux Lewis 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 48
+   * - Mean BPM
+     - 164.310660236
+   * - Mean Harmonic Rhythm
+     - 10.1666666667
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 318
+     - 64.3724696356
+     - 114.24
+     - 63.3294528522
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 4
+     - 0.80971659919
+     - 1.4
+     - 0.776096235933
+   * - dom
+     - 166
+     - 33.6032388664
+     - 58.92
+     - 32.6625644437
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/honky_tonk_train.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/honky_tonk_train.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/honky_tonk_train.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`honky_tonk_train.json <../../../annotations/honky_tonk_train.json>`
+
+.. literalinclude:: ../../../annotations/honky_tonk_train.json
+   :language: javascript

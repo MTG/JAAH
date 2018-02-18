@@ -1,0 +1,117 @@
+.. index:: Organ Grinder's Swing, Jimmie Lunceford and His Orchestra
+.. _hyperlink-name: "Organ Grinder's Swing" Jimmie Lunceford and His Orchestra
+
+"Organ Grinder's Swing" Jimmie Lunceford and His Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `175e965e-eff8-4989-85b2-5cdae052557e`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb
+   * - Durtion
+     - 160.67 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - Will Hudson
+.. _175e965e-eff8-4989-85b2-5cdae052557e: https://musicbrainz.org/recording/175e965e-eff8-4989-85b2-5cdae052557e
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 31
+   * - Mean BPM
+     - 114.271488143
+   * - Mean Harmonic Rhythm
+     - 8.25806451613
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 196
+     - 64.0522875817
+     - 99.82
+     - 62.1273417564
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dom
+     - 60
+     - 19.6078431373
+     - 30.35
+     - 18.8896495923
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/organ_grinders_swing.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/organ_grinders_swing.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/organ_grinders_swing.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`organ_grinders_swing.json <../../../annotations/organ_grinders_swing.json>`
+
+.. literalinclude:: ../../../annotations/organ_grinders_swing.json
+   :language: javascript

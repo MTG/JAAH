@@ -1,0 +1,125 @@
+.. index:: St. Thomas, Sonny Rollins
+.. _hyperlink-name: "St. Thomas" Sonny Rollins
+
+"St. Thomas" Sonny Rollins/1956
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `31f6b5f1-96d1-47cf-84e2-371d277577c6`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 408.57 s
+   * - Recording Dates
+     - 1956-06-22 - 1956-06-22
+   * - Composer(s)
+     - Sonny Rollins
+.. _31f6b5f1-96d1-47cf-84e2-371d277577c6: https://musicbrainz.org/recording/31f6b5f1-96d1-47cf-84e2-371d277577c6
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Sonny Rollins 
+   * - piano
+     - Tommy Flanagan 
+   * - double bass
+     - Doug Watkins 
+   * - drums
+     - Max Roach 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 327
+   * - Mean BPM
+     - 215.581173361
+   * - Mean Harmonic Rhythm
+     - 3.30275229358
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 34
+     - 2.31607629428
+     - 9.39
+     - 2.29825978413
+   * - maj
+     - 441
+     - 30.0408719346
+     - 121.64
+     - 29.7721320704
+   * - hdim7
+     - 68
+     - 4.63215258856
+     - 18.85
+     - 4.61365249529
+   * - min
+     - 204
+     - 13.8964577657
+     - 56.25
+     - 13.7675306557
+   * - dom
+     - 333
+     - 22.6839237057
+     - 91.72
+     - 22.4490295421
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/st_thomas.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/st_thomas.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/st_thomas.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`st_thomas.json <../../../annotations/st_thomas.json>`
+
+.. literalinclude:: ../../../annotations/st_thomas.json
+   :language: javascript

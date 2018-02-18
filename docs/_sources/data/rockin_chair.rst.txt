@@ -1,0 +1,117 @@
+.. index:: Rockin' Chair, Gene Krupa and His Orchestra
+.. _hyperlink-name: "Rockin' Chair" Gene Krupa and His Orchestra
+
+"Rockin' Chair" Gene Krupa and His Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `c24bd7bd-aeef-42d1-9445-9ecea0eb0827`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb
+   * - Durtion
+     - 182.33 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _c24bd7bd-aeef-42d1-9445-9ecea0eb0827: https://musicbrainz.org/recording/c24bd7bd-aeef-42d1-9445-9ecea0eb0827
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 50
+   * - Mean BPM
+     - 88.8498875665
+   * - Mean Harmonic Rhythm
+     - 4.32
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 1
+     - 0.37037037037
+     - 0.67
+     - 0.36746558438
+   * - maj
+     - 70
+     - 25.9259259259
+     - 47.73
+     - 26.1778094664
+   * - hdim7
+     - 20
+     - 7.40740740741
+     - 13.74
+     - 7.53578676027
+   * - min
+     - 39
+     - 14.4444444444
+     - 25.85
+     - 14.1775900839
+   * - dom
+     - 86
+     - 31.8518518519
+     - 58.26
+     - 31.9530521582
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/rockin_chair.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/rockin_chair.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/rockin_chair.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`rockin_chair.json <../../../annotations/rockin_chair.json>`
+
+.. literalinclude:: ../../../annotations/rockin_chair.json
+   :language: javascript

@@ -1,0 +1,121 @@
+.. index:: I Got Rhythm, Don Byas and Slam Stewart
+.. _hyperlink-name: "I Got Rhythm" Don Byas and Slam Stewart
+
+"I Got Rhythm" Don Byas and Slam Stewart/1945
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `34d74fae-5764-4015-aa6a-2c27b5cdb0f2`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 304.84 s
+   * - Recording Dates
+     - 1945-06-09 - 1945-06-09
+   * - Composer(s)
+     - George Gershwin
+.. _34d74fae-5764-4015-aa6a-2c27b5cdb0f2: https://musicbrainz.org/recording/34d74fae-5764-4015-aa6a-2c27b5cdb0f2
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Don Byas 
+   * - double bass
+     - Slam Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 548
+   * - Mean BPM
+     - 287.560687574
+   * - Mean Harmonic Rhythm
+     - 2.66240875912
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 66
+     - 4.51745379877
+     - 13.38
+     - 4.38918777063
+   * - maj
+     - 413
+     - 28.2683093771
+     - 83.57
+     - 27.4143813148
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 136
+     - 9.30869267625
+     - 27.69
+     - 9.08345361501
+   * - dom
+     - 844
+     - 57.7686516085
+     - 171.51
+     - 56.2623015352
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/i_got_rhythm.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/i_got_rhythm.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/i_got_rhythm.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`i_got_rhythm.json <../../../annotations/i_got_rhythm.json>`
+
+.. literalinclude:: ../../../annotations/i_got_rhythm.json
+   :language: javascript

@@ -1,0 +1,125 @@
+.. index:: Giant Steps, John Coltrane
+.. _hyperlink-name: "Giant Steps" John Coltrane
+
+"Giant Steps" John Coltrane/1959
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `cc14d998-bf97-4c94-a835-d4ed9717bc7a`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 287.4 s
+   * - Recording Dates
+     - 1959-05-05 - 1959-05-05
+   * - Composer(s)
+     - John Coltrane
+.. _cc14d998-bf97-4c94-a835-d4ed9717bc7a: https://musicbrainz.org/recording/cc14d998-bf97-4c94-a835-d4ed9717bc7a
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - John Coltrane 
+   * - piano
+     - Tommy Flanagan 
+   * - double bass
+     - Paul Chambers 
+   * - drumset
+     - Art Taylor 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 542
+   * - Mean BPM
+     - 283.507306889
+   * - Mean Harmonic Rhythm
+     - 2.50184501845
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 692
+     - 50.9572901325
+     - 143.26
+     - 49.8469032707
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 248
+     - 18.2621502209
+     - 51.28
+     - 17.8427279054
+   * - dom
+     - 416
+     - 30.6332842415
+     - 85.86
+     - 29.8747390397
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/giant_steps.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/giant_steps.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/giant_steps.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`giant_steps.json <../../../annotations/giant_steps.json>`
+
+.. literalinclude:: ../../../annotations/giant_steps.json
+   :language: javascript

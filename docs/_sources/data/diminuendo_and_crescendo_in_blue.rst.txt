@@ -1,0 +1,141 @@
+.. index:: Diminuendo in Blue and Crescendo in Blue, Duke Ellington and His Famous Orchestra
+.. _hyperlink-name: "Diminuendo in Blue and Crescendo in Blue" Duke Ellington and His Famous Orchestra
+
+"Diminuendo in Blue and Crescendo in Blue" Duke Ellington and His Famous Orchestra/1937
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `480098d7-8d65-4b1d-a415-71bc647ae6d8`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 360.31 s
+   * - Recording Dates
+     - 1937-09-20 - 1937-09-20
+   * - Composer(s)
+     - Duke Ellington
+.. _480098d7-8d65-4b1d-a415-71bc647ae6d8: https://musicbrainz.org/recording/480098d7-8d65-4b1d-a415-71bc647ae6d8
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - soprano saxophone
+     - Johnny Hodges 
+   * - drumset
+     - Sonny Greer 
+   * - bass saxophone
+     - Otto Hardwick 
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Harry Carney, Otto Hardwick, Johnny Hodges 
+   * - guitar
+     - Fred Guy 
+   * - double bass
+     - Billy Taylor Sr. 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Cootie Williams, Wallace Jones 
+   * - clarinet
+     - Harry Carney, Johnny Hodges, Barney Bigard 
+   * - cornet
+     - Rex Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 463
+   * - Mean BPM
+     - 191.501762371
+   * - Mean Harmonic Rhythm
+     - 2.47084233261
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 74
+     - 6.4347826087
+     - 22.85
+     - 6.34176126114
+   * - maj
+     - 283
+     - 24.6086956522
+     - 88.07
+     - 24.442840887
+   * - hdim7
+     - 15
+     - 1.30434782609
+     - 4.66
+     - 1.29333074297
+   * - min
+     - 60
+     - 5.21739130435
+     - 18.77
+     - 5.20940301407
+   * - dom
+     - 712
+     - 61.9130434783
+     - 220.64
+     - 61.236157753
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/diminuendo_and_crescendo_in_blue.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/diminuendo_and_crescendo_in_blue.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/diminuendo_and_crescendo_in_blue.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`diminuendo_and_crescendo_in_blue.json <../../../annotations/diminuendo_and_crescendo_in_blue.json>`
+
+.. literalinclude:: ../../../annotations/diminuendo_and_crescendo_in_blue.json
+   :language: javascript

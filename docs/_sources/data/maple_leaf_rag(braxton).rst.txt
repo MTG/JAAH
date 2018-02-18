@@ -1,0 +1,121 @@
+.. index:: Maple Leaf Rag, Anthony Braxton and Muhal Richard Abrams
+.. _hyperlink-name: "Maple Leaf Rag" Anthony Braxton and Muhal Richard Abrams
+
+"Maple Leaf Rag" Anthony Braxton and Muhal Richard Abrams/1976
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `90521ab0-9419-45bc-9576-18a5332aa409`_
+   * - Time Signature
+     - 2/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 220.51 s
+   * - Recording Dates
+     - 1976-08-01 - 1976-08-02
+   * - Composer(s)
+     - Scott Joplin
+.. _90521ab0-9419-45bc-9576-18a5332aa409: https://musicbrainz.org/recording/90521ab0-9419-45bc-9576-18a5332aa409
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - Muhal Richard Abrams 
+   * - alto saxophone
+     - Anthony Braxton 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 175
+   * - Mean BPM
+     - 113.736338488
+   * - Mean Harmonic Rhythm
+     - 2.37714285714
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 26
+     - 6.22009569378
+     - 13.39
+     - 6.07228697111
+   * - maj
+     - 228
+     - 54.5454545455
+     - 117.96
+     - 53.4941725999
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 36
+     - 8.61244019139
+     - 18.42
+     - 8.35336265929
+   * - dom
+     - 126
+     - 30.1435406699
+     - 65.03
+     - 29.4907260442
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/maple_leaf_rag(braxton).json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/maple_leaf_rag(braxton).json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/maple_leaf_rag(braxton).json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`maple_leaf_rag(braxton).json <../../../annotations/maple_leaf_rag(braxton).json>`
+
+.. literalinclude:: ../../../annotations/maple_leaf_rag(braxton).json
+   :language: javascript

@@ -1,0 +1,141 @@
+.. index:: Concerto for Cootie, Duke Ellington and His Famous Orchestra
+.. _hyperlink-name: "Concerto for Cootie" Duke Ellington and His Famous Orchestra
+
+"Concerto for Cootie" Duke Ellington and His Famous Orchestra/1940
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `b54a7a8b-f06a-4d5d-baa8-5700f39941fd`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F
+   * - Durtion
+     - 199.87 s
+   * - Recording Dates
+     - 1940-03-15 - 1940-03-15
+   * - Composer(s)
+     - Duke Ellington
+.. _b54a7a8b-f06a-4d5d-baa8-5700f39941fd: https://musicbrainz.org/recording/b54a7a8b-f06a-4d5d-baa8-5700f39941fd
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - valve trombone
+     - Juan Tizol 
+   * - tenor saxophone
+     - Ben Webster, Barney Bigard 
+   * - drumset
+     - Sonny Greer 
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Otto Hardwick, Johnny Hodges 
+   * - guitar
+     - Fred Guy 
+   * - double bass
+     - Jimmy Blanton 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Cootie Williams, Wallace Jones 
+   * - clarinet
+     - Barney Bigard 
+   * - cornet
+     - Rex Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 85
+   * - Mean BPM
+     - 99.0643918547
+   * - Mean Harmonic Rhythm
+     - 2.95294117647
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 134
+     - 40.6060606061
+     - 81.06
+     - 40.5563616351
+   * - hdim7
+     - 2
+     - 0.606060606061
+     - 1.18
+     - 0.590383749437
+   * - min
+     - 29
+     - 8.78787878788
+     - 17.42
+     - 8.71566518237
+   * - dom
+     - 86
+     - 26.0606060606
+     - 51.0
+     - 25.5165857808
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/concerto_for_cootie.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/concerto_for_cootie.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/concerto_for_cootie.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`concerto_for_cootie.json <../../../annotations/concerto_for_cootie.json>`
+
+.. literalinclude:: ../../../annotations/concerto_for_cootie.json
+   :language: javascript

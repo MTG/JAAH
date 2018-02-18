@@ -1,0 +1,133 @@
+.. index:: The Golden Bullet, Count Basie Octet
+.. _hyperlink-name: "The Golden Bullet" Count Basie Octet
+
+"The Golden Bullet" Count Basie Octet/1950
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `f63da1a2-4f9d-44a4-9bfa-14bde9da3f06`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F
+   * - Durtion
+     - 150.04 s
+   * - Recording Dates
+     - 1950-05-16 - 1950-05-16
+   * - Composer(s)
+     - 
+.. _f63da1a2-4f9d-44a4-9bfa-14bde9da3f06: https://musicbrainz.org/recording/f63da1a2-4f9d-44a4-9bfa-14bde9da3f06
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Freddie Green 
+   * - baritone saxophone
+     - Serge Chaloff 
+   * - tenor saxophone
+     - Charlie Rouse 
+   * - double bass
+     - Jimmy Lewis 
+   * - drums
+     - Buddy Rich 
+   * - piano
+     - Count Basie 
+   * - trumpet
+     - Clark Terry 
+   * - clarinet
+     - Buddy DeFranco 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 109
+   * - Mean BPM
+     - 207.144761397
+   * - Mean Harmonic Rhythm
+     - 4.29357798165
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 198
+     - 38.2239382239
+     - 55.69
+     - 37.1167688616
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 54
+     - 10.4247104247
+     - 15.04
+     - 10.0239936017
+   * - dom
+     - 216
+     - 41.6988416988
+     - 60.13
+     - 40.0759797387
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/the_golden_bullet.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/the_golden_bullet.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/the_golden_bullet.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`the_golden_bullet.json <../../../annotations/the_golden_bullet.json>`
+
+.. literalinclude:: ../../../annotations/the_golden_bullet.json
+   :language: javascript

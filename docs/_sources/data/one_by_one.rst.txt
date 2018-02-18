@@ -1,0 +1,129 @@
+.. index:: One by One, Art Blakey & The Jazz Messengers
+.. _hyperlink-name: "One by One" Art Blakey & The Jazz Messengers
+
+"One by One" Art Blakey & The Jazz Messengers/1963
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `3bdc8595-62e3-480f-8096-eb862cd6ba95`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - G:min
+   * - Durtion
+     - 383.17 s
+   * - Recording Dates
+     - 1963-06-16 - 1963-06-16
+   * - Composer(s)
+     - 
+.. _3bdc8595-62e3-480f-8096-eb862cd6ba95: https://musicbrainz.org/recording/3bdc8595-62e3-480f-8096-eb862cd6ba95
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Wayne Shorter 
+   * - double bass
+     - Reggie Workman 
+   * - drums
+     - Art Blakey 
+   * - trombone
+     - Curtis Fuller 
+   * - piano
+     - Cedar Walton 
+   * - trumpet
+     - Freddie Hubbard 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 355
+   * - Mean BPM
+     - 128.089359814
+   * - Mean Harmonic Rhythm
+     - 2.2985915493
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 78
+     - 9.53545232274
+     - 33.92
+     - 8.85246757314
+   * - hdim7
+     - 150
+     - 18.337408313
+     - 67.37
+     - 17.5822741864
+   * - min
+     - 300
+     - 36.6748166259
+     - 133.79
+     - 34.9166166454
+   * - dom
+     - 288
+     - 35.2078239609
+     - 128.95
+     - 33.6534697393
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/one_by_one.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/one_by_one.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/one_by_one.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`one_by_one.json <../../../annotations/one_by_one.json>`
+
+.. literalinclude:: ../../../annotations/one_by_one.json
+   :language: javascript

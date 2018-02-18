@@ -1,0 +1,127 @@
+.. index:: Pent-Up House, Sonny Rollins
+.. _hyperlink-name: "Pent-Up House" Sonny Rollins
+
+"Pent-Up House" Sonny Rollins/1956
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `2723facd-9233-4286-809b-62df780ca474`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 534.09 s
+   * - Recording Dates
+     - 1956-03-22 - 1956-03-22
+   * - Composer(s)
+     - Sonny Rollins
+.. _2723facd-9233-4286-809b-62df780ca474: https://musicbrainz.org/recording/2723facd-9233-4286-809b-62df780ca474
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Sonny Rollins 
+   * - piano
+     - Richie Powell 
+   * - trumpet
+     - Clifford Brown 
+   * - bass
+     - George Morrow 
+   * - drums
+     - Max Roach 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 358
+   * - Mean BPM
+     - 187.159467505
+   * - Mean Harmonic Rhythm
+     - 4.11173184358
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 504
+     - 30.2521008403
+     - 160.13
+     - 29.981838267
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 480
+     - 28.8115246098
+     - 153.69
+     - 28.7760489805
+   * - dom
+     - 488
+     - 29.2917166867
+     - 155.48
+     - 29.1111984871
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/pentup_house.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/pentup_house.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/pentup_house.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`pentup_house.json <../../../annotations/pentup_house.json>`
+
+.. literalinclude:: ../../../annotations/pentup_house.json
+   :language: javascript

@@ -1,0 +1,127 @@
+.. index:: The Preacher, Horace Silver and The Jazz Messengers
+.. _hyperlink-name: "The Preacher" Horace Silver and The Jazz Messengers
+
+"The Preacher" Horace Silver and The Jazz Messengers/1955
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `c7ff468d-f263-41a4-b644-a935f9290f1c`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 259.99 s
+   * - Recording Dates
+     - 1955-02-06 - 1955-02-06
+   * - Composer(s)
+     - Horace Silver
+.. _c7ff468d-f263-41a4-b644-a935f9290f1c: https://musicbrainz.org/recording/c7ff468d-f263-41a4-b644-a935f9290f1c
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Hank Mobley 
+   * - piano
+     - Horace Silver 
+   * - double bass
+     - Doug Watkins 
+   * - trumpet
+     - Kenny Dorham 
+   * - drums
+     - Art Blakey 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 205
+   * - Mean BPM
+     - 177.699142275
+   * - Mean Harmonic Rhythm
+     - 3.74634146341
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 48
+     - 6.23376623377
+     - 15.79
+     - 6.07331051194
+   * - maj
+     - 360
+     - 46.7532467532
+     - 118.66
+     - 45.6402169314
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 24
+     - 3.11688311688
+     - 7.81
+     - 3.00396169083
+   * - dom
+     - 336
+     - 43.6363636364
+     - 110.27
+     - 42.4131697373
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/the_preacher.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/the_preacher.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/the_preacher.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`the_preacher.json <../../../annotations/the_preacher.json>`
+
+.. literalinclude:: ../../../annotations/the_preacher.json
+   :language: javascript

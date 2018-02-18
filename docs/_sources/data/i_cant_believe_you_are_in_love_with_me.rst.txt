@@ -1,0 +1,129 @@
+.. index:: I Can't Believe That You're in Love With Me, The Chocolate Dandies
+.. _hyperlink-name: "I Can't Believe That You're in Love With Me" The Chocolate Dandies
+
+"I Can't Believe That You're in Love With Me" The Chocolate Dandies/1940
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `3fbcaf3e-e57b-4e8d-b903-edbd942fb76d`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - C#
+   * - Durtion
+     - 254.68 s
+   * - Recording Dates
+     - 1940-05-25 - 1940-05-25
+   * - Composer(s)
+     - 
+.. _3fbcaf3e-e57b-4e8d-b903-edbd942fb76d: https://musicbrainz.org/recording/3fbcaf3e-e57b-4e8d-b903-edbd942fb76d
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Bernard Addison 
+   * - alto saxophone
+     - Benny Carter 
+   * - tenor saxophone
+     - Coleman Hawkins 
+   * - double bass
+     - John Kirby 
+   * - drums
+     - Sid Catlett 
+   * - trumpet
+     - Roy Eldridge 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 168
+   * - Mean BPM
+     - 211.32401445
+   * - Mean Harmonic Rhythm
+     - 5.33333333333
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 308
+     - 34.3366778149
+     - 85.8
+     - 33.6893356369
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 84
+     - 9.36454849498
+     - 23.43
+     - 9.19978011622
+   * - dom
+     - 504
+     - 56.1872909699
+     - 140.33
+     - 55.1005182975
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/i_cant_believe_you_are_in_love_with_me.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/i_cant_believe_you_are_in_love_with_me.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/i_cant_believe_you_are_in_love_with_me.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`i_cant_believe_you_are_in_love_with_me.json <../../../annotations/i_cant_believe_you_are_in_love_with_me.json>`
+
+.. literalinclude:: ../../../annotations/i_cant_believe_you_are_in_love_with_me.json
+   :language: javascript

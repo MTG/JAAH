@@ -1,0 +1,117 @@
+.. index:: West Coast Blues (abridged), Wes Montgomery
+.. _hyperlink-name: "West Coast Blues (abridged)" Wes Montgomery
+
+"West Coast Blues (abridged)" Wes Montgomery/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `02ffe965-bd93-45bd-ae9f-5671261871ae`_
+   * - Time Signature
+     - 6/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 336.47 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _02ffe965-bd93-45bd-ae9f-5671261871ae: https://musicbrainz.org/recording/02ffe965-bd93-45bd-ae9f-5671261871ae
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 214
+   * - Mean BPM
+     - 148.007251761
+   * - Mean Harmonic Rhythm
+     - 3.8691588785
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 150
+     - 18.0722891566
+     - 60.46
+     - 17.9689125331
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 176
+     - 21.2048192771
+     - 69.46
+     - 20.6437423842
+   * - dom
+     - 502
+     - 60.4819277108
+     - 198.7
+     - 59.054299046
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/west_coast_blues.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/west_coast_blues.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/west_coast_blues.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`west_coast_blues.json <../../../annotations/west_coast_blues.json>`
+
+.. literalinclude:: ../../../annotations/west_coast_blues.json
+   :language: javascript

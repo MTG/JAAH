@@ -1,0 +1,119 @@
+.. index:: A Handful of Riffs, Eddie Lang & Lonnie Johnson
+.. _hyperlink-name: "A Handful of Riffs" Eddie Lang & Lonnie Johnson
+
+"A Handful of Riffs" Eddie Lang & Lonnie Johnson/1929
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `d8fe08a8-b51e-4588-9547-9731134883f7`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - D
+   * - Durtion
+     - 187.85 s
+   * - Recording Dates
+     - 1929-05-09 - 1929-05-09
+   * - Composer(s)
+     - Eddie Lang, Lonnie Johnson
+.. _d8fe08a8-b51e-4588-9547-9731134883f7: https://musicbrainz.org/recording/d8fe08a8-b51e-4588-9547-9731134883f7
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Eddie Lang, Lonnie Johnson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 90
+   * - Mean BPM
+     - 225.179664626
+   * - Mean Harmonic Rhythm
+     - 7.82222222222
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 32
+     - 4.5390070922
+     - 7.92
+     - 4.21612989087
+   * - maj
+     - 392
+     - 55.6028368794
+     - 108.16
+     - 57.5778546713
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 56
+     - 7.94326241135
+     - 14.26
+     - 7.5911631621
+   * - dom
+     - 224
+     - 31.7730496454
+     - 57.28
+     - 30.4924141602
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/handful_of_riffs.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/handful_of_riffs.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/handful_of_riffs.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`handful_of_riffs.json <../../../annotations/handful_of_riffs.json>`
+
+.. literalinclude:: ../../../annotations/handful_of_riffs.json
+   :language: javascript

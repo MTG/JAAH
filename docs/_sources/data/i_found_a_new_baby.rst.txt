@@ -1,0 +1,117 @@
+.. index:: I Found a New Baby (feat. Charlie Christian & Count Basie), The Benny Goodman Sextet
+.. _hyperlink-name: "I Found a New Baby (feat. Charlie Christian & Count Basie)" The Benny Goodman Sextet
+
+"I Found a New Baby (feat. Charlie Christian & Count Basie)" The Benny Goodman Sextet/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `7299b208-023e-44c9-a11d-5237c6cff8fd`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 176.53 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _7299b208-023e-44c9-a11d-5237c6cff8fd: https://musicbrainz.org/recording/7299b208-023e-44c9-a11d-5237c6cff8fd
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 87
+   * - Mean BPM
+     - 204.611114258
+   * - Mean Harmonic Rhythm
+     - 6.72413793103
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 72
+     - 11.9601328904
+     - 20.66
+     - 11.703393191
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 256
+     - 42.5249169435
+     - 73.88
+     - 41.8512434147
+   * - dom
+     - 257
+     - 42.6910299003
+     - 73.44
+     - 41.6019939954
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/i_found_a_new_baby.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/i_found_a_new_baby.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/i_found_a_new_baby.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`i_found_a_new_baby.json <../../../annotations/i_found_a_new_baby.json>`
+
+.. literalinclude:: ../../../annotations/i_found_a_new_baby.json
+   :language: javascript

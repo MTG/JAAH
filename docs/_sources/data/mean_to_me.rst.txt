@@ -1,0 +1,133 @@
+.. index:: Mean to Me, Billie Holiday with Teddy Wilson and His Orchestra
+.. _hyperlink-name: "Mean to Me" Billie Holiday with Teddy Wilson and His Orchestra
+
+"Mean to Me" Billie Holiday with Teddy Wilson and His Orchestra/1937
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `0e9806c6-1342-432b-87b7-11e5e2217311`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 190.88 s
+   * - Recording Dates
+     - 1937-05-11 - 1937-05-11
+   * - Composer(s)
+     - Fred E. Ahlert, Roy Turk
+.. _0e9806c6-1342-432b-87b7-11e5e2217311: https://musicbrainz.org/recording/0e9806c6-1342-432b-87b7-11e5e2217311
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Allan Reuss 
+   * - alto saxophone
+     - Johnny Hodges 
+   * - tenor saxophone
+     - Lester Young 
+   * - double bass
+     - Artie Bernstein 
+   * - drums
+     - Cozy Cole 
+   * - clarinet
+     - Buster Bailey 
+   * - trumpet
+     - Buck Clayton 
+   * - piano
+     - Teddy Wilson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 147
+   * - Mean BPM
+     - 105.930427494
+   * - Mean Harmonic Rhythm
+     - 2.28571428571
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 18
+     - 5.3412462908
+     - 9.91
+     - 5.19174350377
+   * - maj
+     - 102
+     - 30.2670623145
+     - 56.46
+     - 29.5787929589
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 78
+     - 23.1454005935
+     - 42.9
+     - 22.474853311
+   * - dom
+     - 138
+     - 40.9495548961
+     - 80.59
+     - 42.2202430847
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/mean_to_me.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/mean_to_me.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/mean_to_me.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`mean_to_me.json <../../../annotations/mean_to_me.json>`
+
+.. literalinclude:: ../../../annotations/mean_to_me.json
+   :language: javascript

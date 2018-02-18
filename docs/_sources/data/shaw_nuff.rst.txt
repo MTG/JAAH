@@ -1,0 +1,127 @@
+.. index:: Shaw 'Nuff, Dizzy Gillespie All Star Quintet
+.. _hyperlink-name: "Shaw 'Nuff" Dizzy Gillespie All Star Quintet
+
+"Shaw 'Nuff" Dizzy Gillespie All Star Quintet/1945
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `cabedd06-3ea9-462f-9af5-b546e083a361`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 183.73 s
+   * - Recording Dates
+     - 1945-05-11 - 1945-05-11
+   * - Composer(s)
+     - Charlie Parker, Dizzy Gillespie
+.. _cabedd06-3ea9-462f-9af5-b546e083a361: https://musicbrainz.org/recording/cabedd06-3ea9-462f-9af5-b546e083a361
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - drumset
+     - Max Roach 
+   * - piano
+     - Al Haig 
+   * - double bass
+     - Curley Russell 
+   * - trumpet
+     - Dizzy Gillespie 
+   * - alto saxophone
+     - Charlie Parker 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 275
+   * - Mean BPM
+     - 273.662439449
+   * - Mean Harmonic Rhythm
+     - 3.04
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 40
+     - 4.77326968974
+     - 8.55
+     - 4.65356773526
+   * - maj
+     - 134
+     - 15.9904534606
+     - 29.22
+     - 15.9037718391
+   * - hdim7
+     - 96
+     - 11.4558472554
+     - 20.42
+     - 11.1141348718
+   * - min
+     - 276
+     - 32.9355608592
+     - 59.11
+     - 32.1722092201
+   * - dom
+     - 290
+     - 34.6062052506
+     - 61.77
+     - 33.6199858488
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/shaw_nuff.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/shaw_nuff.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/shaw_nuff.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`shaw_nuff.json <../../../annotations/shaw_nuff.json>`
+
+.. literalinclude:: ../../../annotations/shaw_nuff.json
+   :language: javascript

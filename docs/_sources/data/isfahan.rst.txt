@@ -1,0 +1,133 @@
+.. index:: Isfahan, Duke Ellington and His Orchestra
+.. _hyperlink-name: "Isfahan" Duke Ellington and His Orchestra
+
+"Isfahan" Duke Ellington and His Orchestra/1966
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Db
+   * - Durtion
+     - 255.04 s
+   * - Recording Dates
+     - 1966-12-20 - 1966-12-20
+   * - Composer(s)
+     - 
+.. _a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2: https://musicbrainz.org/recording/a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Russell Procope, Johnny Hodges 
+   * - tenor saxophone
+     - Paul Gonsalves, Jimmy Hamilton 
+   * - double bass
+     - John Lamb 
+   * - drums
+     - Rufus Jones 
+   * - trombone
+     - Buster Cooper, Chuck Connors, Lawrence Brown 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Cootie Williams, Mercer Ellington, Herbie Jones, William “Cat” Anderson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 54
+   * - Mean BPM
+     - 58.8143036386
+   * - Mean Harmonic Rhythm
+     - 4.27777777778
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 88
+     - 35.2
+     - 88.46
+     - 34.6847553325
+   * - hdim7
+     - 8
+     - 3.2
+     - 8.02
+     - 3.14460476788
+   * - min
+     - 8
+     - 3.2
+     - 7.99
+     - 3.13284190715
+   * - dom
+     - 127
+     - 50.8
+     - 127.9
+     - 50.1489962359
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/isfahan.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/isfahan.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/isfahan.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`isfahan.json <../../../annotations/isfahan.json>`
+
+.. literalinclude:: ../../../annotations/isfahan.json
+   :language: javascript

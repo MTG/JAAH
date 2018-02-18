@@ -1,0 +1,141 @@
+.. index:: From Monday On, Bix Beiderbecke & Paul Whiteman and His Orchestra
+.. _hyperlink-name: "From Monday On" Bix Beiderbecke & Paul Whiteman and His Orchestra
+
+"From Monday On" Bix Beiderbecke & Paul Whiteman and His Orchestra/1928
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `e05f0970-2e3e-46ad-a87b-6b6055e6c099`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Durtion
+     - 183.13 s
+   * - Recording Dates
+     - 1928-02-13 - 1928-02-13
+   * - Composer(s)
+     - Bing Crosby, Harry Barris
+.. _e05f0970-2e3e-46ad-a87b-6b6055e6c099: https://musicbrainz.org/recording/e05f0970-2e3e-46ad-a87b-6b6055e6c099
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - viola and violin
+     - Matty Malneck 
+   * - tuba
+     - Mike Trafficante 
+   * - alto saxophone
+     - Roy "Red" Maier, Rube Crozier, Chet Hazlett 
+   * - tenor saxophone
+     - Charles Strickfaden 
+   * - double bass
+     - Steve Brown 
+   * - drums
+     - Harold McDonald 
+   * - trombone
+     - Bill Rank 
+   * - violin
+     - Kurt Dieterle, Mischa Russell 
+   * - piano
+     - Harry Barris 
+   * - banjo
+     - Mike Pingitore 
+   * - trumpet
+     - Jimmy Dorsey, Charlie Margulis 
+   * - cornet
+     - Bix Beiderbecke 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 111
+   * - Mean BPM
+     - 215.584557418
+   * - Mean Harmonic Rhythm
+     - 5.18918918919
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 44
+     - 6.68693009119
+     - 11.65
+     - 6.36160104844
+   * - maj
+     - 108
+     - 16.4133738602
+     - 29.12
+     - 15.9012723202
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 60
+     - 9.11854103343
+     - 15.88
+     - 8.6714355922
+   * - dom
+     - 364
+     - 55.3191489362
+     - 97.02
+     - 52.9787582592
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/from_monday_on.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/from_monday_on.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/from_monday_on.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`from_monday_on.json <../../../annotations/from_monday_on.json>`
+
+.. literalinclude:: ../../../annotations/from_monday_on.json
+   :language: javascript

@@ -1,0 +1,141 @@
+.. index:: Cotton Tail, Duke Ellington and His Famous Orchestra
+.. _hyperlink-name: "Cotton Tail" Duke Ellington and His Famous Orchestra
+
+"Cotton Tail" Duke Ellington and His Famous Orchestra/1940
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `a5fae57b-d0a7-4cc8-958d-f90600c30eb8`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 191.6 s
+   * - Recording Dates
+     - 1940-05-04 - 1940-05-04
+   * - Composer(s)
+     - Duke Ellington
+.. _a5fae57b-d0a7-4cc8-958d-f90600c30eb8: https://musicbrainz.org/recording/a5fae57b-d0a7-4cc8-958d-f90600c30eb8
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - valve trombone
+     - Juan Tizol 
+   * - tenor saxophone
+     - Ben Webster, Barney Bigard 
+   * - drumset
+     - Sonny Greer 
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Otto Hardwick, Johnny Hodges 
+   * - guitar
+     - Fred Guy 
+   * - double bass
+     - Jimmy Blanton 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Cootie Williams, Wallace Jones 
+   * - clarinet
+     - Barney Bigard 
+   * - cornet
+     - Rex Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 282
+   * - Mean BPM
+     - 237.369519833
+   * - Mean Harmonic Rhythm
+     - 2.68085106383
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 34
+     - 4.48548812665
+     - 8.41
+     - 4.38935281837
+   * - maj
+     - 198
+     - 26.1213720317
+     - 49.37
+     - 25.767223382
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 218
+     - 28.7598944591
+     - 54.5
+     - 28.4446764092
+   * - dom
+     - 306
+     - 40.3693931398
+     - 76.02
+     - 39.6764091858
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/cotton_tail.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/cotton_tail.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/cotton_tail.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`cotton_tail.json <../../../annotations/cotton_tail.json>`
+
+.. literalinclude:: ../../../annotations/cotton_tail.json
+   :language: javascript

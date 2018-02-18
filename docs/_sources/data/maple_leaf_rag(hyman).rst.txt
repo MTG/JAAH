@@ -1,0 +1,119 @@
+.. index:: Maple Leaf Rag, Dick Hyman
+.. _hyperlink-name: "Maple Leaf Rag" Dick Hyman
+
+"Maple Leaf Rag" Dick Hyman/1975
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `1c60e1f6-51ad-4d20-a236-afd5a31629de`_
+   * - Time Signature
+     - 2/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 149.97 s
+   * - Recording Dates
+     - 1975 - 1975
+   * - Composer(s)
+     - Scott Joplin
+.. _1c60e1f6-51ad-4d20-a236-afd5a31629de: https://musicbrainz.org/recording/1c60e1f6-51ad-4d20-a236-afd5a31629de
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano and solo
+     - Dick Hyman 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 128
+   * - Mean BPM
+     - 116.023204641
+   * - Mean Harmonic Rhythm
+     - 2.25
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 22
+     - 7.58620689655
+     - 11.11
+     - 7.40814829633
+   * - maj
+     - 156
+     - 53.7931034483
+     - 77.98
+     - 51.9970660799
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 26
+     - 8.96551724138
+     - 12.89
+     - 8.5950523438
+   * - dom
+     - 84
+     - 28.9655172414
+     - 41.26
+     - 27.5121691005
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/maple_leaf_rag(hyman).json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/maple_leaf_rag(hyman).json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/maple_leaf_rag(hyman).json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`maple_leaf_rag(hyman).json <../../../annotations/maple_leaf_rag(hyman).json>`
+
+.. literalinclude:: ../../../annotations/maple_leaf_rag(hyman).json
+   :language: javascript

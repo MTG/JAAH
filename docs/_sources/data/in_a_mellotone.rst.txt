@@ -1,0 +1,141 @@
+.. index:: In a Mellotone, Duke Ellington and His Famous Orchestra
+.. _hyperlink-name: "In a Mellotone" Duke Ellington and His Famous Orchestra
+
+"In a Mellotone" Duke Ellington and His Famous Orchestra/1940
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `0d8187d0-854e-4221-adc4-95a49663020b`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 199.27 s
+   * - Recording Dates
+     - 1940-09-05 - 1940-09-05
+   * - Composer(s)
+     - Duke Ellington
+.. _0d8187d0-854e-4221-adc4-95a49663020b: https://musicbrainz.org/recording/0d8187d0-854e-4221-adc4-95a49663020b
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - valve trombone
+     - Juan Tizol 
+   * - tenor saxophone
+     - Ben Webster, Barney Bigard 
+   * - drumset
+     - Sonny Greer 
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Otto Hardwick, Johnny Hodges 
+   * - guitar
+     - Fred Guy 
+   * - double bass
+     - Jimmy Blanton 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Cootie Williams, Wallace Jones 
+   * - clarinet
+     - Barney Bigard 
+   * - cornet
+     - Rex Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 91
+   * - Mean BPM
+     - 125.859386762
+   * - Mean Harmonic Rhythm
+     - 4.48351648352
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 16
+     - 3.82775119617
+     - 7.65
+     - 3.83901239524
+   * - maj
+     - 156
+     - 37.3205741627
+     - 73.76
+     - 37.0151051337
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 24
+     - 5.74162679426
+     - 11.21
+     - 5.62553319617
+   * - dom
+     - 212
+     - 50.7177033493
+     - 99.06
+     - 49.7114467807
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/in_a_mellotone.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/in_a_mellotone.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/in_a_mellotone.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`in_a_mellotone.json <../../../annotations/in_a_mellotone.json>`
+
+.. literalinclude:: ../../../annotations/in_a_mellotone.json
+   :language: javascript
