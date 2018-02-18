@@ -5,7 +5,8 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/07 - Duke Ellington And His Famous Orchestra - In A Mellotone.flac", 
-   "transcriptions": []
+   "transcriptions": [],
+    "key":"Db"
   }, 
   "mbid": "0d8187d0-854e-4221-adc4-95a49663020b", 
   "duration": 199.27,
@@ -24,7 +25,7 @@
                       ]
             },
             {
-              "name": "Theme",
+              "name": "Head - ABAC",
               "beats":
                       [
                         14.79, 15.25, 15.71, 16.17, 16.64, 17.11, 17.58, 18.04, 18.5, 18.96, 19.43, 19.88, 20.34, 20.8, 21.26, 21.71,
@@ -38,12 +39,14 @@
                       ],
               "chords":
                       [
-                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:maj7 |Db:min7 |Ab |F:7 |Bb:7 |Bb:7 |Eb:maj6 Eb:maj6 A:dim Ab:dim |G:dim F#:dim Eb Eb |",
-                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab Ab G:7 F#:7 |F:7 |"
+                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |",
+                        "|Db:maj7 |Db:min7 |Ab |F:7 |Bb:7 |Bb:7 |Eb:maj6 Eb:maj6 A:dim Ab:dim |G:dim F#:dim Eb Eb |",
+                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |",
+                        "|Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab Ab G:7 F#:7 |F:7 |"
                       ]
             },
             {
-              "name": "Trumpet solo1",
+              "name": "Trumpet solo",
               "beats":
                       [
                         73.65, 74.09, 74.56, 75.01, 75.48, 75.93, 76.41, 76.85, 77.32, 77.78, 78.24, 78.7, 79.19, 79.64, 80.11, 80.56,
@@ -57,12 +60,14 @@
                       ],
               "chords":
                       [
-                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:maj7 |Db:min7 |Ab:maj7 G:7 |F:7 |Bb:7 |Bb:7 |Eb |Eb |",
-                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab Eb:7 |Ab:maj7 |"
+                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |",
+                        "|Db:maj7 |Db:min7 |Ab |F:7 |Bb:7 |Bb:7 |Eb:maj6 Eb:maj6 A:dim Ab:dim |G:dim F#:dim Eb Eb |",
+                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |",
+                        "|Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab Ab G:7 F#:7 |F:7 |"
                       ]
             },
             {
-              "name": "Sax solo1",
+              "name": "Sax solo",
               "beats":
                       [
                         133.6, 134.09, 134.59, 135.07, 135.57, 136.04, 136.52, 136.99, 137.45, 137.93, 138.4, 138.86, 139.35, 139.82, 140.3, 140.77,
@@ -77,8 +82,10 @@
                       ],
               "chords":
                       [
-                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |Db:maj7 |Db:min7 |Ab |F:7 |Bb:7 |Bb:7 |N |N |",
-                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab:maj7 Eb:7 |Ab:maj6 |"
+                        "|Bb:7 |Eb:7 |Ab |Ab |Eb:min7 |Ab:7 |Db:maj7 |Db:maj7 |",
+                        "|Db:maj7 |Db:min7 |Ab |F:7 |Bb:7 |Bb:7 |Eb:maj6 N |N |",
+                        "|Bb:7 |Eb:7 |Ab:maj7 |Ab:maj7 |Ab:7 |Ab:7 |Db:maj7 |Db:maj7 |",
+                        "|Db:7 |D:dim |Ab:maj6 |F:7 |Bb:7 |Eb:7 |Ab Ab G:7 F#:7 |F:7 |"
                       ]
             }
           ]

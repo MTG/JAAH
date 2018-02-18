@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 05 - Honeysuckle Rose.flac", 
    "transcriptions": [],
-   "key":["Db"]
+   "key":"Db"
   }, 
   "mbid": "0cd67ec0-b480-4d82-b38d-be022b71dd12", 
   "duration": 185.97,
@@ -45,7 +45,7 @@
                     ]
                 },
                 {
-                    "name":"Clarinet solo - AABA",
+                    "name":"Clarinet Solo - AABA",
                     "beats":
                     [
                         41.1, 41.38, 41.66, 41.94, 42.22, 42.49, 42.77, 43.05, 43.33, 43.61, 43.89, 44.16, 44.44, 44.72, 45.0, 45.27,
@@ -66,7 +66,7 @@
                     ]
                 },
                 {
-                    "name":"Guitar solo - AABA",
+                    "name":"Guitar Solo - AABA",
                     "beats":
                     [
                         76.3, 76.58, 76.86, 77.13, 77.4, 77.68, 77.95, 78.23, 78.51, 78.78, 79.05, 79.33, 79.6, 79.88, 80.15, 80.43,
@@ -87,7 +87,7 @@
                     ]
                 },
                 {
-                    "name":"Trumpet + Clarinet solo + Ensemble - AABA",
+                    "name":"Trumpet Solo, Clarinet Solo, Ensemble - AABA",
                     "beats":
                     [
                         111.22, 111.5, 111.78, 112.05, 112.32, 112.6, 112.87, 113.14, 113.42, 113.69, 113.97, 114.24, 114.51, 114.78, 115.06, 115.33,
@@ -125,7 +125,7 @@
                         "|Eb:min7 Ab:7 |Eb:min7 Ab:7 |Eb:min7 Eb:min7 Ab:7 Eb:(3,#5,9) |Ab Eb:aug Eb:min7 Eb:min7 |Db:maj6 Eb:min7 Db Db:min |Eb:7 Eb:min7 |Db |Eb:min7 G:dim7 |",
                         "|Eb:min7 Ab:7 |Eb:min7 Ab:7 |Eb:min7 Ab:7 |Eb:min7 Ab:7 |Db:7 Db:7/3 |Gb:maj6 Ab:7 |Db |Db |",
                         "|Db:7 Ab:min7 |G:dim7 Db:7 |Gb:maj6 |Gb:maj6 |Eb:7 Bb:min7 |A:dim7 Eb:7 |Ab:7 |Ab:7 |",
-                        "|Eb:min7 Ab:7 |Eb:min7 Ab:7 |Eb:min7 Ab:7 |Eb:min7 Ab:7 |Db:7 Db:7/3 |Gb:maj6 Ab:7 |Db N |"
+                        "|Eb:min7 Ab:7 |Eb:min7 Ab:7 |Eb:min7 Ab:7 |Eb:min7 Ab:7 |Db:7 Db:7/3 |Gb:maj6 Ab:7 |Db  |"
                     ]
                 }
             ]

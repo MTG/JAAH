@@ -5,7 +5,8 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 22 - Mean to Me.flac", 
-   "transcriptions": []
+   "transcriptions": [],
+    "key":"C"
   }, 
   "mbid": "0e9806c6-1342-432b-87b7-11e5e2217311", 
   "duration": 190.88,
@@ -21,7 +22,7 @@
               ]
     },
     {
-      "name":"Sax + Trumpet Solos - AABA",
+      "name":"Sax Solo, Trumpet Solo - AABA",
       "beats":
                [
                  9.89, 10.46, 11.02, 11.54, 12.11, 12.65, 13.21, 13.75, 14.28, 14.83, 15.37, 15.91, 16.46, 17.0, 17.54, 18.06,
@@ -63,7 +64,7 @@
               ]
     },
     {
-      "name":"Piano + Horn Solos - BA",
+      "name":"Piano Solo, Horn Solo - BA",
       "beats":
                [
                  150.52, 151.07, 151.64, 152.2, 152.75, 153.32, 153.9, 154.46, 155.03, 155.59, 156.14, 156.72, 157.29, 157.85, 158.42, 159.0,

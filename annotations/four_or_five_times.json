@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/23 - Jimmie Noone's Apex Club Orchestra - Four Or Five Times.flac", 
    "transcriptions": [],
-   "key":["Eb"]
+   "key":"Eb"
   }, 
   "mbid": "2483bae2-89a5-4c1f-aa76-a94ce6f2e09b", 
   "duration": 194.43,
@@ -20,11 +20,11 @@
         ],
         "chords":
         [
-            "|Eb:dim7 |A:hdim7 |Eb Ab:7 C C |G:dim C:dim7 F:7 F:min7 |"
+            "|Eb:dim7 |A:hdim7 |Eb:maj6 Ab:7 C C |G:dim C:dim7 F:7 F:min7 |"
         ]
     },
     {
-        "name":"Theme - AB",
+        "name":"Head - AB",
         "beats":
         [
         7.65, 8.13, 8.6, 9.08, 9.54, 10.01, 10.48, 10.95, 11.42, 11.88, 12.34, 12.82, 13.29, 13.76, 14.22, 14.7,
@@ -34,8 +34,8 @@
         ],
         "chords":
         [
-            "|Eb |Eb |F:7 |F:7 |Bb:7 |Bb:7 |Eb |F:min7 Bb:7 |",
-            "|Eb |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb |Bb:7 |Eb Gb:dim7  |F:min7  F:min7 Bb:7 Eb |"
+            "|Eb:maj6 |Eb:maj6 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:maj6 |F:min7 Bb:7 |",
+            "|Eb:maj6 |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb:maj6 |Bb:7 |Eb:maj6 Gb:dim7  |F:min7  F:min7 Bb:7 Eb:maj6 |"
         ]
     },
     {
@@ -49,8 +49,8 @@
         ],
         "chords":
         [
-            "|Eb |Eb |F:7 |F:7 |Bb:7 |Bb:7 |Eb |F:min7 Bb:7 |",
-            "|Eb |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb |Bb:7 |Eb Gb:dim7  |F:min7  F:min7 Bb:7 Eb |"
+            "|Eb:maj6 |Eb:maj6 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:maj6 |F:min7 Bb:7 |",
+            "|Eb:maj6 |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb:maj6 |Bb:7 |Eb:maj6 Gb:dim7  |F:min7  F:min7 Bb:7 Eb:maj6 |"
         ]
     },
     {
@@ -64,8 +64,8 @@
         ],
         "chords":
         [
-            "|Eb |Eb |F:7 |F:7 |Bb:7 |Bb:7 |Eb |F:min7 Bb:7 |",
-            "|Eb |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb |Bb:7 |Eb Gb:dim7  |F:min7  F:min7 Bb:7 Eb |"
+            "|Eb:maj6 |Eb:maj6 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:maj6 |F:min7 Bb:7 |",
+            "|Eb:maj6 |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb:maj6 |Bb:7 |Eb:maj6 Gb:dim7  |F:min7  F:min7 Bb:7 Eb:maj6 |"
         ]
     },
     {
@@ -79,8 +79,8 @@
         ],
         "chords":
         [
-            "|Eb |Eb |F:7 |F:7 |Bb:7 |Bb:7 |Eb |F:min7 Bb:7 |",
-            "|Eb |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb |Bb:7 |Eb Gb:dim7  |F:min7  Bb:7  |"
+            "|Eb:maj6 |Eb:maj6 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:maj6 |F:min7 Bb:7 |",
+            "|Eb:maj6 |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb:maj6 |Bb:7 |Eb:maj6 Gb:dim7  |F:min7  Bb:7  |"
         ]
     },
     {
@@ -94,8 +94,8 @@
         ],
         "chords":
         [
-            "|Eb |Eb |F:7 |F:7 |Bb:7 |Bb:7 |Eb |F:min7 Bb:7 |",
-            "|Eb |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb |Bb:7 |Eb Gb:dim7  |F:min7  F:min7 Bb:7 Eb |"
+            "|Eb:maj6 |Eb:maj6 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:maj6 |F:min7 Bb:7 |",
+            "|Eb:maj6 |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb:maj6 |Bb:7 |Eb:maj6 Gb:dim7  |F:min7  F:min7 Bb:7 Eb:maj6 |"
         ]
     },
     {
@@ -110,8 +110,8 @@
         ],
         "chords":
         [
-            "|Eb |Eb |F:7 |F:7 |Bb:7 |Bb:7 |Eb |F:min7 Bb:7 |",
-            "|Eb |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb |Bb:7 |Eb |Eb |Eb:9|"
+            "|Eb:maj6 |Eb:maj6 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:maj6 |F:min7 Bb:7 |",
+            "|Eb:maj6 |Eb:7 |Ab |Gb:dim7 G:min7 Gb:dim7 Gb:dim7 |Eb:maj6 |Bb:7 |Eb:maj6 |Eb:maj6 |Eb:9 |"
         ]
     }
   ]

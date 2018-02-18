@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/13 - Louis Armstrong And His Hot Five - Big Butter And Egg Man From The West.flac", 
    "transcriptions": [],
-   "key":["G"]
+   "key":"G"
   }, 
   "mbid": "e3d72af4-c47b-422f-87b6-4218b68d2b7c", 
   "duration": 180.8,
@@ -34,7 +34,7 @@
         ]
     },
     {
-        "name":"Verse / May Alix - ABCA",
+        "name":"Vocals Female - ABCA",
         "beats":
         [
         37.75, 38.05, 38.34, 38.63, 38.94, 39.23, 39.54, 39.82, 40.11, 40.41, 40.69, 40.99, 41.28, 41.56, 41.85, 42.14,
@@ -55,7 +55,7 @@
         ]
     },
     {
-        "name":"Verse / Armstrong - ABCA",
+        "name":"Vocals Male - ABCA",
         "beats":
         [
         75.45, 75.75, 76.05, 76.36, 76.66, 76.95, 77.24, 77.52, 77.81, 78.1, 78.4, 78.7, 78.99, 79.3, 79.59, 79.89,
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "name":"Trumpet Solo / Armstrong - ABCA",
+        "name":"Trumpet Solo - ABCA",
         "beats":
         [
         118.01, 118.32, 118.62, 118.94, 119.25, 119.56, 119.85, 120.15, 120.46, 120.75, 121.05, 121.35, 121.67, 121.97, 122.27, 122.58,
@@ -99,7 +99,7 @@
         ]
     },
     {
-        "name":"Vocals & Collective Improvisation - CA",
+        "name":"Vocals, Collective Improvisation - CA",
         "beats":
         [
         156.95, 157.26, 157.58, 157.89, 158.2, 158.51, 158.81, 159.13, 159.43, 159.73, 160.03, 160.34, 160.65, 160.97, 161.27, 161.58,

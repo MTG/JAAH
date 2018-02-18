@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/20 - Count Basie And His Orchestra - Doggin' Around.flac", 
    "transcriptions": [],
-   "key":["Bb"]
+   "key":"Bb"
   }, 
   "mbid": "699579f6-d24a-4c64-9950-b6281c8a3b2e", 
   "duration": 180.51,
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "name":"Trumpet / Tenor Sax Solo - AABA",
+        "name":"Trumpet Solo, Tenor Sax Solo - AABA",
         "beats":
         [
         68.95, 69.19, 69.44, 69.7, 69.93, 70.17, 70.42, 70.66, 70.9, 71.14, 71.38, 71.62, 71.86, 72.09, 72.33, 72.57,

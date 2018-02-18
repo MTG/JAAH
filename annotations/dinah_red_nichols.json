@@ -5,14 +5,15 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/03 - Red Nichols And His Five Pennies - Dinah.flac", 
-   "transcriptions": []
+   "transcriptions": [],
+    "key":"Ab"
   }, 
   "mbid": "8e09f1ee-053d-42e3-baf5-50af6137549c", 
   "duration": 195.44,
   "parts":
           [
             {
-              "name":"intro",
+              "name":"Intro",
               "beats":
                       [
                         0.73, 1.19, 1.67, 2.11, 2.57, 3.04, 3.51, 3.95, 4.43, 4.89, 5.35, 5.83, 6.31, 6.78, 7.27, 7.76
@@ -45,7 +46,7 @@
                       ]
             },
             {
-              "name":"Clarinet Solo - AABA",
+              "name":"Clarinet Solo, Sax Solo - AABA",
               "beats":
                       [
                         70.69, 71.14, 71.61, 72.08, 72.56, 73.02, 73.5, 73.97, 74.44, 74.9, 75.37, 75.85, 76.32, 76.8, 77.27, 77.74,
@@ -67,7 +68,7 @@
                       ]
             },
             {
-              "name":"Head - AABA",
+              "name":"Trombone Solo, Collective Improvisation - AABA",
               "beats":
                       [
                         130.92, 131.39, 131.86, 132.34, 132.82, 133.31, 133.78, 134.24, 134.72, 135.2, 135.67, 136.12, 136.6, 137.07, 137.55, 138.01,

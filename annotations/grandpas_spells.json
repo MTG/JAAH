@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/08 - Jelly Roll Morton's Red Hot Peppers - Grandpa's Spells.flac", 
    "transcriptions": [],
-   "key":["C"]
+   "key":"C"
   }, 
   "mbid": "cc86ea4d-7a0b-443e-85f5-7352313de2e5", 
   "duration": 175.36,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "name":"Guitar Solo / Ensemble - A",
+        "name":"Guitar Solo, Ensemble - A",
         "beats":
         [
         5.2, 5.49, 5.77, 6.05, 6.32, 6.6, 6.88, 7.18, 7.47, 7.75, 8.04, 8.31, 8.59, 8.88, 9.16, 9.44,
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "name":"Cornet Solo / Ensemble - A",
+        "name":"Cornet Solo, Ensemble - A",
         "beats":
         [
         23.45, 23.72, 24.01, 24.28, 24.57, 24.84, 25.12, 25.41, 25.69, 25.97, 26.25, 26.53, 26.81, 27.09, 27.37, 27.65,
@@ -54,7 +54,7 @@
         ]
     },
     {
-        "name":"Piano Solo / Ensemble - B",
+        "name":"Piano Solo , Ensemble - B",
         "beats":
         [
         41.58, 41.86, 42.15, 42.45, 42.73, 43.02, 43.3, 43.59, 43.87, 44.14, 44.43, 44.73, 45.01, 45.28, 45.56, 45.85,
@@ -129,7 +129,7 @@
         ]
     },
     {
-        "name":"Piano Solo / Clarinet Solo - C",
+        "name":"Piano Solo, Clarinet Solo - C",
         "beats":
         [
         133.25, 133.54, 133.84, 134.12, 134.42, 134.7, 134.99, 135.27, 135.55, 135.83, 136.12, 136.39, 136.68, 136.96, 137.24, 137.52,

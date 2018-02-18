@@ -5,7 +5,8 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 04 - Dipper Mouth Blues.flac", 
-   "transcriptions": []
+   "transcriptions": [],
+    "key":"C"
   }, 
   "mbid": "8fecd84b-8d9e-43c7-865e-4e3e93292260", 
   "duration": 148.93,
@@ -23,7 +24,7 @@
                       ]
             },
             {
-              "name":"Head",
+              "name":"Head - Blues*2",
               "beats":
                       [
                         5.42, 5.75, 6.07, 6.39, 6.71, 7.03, 7.36, 7.67, 7.99, 8.3, 8.61, 8.91, 9.23, 9.55, 9.88, 10.19,
@@ -40,7 +41,7 @@
                       ]
             },
             {
-              "name":"Clarinet solo ",
+              "name":"Clarinet Solo - Blues*2 ",
               "beats":
                       [
                         35.68, 36.0, 36.32, 36.64, 36.97, 37.28, 37.61, 37.93, 38.25, 38.58, 38.9, 39.22, 39.54, 39.86, 40.18, 40.51,
@@ -57,7 +58,7 @@
                       ]
             },
             {
-              "name":"Horn section",
+              "name":"Collective Improvisation - Blues",
               "beats":
                       [
                         66.69, 67.02, 67.36, 67.68, 68.01, 68.33, 68.65, 68.97, 69.3, 69.64, 69.96, 70.28, 70.6, 70.92, 71.24, 71.56,
@@ -70,7 +71,7 @@
                       ]
             },
             {
-              "name":"Cornet Solo",
+              "name":"Cornet Solo - Blues*3",
               "beats":
                       [
                         82.1, 82.42, 82.75, 83.08, 83.4, 83.73, 84.05, 84.36, 84.68, 85.0, 85.32, 85.64, 85.95, 86.26, 86.58, 86.89,
@@ -91,7 +92,7 @@
                       ]
             },
             {
-              "name":"Head",
+              "name":"Collective Improvisation - Blues",
               "beats":
                       [
                         127.32, 127.64, 127.95, 128.27, 128.58, 128.9, 129.22, 129.53, 129.84, 130.16, 130.47, 130.78, 131.09, 131.4, 131.71, 132.01,

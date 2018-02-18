@@ -6,14 +6,14 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 16 - Blues in the Closet.flac", 
    "transcriptions": [],
-   "key":["Bb"]
+   "key":"Bb"
   }, 
   "mbid": "e3ca10e3-13a5-4fe5-aa23-7af9db3815dc", 
   "duration": 545.27,
   "parts":
   [
     {
-        "name":"Chorus 1,2 / Theme - Blues Major",
+        "name":"Head - Blues",
         "beats":
         [
         11.55, 11.83, 12.1, 12.37, 12.64, 12.91, 13.18, 13.45, 13.71, 13.98, 14.25, 14.51, 14.78, 15.04, 15.3, 15.56,
@@ -30,7 +30,7 @@
         ]
     },
     {
-        "name":"Chorus 3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 / Trombone Solo - Blues Major",
+        "name":"Trombone Solo - Blues*16",
         "beats":
         [
         37.05, 37.33, 37.59, 37.86, 38.13, 38.39, 38.65, 38.91, 39.18, 39.44, 39.7, 39.96, 40.22, 40.49, 40.75, 41.03,
@@ -103,7 +103,7 @@
         ]
     },
     {
-        "name":"Chorus 19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34 / Tenor Sax Solo - Blues Major",
+        "name":"Tenor Sax Solo - Blues Major*16",
         "beats":
         [
         232.65, 232.9, 233.15, 233.4, 233.66, 233.91, 234.16, 234.4, 234.67, 234.92, 235.19, 235.44, 235.69, 235.94, 236.19, 236.45,
@@ -176,7 +176,7 @@
         ]
     },
     {
-        "name":"Chorus 35,36,37,38,39,40,41 / Collective Improvisation - Blues Major",
+        "name":"Collective Improvisation - Blues Major*7",
         "beats":
         [
         422.0, 422.24, 422.48, 422.72, 422.96, 423.2, 423.45, 423.7, 423.94, 424.19, 424.44, 424.68, 424.92, 425.16, 425.4, 425.64,
@@ -213,7 +213,7 @@
         ]
     },
     {
-        "name":"Chorus 42,43 / Theme - Blues Major",
+        "name":"Head - Blues Major*2",
         "beats":
         [
         503.12, 503.37, 503.62, 503.88, 504.12, 504.37, 504.63, 504.88, 505.12, 505.37, 505.63, 505.88, 506.13, 506.38, 506.63, 506.88,

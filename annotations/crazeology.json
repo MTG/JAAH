@@ -5,14 +5,15 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/18 - Charlie Parker Sextet - Crazeology (Take #4).flac", 
-   "transcriptions": []
+   "transcriptions": [],
+    "key":"Bb"
   }, 
   "mbid": "776cdc89-829b-475a-8b9e-eeda8baca6e5", 
   "duration": 179.96,
   "parts":
   [
     {
-        "name":"Theme - AABA",
+        "name":"Head - AABA",
         "beats":
         [
         0.37, 0.6, 0.83, 1.07, 1.3, 1.53, 1.76, 1.98, 2.21, 2.44, 2.67, 2.91, 3.13, 3.36, 3.6, 3.83,
@@ -96,7 +97,7 @@
         ]
     },
     {
-        "name":"Piano / Bass / Drums Solo - AABA",
+        "name":"Piano Solo, Bass Solo, Drums Solo - AABA",
         "beats":
         [
         117.8, 118.04, 118.29, 118.52, 118.77, 119.0, 119.24, 119.47, 119.7, 119.93, 120.15, 120.4, 120.63, 120.88, 121.12, 121.35,
@@ -117,7 +118,7 @@
         ]
     },
     {
-        "name":"Theme - AABA",
+        "name":"Head - AABA",
         "beats":
         [
         147.65, 147.87, 148.11, 148.34, 148.57, 148.79, 149.02, 149.25, 149.48, 149.71, 149.94, 150.17, 150.42, 150.65, 150.88, 151.11,
