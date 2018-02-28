@@ -40,7 +40,7 @@
         "chords":
         [
             "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:7 |D:hdim7 G:(3,5,b7,b9) |E:7 A:7 |D:hdim7 G:(3,b5,b7,b9) |",
-            "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 Amin:7 |D:hdim7 G:(3,5,b7,b9) |C:maj6 |C:maj6 |",
+            "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:min7 |D:hdim7 G:(3,5,b7,b9) |C:maj6 |C:maj6 |",
             "|E:min7 A:7 |E:min7 A:7 |D:maj7 D:maj6 |D:maj7 D:maj6 |D:min7 G:7 |D:min7 G:7 |C:maj7 A:7 |D:7 G:7 |",
             "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:7 |D:min7 G:(3,5,b7,b9) |E:hdim7 |A:7 |D:hdim7 |G:7 |N |Bb:min7 E:min7 |E:min7 N |"
         ]
