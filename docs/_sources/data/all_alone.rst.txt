@@ -1,0 +1,117 @@
+.. index:: All Alone, Sarah Vaughan
+.. _hyperlink-name: "All Alone" Sarah Vaughan
+
+"All Alone" Sarah Vaughan/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `6f4aaccf-87df-4265-a3af-9c06742ea102`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - C
+   * - Durtion
+     - 142.53 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _6f4aaccf-87df-4265-a3af-9c06742ea102: https://musicbrainz.org/recording/6f4aaccf-87df-4265-a3af-9c06742ea102
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 73
+   * - Mean BPM
+     - 128.814986319
+   * - Mean Harmonic Rhythm
+     - 4.16438356164
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 116
+     - 37.908496732
+     - 53.42
+     - 37.479828808
+   * - hdim7
+     - 8
+     - 2.61437908497
+     - 3.67
+     - 2.57489651301
+   * - min
+     - 60
+     - 19.6078431373
+     - 27.32
+     - 19.1678944784
+   * - dom
+     - 120
+     - 39.2156862745
+     - 54.74
+     - 38.4059496246
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/all_alone.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/all_alone.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/all_alone.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`all_alone.json <../../../annotations/all_alone.json>`
+
+.. literalinclude:: ../../../annotations/all_alone.json
+   :language: javascript

@@ -1,0 +1,127 @@
+.. index:: Stompin' at the Savoy, Louis Armstrong & Ella Fitzgerald
+.. _hyperlink-name: "Stompin' at the Savoy" Louis Armstrong & Ella Fitzgerald
+
+"Stompin' at the Savoy" Louis Armstrong & Ella Fitzgerald/1957
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `5e6eb87d-7f9b-4ccd-b671-b0cdbc061a20`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Db
+   * - Durtion
+     - 315.83 s
+   * - Recording Dates
+     - 1957-07-23 - 1957-07-23
+   * - Composer(s)
+     - Edgar Sampson, Chick Webb, Benny Goodman
+.. _5e6eb87d-7f9b-4ccd-b671-b0cdbc061a20: https://musicbrainz.org/recording/5e6eb87d-7f9b-4ccd-b671-b0cdbc061a20
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Herb Ellis 
+   * - piano
+     - Oscar Peterson 
+   * - double bass
+     - Ray Brown 
+   * - trumpet
+     - Louis Armstrong 
+   * - drums
+     - Louie Bellson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 354
+   * - Mean BPM
+     - 181.236741285
+   * - Mean Harmonic Rhythm
+     - 2.5593220339
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 36
+     - 3.77358490566
+     - 12.18
+     - 3.85650508185
+   * - maj
+     - 312
+     - 32.7044025157
+     - 100.06
+     - 31.6816008612
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 142
+     - 14.8846960168
+     - 46.58
+     - 14.7484406168
+   * - dom
+     - 416
+     - 43.605870021
+     - 136.3
+     - 43.1561282969
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/stompin_at_the_savoy.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/stompin_at_the_savoy.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/stompin_at_the_savoy.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`stompin_at_the_savoy.json <../../../annotations/stompin_at_the_savoy.json>`
+
+.. literalinclude:: ../../../annotations/stompin_at_the_savoy.json
+   :language: javascript

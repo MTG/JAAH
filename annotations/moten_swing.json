@@ -6,14 +6,14 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 16 - Moten Swing.flac", 
    "transcriptions": [],
-   "key":["Eb"]
+   "key":"Eb"
   }, 
   "mbid": "b56a075e-8c13-4ec7-8b60-02eff2202341", 
   "duration": 205.88,
   "parts":
           [
             {
-              "name":"Chorus 1 - Piano & Ensemble - AABA",
+              "name":"Piano Solo, Ensemble - AABA",
               "beats":
                       [
                       0.28, 0.57, 0.86, 1.15, 1.44, 1.73, 2.02, 2.31, 2.59, 2.88, 3.18, 3.46, 3.75, 4.04, 4.33, 4.62,
@@ -27,14 +27,14 @@
                       ],
               "chords":
                       [
-                        "|Eb |Eb |F:min7 |Bb:7 |F:7 |Bb:7 |Eb:maj6 C:(3,5,b7,b9) |F:min7 Bb:7 |",
+                        "|Eb |D:(3,5,b7,#11) |C#:(3,5,b7,#11) C:(3,5,b7,#11) |B:(3,5,b7,#11) Bb:(3,5,b7,#11) |F:min7 |Bb:7 |Eb:maj6 F#:min7 |F:min7 Bb:7 |",
                         "|Eb |Eb |F:min7 |Bb:7 |F:7 |Bb:7 |Eb:maj6 |A:min7 D:7 |",
                         "|G:7 |A:min7 D:7 |G:7 |A:min7 D:7 |G:7 |A:min7 D:7 |G F#:dim7 |F:7 Bb:7 |",
                         "|Eb |Eb |F:min7 |Bb:7 |F:7 |Bb:7 |Eb:maj6 C:(3,5,b7,b9) |F:min7 Bb:7 |"
                       ]
             },
             {
-              "name":"Chorus 2 - Ensemble & Guitar - AABA",
+              "name":"Ensemble, Guitar Solo - AABA",
               "beats":
                       [
                       37.9, 38.19, 38.5, 38.79, 39.09, 39.39, 39.69, 40.0, 40.3, 40.6, 40.9, 41.19, 41.5, 41.8, 42.09, 42.39,
@@ -55,7 +55,7 @@
                       ]
             },
             {
-              "name":"Chorus 3 - Alto Sax - AABA",
+              "name":"Alto Sax Solo - AABA",
               "beats":
                       [
                       76.39, 76.7, 77.01, 77.31, 77.62, 77.91, 78.23, 78.53, 78.84, 79.14, 79.44, 79.75, 80.05, 80.36, 80.66, 80.97,
@@ -76,7 +76,7 @@
                       ]
             },
             {
-              "name":"Chorus 4 - Trumpet / Tenor Sax - AABA",
+              "name":"Trumpet Solo, Tenor Sax Solo - AABA",
               "beats":
                       [
                       115.73, 116.03, 116.34, 116.65, 116.95, 117.26, 117.57, 117.87, 118.18, 118.49, 118.8, 119.11, 119.41, 119.72, 120.03, 120.33,
@@ -97,7 +97,7 @@
                       ]
             },
             {
-              "name":"Chorus 5 - Ensemble - AABA",
+              "name":"Ensemble - AABA",
               "beats":
                       [
                       155.2, 155.52, 155.83, 156.14, 156.45, 156.77, 157.08, 157.4, 157.71, 158.03, 158.33, 158.64, 158.96, 159.26, 159.58, 159.89,

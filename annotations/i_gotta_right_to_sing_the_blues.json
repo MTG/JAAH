@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/20 - Louis Armstrong And His Orchestra - I Gotta Right To Sing The Blues.flac", 
    "transcriptions": [],
-   "key":["G, Bb"]
+   "key":"G"
   }, 
   "mbid": "c24c608d-d030-4c46-ab95-e0fa2d45b7c6", 
   "duration": 183.6,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "name":"Vocals - ABAC",
+        "name":"Vocals Male - ABAC",
         "beats":
         [
         16.52, 17.06, 17.58, 18.09, 18.62, 19.13, 19.63, 20.15, 20.68, 21.2, 21.72, 22.27, 22.78, 23.3, 23.83, 24.35,
@@ -46,6 +46,7 @@
     },
     {
         "name":"Ensemble - AC",
+        "key":"Bb",
         "beats":
         [
         82.77, 83.31, 83.83, 84.36, 84.86, 85.39, 85.91, 86.43, 86.96, 87.48, 88.0, 88.51, 89.03, 89.53, 90.03, 90.56,
@@ -61,6 +62,7 @@
     },
     {
         "name":"Trumpet Solo - ABAC",
+        "key":"Bb",
         "beats":
         [
         115.55, 116.09, 116.62, 117.12, 117.62, 118.13, 118.64, 119.16, 119.66, 120.2, 120.71, 121.23, 121.74, 122.24, 122.74, 123.24,

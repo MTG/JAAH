@@ -6,14 +6,14 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 08 - Work Song.flac", 
    "transcriptions": [],
-   "key":["F:min"]
+   "key":"F:min"
   }, 
   "mbid": "1510f5f6-fd52-4676-a279-270c40bb4259", 
   "duration": 309.48,
   "parts":
           [
             {
-              "name":"Intro",
+              "name":"Head - AB*2",
               "beats":
                       [
                         0.6, 0.98, 1.33, 1.68, 2.02, 2.35, 2.69, 3.06, 3.4, 3.78, 4.13, 4.48, 4.82, 5.18, 5.53, 5.9,
@@ -34,7 +34,7 @@
                       ]
             },
             {
-              "name":"Sax Solo - x3 Chorus",
+              "name":"Sax Solo - AB*3",
               "beats":
                       [
                         45.73, 46.07, 46.43, 46.78, 47.13, 47.46, 47.81, 48.15, 48.5, 48.85, 49.2, 49.54, 49.89, 50.23, 50.59, 50.93,
@@ -55,14 +55,16 @@
                       [
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |Db:7 C:7 |F:min |",
+
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |G:min7 C:7 |F:min |",
+
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |G:min7 C:7 |F:min |"
                       ]
             },
             {
-              "name":"Trumpet Solo - x3 Chorus",
+              "name":"Trumpet Solo - AB*3",
               "beats":
                       [
                         112.96, 113.31, 113.67, 114.01, 114.36, 114.71, 115.06, 115.4, 115.76, 116.1, 116.46, 116.81, 117.17, 117.53, 117.89, 118.24,
@@ -82,14 +84,16 @@
                       [
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |Db:7 C:7 |F:min |",
+
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |G:min7 C:7 |F:min |",
+
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |G:min7 C:7 |F:min |"
                       ]
             },
             {
-              "name":"Piano Solo - x3 Chorus",
+              "name":"Piano Solo - AB*3",
               "beats":
                       [
                         180.47, 180.83, 181.18, 181.52, 181.87, 182.21, 182.56, 182.92, 183.27, 183.62, 183.97, 184.32, 184.67, 185.02, 185.36, 185.72,
@@ -109,14 +113,16 @@
                       [
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |Db:7 C:7 |F:min |",
+
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |G:min7 C:7 |F:min |",
+
                         "|F:min |F:min |F:min |F:min |F:min |F:min |G:hdim7 |C:7 |",
                         "|F:min |F:min |F:min |F:min |F:7 |Bb:7 |G:min7 C:7 |F:min F:min F:min C |"
                       ]
             },
             {
-              "name":"Outro",
+              "name":"Head - AB*2",
               "beats":
                       [
                         247.44, 247.77, 248.12, 248.48, 248.84, 249.21, 249.55, 249.93, 250.27, 250.65, 251.01, 251.37, 251.73, 252.08, 252.43, 252.79,
@@ -126,16 +132,27 @@
 270.36, 270.74, 271.11, 271.48, 271.83, 272.19, 272.55, 272.92, 273.28, 273.66, 274.02, 274.39, 274.73, 275.08, 275.42, 275.79,
 276.15, 276.55, 276.92, 277.29, 277.64, 278.0, 278.37, 278.73, 279.08, 279.46, 279.82, 280.18, 280.53, 280.9, 281.24, 281.6,
 281.96, 282.32, 282.68, 283.05, 283.41, 283.77, 284.13, 284.49, 284.86, 285.24, 285.6, 285.96, 286.32, 286.68, 287.03, 287.39,
-287.75, 288.11, 288.32, 288.84, 289.19, 289.55, 289.73, 290.26, 290.64, 290.98, 291.34, 291.7, 292.12, 292.55, 293.02, 293.47,
-293.94, 294.43, 294.91, 295.39, 295.85, 296.34, 296.86, 297.41, 297.93, 298.4, 298.89, 299.37, 299.87, 300.33, 300.85, 301.34,
-                        301.83, 302.29, 302.8, 303.27, 303.76, 304.26, 304.72, 305.2
+287.75, 288.11, 288.32, 288.84, 289.19, 289.55, 289.73, 290.26, 290.64, 290.98, 291.34, 291.7, 292.12, 292.55, 293.02, 293.47
                       ],
               "chords":
                       [
                         "|F:min N N N |N N N C |F:min N N N |N N N C |F:min N N N |N N N G |C N N N |N N N C |",
                         "|F:min N N N |N N N C |F:min N N N |N N N N |N F:7 |N Bb:7 |Db:7 C:7 |F:min |",
                         "|F:min N N N |N N N C |F:min N N N |N N N C |F:min N N N |N N N G |C N N N |N N N C |",
-                        "|F:min N N N |N N N C |F:min N N N |N N N N |N F:7 |N Bb:7 |Db:7 C:7 |F:min |",
+                        "|F:min N N N |N N N C |F:min N N N |N N N N |N F:7 |N Bb:7 |Db:7 C:7 |F:min |"
+                      ]
+            },
+            {
+              "name":"Outro",
+              "beats":
+                      [
+
+293.94, 294.43, 294.91, 295.39, 295.85, 296.34, 296.86, 297.41, 297.93, 298.4, 298.89, 299.37, 299.87, 300.33, 300.85, 301.34,
+                        301.83, 302.29, 302.8, 303.27, 303.76, 304.26, 304.72, 305.2
+                      ],
+              "chords":
+                      [
+
                         "|F:min |F:min |F:min |F:min |F:min |"
                       ]
             }

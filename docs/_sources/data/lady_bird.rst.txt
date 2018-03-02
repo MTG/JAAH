@@ -1,0 +1,127 @@
+.. index:: Lady Bird, Tadd Dameron Sextet
+.. _hyperlink-name: "Lady Bird" Tadd Dameron Sextet
+
+"Lady Bird" Tadd Dameron Sextet/1948
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `ce2d8d18-590f-468c-a020-b334ae916caa`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 173.99 s
+   * - Recording Dates
+     - 1948-09-13 - 1948-09-13
+   * - Composer(s)
+     - 
+.. _ce2d8d18-590f-468c-a020-b334ae916caa: https://musicbrainz.org/recording/ce2d8d18-590f-468c-a020-b334ae916caa
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Allen Eager, Wardell Gray 
+   * - piano
+     - Tadd Dameron 
+   * - double bass
+     - Curley Russell 
+   * - trumpet
+     - Fats Navarro 
+   * - drums
+     - Kenny Clarke 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 106
+   * - Mean BPM
+     - 157.940111501
+   * - Mean Harmonic Rhythm
+     - 4.30188679245
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 224
+     - 48.9082969432
+     - 77.43
+     - 44.5025576183
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 120
+     - 26.2008733624
+     - 41.27
+     - 23.7197540089
+   * - dom
+     - 112
+     - 24.4541484716
+     - 38.17
+     - 21.9380424162
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/lady_bird.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/lady_bird.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/lady_bird.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`lady_bird.json <../../../annotations/lady_bird.json>`
+
+.. literalinclude:: ../../../annotations/lady_bird.json
+   :language: javascript

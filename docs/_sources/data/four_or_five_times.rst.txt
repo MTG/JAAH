@@ -1,0 +1,117 @@
+.. index:: Four or Five Times, Jimmie Noone's Apex Club Orchestra
+.. _hyperlink-name: "Four or Five Times" Jimmie Noone's Apex Club Orchestra
+
+"Four or Five Times" Jimmie Noone's Apex Club Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `2483bae2-89a5-4c1f-aa76-a94ce6f2e09b`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb
+   * - Durtion
+     - 194.43 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _2483bae2-89a5-4c1f-aa76-a94ce6f2e09b: https://musicbrainz.org/recording/2483bae2-89a5-4c1f-aa76-a94ce6f2e09b
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 115
+   * - Mean BPM
+     - 125.289307206
+   * - Mean Harmonic Rhythm
+     - 3.51304347826
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 34
+     - 8.37438423645
+     - 16.16
+     - 8.31147456668
+   * - maj
+     - 169
+     - 41.6256157635
+     - 81.25
+     - 41.788818598
+   * - hdim7
+     - 4
+     - 0.985221674877
+     - 1.75
+     - 0.90006686211
+   * - min
+     - 29
+     - 7.14285714286
+     - 13.92
+     - 7.15938898318
+   * - dom
+     - 168
+     - 41.3793103448
+     - 80.36
+     - 41.3310703081
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/four_or_five_times.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/four_or_five_times.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/four_or_five_times.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`four_or_five_times.json <../../../annotations/four_or_five_times.json>`
+
+.. literalinclude:: ../../../annotations/four_or_five_times.json
+   :language: javascript

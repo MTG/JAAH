@@ -5,6 +5,8 @@ from sklearn import preprocessing
 from sklearn.mixture import GaussianMixture
 import os.path as path
 import os
+from scipy.misc import logsumexp
+import math
 
 PITCH_CLASS_NAMES = ["C", "Db", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
 CHORD_KINDS = ["maj", "min", "dom", "hdim7", "dim"]
@@ -29,14 +31,42 @@ def substituteZeros(chromas):
     data[data == 0] = 0.0001
     return data
 
-def toLogRatio(chromaVector) :
+def ilr(chromaVector) :
     res = np.zeros(len(chromaVector) - 1)
-    product = 1.0
-    for i in xrange(len(chromaVector) - 1):
-        product = product * chromaVector[i]
-        ii = i + 1.0
-        res[i] = np.sqrt(ii / (ii + 1)) * np.log( product ** (1.0/ii) / chromaVector[i + 1])
+    for j in xrange(len(chromaVector) - 1):
+        logx = np.log(chromaVector)
+        i = float(j + 1.0)
+        s = np.sum(logx[0:j+1]) / i - logx[j+1]
+        res[j] = np.sqrt(i / (i + 1)) * s
     return res
+
+def perturbation(x,y):
+    return rescale(x * y)
+
+def powering(alpha, x):
+    return rescale([xi ** alpha for xi in x])
+
+def rescale(x):
+    return x / sum(x)
+
+def loglogRatioBasisColumns(sz):
+    basis = np.empty((sz, sz - 1), dtype='float')
+    for j in xrange(basis.shape[1]):
+        i = float(j + 1)
+        x = np.empty(sz, dtype=float)
+        x[0:j+1] = math.sqrt(1.0 / (i * (i+1)))
+        x[j+1] = -math.sqrt(i / (i + 1.0))
+        if (j < (basis.shape[1] - 1)):
+            x[j+2:] = 0.0
+        basis[:,j] = x
+    return basis
+
+LOG_LOG_RATIO_BASIS = loglogRatioBasisColumns(len(PITCH_CLASS_NAMES))
+
+# TODO: CompData module: c (=rescale), ilr, invilr, perturbation, powering
+# reference to literature.
+def invilr(logRatioVector) :
+    return rescale(np.exp(np.dot(LOG_LOG_RATIO_BASIS, logRatioVector)))
 
 def removeUnclassified(chromaSegments):
     return ll.AnnotatedChromaSegments(
@@ -190,7 +220,7 @@ class BasicChordGMM(ChordEmissionProbabilityModel):
         if (self.basicGMMParameters.preprocessing == 'log'):
             chromas = np.log(chromas)
         elif (self.basicGMMParameters.preprocessing == 'log-ratio'):
-            chromas = np.apply_along_axis(toLogRatio, 1, chromas)
+            chromas = np.apply_along_axis(ilr, 1, chromas)
         elif (self.basicGMMParameters.preprocessing is not None):
             raise ValueError("Wrong preprocessing method: " + self.basicGMMParameters.preprocessing)
         return chromas
@@ -211,7 +241,9 @@ class BasicChordGMM(ChordEmissionProbabilityModel):
             for kind in xrange(N_CHORD_KINDS):
                 lps[:, pos + kind] = self.gmms[kind].score_samples(preChromas)
             chromas = np.roll(chromas, -1, axis=1)
-        return lps
+        # normalize. TODO: rethink: is it really needed.
+        normSum = logsumexp(lps, axis=1)
+        return lps - normSum[:, np.newaxis]
 
     def predictKindsForCRooted(self, cRootedChroma):
         scores = np.zeros((len(cRootedChroma), N_CHORD_KINDS))

@@ -1,0 +1,125 @@
+.. index:: Django, The Modern Jazz Quartet
+.. _hyperlink-name: "Django" The Modern Jazz Quartet
+
+"Django" The Modern Jazz Quartet/1954
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `c3141ac9-74aa-439e-b9bc-16aae9c4d683`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 424.93 s
+   * - Recording Dates
+     - 1954-12-23 - 1954-12-23
+   * - Composer(s)
+     - 
+.. _c3141ac9-74aa-439e-b9bc-16aae9c4d683: https://musicbrainz.org/recording/c3141ac9-74aa-439e-b9bc-16aae9c4d683
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - John Lewis 
+   * - double bass
+     - Percy Heath 
+   * - vibraphone
+     - Milt Jackson 
+   * - drums
+     - Kenny Clarke 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 220
+   * - Mean BPM
+     - 98.9810086367
+   * - Mean Harmonic Rhythm
+     - 3.17727272727
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 24
+     - 3.42368045649
+     - 15.44
+     - 3.63353964182
+   * - maj
+     - 37
+     - 5.27817403709
+     - 26.93
+     - 6.33751441414
+   * - hdim7
+     - 32
+     - 4.56490727532
+     - 19.44
+     - 4.57487115525
+   * - min
+     - 191
+     - 27.2467902996
+     - 119.36
+     - 28.0893323606
+   * - dom
+     - 415
+     - 59.2011412268
+     - 238.94
+     - 56.2304379545
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/django.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/django.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/django.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`django.json <../../../annotations/django.json>`
+
+.. literalinclude:: ../../../annotations/django.json
+   :language: javascript

@@ -65,7 +65,7 @@
         ]
     },
     {
-        "name":"Alto Sax + Piano Solo + Ensemble - AABA",
+        "name":"Sax Solo, Piano Solo, Ensemble - AABA",
         "beats":[
         88.04, 88.36, 88.66, 88.97, 89.27, 89.57, 89.86, 90.16, 90.46, 90.77, 91.06, 91.36, 91.66, 91.97, 92.27, 92.57,
 92.88, 93.19, 93.48, 93.79, 94.08, 94.39, 94.68, 94.99, 95.29, 95.6, 95.91, 96.2, 96.5, 96.8, 97.1, 97.4,
@@ -82,7 +82,7 @@
             "|Ab:maj6 Eb:7 |Ab:maj6 Eb:7 |Ab:maj6 Eb:7 |Ab:maj6 F:7|Bb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 |Ab:maj6 Eb:7 |",
             "|Ab:maj6 Eb:7 |Ab:maj6 Eb:7 |Ab:maj6 Eb:7 |Ab:maj6 F:7|Bb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 |Ab:maj6 |",
             "|Db:min7 Gb:7 |B:maj7 |E:min7 A:min7 |D:maj7 |G:min7 C:7 |F:maj7 |F:min7 Bb:7 |Bb:min7 Eb:(3,5,b7,b9) |",
-            "|Ab:maj6 Eb:7 |Ab:maj6 Eb:7 |Ab:maj6 Eb:7 |Ab:maj6 F:7|Bb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 |Eb:7 |Ab |Ab |Ab |"
+            "|Ab:maj6 Eb:7 |Ab:maj6 Eb:7 |Ab:maj6 Eb:7 |Ab:maj6 F:7|Bb:min7 |C:hdim7 F:7 |Bb:min7 Eb:7 |Eb:7 |Eb:7 |Ab |Ab |"
         ]
     }
    ]

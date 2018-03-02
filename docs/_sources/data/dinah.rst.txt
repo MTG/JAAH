@@ -1,0 +1,123 @@
+.. index:: Dinah, Django Reinhardt
+.. _hyperlink-name: "Dinah" Django Reinhardt
+
+"Dinah" Django Reinhardt/1934
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `e8acee6a-d3f0-4ab9-b489-3deb44432575`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 155.42666626 s
+   * - Recording Dates
+     - 1934-12 - 1934-12-28
+   * - Composer(s)
+     - Sam M. Lewis, Harry Akst
+.. _e8acee6a-d3f0-4ab9-b489-3deb44432575: https://musicbrainz.org/recording/e8acee6a-d3f0-4ab9-b489-3deb44432575
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Roger Chaput, Roger Chaput, Django Reinhardt, Django Reinhardt, Joseph Reinhardt, Joseph Reinhardt 
+   * - violin
+     - Stéphane Grappelli, Stéphane Grappelli 
+   * - double bass
+     - Louis Vola, Louis Vola 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 81
+   * - Mean BPM
+     - 209.230505823
+   * - Mean Harmonic Rhythm
+     - 6.66666666667
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 1
+     - 0.184501845018
+     - 0.6
+     - 0.386034143585
+   * - maj
+     - 273
+     - 50.36900369
+     - 76.63
+     - 49.3029940382
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 99
+     - 18.2656826568
+     - 28.0
+     - 18.0149267006
+   * - dom
+     - 167
+     - 30.8118081181
+     - 46.16
+     - 29.6988934465
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/dinah.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/dinah.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/dinah.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`dinah.json <../../../annotations/dinah.json>`
+
+.. literalinclude:: ../../../annotations/dinah.json
+   :language: javascript

@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/22 - Frankie Trumbauer And His Orchestra - Riverboat Shuffle.flac", 
    "transcriptions": [],
-   "key":[]
+   "key":"Ab"
   }, 
   "mbid": "5f08d6f0-73a2-41db-a06b-ab5db714bc3e", 
   "duration": 190.8,
@@ -14,6 +14,7 @@
     [
         {
             "name":"Intro",
+            "key":"C:min",
             "beats":
             [
             0.56, 0.84, 1.12, 1.39, 1.67, 1.95, 2.23, 2.49, 2.77, 3.04, 3.31, 3.58, 3.85, 4.11, 4.4, 4.67,
@@ -30,7 +31,7 @@
             ]
          },
          {
-            "name":"Theme - ABAC",
+            "name":"Head - ABAC",
             "beats":
             [
             22.77, 23.06, 23.36, 23.64, 23.92, 24.2, 24.48, 24.77, 25.04, 25.32, 25.6, 25.86, 26.13, 26.41, 26.69, 26.97,
@@ -52,7 +53,7 @@
             ]
         },
          {
-            "name":"Cornet Solo - ABAC",
+            "name":"Trumpet Solo - ABAC",
             "beats":
             [
             58.66, 58.94, 59.24, 59.52, 59.8, 60.09, 60.36, 60.65, 60.92, 61.2, 61.48, 61.76, 62.05, 62.32, 62.61, 62.88,
@@ -130,6 +131,5 @@
                 "|Db |Db:min |Ab |Gb:7 F:7 |Bb:7 |Eb:7 |Ab |Ab |"
             ]
         }
-        
     ]
  }

@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/13 - Charlie Parker With Jazz At The Philharmonic - Lady, Be Good.flac", 
    "transcriptions": [],
-   "key":["G"]
+   "key":"G"
   }, 
   "mbid": "cb202ce1-d335-428f-942f-0f92ee1a6077", 
   "duration": 191.49,
@@ -20,7 +20,7 @@
         ],
         "chords":
         [
-            "|G:maj6 E:min7 |A:min7 D:7 |G:maj6 E:min7 |A:min7 D:7 |"
+            "|G:maj7 D:7 |C#:dim7 C:dim7 |A:min7 D:hdim7 |G:hdim7 D:7 |"
         ]
     },
     {
@@ -38,10 +38,10 @@
         ],
         "chords":
         [
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |",
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 |D:min7 G:7 |",
-            "|C |C#:dim7 |G |F#:hdim7 B:(3,5,b7,b9) |E:min7 |A:7 |A:min7 |D:7 |",
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |"
+            "|G:maj7 |C:7 |G:maj7 |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |",
+            "|G:maj7 |C:7 |G:maj7 |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 |D:min7 G:7 |",
+            "|C |C#:dim7 |G:maj7 |F#:hdim7 B:(3,5,b7,b9) |E:min7 |A:7 |A:min7 |D:7 |",
+            "|G:maj7 |C:7 |G:maj7 |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |"
         ]
     },
     {
@@ -59,10 +59,10 @@
         ],
         "chords":
         [
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |",
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 |D:min7 G:7 |",
-            "|C |C#:dim7 |G |F#:hdim7 B:(3,5,b7,b9) |E:min7 |A:7 |A:min7 |D:7 |",
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |"
+            "|G:maj7 |C:7 |G:maj7 |B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |",
+            "|G:maj7 |C:7 |G:maj7 |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 |D:min7 G:7 |",
+            "|C |C#:dim7 |G:maj7 |F#:hdim7 B:(3,5,b7,b9) |E:min7 |A:7 |A:min7 |D:7 |",
+            "|G:maj7 |C:7 |G:maj7 |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |"
         ]
     },
     {
@@ -81,10 +81,10 @@
         ],
         "chords":
         [
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |",
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 |D:min7 G:7 |",
-            "|C |C#:dim7 |G |F#:hdim7 B:(3,5,b7,b9) |E:min7 |A:7 |A:min7 |D:7 |",
-            "|G |C:7 |G |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |"
+            "|G:maj7 |C:7 |G:maj7 |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |",
+            "|G:maj7 |C:7 |G:maj7 |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 |D:min7 G:7 |",
+            "|C |C#:dim7 |G:maj7 |F#:hdim7 B:(3,5,b7,b9) |E:min7 |A:7 |A:min7 |D:7 |",
+            "|G:maj7 |C:7 |G:maj7 |B:min7 B:min7 B:min7 Bb:7 |A:min7 |D:7 |G:maj6 E:min7 |A:min7 D:7 |"
         ]
     }
   ]

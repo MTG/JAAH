@@ -1,0 +1,117 @@
+.. index:: Big Butter and Egg Man From the West, Louis Armstrong and His Hot Seven
+.. _hyperlink-name: "Big Butter and Egg Man From the West" Louis Armstrong and His Hot Seven
+
+"Big Butter and Egg Man From the West" Louis Armstrong and His Hot Seven/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `e3d72af4-c47b-422f-87b6-4218b68d2b7c`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - G
+   * - Durtion
+     - 180.8 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _e3d72af4-c47b-422f-87b6-4218b68d2b7c: https://musicbrainz.org/recording/e3d72af4-c47b-422f-87b6-4218b68d2b7c
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 102
+   * - Mean BPM
+     - 197.123893805
+   * - Mean Harmonic Rhythm
+     - 5.80392156863
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 18
+     - 3.0303030303
+     - 5.35
+     - 2.95907079646
+   * - maj
+     - 222
+     - 37.3737373737
+     - 66.08
+     - 36.5486725664
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 64
+     - 10.7744107744
+     - 19.1
+     - 10.564159292
+   * - dom
+     - 288
+     - 48.4848484848
+     - 85.56
+     - 47.3230088496
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/big_butter_and_eggman.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/big_butter_and_eggman.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/big_butter_and_eggman.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`big_butter_and_eggman.json <../../../annotations/big_butter_and_eggman.json>`
+
+.. literalinclude:: ../../../annotations/big_butter_and_eggman.json
+   :language: javascript

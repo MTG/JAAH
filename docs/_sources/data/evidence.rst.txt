@@ -1,0 +1,117 @@
+.. index:: Evidence, Thelonious Monk
+.. _hyperlink-name: "Evidence" Thelonious Monk
+
+"Evidence" Thelonious Monk/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `b438e7a3-91b9-4e43-9551-03b07036f3f3`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb
+   * - Durtion
+     - 154.73 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - Thelonious Monk
+.. _b438e7a3-91b9-4e43-9551-03b07036f3f3: https://musicbrainz.org/recording/b438e7a3-91b9-4e43-9551-03b07036f3f3
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 119
+   * - Mean BPM
+     - 166.742066826
+   * - Mean Harmonic Rhythm
+     - 3.32773109244
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 48
+     - 11.1627906977
+     - 16.92
+     - 10.9351774058
+   * - hdim7
+     - 36
+     - 8.37209302326
+     - 12.66
+     - 8.18199444193
+   * - min
+     - 110
+     - 25.5813953488
+     - 38.36
+     - 24.7915724165
+   * - dom
+     - 202
+     - 46.976744186
+     - 70.86
+     - 45.7959025399
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/evidence.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/evidence.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/evidence.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`evidence.json <../../../annotations/evidence.json>`
+
+.. literalinclude:: ../../../annotations/evidence.json
+   :language: javascript

@@ -1,0 +1,143 @@
+.. index:: The New East St. Louis Toodle-Oo, Duke Ellington and His Famous Orchestra
+.. _hyperlink-name: "The New East St. Louis Toodle-Oo" Duke Ellington and His Famous Orchestra
+
+"The New East St. Louis Toodle-Oo" Duke Ellington and His Famous Orchestra/1937
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `8d38e1d4-01df-4429-8fb0-bb1f9d63ad4d`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F:min
+   * - Durtion
+     - 180.47 s
+   * - Recording Dates
+     - 1937-03-05 - 1937-03-05
+   * - Composer(s)
+     - 
+.. _8d38e1d4-01df-4429-8fb0-bb1f9d63ad4d: https://musicbrainz.org/recording/8d38e1d4-01df-4429-8fb0-bb1f9d63ad4d
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - valve trombone
+     - Juan Tizol 
+   * - chimes
+     - Freddy Jenkins 
+   * - drumset
+     - Sonny Greer 
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Otto Hardwick, Johnny Hodges 
+   * - guitar
+     - Fred Guy 
+   * - double bass
+     - Hayes Alvis, Billy Taylor Sr. 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Cootie Williams, Wallace Jones 
+   * - clarinet
+     - Harry Carney, Johnny Hodges, Barney Bigard 
+   * - tenor saxophone
+     - Johnny Hodges, Barney Bigard 
+   * - cornet
+     - Rex Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 105
+   * - Mean BPM
+     - 96.4149166066
+   * - Mean Harmonic Rhythm
+     - 2.74285714286
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 90
+     - 31.0344827586
+     - 54.87
+     - 30.4039452541
+   * - maj
+     - 42
+     - 14.4827586207
+     - 25.68
+     - 14.2295118302
+   * - hdim7
+     - 2
+     - 0.689655172414
+     - 1.29
+     - 0.714800243808
+   * - min
+     - 120
+     - 41.3793103448
+     - 73.35
+     - 40.6438743281
+   * - dom
+     - 34
+     - 11.724137931
+     - 20.48
+     - 11.3481465063
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/new_east_st_louis.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/new_east_st_louis.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/new_east_st_louis.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`new_east_st_louis.json <../../../annotations/new_east_st_louis.json>`
+
+.. literalinclude:: ../../../annotations/new_east_st_louis.json
+   :language: javascript

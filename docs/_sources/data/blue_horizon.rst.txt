@@ -1,0 +1,117 @@
+.. index:: Blue Horizon, Sidney Bechet’s Blue Note Jazzmen
+.. _hyperlink-name: "Blue Horizon" Sidney Bechet’s Blue Note Jazzmen
+
+"Blue Horizon" Sidney Bechet’s Blue Note Jazzmen/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `6a278fcb-224c-4c63-9e65-48cf3f0c1232`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 268.56 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _6a278fcb-224c-4c63-9e65-48cf3f0c1232: https://musicbrainz.org/recording/6a278fcb-224c-4c63-9e65-48cf3f0c1232
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 53
+   * - Mean BPM
+     - 64.5665773012
+   * - Mean Harmonic Rhythm
+     - 5.43396226415
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 136
+     - 47.0588235294
+     - 129.28
+     - 48.1382186476
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dom
+     - 152
+     - 52.5951557093
+     - 138.58
+     - 51.6011319631
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/blue_horizon.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/blue_horizon.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/blue_horizon.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`blue_horizon.json <../../../annotations/blue_horizon.json>`
+
+.. literalinclude:: ../../../annotations/blue_horizon.json
+   :language: javascript

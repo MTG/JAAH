@@ -6,14 +6,14 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/24 - Benny Goodman Sextet Featuring Charlie Christian - Breakfast Feud [Composite].flac", 
    "transcriptions": [],
-   "key":["Bb"]
+   "key":"Bb"
   }, 
   "mbid": "3d672385-79a6-4aa6-94b8-af59a0447db1", 
   "duration": 140.67,
   "parts":
   [
     {
-        "name":"Chorus1 - Send-off riffs / Blues Major",
+        "name":"Ensemble - Blues Major",
         "beats":
         [
         0.94, 1.21, 1.5, 1.78, 2.06, 2.34, 2.61, 2.88, 3.16, 3.43, 3.7, 3.97, 4.24, 4.52, 4.79, 5.07,
@@ -26,7 +26,7 @@
         ]
     },
     {
-        "name":"Chorus2 - Guitar Solo / Blues Major",
+        "name":"Guitar Solo - Blues Major",
         "beats":
         [
         14.13, 14.41, 14.68, 14.96, 15.24, 15.52, 15.8, 16.07, 16.34, 16.61, 16.88, 17.14, 17.41, 17.68, 17.96, 18.23,
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "name":"Chorus3 - Send-off riffs / Blues Major",
+        "name":"Ensemble - Blues Major",
         "beats":
         [
         27.23, 27.52, 27.81, 28.1, 28.4, 28.69, 28.97, 29.27, 29.56, 29.85, 30.14, 30.43, 30.72, 31.01, 31.3, 31.59,
@@ -52,7 +52,7 @@
         ]
     },
     {
-        "name":"Chorus4 - Guitar Solo / Blues Major",
+        "name":"Guitar Solo - Blues Major",
         "beats":
         [
         41.12, 41.4, 41.69, 41.98, 42.27, 42.56, 42.85, 43.13, 43.41, 43.7, 43.98, 44.27, 44.56, 44.85, 45.13, 45.42,
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "name":"Chorus5 - Send-off riffs / Blues Major",
+        "name":"Ensemble - Blues Major",
         "beats":
         [
         54.87, 55.16, 55.46, 55.75, 56.04, 56.33, 56.61, 56.89, 57.17, 57.45, 57.72, 58.0, 58.29, 58.57, 58.84, 59.12,
@@ -78,7 +78,7 @@
         ]
     },
     {
-        "name":"Chorus6 - Guitar Solo / Blues Major",
+        "name":"Guitar Solo - Blues Major",
         "beats":
         [
         68.38, 68.67, 68.94, 69.22, 69.5, 69.78, 70.07, 70.35, 70.63, 70.91, 71.17, 71.45, 71.74, 72.02, 72.3, 72.57,
@@ -91,7 +91,7 @@
         ]
     },
     {
-        "name":"Chorus7 - Send-off riffs / Blues Major",
+        "name":"Ensemble - Blues Major",
         "beats":
         [
         81.78, 82.06, 82.34, 82.63, 82.91, 83.19, 83.46, 83.74, 84.03, 84.31, 84.59, 84.87, 85.15, 85.43, 85.71, 85.99,
@@ -104,7 +104,7 @@
         ]
     },
     {
-        "name":"Chorus8 - Guitar Solo / Blues Major",
+        "name":"Guitar Solo - Blues Major",
         "beats":
         [
         95.29, 95.57, 95.85, 96.13, 96.42, 96.7, 96.98, 97.26, 97.54, 97.82, 98.1, 98.38, 98.66, 98.94, 99.23, 99.52,
@@ -117,7 +117,7 @@
         ]
     },
     {
-        "name":"Chorus9 - Send-off riffs / Blues Major",
+        "name":"Ensemble - Blues Major",
         "beats":
         [
         108.75, 109.05, 109.34, 109.63, 109.91, 110.19, 110.48, 110.76, 111.04, 111.31, 111.6, 111.9, 112.18, 112.46, 112.74, 113.02,
@@ -130,7 +130,7 @@
         ]
     },
     {
-        "name":"Chorus10 - Guitar Solo / Blues Major",
+        "name":"Guitar Solo - Blues Major",
         "beats":
         [
         122.21, 122.48, 122.75, 123.03, 123.3, 123.57, 123.85, 124.14, 124.42, 124.7, 124.97, 125.25, 125.52, 125.79, 126.07, 126.34,

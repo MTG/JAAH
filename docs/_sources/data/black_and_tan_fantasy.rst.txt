@@ -1,0 +1,135 @@
+.. index:: Black and Tan Fantasy, Duke Ellington and His Orchestra
+.. _hyperlink-name: "Black and Tan Fantasy" Duke Ellington and His Orchestra
+
+"Black and Tan Fantasy" Duke Ellington and His Orchestra/1927
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `3a68a14f-c514-4262-ba05-08e4e7ace04b`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb:min
+   * - Durtion
+     - 190.0 s
+   * - Recording Dates
+     - 1927-10-26 - 1927-10-27
+   * - Composer(s)
+     - Duke Ellington, Bubber Miley
+.. _3a68a14f-c514-4262-ba05-08e4e7ace04b: https://musicbrainz.org/recording/3a68a14f-c514-4262-ba05-08e4e7ace04b
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Otto Hardwick 
+   * - tenor saxophone
+     - Rudy Jackson 
+   * - double bass
+     - Wellman Braud 
+   * - drums
+     - Sonny Greer 
+   * - trombone
+     - Joe "Tricky Sam" Nanton 
+   * - piano
+     - Duke Ellington 
+   * - banjo
+     - Fred Guy 
+   * - trumpet
+     - Bubber Miley, Louis Metcalf 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 69
+   * - Mean BPM
+     - 115.578947368
+   * - Mean Harmonic Rhythm
+     - 5.07246376812
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 156
+     - 42.6229508197
+     - 78.93
+     - 41.5421052632
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 69
+     - 18.8524590164
+     - 35.08
+     - 18.4631578947
+   * - dom
+     - 125
+     - 34.1530054645
+     - 63.26
+     - 33.2947368421
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/black_and_tan_fantasy.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/black_and_tan_fantasy.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/black_and_tan_fantasy.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`black_and_tan_fantasy.json <../../../annotations/black_and_tan_fantasy.json>`
+
+.. literalinclude:: ../../../annotations/black_and_tan_fantasy.json
+   :language: javascript

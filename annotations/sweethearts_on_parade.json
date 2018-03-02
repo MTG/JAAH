@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/19 - Louis Armstrong And His Orchestra - Sweethearts On Parade.flac", 
    "transcriptions": [],
-   "key":["F"]
+   "key":"F"
   }, 
   "mbid": "79e051ea-feea-492f-954f-dd7f4bb1c832", 
   "duration": 200.53,
@@ -45,7 +45,7 @@
         ]
     },
     {
-        "name":"Vocal & Guitar Countermelody - AABA",
+        "name":"Vocals Male - AABA",
         "beats":
         [
         66.23, 66.72, 67.17, 67.63, 68.09, 68.56, 69.0, 69.45, 69.91, 70.37, 70.83, 71.28, 71.74, 72.2, 72.67, 73.12,
@@ -66,7 +66,7 @@
         ]
     },
     {
-        "name":"Sax Break",
+        "name":"Interlude",
         "beats":
         [
         125.84, 126.28, 126.74, 127.21, 127.69, 128.17, 128.64, 129.1

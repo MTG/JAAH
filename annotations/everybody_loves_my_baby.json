@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 17 - Everybody Loves My Baby.flac", 
    "transcriptions": [],
-   "key":["G:min"]
+   "key":"G:min"
   }, 
   "mbid": "c191ada7-4d41-4c10-8d2c-5d9906b693aa", 
   "duration": 144.28,
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "name":"Verse - AA'",
+        "name":"Vocals Acapella - AA'",
         "beats":
         [
         8.41, 8.66, 8.91, 9.16, 9.41, 9.66, 9.9, 10.16, 10.41, 10.65, 10.91, 11.16, 11.4, 11.65, 11.89, 12.13,
@@ -40,7 +40,7 @@
         ]
     },
     {
-        "name":"Chorus - AABA(*)",
+        "name":"Vocals Female - AABA(*)",
         "beats":
         [
         24.07, 24.33, 24.57, 24.82, 25.07, 25.31, 25.55, 25.79, 26.03, 26.27, 26.51, 26.75, 26.99, 27.23, 27.47, 27.72,
@@ -61,7 +61,8 @@
         ]
     },
     {
-        "name":"Vocal Acapella - AABA(**) (Faster Tempo)",
+        "name":"Vocals Acapella - AABA(*) (Faster Tempo)",
+        "key":"Bb",
         "beats":
         [
         54.85, 55.04, 55.24, 55.42, 55.62, 55.8, 56.0, 56.18, 56.36, 56.53, 56.72, 56.89, 57.08, 57.26, 57.43, 57.62,
@@ -82,7 +83,7 @@
         ]
     },
     {
-        "name":"Extra Beat - Drops to Half Time",
+        "name":"Break (Half Time)",
         "beats":
         [
         78.34, 78.73, 79.1, 79.5
@@ -93,7 +94,7 @@
         ]
     },
     {
-        "name":"Chorus - AA(*) (Half Time!)",
+        "name":"Trumpet Solo - AA(*) (Half Time)",
         "beats":
         [
         79.88, 80.27, 80.67, 81.06, 81.45, 81.85, 82.25, 82.64, 83.04, 83.42, 83.83, 84.21, 84.6, 85.0, 85.39, 85.76,
@@ -108,7 +109,7 @@
         ]
     },
     {
-        "name":"Chorus - AABA(*) (Double Time!)",
+        "name":"Vocals Acapella - AABA(*) (Double Time)",
         "beats":
         [
         104.55, 104.78, 105.0, 105.23, 105.47, 105.7, 105.92, 106.13, 106.36, 106.57, 106.79, 107.01, 107.23, 107.45, 107.68,

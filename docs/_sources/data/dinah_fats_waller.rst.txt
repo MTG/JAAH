@@ -1,0 +1,129 @@
+.. index:: Dinah, Fats Waller and His Rhythm
+.. _hyperlink-name: "Dinah" Fats Waller and His Rhythm
+
+"Dinah" Fats Waller and His Rhythm/1935
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `d9747359-db30-43f9-82cd-0d9566114658`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 189.63 s
+   * - Recording Dates
+     - 1935-06-24 - 1935-06-24
+   * - Composer(s)
+     - Sam M. Lewis, Harry Akst
+.. _d9747359-db30-43f9-82cd-0d9566114658: https://musicbrainz.org/recording/d9747359-db30-43f9-82cd-0d9566114658
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - John Smith 
+   * - double bass
+     - Charlie Turner 
+   * - drums
+     - Arnold Boling 
+   * - piano
+     - Fats Waller 
+   * - trumpet
+     - Herman Autrey 
+   * - clarinet
+     - Rudy Powell 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 122
+   * - Mean BPM
+     - 213.257395982
+   * - Mean Harmonic Rhythm
+     - 5.50819672131
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 30
+     - 4.45103857567
+     - 8.09
+     - 4.26620260507
+   * - maj
+     - 280
+     - 41.5430267062
+     - 75.06
+     - 39.5823445657
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 112
+     - 16.6172106825
+     - 29.94
+     - 15.7886410378
+   * - dom
+     - 250
+     - 37.0919881306
+     - 66.8
+     - 35.2264936983
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/dinah_fats_waller.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/dinah_fats_waller.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/dinah_fats_waller.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`dinah_fats_waller.json <../../../annotations/dinah_fats_waller.json>`
+
+.. literalinclude:: ../../../annotations/dinah_fats_waller.json
+   :language: javascript

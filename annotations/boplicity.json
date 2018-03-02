@@ -5,7 +5,8 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 01 - Boplicity.flac", 
-   "transcriptions": []
+   "transcriptions": [],
+    "key":"F"
   }, 
   "mbid": "75711684-1e71-4c0f-8070-89a82520552e", 
   "duration": 182.71,
@@ -33,7 +34,7 @@
                       ]
             },
             {
-              "name":"Bari Sax Solo - AA / Ensemble - B / Interlude (4 bars) / Ensemble - A",
+              "name":"Bari Sax Solo, Ensemble - AAB'A",
               "beats":
                       [
                         57.55, 57.99, 58.44, 58.87, 59.33, 59.77, 60.24, 60.66, 61.1, 61.54, 61.98, 62.43, 62.86, 63.32, 63.75, 64.19,
@@ -49,13 +50,12 @@
                       [
                         "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |",
                         "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |",
-                        "|C:min7 |F:7 |Bb:maj9 |Bb:maj9 |Bb:min7 |Eb:(3,#5,b7,b9) |",
-                        "|Bb:min7 |Eb:7 |Db Ab |C:7 |",
+                        "|C:min7 |F:7 |Bb:maj9 |Bb:maj9 |Bb:min7 |Eb:(3,#5,b7,b9) |Bb:min7 |Eb:7 |Db Ab |C:7 |",
                         "|F |G:min7 C:(3,5,b7,b9) |F D:min9 |C:min7 F:aug |Bb B:dim7|F/5 D:7 |G:min7 C:(3,5,b7,b9) |F:(3,5,b7,#11,13) |"
                       ]
             },
             {
-              "name":"Trumpet Solo - AA / Piano Solo - B / Ensemble - A",
+              "name":"Trumpet Solo, Piano Solo, Ensemble - AABA",
               "beats":
                       [
                        118.09, 118.54, 118.99, 119.44, 119.89, 120.33, 120.77, 121.22,

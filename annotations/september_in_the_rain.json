@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 23 - September in the Rain.flac", 
    "transcriptions": [],
-   "key":["Ab"]
+   "key":"Eb"
   }, 
   "mbid": "333f84f9-e2c4-4ebd-aec5-b710307c7c2b", 
   "duration": 197.25,
@@ -55,7 +55,7 @@
             ]
         },
         {
-            "name":"Piano Solo & Theme- AABA",
+            "name":"Piano Solo, Head- AABA",
             "beats":
             [
             122.34, 122.84, 123.31, 123.79, 124.28, 124.76, 125.25, 125.73, 126.21, 126.7, 127.19, 127.67, 128.17, 128.65, 129.14, 129.6,

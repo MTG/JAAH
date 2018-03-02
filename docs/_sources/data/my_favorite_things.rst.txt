@@ -1,0 +1,125 @@
+.. index:: My Favorite Things, Part 1 (Single Version), John Coltrane Quartet
+.. _hyperlink-name: "My Favorite Things, Part 1 (Single Version)" John Coltrane Quartet
+
+"My Favorite Things, Part 1 (Single Version)" John Coltrane Quartet/1960
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `09620053-4631-4c90-8050-326761f0168f`_
+   * - Time Signature
+     - 3/4
+   * - Key
+     - E
+   * - Durtion
+     - 165.63 s
+   * - Recording Dates
+     - 1960-10-21 - 1960-10-21
+   * - Composer(s)
+     - 
+.. _09620053-4631-4c90-8050-326761f0168f: https://musicbrainz.org/recording/09620053-4631-4c90-8050-326761f0168f
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - soprano saxophone
+     - John Coltrane 
+   * - piano
+     - McCoy Tyner 
+   * - double bass
+     - Steve Davis 
+   * - drums
+     - Elvin Jones 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 89
+   * - Mean BPM
+     - 157.217895309
+   * - Mean Harmonic Rhythm
+     - 3.77528089888
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 69
+     - 15.8986175115
+     - 25.05
+     - 15.1240717261
+   * - hdim7
+     - 45
+     - 10.3686635945
+     - 16.36
+     - 9.87743766226
+   * - min
+     - 156
+     - 35.9447004608
+     - 56.19
+     - 33.9250135845
+   * - dom
+     - 66
+     - 15.2073732719
+     - 23.83
+     - 14.387490189
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/my_favorite_things.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/my_favorite_things.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/my_favorite_things.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`my_favorite_things.json <../../../annotations/my_favorite_things.json>`
+
+.. literalinclude:: ../../../annotations/my_favorite_things.json
+   :language: javascript

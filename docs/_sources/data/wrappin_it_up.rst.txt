@@ -1,0 +1,117 @@
+.. index:: Wrappin' It Up, Fletcher Henderson and His Orchestra
+.. _hyperlink-name: "Wrappin' It Up" Fletcher Henderson and His Orchestra
+
+"Wrappin' It Up" Fletcher Henderson and His Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `6af10606-1aef-42d6-8f26-9ff66395eae1`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Db
+   * - Durtion
+     - 161.53 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _6af10606-1aef-42d6-8f26-9ff66395eae1: https://musicbrainz.org/recording/6af10606-1aef-42d6-8f26-9ff66395eae1
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 121
+   * - Mean BPM
+     - 205.782207639
+   * - Mean Harmonic Rhythm
+     - 4.56198347107
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 10
+     - 1.80505415162
+     - 2.9
+     - 1.79533213645
+   * - maj
+     - 184
+     - 33.2129963899
+     - 52.54
+     - 32.526465672
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 65
+     - 11.7328519856
+     - 18.58
+     - 11.5025072742
+   * - dom
+     - 293
+     - 52.8880866426
+     - 83.92
+     - 51.9531975484
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/wrappin_it_up.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/wrappin_it_up.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/wrappin_it_up.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`wrappin_it_up.json <../../../annotations/wrappin_it_up.json>`
+
+.. literalinclude:: ../../../annotations/wrappin_it_up.json
+   :language: javascript

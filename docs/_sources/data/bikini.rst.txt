@@ -1,0 +1,125 @@
+.. index:: Bikini, Dexter Gordon Quartet
+.. _hyperlink-name: "Bikini" Dexter Gordon Quartet
+
+"Bikini" Dexter Gordon Quartet/1947
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `b5c9ca7e-ba9f-4ebf-8609-f4dc24339594`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb:min
+   * - Durtion
+     - 218.56 s
+   * - Recording Dates
+     - 1947-06-12 - 1947-06-12
+   * - Composer(s)
+     - 
+.. _b5c9ca7e-ba9f-4ebf-8609-f4dc24339594: https://musicbrainz.org/recording/b5c9ca7e-ba9f-4ebf-8609-f4dc24339594
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Dexter Gordon 
+   * - piano
+     - Jimmy Bunn 
+   * - double bass
+     - Red Callender 
+   * - drumset
+     - Chuck Thompson 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 101
+   * - Mean BPM
+     - 211.383601757
+   * - Mean Harmonic Rhythm
+     - 7.20792079208
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 20
+     - 2.5974025974
+     - 5.55
+     - 2.53934846266
+   * - hdim7
+     - 48
+     - 6.23376623377
+     - 13.53
+     - 6.19051976574
+   * - min
+     - 490
+     - 63.6363636364
+     - 137.47
+     - 62.8980600293
+   * - dom
+     - 170
+     - 22.0779220779
+     - 47.7
+     - 21.824670571
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/bikini.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/bikini.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/bikini.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`bikini.json <../../../annotations/bikini.json>`
+
+.. literalinclude:: ../../../annotations/bikini.json
+   :language: javascript

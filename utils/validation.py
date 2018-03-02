@@ -8,7 +8,7 @@ import os
 import json
 import cacher
 import symbolicAnalysis
-#import chordUtils
+import lowLevelFeatures as ll
 
 FOLD_PATH = 'folds'
 TRAIN_FILES_LIST_PATTERN = 'folds' + '/' + "trainFiles_{0}.txt"
@@ -204,16 +204,17 @@ def testCV(
         truth_dir,
         predictions_dir)
     chordinoAccuracyByFile, chordinoTotalAccuracy = chordinoAccuracies(ALL_FILES)
-    result = np.empty(len(accuracyByFile), dtype=[('name', object), ('jazz', float), ('chordino', float)])
+    result = np.empty(len(accuracyByFile), dtype=[('name', object), ('jazz', float), ('chordino', float), ('j-c', float), ('harmonic rhythm', float)])
+    rhythmByName = symbolicAnalysis.harmonicRhythmForEachFileInList(ALL_FILES)
     pos = 0
     for key, value in accuracyByFile.items():
-        result[pos] = (key, value, chordinoAccuracyByFile[key])
+        result[pos] = (key, value, chordinoAccuracyByFile[key], value - chordinoAccuracyByFile[key], rhythmByName[key])
         pos += 1
-    result = result[(result['jazz'] - result['chordino']).argsort()]
     for row in result:
         print row;
     print "\nJazz accuracy for the dataset:" + str(totalAccuracy) + "%"
     print "\nChordino accuracy for the dataset:" + str(chordinoTotalAccuracy) + "%"
+    return result
 
 
 ########################################################################################
@@ -222,6 +223,6 @@ def testCV(
 #trainCV(
 #    trainingChromaParams = ll.ChromaEvaluationParameters(2048, 1.25),
 #    gmmParams=chordModel.BasicGMMParameters(norm='l1', preprocessing='log-ratio'))
-#testCV(testingChromaParams = ll.ChromaEvaluationParameters(2048, 3.5))
+#res = testCV(testingChromaParams = ll.ChromaEvaluationParameters(2048, 1.2))
 
 

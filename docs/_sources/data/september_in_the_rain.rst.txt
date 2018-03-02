@@ -1,0 +1,127 @@
+.. index:: September in the Rain, The George Shearing Quintet
+.. _hyperlink-name: "September in the Rain" The George Shearing Quintet
+
+"September in the Rain" The George Shearing Quintet/1949
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `333f84f9-e2c4-4ebd-aec5-b710307c7c2b`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 197.25 s
+   * - Recording Dates
+     - 1949-02-17 - 1949-02-17
+   * - Composer(s)
+     - 
+.. _333f84f9-e2c4-4ebd-aec5-b710307c7c2b: https://musicbrainz.org/recording/333f84f9-e2c4-4ebd-aec5-b710307c7c2b
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Chuck Wayne 
+   * - piano
+     - George Shearing 
+   * - double bass
+     - John Levy 
+   * - vibraphone
+     - Marjorie Hyams 
+   * - drums
+     - Denzil Best 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 126
+   * - Mean BPM
+     - 121.064638783
+   * - Mean Harmonic Rhythm
+     - 3.14285714286
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 168
+     - 42.2110552764
+     - 80.37
+     - 40.7452471483
+   * - hdim7
+     - 18
+     - 4.52261306533
+     - 8.56
+     - 4.33967046895
+   * - min
+     - 78
+     - 19.5979899497
+     - 37.35
+     - 18.9353612167
+   * - dom
+     - 132
+     - 33.1658291457
+     - 63.12
+     - 32.0
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/september_in_the_rain.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/september_in_the_rain.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/september_in_the_rain.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`september_in_the_rain.json <../../../annotations/september_in_the_rain.json>`
+
+.. literalinclude:: ../../../annotations/september_in_the_rain.json
+   :language: javascript

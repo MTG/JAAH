@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/03 - Bessie Smith - St. Louis Blues.flac", 
    "transcriptions": [],
-   "key":["D"]
+   "key":"D"
   }, 
   "mbid": "c0574bda-0b9c-4233-a201-f20766434c27", 
   "duration": 193.17,
@@ -24,7 +24,7 @@
                       ]
             },
             {
-              "name":"Verse",
+              "name":"Vocals Female - AB",
               "beats":
                       [
                         4.42, 4.99, 6.06, 7.12, 8.23, 9.28, 10.35, 11.28, 12.22, 13.23, 14.09, 14.97, 15.89, 16.76, 17.63, 18.55, 19.56,
@@ -47,7 +47,7 @@
                       ]
             },
             {
-              "nGme":"Chorus",
+              "nGme":"Vocals Female - C",
               "beats":
                       [
                        

@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/04 - Bessie Smith - Lost Your Head Blues.flac", 
    "transcriptions": [],
-   "key":[]
+   "key":"Eb"
   }, 
   "mbid": "bdf130fd-b72c-4cc1-89d0-1be77ecdbdd8", 
   "duration": 177.2,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "name":"Vocals / Trumpet - Blues Major",
+        "name":"Vocals Female , Trumpet Solo - Blues Major",
         "beats":
         [
         11.91, 12.59, 13.31, 13.99, 14.66, 15.38, 16.08, 16.77, 17.45, 18.11, 18.8, 19.47, 20.11, 20.79, 21.49, 22.15,
@@ -37,7 +37,7 @@
         ]
     },
     {
-        "name":"Vocals / Trumpet - Blues Major",
+        "name":"Vocals Female , Trumpet Solo - Blues Major",
         "beats":
         [
         44.26, 44.94, 45.6, 46.27, 46.94, 47.65, 48.31, 49.01, 49.65, 50.34, 51.03, 51.67, 52.35, 53.03, 53.7, 54.34,
@@ -50,7 +50,7 @@
         ]
     },
     {
-        "name":"Vocals / Trumpet - Blues Major",
+        "name":"Vocals Female , Trumpet Solo - Blues Major",
         "beats":
         [
         76.48, 77.13, 77.84, 78.51, 79.2, 79.93, 80.62, 81.28, 81.96, 82.65, 83.31, 83.94, 84.6, 85.26, 85.95, 86.59,
@@ -63,7 +63,7 @@
         ]
     },
     {
-        "name":"Vocals / Trumpet - Blues Major",
+        "name":"Vocals Female , Trumpet Solo - Blues Major",
         "beats":
         [
         108.6, 109.3, 109.97, 110.63, 111.29, 111.92, 112.58, 113.28, 113.94, 114.58, 115.2, 115.85, 116.53, 117.2, 117.84, 118.53,
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "name":"Vocals / Trumpet - Blues Major",
+        "name":"Vocals Female , Trumpet Solo - Blues Major",
         "beats":
         [
         140.66, 141.35, 142.03, 142.69, 143.38, 144.11, 144.77, 145.4, 146.09, 146.76, 147.38, 148.04, 148.71, 149.36, 150.06, 150.69,

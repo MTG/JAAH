@@ -6,14 +6,14 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 02 - The Golden Bullet.flac", 
    "transcriptions": [],
-   "key":["F"]
+   "key":"F"
   }, 
   "mbid": "f63da1a2-4f9d-44a4-9bfa-14bde9da3f06", 
   "duration": 150.04,
   "parts":
   [
     {
-        "name":"Intro / Piano - Blues Major",
+        "name":"Piano Solo - Blues Major",
         "beats":
         [
         0.46, 0.73, 1.0, 1.27, 1.54, 1.8, 2.07, 2.34, 2.61, 2.88, 3.15, 3.42, 3.69, 3.95, 4.22, 4.48,

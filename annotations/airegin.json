@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 10 - Airegin.flac", 
    "transcriptions": [],
-   "key":["Ab"]
+   "key":"Ab"
   }, 
   "mbid": "8454b48d-cd0b-4114-b696-b5429443c597", 
   "duration": 255.59,
@@ -116,7 +116,7 @@
         ]
     },
     {
-        "name":"Ensemble & Percussion Solo - ABAC",
+        "name":"Ensemble, Percussion Solo - ABAC",
         "beats":
         [
         166.23, 166.49, 166.76, 167.04, 167.31, 167.58, 167.85, 168.12,

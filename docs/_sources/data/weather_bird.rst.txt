@@ -1,0 +1,121 @@
+.. index:: Weather Bird, Louis Armstrong and Earl Hines
+.. _hyperlink-name: "Weather Bird" Louis Armstrong and Earl Hines
+
+"Weather Bird" Louis Armstrong and Earl Hines/1928
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `d172970c-5751-44bf-8a45-65bc3223410e`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Ab
+   * - Durtion
+     - 165.67 s
+   * - Recording Dates
+     - 1928-12-05 - 1928-12-05
+   * - Composer(s)
+     - Louis Armstrong
+.. _d172970c-5751-44bf-8a45-65bc3223410e: https://musicbrainz.org/recording/d172970c-5751-44bf-8a45-65bc3223410e
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - Earl Hines 
+   * - trumpet
+     - Louis Armstrong 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 142
+   * - Mean BPM
+     - 202.088489165
+   * - Mean Harmonic Rhythm
+     - 3.45070422535
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 36
+     - 6.45161290323
+     - 10.42
+     - 6.28961187904
+   * - maj
+     - 241
+     - 43.1899641577
+     - 69.91
+     - 42.1983461097
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 28
+     - 5.01792114695
+     - 8.12
+     - 4.9013098328
+   * - dom
+     - 185
+     - 33.1541218638
+     - 53.23
+     - 32.1301382266
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/weather_bird.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/weather_bird.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/weather_bird.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`weather_bird.json <../../../annotations/weather_bird.json>`
+
+.. literalinclude:: ../../../annotations/weather_bird.json
+   :language: javascript

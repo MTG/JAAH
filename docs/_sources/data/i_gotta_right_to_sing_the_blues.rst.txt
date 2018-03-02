@@ -1,0 +1,117 @@
+.. index:: I Gotta Right to Sing the Blues, Louis Armstrong & His Orchestra
+.. _hyperlink-name: "I Gotta Right to Sing the Blues" Louis Armstrong & His Orchestra
+
+"I Gotta Right to Sing the Blues" Louis Armstrong & His Orchestra/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `c24c608d-d030-4c46-ab95-e0fa2d45b7c6`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - G, Bb
+   * - Durtion
+     - 183.6 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _c24c608d-d030-4c46-ab95-e0fa2d45b7c6: https://musicbrainz.org/recording/c24c608d-d030-4c46-ab95-e0fa2d45b7c6
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 125
+   * - Mean BPM
+     - 110.45751634
+   * - Mean Harmonic Rhythm
+     - 2.56
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 8
+     - 2.36686390533
+     - 4.22
+     - 2.29847494553
+   * - maj
+     - 32
+     - 9.4674556213
+     - 16.28
+     - 8.86710239651
+   * - hdim7
+     - 23
+     - 6.80473372781
+     - 11.68
+     - 6.36165577342
+   * - min
+     - 98
+     - 28.9940828402
+     - 50.48
+     - 27.4945533769
+   * - dom
+     - 159
+     - 47.0414201183
+     - 81.22
+     - 44.2374727669
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/i_gotta_right_to_sing_the_blues.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/i_gotta_right_to_sing_the_blues.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/i_gotta_right_to_sing_the_blues.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`i_gotta_right_to_sing_the_blues.json <../../../annotations/i_gotta_right_to_sing_the_blues.json>`
+
+.. literalinclude:: ../../../annotations/i_gotta_right_to_sing_the_blues.json
+   :language: javascript

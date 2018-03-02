@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/11 - Billie Holiday And Her Orchestra - These Foolish Things.flac", 
    "transcriptions": [],
-   "key":["Ab"]
+   "key":"Ab"
    },
   "mbid": "454d929d-f954-48bb-ac2c-755e349eb08d", 
   "duration": 217.29,
@@ -25,7 +25,7 @@
                     ]
                 },
                 {
-                    "name":"AABA",
+                    "name":"Vocals Female - AABA",
                     "beats":
                     [
                     20.49, 21.58, 22.57, 23.5, 24.46, 25.4, 26.31, 27.27, 28.19, 29.14, 30.01, 30.97, 31.88, 32.85, 33.79, 34.71,
@@ -41,12 +41,12 @@
                     [
                         "|Ab:maj7 F:min7 |Bb:min7 Eb:7 |Ab/3 F:min7 |Bb:min7 Bb:min7 E:min7 A:7 |Eb:min7 Ab:7 |Db:maj7 Db:maj7 C:7 F:7 |Bb:7 |Eb:7 Bb:min7 |",
                         "|Ab:maj7 F:min7 |Bb:min7 Eb:7 |Ab/3 F:min7 |Bb:min7 Bb:min7 E:min7 A:7 |Bb:min7 Eb:7 |Db:maj7 Db:maj7 C:7 F:7 |Bb:7 Eb:7 |Ab:maj6 Ab:maj6 D:hdim7 G:7 |",
-                        "|C:min7 A:hdim7 |D:hdim7 G:(3,5,b7,b9) |C:min |F:7 F:7 Ab:7 Db:min7 |Eb:maj7 C:min7 |F:min7 Bb:7 |Eb:7 A:dim7 |Bb:min7 Eb:7 |",
+                        "|C:min7 A:hdim7 |D:hdim7 G:(3,5,b7,b9) |C:min7 |F:7 F:7 Ab:7 Db:min7 |Eb:maj7 C:min7 |F:min7 Bb:7 |Eb:7 A:dim7 |Bb:min7 Eb:7 |",
                         "|Ab:maj7 F:min7 |Bb:min7 Eb:7 |Ab/3 F:min7 |Bb:min7 Bb:min7 E:min7 A:7 |Bb:min7 Eb:7 |Db:maj7 Db:maj7 C:7 F:7 |Bb:7 |Ab:maj6 Ab:maj6 D:hdim7 G:7 |"
                     ]
                 },
                 {
-                    "name":"BA",
+                    "name":"Vocals Female - BA",
                     "beats":
                     [
                     140.95, 141.92, 142.91, 143.83, 144.79, 145.75, 146.67, 147.62, 148.55, 149.51, 150.46, 151.37, 152.31, 153.18, 154.12, 155.07,
@@ -57,9 +57,9 @@
                     ],
                     "chords":
                     [
-                        "|C:min7 A:hdim7 |D:hdim7 G:(3,5,b7,b9) |C:min |F:7 Bb:7 |Eb:maj7 C:min7 |F:min7 Bb:7 |Eb:7 A:dim7 |Bb:min7 Eb:7 |",
+                        "|C:min7 A:hdim7 |D:hdim7 G:(3,5,b7,b9) |C:min7 |F:7 Bb:7 |Eb:maj7 C:min7 |F:min7 Bb:7 |Eb:7 A:dim7 |Bb:min7 Eb:7 |",
                         "|Ab:maj7 F:min7 |Bb:min7 Eb:7 |Ab/3 F:min7 |Bb:min7 Bb:min7 E:min7 A:7 |Bb:min7 Eb:7 |Db:maj7 Db:maj7 C:7 F:7 |Bb:7 Eb:7 |Eb:7 |E A:maj6 |",
-                        "|Ab |Ab |"
+                        "|Ab:maj6 |Ab:maj6 |"
                     ]
                 }
             ]

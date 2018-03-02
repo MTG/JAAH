@@ -1,0 +1,127 @@
+.. index:: Watermelon Man, Herbie Hancock
+.. _hyperlink-name: "Watermelon Man" Herbie Hancock
+
+"Watermelon Man" Herbie Hancock/1973
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `121cde3e-0177-40d3-b502-bf80049bdb0d`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F
+   * - Durtion
+     - 391.71 s
+   * - Recording Dates
+     - 1973-09 - 1973-09
+   * - Composer(s)
+     - 
+.. _121cde3e-0177-40d3-b502-bf80049bdb0d: https://musicbrainz.org/recording/121cde3e-0177-40d3-b502-bf80049bdb0d
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - soprano saxophone
+     - Bennie Maupin 
+   * - electric bass guitar
+     - Paul Jackson 
+   * - Clavinet and Rhodes piano and synthesizer
+     - Herbie Hancock 
+   * - congas and other instruments and shekere and tambourine
+     - Bill Summers 
+   * - drums
+     - Harvey Mason 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 29
+   * - Mean BPM
+     - 57.2872788543
+   * - Mean Harmonic Rhythm
+     - 12.4137931034
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 2
+     - 0.534759358289
+     - 1.62
+     - 0.413571264456
+   * - dom
+     - 358
+     - 95.7219251337
+     - 291.64
+     - 74.4530392382
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/watermelon_man.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/watermelon_man.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/watermelon_man.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`watermelon_man.json <../../../annotations/watermelon_man.json>`
+
+.. literalinclude:: ../../../annotations/watermelon_man.json
+   :language: javascript

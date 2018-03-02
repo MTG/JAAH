@@ -1,0 +1,117 @@
+.. index:: You'd Be So Nice to Come Home To, Ella Fitzgerald
+.. _hyperlink-name: "You'd Be So Nice to Come Home To" Ella Fitzgerald
+
+"You'd Be So Nice to Come Home To" Ella Fitzgerald/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `de6cd145-7a74-4e4b-86ac-4094433b849f`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F:min
+   * - Durtion
+     - 170.91 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _de6cd145-7a74-4e4b-86ac-4094433b849f: https://musicbrainz.org/recording/de6cd145-7a74-4e4b-86ac-4094433b849f
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 140
+   * - Mean BPM
+     - 176.233105143
+   * - Mean Harmonic Rhythm
+     - 3.55714285714
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 24
+     - 4.78087649402
+     - 7.7
+     - 4.5052951846
+   * - maj
+     - 72
+     - 14.3426294821
+     - 22.91
+     - 13.4047159324
+   * - hdim7
+     - 76
+     - 15.1394422311
+     - 24.08
+     - 14.0892867591
+   * - min
+     - 186
+     - 37.0517928287
+     - 58.88
+     - 34.4508805804
+   * - dom
+     - 140
+     - 27.8884462151
+     - 44.22
+     - 25.8732666316
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/you_d_be_so_nice_to_come_home_to.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/you_d_be_so_nice_to_come_home_to.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/you_d_be_so_nice_to_come_home_to.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`you_d_be_so_nice_to_come_home_to.json <../../../annotations/you_d_be_so_nice_to_come_home_to.json>`
+
+.. literalinclude:: ../../../annotations/you_d_be_so_nice_to_come_home_to.json
+   :language: javascript

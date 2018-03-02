@@ -1,0 +1,143 @@
+.. index:: Ko-Ko, Duke Ellington and His Famous Orchestra
+.. _hyperlink-name: "Ko-Ko" Duke Ellington and His Famous Orchestra
+
+"Ko-Ko" Duke Ellington and His Famous Orchestra/1940
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `887bc584-e245-4feb-a7a1-add0e483dd21`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb:min
+   * - Durtion
+     - 163.27 s
+   * - Recording Dates
+     - 1940-03-06 - 1940-03-06
+   * - Composer(s)
+     - 
+.. _887bc584-e245-4feb-a7a1-add0e483dd21: https://musicbrainz.org/recording/887bc584-e245-4feb-a7a1-add0e483dd21
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - valve trombone
+     - Juan Tizol 
+   * - tenor saxophone
+     - Ben Webster 
+   * - drums
+     - Sonny Greer 
+   * - baritone saxophone
+     - Harry Carney 
+   * - alto saxophone
+     - Johnny Hodges 
+   * - guitar
+     - Fred Guy 
+   * - alto saxophone and clarinet
+     - Otto Hardwick 
+   * - double bass
+     - Jimmy Blanton 
+   * - clarinet and tenor saxophone
+     - Barney Bigard 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Cootie Williams, Wallace Jones 
+   * - cornet
+     - Rex Stewart 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 29
+   * - Mean BPM
+     - 153.610583696
+   * - Mean Harmonic Rhythm
+     - 14.3448275862
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 360
+     - 86.1244019139
+     - 136.26
+     - 83.4568506155
+   * - dom
+     - 56
+     - 13.3971291866
+     - 21.18
+     - 12.9723770442
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/ko-ko(ellington).json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/ko-ko(ellington).json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/ko-ko(ellington).json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`ko-ko(ellington).json <../../../annotations/ko-ko(ellington).json>`
+
+.. literalinclude:: ../../../annotations/ko-ko(ellington).json
+   :language: javascript

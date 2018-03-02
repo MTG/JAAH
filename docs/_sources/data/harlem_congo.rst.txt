@@ -1,0 +1,135 @@
+.. index:: Harlem Congo, Chick Webb and His Orchestra
+.. _hyperlink-name: "Harlem Congo" Chick Webb and His Orchestra
+
+"Harlem Congo" Chick Webb and His Orchestra/1937
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `461c9fea-67b6-43a2-be45-dc291a4a1179`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Eb,Db
+   * - Durtion
+     - 195.89 s
+   * - Recording Dates
+     - 1937-11-01 - 1937-11-01
+   * - Composer(s)
+     - Harry White
+.. _461c9fea-67b6-43a2-be45-dc291a4a1179: https://musicbrainz.org/recording/461c9fea-67b6-43a2-be45-dc291a4a1179
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - guitar
+     - Bobby Johnson 
+   * - alto saxophone
+     - Louis Jordan 
+   * - tenor saxophone
+     - Teddy McRae, Wayman Carver 
+   * - alto saxophone and clarinet
+     - Chauncey Haughton 
+   * - double bass
+     - Beverly Peer 
+   * - drums
+     - Chick Webb 
+   * - trombone
+     - Nat Story, Sandy Williams 
+   * - piano
+     - Tommy Fulford 
+   * - trumpet
+     - Taft Jordan, Bobby Stark, Mario Bauzá 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 273
+   * - Mean BPM
+     - 260.350196539
+   * - Mean Harmonic Rhythm
+     - 2.59340659341
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 32
+     - 3.76470588235
+     - 6.75
+     - 3.44581142478
+   * - maj
+     - 206
+     - 24.2352941176
+     - 50.24
+     - 25.647046812
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 135
+     - 15.8823529412
+     - 33.1
+     - 16.897238246
+   * - dom
+     - 335
+     - 39.4117647059
+     - 74.46
+     - 38.0111286947
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/harlem_congo.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/harlem_congo.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/harlem_congo.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`harlem_congo.json <../../../annotations/harlem_congo.json>`
+
+.. literalinclude:: ../../../annotations/harlem_congo.json
+   :language: javascript

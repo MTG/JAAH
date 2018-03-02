@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 4/04 - Sarah Vaughan - All Alone.flac", 
    "transcriptions": [],
-   "key":["C"]
+   "key":"C"
   }, 
   "mbid": "6f4aaccf-87df-4265-a3af-9c06742ea102", 
   "duration": 142.53,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "name":"Vocals - ABCD",
+        "name":"Vocals Female - ABCD",
         "beats":
         [
             7.84, 8.27, 8.73, 9.17, 9.62, 10.08, 10.54, 10.99, 11.44, 11.87, 12.34, 12.78, 13.24, 13.67, 14.14, 14.57,
@@ -45,7 +45,7 @@
         ]
     },
      {
-        "name":"Ensemble / Vocals - ABCD",
+        "name":"Ensemble, Vocals Female- ABCD",
         "beats":
         [
         66.01, 66.48, 66.94, 67.41, 67.88, 68.35, 68.84, 69.29, 69.76, 70.24, 70.72, 71.18, 71.66, 72.11, 72.6, 73.05,

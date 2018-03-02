@@ -1,0 +1,135 @@
+.. index:: Manteca, Dizzy Gillespie and His Orchestra
+.. _hyperlink-name: "Manteca" Dizzy Gillespie and His Orchestra
+
+"Manteca" Dizzy Gillespie and His Orchestra/1947
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `2394cfd9-ea6a-47cc-9aea-00d84c50746f`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 189.79 s
+   * - Recording Dates
+     - 1947-12-30 - 1947-12-30
+   * - Composer(s)
+     - Chano Pozo, Walter "Gil" Fuller, Dizzy Gillespie
+.. _2394cfd9-ea6a-47cc-9aea-00d84c50746f: https://musicbrainz.org/recording/2394cfd9-ea6a-47cc-9aea-00d84c50746f
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - bongos and congas
+     - Chano Pozo 
+   * - baritone saxophone
+     - Cecil Payne 
+   * - alto saxophone
+     - Howard E. Johnson, John Brown 
+   * - tenor saxophone
+     - George "Big Nick" Nicholas, Joe Gayles 
+   * - double bass
+     - Al McKibbon 
+   * - drums
+     - Kenny Clarke 
+   * - trombone
+     - William Shepherd, Ted Kelly 
+   * - piano
+     - John Lewis 
+   * - trumpet
+     - Elmon Wright, Lammar Wright, Jr., Dave Burns, Benny Bailey, Dizzy Gillespie 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 67
+   * - Mean BPM
+     - 168.818167448
+   * - Mean Harmonic Rhythm
+     - 7.88059701493
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 32
+     - 5.9925093633
+     - 11.16
+     - 5.88018336056
+   * - hdim7
+     - 24
+     - 4.49438202247
+     - 8.42
+     - 4.43648242795
+   * - min
+     - 16
+     - 2.99625468165
+     - 5.61
+     - 2.9558986248
+   * - dom
+     - 456
+     - 85.393258427
+     - 157.92
+     - 83.2077559408
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/manteca.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/manteca.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/manteca.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`manteca.json <../../../annotations/manteca.json>`
+
+.. literalinclude:: ../../../annotations/manteca.json
+   :language: javascript

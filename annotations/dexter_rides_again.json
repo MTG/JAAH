@@ -6,14 +6,14 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 15 - Dexter Rides Again.flac", 
    "transcriptions": [],
-   "key":[]
+   "key":"F"
   }, 
   "mbid": "2815658d-a6d0-4f37-ac9e-de0f83bba929", 
   "duration": 196.73,
   "parts":
   [
     {
-        "name":"Theme - AABA",
+        "name":"Head - AABA",
         "beats":
         [
         4.84, 5.14, 5.42, 5.72, 6.01, 6.29, 6.57, 6.85, 7.12, 7.4, 7.69, 7.98, 8.27, 8.56, 8.83, 9.11,
@@ -76,7 +76,7 @@
         ]
     },
     {
-        "name":"Trumpet / Piano Solo - AABA",
+        "name":"Trumpet Solo, Piano Solo - AABA",
         "beats":
         [
         115.1, 115.39, 115.67, 115.95, 116.23, 116.53, 116.82, 117.1, 117.39, 117.69, 117.97, 118.27, 118.57, 118.86, 119.16, 119.45,
@@ -97,7 +97,7 @@
         ]
     },
     {
-        "name":"Theme - AABA",
+        "name":"Head - AABA",
         "beats":
         [
         152.17, 152.47, 152.77, 153.06, 153.37, 153.66, 153.97, 154.26, 154.56, 154.85, 155.14, 155.44, 155.73, 156.02, 156.31, 156.61,

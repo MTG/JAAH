@@ -1,0 +1,127 @@
+.. index:: Embraceable You, Charlie Parker Quintet
+.. _hyperlink-name: "Embraceable You" Charlie Parker Quintet
+
+"Embraceable You" Charlie Parker Quintet/1947
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `6e8c9071-6cf0-4592-b13f-693cae9b6669`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F
+   * - Durtion
+     - 227.96 s
+   * - Recording Dates
+     - 1947-10-28 - 1947-10-28
+   * - Composer(s)
+     - George Gershwin
+.. _6e8c9071-6cf0-4592-b13f-693cae9b6669: https://musicbrainz.org/recording/6e8c9071-6cf0-4592-b13f-693cae9b6669
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - piano
+     - Duke Jordan 
+   * - double bass
+     - Tommy Potter 
+   * - trumpet
+     - Miles Davis 
+   * - drums
+     - Max Roach 
+   * - alto saxophone
+     - Charlie Parker 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 89
+   * - Mean BPM
+     - 63.1689770135
+   * - Mean Harmonic Rhythm
+     - 2.68539325843
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 4
+     - 1.66666666667
+     - 3.35
+     - 1.46955606247
+   * - maj
+     - 57
+     - 23.75
+     - 53.21
+     - 23.3418143534
+   * - hdim7
+     - 17
+     - 7.08333333333
+     - 16.15
+     - 7.08457624145
+   * - min
+     - 97
+     - 40.4166666667
+     - 90.47
+     - 39.6867871556
+   * - dom
+     - 64
+     - 26.6666666667
+     - 60.2
+     - 26.4081417793
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/embraceable_you.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/embraceable_you.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/embraceable_you.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`embraceable_you.json <../../../annotations/embraceable_you.json>`
+
+.. literalinclude:: ../../../annotations/embraceable_you.json
+   :language: javascript

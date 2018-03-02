@@ -6,8 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/12 - Ella Fitzgerald - You'd Be So Nice To Come Home To.flac", 
    "transcriptions": [],
-   "key":
-   ["F:min"]
+   "key": "Db"
   }, 
   "mbid": "de6cd145-7a74-4e4b-86ac-4094433b849f", 
   "duration": 170.91,
@@ -22,11 +21,11 @@
         ],
         "chords":
         [
-            "|Bb:sus4 G:hdim7 |C:min7 |G:hdim7 C:min7 |F:min |F:min7 |G:hdim7 C:(3,5,b7,b9) |F:min7 |G:hdim7 C:(3,5,b7,b9) |"
+            "|C:hdim7 G:(3,5,b7,b9) |Bb:min |C:hdim7 G:(3,5,b7,b9) |C:hdim7 G:(3,5,b7,b9) |F:min7 |G:hdim7 C:(3,5,b7,b9) |F:min7 |G:hdim7 C:(3,5,b7,b9) |"
         ]
     },
     {
-        "name":"Vocals - ABAC",
+        "name":"Vocals Female - ABAC",
         "beats":
         [
         11.52, 11.85, 12.17, 12.49, 12.8, 13.12, 13.45, 13.76, 14.08, 14.41, 14.72, 15.02, 15.33, 15.65, 15.96, 16.27,
@@ -48,7 +47,7 @@
         ]
     },
     {
-        "name":"Trumpet / Vocals Trade-off - ABAC",
+        "name":"Vocals Female, Ensemble - ABAC",
         "beats":
         [
         52.46, 52.79, 53.1, 53.42, 53.74, 54.06, 54.37, 54.68, 54.99, 55.29, 55.61, 55.92, 56.22, 56.55, 56.86, 57.18,
@@ -70,7 +69,7 @@
         ]
     },
     {
-        "name":"Vocals - ABAC",
+        "name":"Vocals Female - ABAC",
         "beats":
         [
         93.2, 93.53, 93.85, 94.16, 94.49, 94.8, 95.13, 95.45, 95.76, 96.07, 96.38, 96.69, 97.01, 97.32, 97.63, 97.94,
@@ -92,7 +91,7 @@
         ]
     },
     {
-        "name":"Coda",
+        "name":"Outro",
         "beats":
         [
         133.48, 133.78, 134.1, 134.41, 134.71, 135.03, 135.33, 135.64, 135.96, 136.27, 136.58, 136.89, 137.19, 137.5, 137.82, 138.12,

@@ -1,0 +1,117 @@
+.. index:: Potato Head Blues, Louis Armstrong and His Hot Five
+.. _hyperlink-name: "Potato Head Blues" Louis Armstrong and His Hot Five
+
+"Potato Head Blues" Louis Armstrong and His Hot Five/None
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `d63fa5bc-3351-43b0-9678-b93a9cfd28d5`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F
+   * - Durtion
+     - 177.33 s
+   * - Recording Dates
+     - None - None
+   * - Composer(s)
+     - 
+.. _d63fa5bc-3351-43b0-9678-b93a9cfd28d5: https://musicbrainz.org/recording/d63fa5bc-3351-43b0-9678-b93a9cfd28d5
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 86
+   * - Mean BPM
+     - 178.988326848
+   * - Mean Harmonic Rhythm
+     - 4.44186046512
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 117
+     - 22.1172022684
+     - 38.37
+     - 21.6376247674
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 78
+     - 14.7448015123
+     - 25.49
+     - 14.3743303446
+   * - dom
+     - 187
+     - 35.3497164461
+     - 61.29
+     - 34.5626797496
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/potato_head_blues.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/potato_head_blues.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/potato_head_blues.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`potato_head_blues.json <../../../annotations/potato_head_blues.json>`
+
+.. literalinclude:: ../../../annotations/potato_head_blues.json
+   :language: javascript

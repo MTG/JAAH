@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 18 - Maple Leaf Rag.flac", 
    "transcriptions": [],
-   "key":["Eb"]
+   "key":"Eb"
   }, 
   "mbid": "a1315c6c-9a3c-4ae2-819d-63505727a24c", 
   "duration": 179.44,
@@ -24,7 +24,7 @@
                       ]
             },
             {
-              "name":"A x2",
+              "name":"Head - AA",
               "beats":
                       [
                         2.01, 2.25, 2.48, 2.7, 2.93, 3.16, 3.38, 3.6, 3.82, 4.04, 4.26, 4.49, 4.71, 4.93, 5.15, 5.37,
@@ -38,14 +38,14 @@
                       ],
               "chords":
                       [
-                        "|Eb E:dim7 |Bb:7 |Eb E:dim7 |Bb:7 |B Bb |B Bb |Eb:min |Eb:min |",
+                        "|Eb E:dim7 |Bb:7 |Eb E:dim7 |Bb:7 |B:7 Bb:7 |B:7 Bb:7 |Eb:min |Eb:min |",
                         "|A:dim7 |Eb |B |Eb |A:dim7 |Eb |B |Eb Bb:7 |",
-                        "|Eb E:dim7 |Bb:7 |Eb E:dim7 |Bb:7 |B Bb |B Bb |Eb:min |Eb:min |",
+                        "|Eb E:dim7 |Bb:7 |Eb E:dim7 |Bb:7 |B:7 Bb:7 |B:7 Bb:7|Eb:min |Eb:min |",
                         "|A:dim7 |Eb |B |Eb |A:dim7 |Eb |B |Eb Bb:7 |"
                       ]
             },
             {
-              "name":"B x2",
+              "name":"Soprano Sax Solo - BB",
               "beats":
                       [
                        30.97, 31.2, 31.43, 31.66, 31.89, 32.11, 32.34, 32.57, 32.8, 33.02, 33.24, 33.46, 33.68, 33.91, 34.13, 34.35,
@@ -67,7 +67,7 @@
                       ]
             },
             {
-              "name":"B x2",
+              "name":"Piano Solo - BB",
               "beats":
                       [
                         59.78, 60.0, 60.22, 60.44, 60.67, 60.89, 61.1, 61.32, 61.55, 61.77, 61.99, 62.21, 62.43, 62.65, 62.86, 63.08,
@@ -89,7 +89,7 @@
                       ]
             },
             {
-              "name":"A",
+              "name":"Collective Improvisation - A",
               "beats":
                       [
                        87.52, 87.74, 87.96, 88.18, 88.42, 88.64, 88.87, 89.09, 89.31, 89.54, 89.75, 89.97, 90.2, 90.42, 90.64, 90.86,
@@ -104,7 +104,7 @@
                       ]
             },
             {
-              "name":"C",
+              "name":"Collective Improvisation - C",
               "beats":
                       [
                         101.89, 102.11, 102.34, 102.57, 102.8, 103.02, 103.25, 103.48, 103.71, 103.93, 104.15, 104.38, 104.6, 104.82, 105.04, 105.26,
@@ -126,7 +126,7 @@
                       ]
             },
             {
-              "name":"D",
+              "name":"Collective Improvisation - DDD",
               "beats":
                       [
                         130.64, 130.86, 131.09, 131.32, 131.54, 131.76, 131.99, 132.21, 132.43, 132.65, 132.88, 133.11, 133.34, 133.56, 133.79, 134.03,

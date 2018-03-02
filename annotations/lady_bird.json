@@ -6,14 +6,14 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 21 - Lady Bird.flac", 
    "transcriptions": [],
-   "key":[]
+   "key":"C"
   }, 
   "mbid": "ce2d8d18-590f-468c-a020-b334ae916caa", 
   "duration": 173.99,
   "parts":
   [
     {
-        "name":"Theme - AB",
+        "name":"Head - AB",
         "beats":
         [
         11.22, 11.57, 11.91, 12.25, 12.58, 12.92, 13.26, 13.6, 13.95, 14.28, 14.62, 14.95, 15.29, 15.62, 15.96, 16.31,

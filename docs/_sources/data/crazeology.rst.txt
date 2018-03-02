@@ -1,0 +1,129 @@
+.. index:: Crazeology (take 4), Charlie Parker Sextet
+.. _hyperlink-name: "Crazeology (take 4)" Charlie Parker Sextet
+
+"Crazeology (take 4)" Charlie Parker Sextet/1947
+===============================================
+
+
+Recording Information
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `776cdc89-829b-475a-8b9e-eeda8baca6e5`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - 
+   * - Durtion
+     - 179.96 s
+   * - Recording Dates
+     - 1947-12-17 - 1947-12-17
+   * - Composer(s)
+     - Benny Harris
+.. _776cdc89-829b-475a-8b9e-eeda8baca6e5: https://musicbrainz.org/recording/776cdc89-829b-475a-8b9e-eeda8baca6e5
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - drumset
+     - Max Roach 
+   * - alto saxophone
+     - Charlie Parker 
+   * - double bass
+     - Tommy Potter 
+   * - trombone
+     - J.J. Johnson 
+   * - piano
+     - Duke Jordan 
+   * - trumpet
+     - Miles Davis 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 247
+   * - Mean BPM
+     - 256.723716381
+   * - Mean Harmonic Rhythm
+     - 2.97165991903
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 34
+     - 4.41558441558
+     - 7.85
+     - 4.36208046232
+   * - maj
+     - 236
+     - 30.6493506494
+     - 54.56
+     - 30.3178484108
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 184
+     - 23.8961038961
+     - 42.58
+     - 23.6608135141
+   * - dom
+     - 280
+     - 36.3636363636
+     - 64.45
+     - 35.8135141142
+
+Top Bigrams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/crazeology.json'])
+
+Top N-grams
+-----------------------------------------------
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/crazeology.json'])
+
+Chroma Statistics
+-----------------------------------------------
+Chord type chroma distribution (hexagrams)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/crazeology.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`crazeology.json <../../../annotations/crazeology.json>`
+
+.. literalinclude:: ../../../annotations/crazeology.json
+   :language: javascript
