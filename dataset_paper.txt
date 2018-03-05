@@ -15,29 +15,33 @@ Delivery:
 
 TODOs (for each delivery entity):
    * write a paper :)
+   * Jazzomat integration
+      * Automatically comapre accuracy of chords and beat tracking
+        with our annotations (on co-occured tracks). Discuss.
+      * Sonify (are beats and chords are subjectively relevant?)
+      * Obtain audio for the whole jazzomat dataset
+      * Convert annotations
+      * Write to jazzomat guys, asking for their annotation methodology on:
+         * chords
+         * style, rhythmic feel, tonality type (how they devised these taxonomies?!)
+   * Move references to audio from annotation jsons to special file,
+     add copyright, license information where it's needed/appropriate.
    * Website dataset presentation:
-      * Fix style/plots glitches
-      * Write glossary with terms and pictures explanation
-      * "Index page":
+      * JSON format description
+      * Annotate writer/composer, year and line-up on musicbrainz.
+      * refactor site generation (simplify)
+      * (+/-) Write glossary with terms and pictures explanation
+      * Add to "Index page":
          * Aggregates for dataset
-            * duration
-            * number of tracks
-            * number of beats
-            * number of chord segments
-            * average harmonic rhythm
-            * Chord type quantity/duration
-            * Chord type chroma distribution (hexagrams)
-            * Histogram by year
-            * Histogram by genre
-            * Histogram by harmonic rhythm
-            * Histogram by rhythm feel
-            * top 2-grams
-            * top N-grams
-            * Hexagrams/violin plots (chroma distribution) for each chord type (?)
+            * ? total duration
+            * ? total number of beats
+            * ? total number of chord segments
+            * ? Histogram by genre
+            * ? Histogram by harmonic rhythm
+            * ? Histogram by rhythm feel
       * for each track
-         * POSTPONE: Nicely presented annotation (e.g. pdf leadsheet).
+         * POSTPONE (?): Nicely presented annotation (e.g. pdf leadsheet).
            So far could provide nicely formatted JSON.
-      * Annotate writer/composer and line-up on musicbrainz.
    * Format and annotation improvements
       * annotation start/end (check: may be it works right now?)
       * Try to embed it into JAMS
@@ -64,15 +68,6 @@ TODOs (for each delivery entity):
         E.g. see:
         https://github.com/DDMAL/salami-data-public/blob/master/funct_vocab_dictionary.txt
         http://pythonhosted.org/jams/namespace.html (segment part, segment function)
-   * Jazzomat integration
-      * Automatically comapre accuracy of chords and beat tracking
-        with our annotations (on co-occured tracks). Discuss.
-      * Sonify (are beats and chords are subjectively relevant?)
-      * Obtain audio for the whole jazzomat dataset
-      * Convert annotations
-      * Write to jazzomat guys, asking for their annotation methodology on:
-         * chords
-         * style, rhythmic feel, tonality type (how they devised these taxonomies?!)
 
 -------------------------------------------------------------------------------
 Paper.
@@ -186,6 +181,13 @@ Paper.
          announced:
           * ICMC 2012 (along with "chord parser")Statistical Parsing for Harmonic Analysis of Jazz Chord Sequences, Mark Granroth-Wilding and Mark Steedman. In proceedings International Computer Music Conference 2012
           * MML 2012 (5th International Workshop on Machine Learning and Music (MML12))
+       5 Charlie Parker omnibook http://repmus.ircam.fr/dyci2/ressources
+
+Hopefully, it can be of use to you. We have used this corpus for several improvisation generation systems (you can listen to some generation examples of the ressources page of the website, it you are interested).
+
+Best,
+Ken Déguernel
+Ph.D. Student Inria / Ircam
 
     (III) JAMS format
     Announced at ISMIR'2014
@@ -216,9 +218,13 @@ Write a review of possible approaches to jazz dataset building and  Smithsonian 
       Levin's book
       Jazzomat dataset
       Aebersold
-      generating data with Band-in-a-Box
+      generating data with Band-in-a-Box (!Reference!)
       "open source": jamendo, ...
    references to musicologist books/papers which use Smithsonian
    review on how it was built.
    similarities/differences to rockcorpus and billboard.
    criticism of datasets used for seventh-chords recognition by others (coursera, guitar books)
+
+   - Consider adding ours, Chordino and CREMA algorithms runs as baseline estimation for jazz
+     chord transcription.
+
