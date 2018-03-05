@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/08 - Duke Ellington And His Famous Orchestra - Blue Serge.flac", 
    "transcriptions": [],
-   "key":["C:min"]
+   "key":"C:min"
   }, 
   "mbid": "ab0af81c-1658-4212-8da3-3135c7a06396", 
   "duration": 205.4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "name":"Verse1 ",
+        "name":"Head - A",
         "beats":
         [
         11.8, 12.52, 13.28, 13.98, 14.72, 15.48, 16.21, 16.94,
@@ -38,7 +38,7 @@
         ]
     },
     {
-        "name":"Verse2 - Ensemble ",
+        "name":"Ensemble - A ",
         "beats":
         [
         40.97, 41.71, 42.45, 43.18, 43.9, 44.63, 45.34, 46.11, 46.83, 47.59, 48.33, 49.06, 49.81, 50.52, 51.26, 51.99
@@ -51,7 +51,7 @@
         ]
     },
     {
-        "name":"Verse3 - Vocal Trombone Solo",
+        "name":"Trombone Solo - A",
         "beats":
         [
         52.74, 53.49, 54.23, 54.96, 55.71, 56.44, 57.18, 57.92, 58.67, 59.41, 60.17, 60.91, 61.65, 62.4, 63.13, 63.87,
@@ -65,7 +65,7 @@
         ]
     },
     {
-        "name":"Interlude - Ensemble",
+        "name":"Ensemble - Interlude",
         "beats":
         [
         82.12, 82.85, 83.59, 84.3, 85.04, 85.76, 86.47, 87.19,
@@ -77,7 +77,7 @@
         ]
     },
     {
-        "name":"Verse4 - Piano Solo",
+        "name":"Piano Solo - A",
         "beats":
         [
         99.63, 100.35, 101.09, 101.81, 102.54, 103.26, 103.97, 104.7, 105.44, 106.18, 106.9, 107.63, 108.39, 109.11, 109.81, 110.52,
@@ -91,7 +91,7 @@
         ]
     },
     {
-        "name":"Verse4 - Tenor Sax Solo",
+        "name":"Tenor Sax Solo - A",
         "beats":
         [
             128.3, 129.03, 129.75, 130.47, 131.18, 131.89, 132.6, 133.29, 134.02, 134.72, 135.4, 136.15, 136.88, 137.6, 138.32, 139.06,
@@ -106,7 +106,7 @@
         ]
     },
     {
-        "name":"Outro - Ensemble ",
+        "name":"Ensemble - Coda",
         "beats":
         [
             163.45, 164.18, 164.93, 165.69, 166.43, 167.17, 167.92, 168.66, 169.4, 170.13, 170.88, 171.62, 172.36, 173.08, 173.83, 174.59,

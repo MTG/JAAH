@@ -1,3 +1,3 @@
 import siteUtils
 import commonUtils
-siteUtils.showTopNGramsForFileList(commonUtils.loadFileListPlusPrefix('../../ready.txt', '../../'))
+siteUtils.showTop2GramsForFileList(commonUtils.loadFileListPlusPrefix('../../ready.txt', '../../'))

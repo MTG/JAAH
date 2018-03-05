@@ -6,8 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/09 - Coleman Hawkins Quartet - The Man I Love.flac", 
    "transcriptions": [],
-   "key":
-   []
+   "key": "Eb"
   }, 
   "mbid": "4bca287b-305f-42f8-8a7b-c0bd58e884ce", 
   "duration": 309.43,
@@ -48,14 +47,14 @@
         ],
         "chords":
         [
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |Bb:7 |",
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |D:hdim7 G:7 |",
-            "|C:min |C:min |D:min7 |G:7 |C:min |C:min |G:7 |G:7 |C:min |C:min |D:min7 |G:7 |G:min7 |C:7 |F:min7 |Bb:7 |",
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |Bb:7 |"
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|Bb:7 |",
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |G:7 F:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|G:7 |",
+            "|C:min6 |C:min |D:min7 |G:7 |C:min |C:min |G:7 |G:7 |C:min |C:min |D:min7 |G:7 |G:min7 |C:7 |F:min7 |Bb:7 |",
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|Bb:7 |"
         ]
     },
     {
-        "name":"Piano & Bass Solo - AA/BA",
+        "name":"Piano Solo, Bass Solo - AABA",
         "beats":
         [
         81.09, 81.37, 81.65, 81.94, 82.22, 82.49, 82.78, 83.07, 83.35, 83.65, 83.93, 84.23, 84.51, 84.8, 85.09, 85.37,
@@ -77,10 +76,10 @@
         ],
         "chords":
         [
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |Bb:7 |",
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |D:hdim7 G:7 |",
-            "|C:min |C:min |D:min7 |G:7 |C:min |C:min |G:7 |G:7 |C:min |C:min |D:min7 |G:7 |G:min7 |C:7 |F:min7 |Bb:7 |",
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |Bb:7 |"
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|Bb:7 |",
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |G:7 F:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|G:7 |",
+            "|C:min6 |C:min |D:min7 |G:7 |C:min |C:min |G:7 |G:7 |C:min |C:min |D:min7 |G:7 |G:min7 |C:7 |F:min7 |Bb:7 |",
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|Bb:7 |"
         ]
     },
     {
@@ -106,10 +105,10 @@
         ],
         "chords":
         [
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |Bb:7 |",
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |D:hdim7 G:7 |",
-            "|C:min |C:min |D:min7 |G:7 |C:min |C:min |G:7 |G:7 |C:min |C:min |D:min7 |G:7 |G:min7 |C:7 |F:min7 |Bb:7 |",
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |Bb:7 |"
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|Bb:7 |",
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |G:7 F:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|G:7 |",
+            "|C:min6 |C:min |D:min7 |G:7 |C:min |C:min |G:7 |G:7 |C:min |C:min |D:min7 |G:7 |G:min7 |C:7 |F:min7 |Bb:7 |",
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|Bb:7 |"
         ]
     },
     {
@@ -136,10 +135,10 @@
         ],
         "chords":
         [
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |Bb:7 |",
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |D:hdim7 G:7 |",
-            "|C:min |C:min |D:min7 |G:7 |C:min |C:min |G:7 |G:7 |C:min |C:min |D:min7 |G:7 |G:min7 |C:7 |F:min7 |Bb:7 |",
-            "|Eb |Eb |Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb |Ab |Eb |Bb:7 |"
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|Bb:7 |",
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |G:7 F:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|G:7 |",
+            "|C:min6 |C:min |D:min7 |G:7 |C:min |C:min |G:7 |G:7 |C:min |C:min |D:min7 |G:7 |G:min7 |C:7 |F:min7 |Bb:7 |",
+            "|Eb:maj6|Eb:maj6|Eb:min7 |Eb:min7 |Bb:min7 |Bb:min7 |C:7 |C:7 |F:hdim7 |F:hdim7 |Bb:7 |Bb:7 |Eb:maj6|C:7 |Eb:maj6|Bb:7 |"
         ]
     }
   ]

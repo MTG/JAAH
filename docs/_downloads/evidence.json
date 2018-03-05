@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 4/07 - Thelonius Monk Quartet - Evidence.flac", 
    "transcriptions": [],
-   "key":["Eb"]
+   "key":"Eb"
   }, 
   "mbid": "b438e7a3-91b9-4e43-9551-03b07036f3f3", 
   "duration": 154.73,
@@ -46,7 +46,7 @@
         ]
     },
     {
-        "name":"Monk Solo - AABA",
+        "name":"Piano Solo - AABA",
         "beats":
         [
         57.28, 57.64, 57.99, 58.35, 58.73, 59.09, 59.42, 59.77, 60.12, 60.48, 60.84, 61.18, 61.53, 61.88, 62.23, 62.59,
@@ -67,7 +67,7 @@
         ]
     },
     {
-        "name":"Monk & Bags - AABA",
+        "name":"Collective Improvisation - AABA",
         "beats":
         [
         102.28, 102.66, 103.0, 103.36, 103.72, 104.08, 104.42, 104.77, 105.13, 105.48, 105.83, 106.18, 106.52, 106.88, 107.24, 107.59,

@@ -1,0 +1,130 @@
+.. index:: Daahoud, The Clifford Brown–Max Roach Quintet
+.. _hyperlink-name: "Daahoud" The Clifford Brown–Max Roach Quintet
+
+"Daahoud" The Clifford Brown–Max Roach Quintet/1954
+===============================================
+
+
+Recording Information
+---------------------
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `38fcd5b0-468a-4314-a662-ee326d657e84`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - B
+   * - Duration
+     - 245.47 s
+   * - Tuning
+     - 443.48 Hz
+   * - Recording Dates
+     - 1954-08-06 - 1954-08-06
+   * - Composer(s)
+     - Clifford Brown
+.. _38fcd5b0-468a-4314-a662-ee326d657e84: https://musicbrainz.org/recording/38fcd5b0-468a-4314-a662-ee326d657e84
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - tenor saxophone
+     - Harold Land 
+   * - piano
+     - Richie Powell 
+   * - double bass
+     - George Morrow 
+   * - trumpet
+     - Clifford Brown 
+   * - drums
+     - Max Roach 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 262
+   * - Mean BPM
+     - 227.319020654
+   * - :term:`Mean Harmonic Rhythm`
+     - 2.85496183206
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - maj
+     - 236
+     - 25.376344086
+     - 58.81
+     - 23.9581211553
+   * - hdim7
+     - 20
+     - 2.15053763441
+     - 4.96
+     - 2.02061351693
+   * - min
+     - 164
+     - 17.6344086022
+     - 40.85
+     - 16.6415447916
+   * - dom
+     - 328
+     - 35.2688172043
+     - 81.14
+     - 33.0549557991
+
+Top Bigrams
+-----------
+(see :term:`Bigram` in glossary)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/daahoud.json'])
+
+Top N-grams
+-----------------------------------------------
+(see :term:`N-gram` in glossary)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/daahoud.json'])
+
+Chroma Statistics
+-----------------------------------------------
+:term:`Chord type chroma distribution ternary plot`
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/daahoud.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`daahoud.json <../../../annotations/daahoud.json>`
+
+.. literalinclude:: ../../../annotations/daahoud.json
+   :language: javascript

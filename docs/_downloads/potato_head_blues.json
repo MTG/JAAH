@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/14 - Louis Armstrong And His Hot Seven - Potato Head Blues.flac", 
    "transcriptions": [],
-   "key":["F"]
+   "key":"F"
   }, 
   "mbid": "d63fa5bc-3351-43b0-9678-b93a9cfd28d5", 
   "duration": 177.33,
@@ -35,7 +35,7 @@
                       ]
             },
             {
-              "name":"Trumpet-C",
+              "name":"Trumpet - AB",
               "beats":
                       [
              42.35, 42.69, 43.04, 43.39, 43.73, 44.05, 44.38, 44.7, 45.04, 45.37, 45.7, 46.03, 46.36, 46.69, 47.02, 47.35,
@@ -45,12 +45,12 @@
                       ],
               "chords":
                       [
-                        "|F |F |Bb |G:min7 |G:min |G:min |G:7 |C:7|",
+                        "|F |F |Bb |G:min |G:min |G:min |G:7 |C:7|",
                         "|F |F |F |Bb:maj6 |G:7 |C:7 |G:7 |C:7|"
                       ]
             },
             {
-              "name":"Clarinet - ABAC",
+              "name":"Clarinet Solo - ABAC",
               "beats":
                       [
                        63.73, 64.07, 64.41, 64.74, 65.07, 65.42, 65.75, 66.08, 66.43, 66.75, 67.08, 67.42, 67.76, 68.09, 68.42, 68.74,
@@ -102,7 +102,7 @@
                       ]
             },
            {
-              "name":"Head(final) - AB",
+              "name":"Collective Improvisation - AB",
               "beats":
                       [
                         152.68, 153.02, 153.35, 153.69, 154.02, 154.33, 154.65, 154.97, 155.29, 155.62, 155.94, 156.27, 156.59, 156.91, 157.22, 157.54,

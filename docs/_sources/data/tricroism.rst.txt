@@ -6,8 +6,7 @@
 
 
 Recording Information
------------------------------------------------
-
+---------------------
 .. list-table::
    :widths: 30 60
    :header-rows: 0
@@ -17,9 +16,11 @@ Recording Information
    * - Time Signature
      - 4/4
    * - Key
-     - 
-   * - Durtion
+     - Db
+   * - Duration
      - 276.8 s
+   * - Tuning
+     - 438.34 Hz
    * - Recording Dates
      - 1956-01-24 - 1956-01-24
    * - Composer(s)
@@ -51,7 +52,7 @@ Symbolic Staistics From Annotation
      - 173
    * - Mean BPM
      - 158.23699422
-   * - Mean Harmonic Rhythm
+   * - :term:`Mean Harmonic Rhythm`
      - 3.83815028902
 
 .. list-table:: Chord Usage Summary
@@ -90,34 +91,36 @@ Symbolic Staistics From Annotation
      - 42.0484104046
 
 Top Bigrams
------------------------------------------------
+-----------
+(see :term:`Bigram` in glossary)
 
 .. plot::
 
    import siteUtils
-   siteUtils.showTop2GramsForFileList(['../../../annotations/tricotism.json'])
+   siteUtils.showTop2GramsForFileList(['../../../annotations/tricroism.json'])
 
 Top N-grams
 -----------------------------------------------
+(see :term:`N-gram` in glossary)
 
 .. plot::
 
    import siteUtils
-   siteUtils.showTopNGramsForFileList(['../../../annotations/tricotism.json'])
+   siteUtils.showTopNGramsForFileList(['../../../annotations/tricroism.json'])
 
 Chroma Statistics
 -----------------------------------------------
-Chord type chroma distribution (hexagrams)
+:term:`Chord type chroma distribution ternary plot`
 
 .. plot::
 
    import siteUtils
-   siteUtils.show5HexagramsForFileList(['../../../annotations/tricotism.json'])
+   siteUtils.show5HexagramsForFileList(['../../../annotations/tricroism.json'])
 
 Source Annotation
 -----------------------------------------------
 
-:download:`tricotism.json <../../../annotations/tricotism.json>`
+:download:`tricroism.json <../../../annotations/tricroism.json>`
 
-.. literalinclude:: ../../../annotations/tricotism.json
+.. literalinclude:: ../../../annotations/tricroism.json
    :language: javascript

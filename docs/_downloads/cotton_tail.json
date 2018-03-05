@@ -5,8 +5,9 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/06 - Duke Ellington And His Famous Orchestra - Cotton Tail.flac", 
-   "transcriptions": []
-  }, 
+   "transcriptions": [],
+    "key":"Bb"
+  },
   "mbid": "a5fae57b-d0a7-4cc8-958d-f90600c30eb8", 
   "duration": 191.6,
   "parts":
@@ -32,7 +33,7 @@
                       ]
             },
             {
-              "name":"Tenor Sax Solo1 - AABA",
+              "name":"Tenor Sax Solo - AABA",
               "beats":
                       [
                         29.39, 29.64, 29.89, 30.15, 30.41, 30.67, 30.93, 31.18, 31.44, 31.69, 31.95, 32.2, 32.46, 32.72, 32.98, 33.24,
@@ -53,7 +54,7 @@
                       ]
             },
             {
-              "name":"Tenor Sax Solo2 - AABA",
+              "name":"Tenor Sax Solo - AABA",
               "beats":
                       [
                         61.51, 61.76, 62.01, 62.26, 62.52, 62.78, 63.04, 63.29, 63.54, 63.79, 64.05, 64.31, 64.56, 64.82, 65.07, 65.32,
@@ -74,7 +75,7 @@
                       ]
             },
             {
-              "name":"Ensemble - AA / Bari Sax Solo - B / Piano Solo - A",
+              "name":"Ensemble, Bari Sax Solo, Piano Solo - AABA",
               "beats":
                       [
                         93.41, 93.66, 93.92, 94.17, 94.43, 94.67, 94.92, 95.17, 95.42, 95.67, 95.93, 96.18, 96.43, 96.68, 96.93, 97.18,
@@ -95,7 +96,7 @@
                       ]
             },
             {
-              "name":"Sax Section Solo2 - AABA",
+              "name":"Sax Solo - AABA",
               "beats":
                       [
                         125.03, 125.27, 125.52, 125.77, 126.02, 126.27, 126.52, 126.76, 127.01, 127.26, 127.51, 127.75, 128.0, 128.25, 128.5, 128.74,
@@ -116,7 +117,7 @@
                       ]
             },
             {
-              "name":"Ensemble / Head - AABA",
+              "name":"Head - AABA",
               "beats":
                       [
                         156.34, 156.59, 156.85, 157.1, 157.35, 157.6, 157.85, 158.09, 158.34, 158.59, 158.84, 159.09, 159.34, 159.59, 159.84, 160.08,

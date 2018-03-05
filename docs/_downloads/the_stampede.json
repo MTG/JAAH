@@ -48,7 +48,7 @@
             ]
         },
         {
-            "name":"Hawkins Solo - ABAC",
+            "name":"Ensemble - ABAC",
             "beats":
             [
                 49.87, 50.13, 50.39, 50.65, 50.92, 51.19, 51.46, 51.72, 52.0, 52.26, 52.53, 52.8, 53.07, 53.33, 53.59, 53.85,
@@ -65,7 +65,7 @@
                 "|Ab:7 |Ab:7 |Ab:7 |Ab:7 |Db:7 |Db:7 |Db:7 |Db:7 |",
                 "|C:7 |C:7 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:7 N N N |N |",
                 "|Ab:7 |Ab:7 |Ab:7 |Ab:7 |Db:7 |Db:7 |Db:7 |C:7 |",
-                "|F:min E:dim7 |F:min E:dim7 |F:min E:dim7 |F:min F:7 |Bb:7 |Eb:7 |Ab |Ab |"
+                "|F:min7 E:dim7 |F:min7 E:dim7 |F:min7 E:dim7 |F:min7 F:7 |Bb:7 |Eb:7 |Ab |Ab |"
             ]
         },
         {
@@ -94,10 +94,10 @@
             ],
             "chords":
             [
-                "|F:min |F:min |Db:7 |Db:7 |F:min |F:min |Db:7 |Db:7 |",
-                "|C:7 |C:7 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:7 N N N |N |",
-                "|F:min |F:min |Db:7 |Db:7 |F:min |F:min |Db:7 |Db:7 |",
-                "|F:min E:dim7 |F:min E:dim7 |F:min E:dim7 |F:min F:7 |Bb:7 |Eb:7 |Ab N N N |N |"
+                "|F:min7 |F:min7 |Db:7 |Db:7 |F:min7 |F:min7 |Db:7 |Db:7 |",
+                "|C:7 |C:7 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:7 |N |",
+                "|F:min7 |F:min7 |Db:7 |Db:7 |F:min7 |F:min7 |Db:7 |Db:7 |",
+                "|F:min7 E:dim7 |F:min7 E:dim7 |F:min E:dim7 |F:min F:7 |Bb:7 |Eb:7 |Ab N N N |N |"
             ]
         },
         {
@@ -127,14 +127,14 @@
             ],
             "chords":
             [
-                "|F:min |F:min |Db:7 |Db:7 |F:min |F:min |Db:7 |Db:7 |",
-                "|C:7 |C:7 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:7 N N N |N |",
-                "|F:min |F:min |Db:7 |Db:7 |F:min |F:min |Db:7 |Db:7 |",
-                "|F:min E:dim7 |F:min E:dim7 |F:min E:dim7 |F:min F:7 |Bb:7 |Eb:7 |Ab N N N |N |"
+                "|F:min7 |F:min7 |Db:7 |Db:7 |F:min7 |F:min7 |Db:7 |Db:7 |",
+                "|C:7 |C:7 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:7 |N |",
+                "|F:min7 |F:min7 |Db:7 |Db:7 |F:min7 |F:min |Db:7 |Db:7 |",
+                "|F:min7 E:dim7 |F:min E:dim7 |F:min7 E:dim7 |F:min F:7 |Bb:7 |Eb:7 |Ab N N N |N |"
             ]
         },
         {
-            "name":"Trumpet Solo & Ensemble - ABAC",
+            "name":"Ensemble - ABAC",
             "beats":
             [
             158.84, 159.11, 159.39, 159.66, 159.94, 160.22, 160.49, 160.76,
@@ -152,7 +152,7 @@
                 "|Ab:7 |Ab:7 |Ab:7 |Ab:7 |Db:7 |Db:7 |Db:7 |Db:7 |",
                 "|C:7 |C:7 |F:7 |F:7 |Bb:7 |Bb:7 |Eb:7 |N |",
                 "|Ab:7 |Ab:7 |Ab:7 |Ab:7 |Db:7 |Db:7 |Db:7 |C:7 |",
-                "|F:min E:dim7 |F:min E:dim7 |F:min E:dim7 |F:min F:7 |Bb:7 |Eb:7 |Ab Db:min6 |D:dim7 Db:min6 Ab Ab |"
+                "|F:min7 E:dim7 |F:min7 E:dim7 |F:min7 E:dim7 |F:min7 F:7 |Bb:7 |Eb:7 |Ab Db:min6 |D:dim7 Db:min6 Ab Ab |"
             ]
         }
     ]

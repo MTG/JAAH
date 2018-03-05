@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/16 - Louis Armstrong And His Hot Five - Hotter Than That.flac", 
    "transcriptions": [],
-   "key":["Eb"]
+   "key":"Eb"
   }, 
   "mbid": "8fbdddb7-a518-46b3-9a2c-e0193669e002", 
   "duration": 181.49,
@@ -67,7 +67,7 @@
                       ]
             },
              {
-              "name":"Scat & Banjo- AB",
+              "name":"Scat, Banjo Solo- AB",
               "beats":
                       [
                        81.27, 81.55, 81.83, 82.11, 82.39, 82.67, 82.95, 83.23, 83.51, 83.79, 84.07, 84.35, 84.63, 84.91, 85.19, 85.47,
@@ -88,7 +88,7 @@
                       ]
             },
             {
-              "name":"Scat & Banjo Tradeof - A",
+              "name":"Tradeoff",
               "beats":
                       [
                         116.46, 116.74, 117.01, 117.28, 117.55, 117.82, 118.09, 118.36, 118.63, 118.9, 119.16, 119.42, 119.68, 119.94, 120.2, 120.46,
@@ -115,7 +115,7 @@
                       ]
             },
             {
-              "name":"Trombone & Trumpet - AB",
+              "name":"Trombone Solo, Trumpet Solo - AB",
               "beats":
                       [
                         138.01, 138.28, 138.55, 138.82, 139.09, 139.36, 139.63, 139.9, 140.17, 140.44, 140.71, 140.98, 141.25, 141.52, 141.79, 142.06,
@@ -136,7 +136,7 @@
                       ]
             },
             {
-              "name": "Outro - Trumpet & Guitar",
+              "name": "Outro",
               "beats":
                       [
                         172.79, 173.06, 173.33, 173.6, 173.87, 174.14, 174.41, 174.68, 174.95, 175.22, 175.49, 175.76, 176.03, 176.31, 176.59, 176.87,

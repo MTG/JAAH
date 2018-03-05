@@ -6,14 +6,14 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 14 - Handfull of Riffs.flac", 
    "transcriptions": [],
-   "key":["D"]
+   "key":"D"
   }, 
   "mbid": "d8fe08a8-b51e-4588-9547-9731134883f7", 
   "duration": 187.85,
   "parts":
   [
     {
-        "name":"Part 1 - Blues x5 Choruses",
+        "name":"Guitar Solo - Blues*5",
         "beats":
         [
         0.23, 0.51, 0.78, 1.06, 1.34, 1.61, 1.88, 2.15, 2.43, 2.7, 2.96, 3.23, 3.5, 3.77, 4.04, 4.32,
@@ -42,7 +42,7 @@
         ]
     },
     {
-        "name":"Part 2 - Blues x2 Choruses",
+        "name":"Guitar Solo - Blues*2",
         "beats":
         [
            62.36, 62.63, 62.89, 63.14, 63.4, 63.66, 63.93, 64.19, 64.45, 64.71, 64.97, 65.23, 65.49, 65.74, 66.0, 66.26,
@@ -71,7 +71,7 @@
         ]
      },
      {
-        "name":"Part 3 - Blues x3 Choruses",
+        "name":"Guitar Solo - Blues*3",
         "beats":
         [
             94.79, 95.04, 95.29, 95.54, 95.79, 96.05, 96.3, 96.55, 96.81, 97.07, 97.33, 97.59, 97.85, 98.11, 98.37, 98.62,
@@ -92,7 +92,7 @@
         ]
     },
     {
-        "name":"Part 4 - Blues x4 Choruses",
+        "name":"Guitar Solo - Blues*4",
         "beats":
         [
         131.71, 131.98, 132.23, 132.5, 132.76, 133.02, 133.28, 133.54, 133.8, 134.06, 134.31, 134.58, 134.83, 135.09, 135.35, 135.61,

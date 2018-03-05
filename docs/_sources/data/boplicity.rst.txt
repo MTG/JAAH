@@ -1,0 +1,138 @@
+.. index:: Boplicity, Miles Davis Nonet
+.. _hyperlink-name: "Boplicity" Miles Davis Nonet
+
+"Boplicity" Miles Davis Nonet/1949
+===============================================
+
+
+Recording Information
+---------------------
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `75711684-1e71-4c0f-8070-89a82520552e`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - F
+   * - Duration
+     - 182.71 s
+   * - Tuning
+     - 441.06 Hz
+   * - Recording Dates
+     - 1949-04-22 - 1949-04-22
+   * - Composer(s)
+     - Gil Evans, Cleo Henry
+.. _75711684-1e71-4c0f-8070-89a82520552e: https://musicbrainz.org/recording/75711684-1e71-4c0f-8070-89a82520552e
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - baritone saxophone
+     - Gerry Mulligan 
+   * - tuba
+     - Bill Barber 
+   * - alto saxophone
+     - Lee Konitz 
+   * - trombone
+     - J.J. Johnson 
+   * - double bass
+     - Nelson Boyd 
+   * - drums
+     - Kenny Clarke 
+   * - French horn
+     - Sanford J. Siegelstein 
+   * - piano
+     - John Lewis 
+   * - trumpet
+     - Miles Davis 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 154
+   * - Mean BPM
+     - 132.012478792
+   * - :term:`Mean Harmonic Rhythm`
+     - 2.5974025974
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 18
+     - 4.4776119403
+     - 8.05
+     - 4.4058891139
+   * - maj
+     - 140
+     - 34.8258706468
+     - 62.2
+     - 34.0430189918
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 108
+     - 26.8656716418
+     - 47.98
+     - 26.2601937497
+   * - dom
+     - 134
+     - 33.3333333333
+     - 59.4
+     - 32.5105358218
+
+Top Bigrams
+-----------
+(see :term:`Bigram` in glossary)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/boplicity.json'])
+
+Top N-grams
+-----------------------------------------------
+(see :term:`N-gram` in glossary)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/boplicity.json'])
+
+Chroma Statistics
+-----------------------------------------------
+:term:`Chord type chroma distribution ternary plot`
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/boplicity.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`boplicity.json <../../../annotations/boplicity.json>`
+
+.. literalinclude:: ../../../annotations/boplicity.json
+   :language: javascript

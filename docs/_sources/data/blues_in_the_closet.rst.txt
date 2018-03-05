@@ -6,8 +6,7 @@
 
 
 Recording Information
------------------------------------------------
-
+---------------------
 .. list-table::
    :widths: 30 60
    :header-rows: 0
@@ -18,8 +17,10 @@ Recording Information
      - 4/4
    * - Key
      - Bb
-   * - Durtion
+   * - Duration
      - 545.27 s
+   * - Tuning
+     - 441.45 Hz
    * - Recording Dates
      - 1957-10-19 - 1957-10-19
    * - Composer(s)
@@ -57,7 +58,7 @@ Symbolic Staistics From Annotation
      - 474
    * - Mean BPM
      - 228.657362408
-   * - Mean Harmonic Rhythm
+   * - :term:`Mean Harmonic Rhythm`
      - 4.37974683544
 
 .. list-table:: Chord Usage Summary
@@ -96,7 +97,8 @@ Symbolic Staistics From Annotation
      - 83.3348616282
 
 Top Bigrams
------------------------------------------------
+-----------
+(see :term:`Bigram` in glossary)
 
 .. plot::
 
@@ -105,6 +107,7 @@ Top Bigrams
 
 Top N-grams
 -----------------------------------------------
+(see :term:`N-gram` in glossary)
 
 .. plot::
 
@@ -113,7 +116,7 @@ Top N-grams
 
 Chroma Statistics
 -----------------------------------------------
-Chord type chroma distribution (hexagrams)
+:term:`Chord type chroma distribution ternary plot`
 
 .. plot::
 

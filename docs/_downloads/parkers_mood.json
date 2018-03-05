@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 3/19 - Charlie Parker All Stars - Parker's Mood.flac",
    "transcriptions": [],
-   "key": ["Bb"]
+   "key": "Bb"
   },
   "mbid": "c50ea630-b5f0-4c12-8e75-0321757d69a3",
   "duration": "185",
@@ -25,7 +25,7 @@
                       ]
             },
             {
-              "name":"Chorus 1 & 2 - Sax solo",
+              "name":"Alto Sax solo - Blues*2",
               "beats":
                       [
                         16.87, 17.64, 18.38, 19.16, 19.97, 20.7, 21.38, 22.11, 22.85, 23.61, 24.38, 25.11, 25.84, 26.62, 27.37, 28.07,
@@ -42,7 +42,7 @@
                       ]
             },
             {
-              "name":"Chorus 3 - Piano solo",
+              "name":"Piano solo - Blues",
               "beats":
                       [
                         89.57, 90.31, 91.1, 91.88, 92.69, 93.44, 94.19, 95.0, 95.76, 96.55, 97.32, 98.09, 98.88, 99.65, 100.41, 101.19,
@@ -55,7 +55,7 @@
                       ]
             },
             {
-              "name":"Chorus 4 - Sax solo",
+              "name":"Alto Sax solo - Blues",
               "beats":
                       [
                         127.28, 128.12, 128.93, 129.71, 130.53, 131.35, 132.16, 132.98, 133.76, 134.6, 135.4, 136.18, 136.95, 137.76, 138.53, 139.34,

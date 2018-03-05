@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/03 - Duke Ellington And His Famous Orchestra - Diminuendo In Blue & Crescendo In Blue.flac", 
    "transcriptions": [],
-   "key":[]
+   "key":"Eb"
   }, 
   "mbid": "480098d7-8d65-4b1d-a415-71bc647ae6d8", 
   "duration": 360.31,
@@ -39,7 +39,7 @@
         ]
     },
     {
-        "name":"Coda",
+        "name":"Ensemble - Coda",
         "beats":
         [
             30.17, 30.48, 30.79, 31.1, 31.41, 31.71, 32.03, 32.33, 32.64, 32.96, 33.28, 33.59, 33.91, 34.21, 34.53, 34.84,
@@ -52,6 +52,7 @@
     },
     {
         "name":"Ensemble - Blues",
+        "key":"G",
         "beats":
         [
 37.59, 37.9, 38.21, 38.52, 38.83, 39.13, 39.45, 39.75,
@@ -66,6 +67,7 @@
     },
     {
         "name":"Ensemble - Blues",
+        "key":"G",
         "beats":
         [
 52.32, 52.63, 52.93, 53.25, 53.56, 53.88, 54.2, 54.5,
@@ -79,6 +81,7 @@
     },
     {
         "name":"Ensemble - Blues",
+        "key":"C",
         "beats":
         [
         64.66, 64.98, 65.29, 65.6, 65.91, 66.22, 66.53, 66.84, 67.15, 67.46, 67.77, 68.08, 68.39, 68.7, 69.0, 69.31,
@@ -92,6 +95,7 @@
     },
     {
         "name":"Ensemble - Blues",
+        "key":"Db",
         "beats":
         [
             
@@ -106,6 +110,7 @@
     },
     {
         "name":"Ensemble - Blues",
+        "key":"Db",
         "beats":
         [
         
@@ -121,6 +126,7 @@
     },
     {
         "name":"Ensemble - Blues",
+        "key":"Db",
         "beats":
         [
         
@@ -149,6 +155,7 @@
     },
     {
         "name":"Piano Solo - Blues",
+        "key":"Db",
         "beats":
         [
 139.85, 140.15, 140.46, 140.77, 141.09, 141.4, 141.71, 142.02, 142.33, 142.64, 142.96, 143.28, 143.59, 143.89, 144.2, 144.53,
@@ -162,6 +169,7 @@
     },
     {
         "name":"Coda",
+        "key":"Db",
         "beats":
         [
         152.5, 152.8, 153.13, 153.45, 153.77, 154.11, 154.43, 154.76, 155.1, 155.41, 155.73, 156.05, 156.37, 156.7, 157.04, 157.35,

@@ -1,3 +1,3 @@
 import siteUtils
 import commonUtils
-siteUtils.showTop2GramsForFileList(commonUtils.loadFileListPlusPrefix('../../ready.txt', '../../'))
+siteUtils.showYearHistogramForFileList(commonUtils.loadFileListPlusPrefix('../../ready.txt', '../../'))

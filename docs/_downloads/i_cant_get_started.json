@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/10 - Dizzy Gillespie Sextet - I Can't Get Started.flac", 
    "transcriptions": [],
-   "key":["C"]
+   "key":"C"
   }, 
   "mbid": "24fe0c12-91a4-435b-9282-634526e562c7", 
   "duration": 186.16,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "name":"Dizzy - AABA",
+        "name":"Head - AABA",
         "beats":[
         32.97, 34.09, 35.15, 36.16, 37.17, 38.26, 39.23, 40.32, 41.3, 42.33, 43.38, 44.4, 45.44, 46.48, 47.5, 48.54,
 49.57, 50.61, 51.6, 52.63, 53.64, 54.7, 55.66, 56.72, 57.7, 58.74, 59.74, 60.79, 61.77, 62.77, 63.81, 64.84,
@@ -39,10 +39,10 @@
         ],
         "chords":
         [
-            "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:7 |D:hdim7 G:(3,5,b7,b9) |E:7 A:(3,b5,b7) |D:hdim7 G:(3,b5,b7,b9) |",
-            "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:7 |D:hdim7 G:(3,5,b7,b9) |C:maj6 |C:maj6 |",
-            "|E:min7 A:7 |E:min7 A:7 |D |D |D:min7 G:7 |D:min7 G:7 |C:maj7 A:7 |D:7 G:7 |",
-            "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:7 |D:min7 G:(3,5,b7,b9) |E:hdim7 |A:(3,b5,b7) |D:hdim7 |G:7 |N |Bb:min7 |N |"
+            "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:7 |D:hdim7 G:(3,5,b7,b9) |E:7 A:7 |D:hdim7 G:(3,b5,b7,b9) |",
+            "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:min7 |D:hdim7 G:(3,5,b7,b9) |C:maj6 |C:maj6 |",
+            "|E:min7 A:7 |E:min7 A:7 |D:maj7 D:maj6 |D:maj7 D:maj6 |D:min7 G:7 |D:min7 G:7 |C:maj7 A:7 |D:7 G:7 |",
+            "|C:maj7 A:min7 |D:min7 G:7 |E:7 Eb:7 |D:7 Db:7 |C:maj7 A:7 |D:min7 G:(3,5,b7,b9) |E:hdim7 |A:7 |D:hdim7 |G:7 |N |Bb:min7 E:min7 |E:min7 N |"
         ]
     }
   ]

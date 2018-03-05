@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 25 - Harlem Congo.flac", 
    "transcriptions": [],
-   "key":["Eb,Db"]
+   "key":"Eb"
   }, 
   "mbid": "461c9fea-67b6-43a2-be45-dc291a4a1179", 
   "duration": 195.89,
@@ -79,7 +79,8 @@
         ]
     },
     {
-        "name":"Trumpet Solo - AABA (Transposition to Db)",
+        "name":"Trumpet Solo - AABA",
+        "key":"Db",
         "beats":
         [
         67.97, 68.18, 68.39, 68.6, 68.81, 69.02, 69.22, 69.43, 69.64, 69.85, 70.06, 70.27, 70.47, 70.68, 70.88, 71.08,
@@ -100,7 +101,8 @@
         ]
     },
     {
-        "name":"Clarinet/Trombone Solo - AABA",
+        "name":"Clarinet Solo, Trombone Solo - AABA",
+        "key":"Db",
         "beats":
         [
         94.89, 95.11, 95.32, 95.53, 95.74, 95.95, 96.16, 96.36, 96.59, 96.8, 97.02, 97.22, 97.43, 97.64, 97.85, 98.07,
@@ -122,6 +124,7 @@
     },
     {
         "name":"Ensemble - AABA",
+        "key":"Db",
         "beats":
         [
         122.2, 122.41, 122.63, 122.84, 123.06, 123.27, 123.48, 123.69, 123.9, 124.11, 124.33, 124.54, 124.75, 124.95, 125.17, 125.38,
@@ -163,6 +166,7 @@
     },
     {
         "name":"Coda (Half Time)",
+        "key":"Db",
         "beats":
         [
         171.78, 172.31, 172.95, 173.56, 174.19, 174.81, 175.42, 176.04, 176.67, 177.28, 177.9,

@@ -5,7 +5,8 @@
   "metre": "4/4", 
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 11 - Tricroism.flac", 
-   "transcriptions": []
+   "transcriptions": [],
+    "key":"Db"
   }, 
   "mbid": "080a5a42-6260-4a73-b08c-768df63201bc", 
   "duration": 276.8,
@@ -45,7 +46,7 @@
                       ]
             },
             {
-              "name":"Tenor Solo1 - AABA",
+              "name":"Tenor Sax Solo - AABA",
               "beats":
                       [
                        60.64, 61.0, 61.37, 61.74, 62.12, 62.49, 62.88, 63.25, 63.65, 64.02, 64.4, 64.78, 65.15, 65.52, 65.89, 66.26, 66.64, 67.0, 67.37, 67.74,
@@ -66,7 +67,7 @@
                       ]
             },
             {
-              "name":"Tenor Solo2 - AABA",
+              "name":"Tenor Sax Solo - AABA",
               "beats":
                       [
                        108.72, 109.09, 109.47, 109.87, 110.23, 110.62, 111.0, 111.37, 111.76, 112.13, 112.53, 112.9, 113.27, 113.65, 114.01, 114.38, 114.76, 115.11, 115.5, 115.87,
@@ -108,7 +109,7 @@
                       ]
             },
             {
-              "name":"Tenor Solo3 & Theme - AABA",
+              "name":"Tenor Sax Solo, Head - AABA",
               "beats":
                       [
                        204.75, 205.11, 205.48, 205.86, 206.23, 206.61, 207.0, 207.37, 207.77, 208.15, 208.53, 208.9, 209.28, 209.66, 210.04, 210.43, 210.81, 211.17, 211.55, 211.93,

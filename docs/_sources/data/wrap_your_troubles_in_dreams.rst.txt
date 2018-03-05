@@ -6,8 +6,7 @@
 
 
 Recording Information
------------------------------------------------
-
+---------------------
 .. list-table::
    :widths: 30 60
    :header-rows: 0
@@ -18,8 +17,10 @@ Recording Information
      - 4/4
    * - Key
      - A
-   * - Durtion
+   * - Duration
      - 153.72 s
+   * - Tuning
+     - 442.46 Hz
    * - Recording Dates
      - 1960-10-19 - 1960-10-19
    * - Composer(s)
@@ -44,11 +45,11 @@ Symbolic Staistics From Annotation
    :header-rows: 0
 
    * - Number of Chord Segments
-     - 132
+     - 138
    * - Mean BPM
      - 122.56049961
-   * - Mean Harmonic Rhythm
-     - 2.25757575758
+   * - :term:`Mean Harmonic Rhythm`
+     - 2.15942028986
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -60,33 +61,34 @@ Symbolic Staistics From Annotation
      - Duration (seconds)
      - Duration % 
    * - dim
-     - 26
-     - 8.28025477707
-     - 12.08
-     - 7.85844392402
+     - 11
+     - 3.50318471338
+     - 5.22
+     - 3.39578454333
    * - maj
-     - 56
-     - 17.8343949045
-     - 26.903
-     - 17.5013010669
+     - 54
+     - 17.1974522293
+     - 25.81
+     - 16.7902680198
    * - hdim7
-     - 6
-     - 1.91082802548
-     - 2.632
-     - 1.71220400729
+     - 4
+     - 1.27388535032
+     - 1.92
+     - 1.24902419984
    * - min
-     - 96
-     - 30.5732484076
-     - 45.645
-     - 29.693598751
+     - 113
+     - 35.9872611465
+     - 53.64
+     - 34.8946135831
    * - dom
-     - 114
-     - 36.3057324841
-     - 54.834
-     - 35.6713505074
+     - 116
+     - 36.9426751592
+     - 54.89
+     - 35.7077803799
 
 Top Bigrams
------------------------------------------------
+-----------
+(see :term:`Bigram` in glossary)
 
 .. plot::
 
@@ -95,6 +97,7 @@ Top Bigrams
 
 Top N-grams
 -----------------------------------------------
+(see :term:`N-gram` in glossary)
 
 .. plot::
 
@@ -103,7 +106,7 @@ Top N-grams
 
 Chroma Statistics
 -----------------------------------------------
-Chord type chroma distribution (hexagrams)
+:term:`Chord type chroma distribution ternary plot`
 
 .. plot::
 

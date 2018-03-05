@@ -6,7 +6,7 @@
   "sandbox": {
    "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 08 - Black Water Blues.flac", 
    "transcriptions": [],
-   "key":["A"]
+   "key":"A"
   }, 
   "mbid": "631a1e8b-184d-4967-b1ae-946c3e0a53c9", 
   "duration": 200.71,
@@ -23,7 +23,7 @@
             ]
         },
         {
-            "name":"Vocals - Verse1",
+            "name":"Vocals female - Blues*2",
             "beats":
             [
             5.11, 5.72, 6.33, 6.95, 7.54, 8.14, 8.73, 9.32, 9.9, 10.47, 11.06, 11.63, 12.21, 12.79, 13.38, 13.96,
@@ -40,7 +40,7 @@
             ]
         },
         {
-            "name":"Vocals - Verse2",
+            "name":"Vocals female - Blues*2",
             "beats":
             [
             60.91, 61.44, 61.99, 62.53, 63.06, 63.6, 64.14, 64.7, 65.25, 65.8, 66.89, 67.46, 68.01, 68.58, 69.15,
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "name":"Vocals - Verse3",
+            "name":"Vocals female - Blues*2",
             "beats":
             [
             114.53, 115.09, 115.67, 116.23, 116.8, 117.38, 117.95, 118.52, 119.08, 119.63, 120.2, 120.75, 121.31, 121.87, 122.43, 122.99,
@@ -74,7 +74,7 @@
             ]
         },
         {
-            "name":"Vocals - Verse4",
+            "name":"Vocals female - Blues",
             "beats":
             [
             168.77, 169.33, 169.89, 170.44, 170.99, 171.53, 172.08, 172.64, 173.18, 173.73, 174.29, 174.84, 175.38, 175.93, 176.48, 177.03,

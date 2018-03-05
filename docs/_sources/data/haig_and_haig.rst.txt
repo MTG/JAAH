@@ -1,0 +1,130 @@
+.. index:: Haig & Haig, Clark Terry-Bob Brookmeyer Quintet
+.. _hyperlink-name: "Haig & Haig" Clark Terry-Bob Brookmeyer Quintet
+
+"Haig & Haig" Clark Terry-Bob Brookmeyer Quintet/1966
+===============================================
+
+
+Recording Information
+---------------------
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Recording MusicBrainz ID (MBID)
+     - `3a312349-bfa1-4e8d-bef3-3e151cb7b967`_
+   * - Time Signature
+     - 4/4
+   * - Key
+     - Bb
+   * - Duration
+     - 271.61 s
+   * - Tuning
+     - 441.17 Hz
+   * - Recording Dates
+     - 1966 - 1966
+   * - Composer(s)
+     - 
+.. _3a312349-bfa1-4e8d-bef3-3e151cb7b967: https://musicbrainz.org/recording/3a312349-bfa1-4e8d-bef3-3e151cb7b967
+
+Line-up
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+   
+   * - valve trombone
+     - Bob Brookmeyer 
+   * - piano
+     - Hank Jones 
+   * - double bass
+     - Bob Cranshaw 
+   * - trumpet
+     - Clark Terry 
+   * - drums
+     - Dave Bailey 
+
+Symbolic Staistics From Annotation
+-----------------------------------------------
+
+.. list-table::
+   :widths: 30 60
+   :header-rows: 0
+
+   * - Number of Chord Segments
+     - 474
+   * - Mean BPM
+     - 272.59673797
+   * - :term:`Mean Harmonic Rhythm`
+     - 2.53164556962
+
+.. list-table:: Chord Usage Summary
+   :widths: 20 20 20 20 20
+   :header-rows: 1
+
+   * - Chord
+     - Beats Number
+     - Beats %
+     - Duration (seconds)
+     - Duration % 
+   * - dim
+     - 58
+     - 4.70016207455
+     - 12.35
+     - 4.54696071573
+   * - maj
+     - 166
+     - 13.4521880065
+     - 35.6
+     - 13.1070284599
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - min
+     - 220
+     - 17.8282009724
+     - 47.81
+     - 17.6024446817
+   * - dom
+     - 756
+     - 61.2641815235
+     - 161.54
+     - 59.4749825117
+
+Top Bigrams
+-----------
+(see :term:`Bigram` in glossary)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTop2GramsForFileList(['../../../annotations/haig_and_haig.json'])
+
+Top N-grams
+-----------------------------------------------
+(see :term:`N-gram` in glossary)
+
+.. plot::
+
+   import siteUtils
+   siteUtils.showTopNGramsForFileList(['../../../annotations/haig_and_haig.json'])
+
+Chroma Statistics
+-----------------------------------------------
+:term:`Chord type chroma distribution ternary plot`
+
+.. plot::
+
+   import siteUtils
+   siteUtils.show5HexagramsForFileList(['../../../annotations/haig_and_haig.json'])
+
+Source Annotation
+-----------------------------------------------
+
+:download:`haig_and_haig.json <../../../annotations/haig_and_haig.json>`
+
+.. literalinclude:: ../../../annotations/haig_and_haig.json
+   :language: javascript
