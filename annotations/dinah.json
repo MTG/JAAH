@@ -3,7 +3,7 @@
   "duration": 155.42666626,
   "artist": "Django Reinhardt",
   "title": "Dinah",
-  "tuning": "TODO",
+  "tuning": 443.36,
   "metre": "4/4",
   "sandbox": {
     "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 2/19 - Quintette Of The Hot Club Of France - Dinah.flac",
