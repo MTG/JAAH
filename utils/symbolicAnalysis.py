@@ -1,9 +1,10 @@
-import argparse
+import cacher
 import json
 import commonUtils
 import numpy as np
 import lowLevelFeatures as ll
 from collections import Counter
+from collections import OrderedDict
 import chordModel
 import os
 
@@ -73,6 +74,9 @@ def makeTransitionCRootPart(twoGrams, harmonicRhythm):
         relatedKeys = filter(lambda x: x.endswith(sym), twoGrams.keys())
         denominator = float(sum([twoGrams[x] for x in relatedKeys])) * harmonicRhythm
         # probability for unobserved (i.e. near impossible) events
+        if (denominator == 0):
+            # chord is not used.
+            denominator = chordModel.N_CHORDS * harmonicRhythm
         pUnobserved = 1.0 / denominator
         for key in relatedKeys:
             chord, interval, dummy = key.split('-')
@@ -111,7 +115,30 @@ def harmonicRhythmForEachFileInList(fileList):
             resultByFile[name] = harmonicRhythmForFile(infile)
     return resultByFile
 
-def estimateFrequencies(listFileName, top = 300, maxNGram = 2000):
+class ChordUsageSummary:
+    def __init__(self, beatsNumber, beatsPercent, durationSeconds, durationPercent):
+        self.beatsNumber = beatsNumber
+        self.beatsPercent = beatsPercent
+        self.durationSeconds = durationSeconds
+        self.durationPercent = durationPercent
+
+class SymbolicStatistics :
+    def __init__(self, totalDurations, totalBeats, labelKinds, noBassKinds, chordSummaryDict, unclassifiedLabelsCounter, meanHarmonicRhythm, meanBPM,
+                 numberOfSegments, numberOfDistinctNGrams, maxNGramLengthWithinTop):
+        self.totalDurations = totalDurations
+        self.totalBeats = totalBeats
+        self.labelKinds = labelKinds
+        self.noBassKinds = noBassKinds
+        self.chordSummaryDict = chordSummaryDict
+        self.unclassifiedLabelsCounter = unclassifiedLabelsCounter
+        self.meanHarmonicRhythm = meanHarmonicRhythm
+        self.meanBPM = meanBPM
+        self.numberOfSegments = numberOfSegments
+        self.numberOfDistinctNGrams = numberOfDistinctNGrams
+        self.maxNGramLengthWithinTop = maxNGramLengthWithinTop
+
+@cacher.memory.cache
+def estimateStatistics(fileList, top = 300, maxNGram = 2000):
     allLabels = np.array([], dtype='object')
     allKinds = np.array([], dtype='object')
     allRoots = np.array([], dtype='object')
@@ -119,57 +146,76 @@ def estimateFrequencies(listFileName, top = 300, maxNGram = 2000):
     allNBeats = np.array([], dtype='int')
     twoGrams = Counter()
     nGrams = Counter()
-    with open(listFileName) as list_file:
-        nFiles = 0
-        for line in list_file:
-            infile = line.rstrip()
-            nFiles += 1
-            print infile
-            with open(infile) as json_file:
-                data = json.load(json_file)
-                duration = data['duration']
-                metreNumerator = int(data['metre'].split('/')[0])
-                allBeats = []
-                allChords = []
-                commonUtils.processParts(metreNumerator, data, allBeats, allChords, 'chords')
-                segments = merge(toSymbolicAnalysisSegments(
-                    commonUtils.toBeatChordSegments(0, duration, allBeats, allChords)))
-                updateNGrams(segments, twoGrams, nGrams, limit = maxNGram)
-                allLabels = np.append(allLabels, map(lambda x: x.labels, segments))
-                allKinds = np.append(allKinds, map(lambda x: x.kind, segments))
-                allRoots = np.append(allRoots, map(lambda x: x.root, segments))
-                allDurations = np.append(allDurations, map(lambda x: x.duration, segments))
-                allNBeats = np.append(allNBeats, map(lambda x: x.nBeats, segments))
+    nFiles = 0
+    for infile in fileList:
+        nFiles += 1
+        print infile
+        with open(infile) as json_file:
+            data = json.load(json_file)
+            duration = data['duration']
+            metreNumerator = int(data['metre'].split('/')[0])
+            allBeats = []
+            allChords = []
+            commonUtils.processParts(metreNumerator, data, allBeats, allChords, 'chords')
+            segments = merge(toSymbolicAnalysisSegments(
+                commonUtils.toBeatChordSegments(0, duration, allBeats, allChords)))
+            updateNGrams(segments, twoGrams, nGrams, limit = maxNGram)
+            allLabels = np.append(allLabels, map(lambda x: x.labels, segments))
+            allKinds = np.append(allKinds, map(lambda x: x.kind, segments))
+            allRoots = np.append(allRoots, map(lambda x: x.root, segments))
+            allDurations = np.append(allDurations, map(lambda x: x.duration, segments))
+            allNBeats = np.append(allNBeats, map(lambda x: x.nBeats, segments))
 
     # output: kinds
     totalDuration = sum(allDurations)
     totalBeats = sum(allNBeats)
+    labelKinds = Counter()
+    noBasslabelKinds = Counter()
+
+    for labelSet in allLabels:
+        for l in labelSet:
+            parts = l.split(':')
+            if (len(parts) == 1):
+                labelKinds['maj'] += 1
+                noBasslabelKinds['maj'] += 1
+            else:
+                labelKinds[parts[1]] += 1
+                noBasslabelKinds[parts[1].split('/')[0]] += 1
+    print infile, totalDuration
     majDuration = sum(allDurations[allKinds == 'maj'])
     minDuration = sum(allDurations[allKinds == 'min'])
     domDuration = sum(allDurations[allKinds == 'dom'])
     hdimDuration = sum(allDurations[allKinds == 'hdim7'])
     dimDuration = sum(allDurations[allKinds == 'dim'])
+    ncDuration = sum(allDurations[allLabels == set('N')])
+    unclassifiedDuration = sum(allDurations[allKinds == ll.UNCLASSIFIED]) - ncDuration
     majBeats = sum(allNBeats[allKinds == 'maj'])
     minBeats = sum(allNBeats[allKinds == 'min'])
     domBeats = sum(allNBeats[allKinds == 'dom'])
     hdimBeats = sum(allNBeats[allKinds == 'hdim7'])
     dimBeats = sum(allNBeats[allKinds == 'dim'])
+    ncBeats = sum(allNBeats[allLabels == set('N')])
+    unclassifiedBeats = sum(allNBeats[allKinds == ll.UNCLASSIFIED]) - ncBeats
 
-    print "Maj: ", majBeats, '(', majBeats * 100.0 / totalBeats, '%) beats, ', majDuration, \
-        '(', majDuration * 100.0 / totalDuration, '%) sec'
-    print "Min: ", minBeats, '(', minBeats * 100.0 / totalBeats, '%) beats, ', minDuration, 'sec', \
-        '(', minDuration * 100.0 / totalDuration, '%) sec'
-    print "Dom: ", domBeats, '(', domBeats * 100.0 / totalBeats, '%) beats, ', domDuration, 'sec', \
-        '(', domDuration * 100.0 / totalDuration, '%) sec'
-    print "Hdim7: ", hdimBeats, '(', hdimBeats * 100.0 / totalBeats, '%) beats, ', hdimDuration, 'sec', \
-        '(', hdimDuration * 100.0 / totalDuration, '%) sec'
-    print "Dim7: ", dimBeats, '(', dimBeats * 100.0 / totalBeats, '%) beats, ', dimDuration, 'sec', \
-        '(', dimDuration * 100.0 / totalDuration, '%) sec'
+    chordSummaryDict = OrderedDict()
+    chordSummaryDict['maj'] = ChordUsageSummary(
+        majBeats,  majBeats * 100.0 / totalBeats, majDuration,  majDuration * 100.0 / totalDuration)
+    chordSummaryDict['min'] = ChordUsageSummary(
+        minBeats,  minBeats * 100.0 / totalBeats, minDuration,  minDuration * 100.0 / totalDuration)
+    chordSummaryDict['dom'] = ChordUsageSummary(
+        domBeats,  domBeats * 100.0 / totalBeats, domDuration,  domDuration * 100.0 / totalDuration)
+    chordSummaryDict['hdim7'] = ChordUsageSummary(
+        hdimBeats,  hdimBeats * 100.0 / totalBeats, hdimDuration,  hdimDuration * 100.0 / totalDuration)
+    chordSummaryDict['dim'] = ChordUsageSummary(
+        dimBeats,  dimBeats * 100.0 / totalBeats, dimDuration,  dimDuration * 100.0 / totalDuration)
+    chordSummaryDict['N'] = ChordUsageSummary(
+        ncBeats,  ncBeats * 100.0 / totalBeats, ncDuration,  ncDuration * 100.0 / totalDuration)
+    chordSummaryDict['unclassified'] = ChordUsageSummary(
+        unclassifiedBeats,  unclassifiedBeats * 100.0 / totalBeats, unclassifiedDuration,  unclassifiedDuration * 100.0 / totalDuration)
     # what's unclassified
     unclassified = np.array([], dtype='object')
     for u in allLabels[allKinds == ll.UNCLASSIFIED]:
         unclassified = np.append(unclassified, list(u))
-    print "\nTop unclassified:", Counter(unclassified).most_common(100)
 
     # remove unclassified.
     labels = allLabels[allKinds != ll.UNCLASSIFIED]
@@ -179,11 +225,6 @@ def estimateFrequencies(listFileName, top = 300, maxNGram = 2000):
     nBeats = allNBeats[allKinds != ll.UNCLASSIFIED]
 
     harmonicRhythm = float(sum(nBeats)) / len(nBeats)
-    print "\nAverage harmonic rhythm (beats per chord): ", harmonicRhythm
-    print "Average tempo (bpm): ", 60.0 / (totalDuration / totalBeats)
-    print "N of [merged] segments: ", len(kinds)
-    print "N of distinct N-gram counted: ", len(nGrams)
-
     transitionCRootPart = makeTransitionCRootPart(twoGrams, harmonicRhythm)
     transitionMatrix = transitionCRootPart
     for i in xrange(1, chordModel.N_PITCH_CLASSES):
@@ -192,11 +233,21 @@ def estimateFrequencies(listFileName, top = 300, maxNGram = 2000):
 
     topTwoGrams = twoGrams.most_common(top)
     topNGrams = nGrams.most_common(top)
-    #print "\nTop 2-grams:", topTwoGrams
-    #print "\nTop N-grams:", topNGrams
     maxTopLen = max([x[0].count('-')/2 for x in topNGrams])
-    print "Max N-gram length within top " + str(top) + ": ", maxTopLen
-    return topTwoGrams, topNGrams, transitionMatrix
+    symStat = SymbolicStatistics(
+        totalDuration,
+        totalBeats,
+        labelKinds,
+        noBasslabelKinds,
+        chordSummaryDict,
+        Counter(unclassified),
+        harmonicRhythm,
+        60.0 / (totalDuration / totalBeats),
+        len(kinds),
+        len(nGrams),
+        maxTopLen)
+
+    return symStat, topTwoGrams, topNGrams, transitionMatrix
 
 def saveTransitionMatrix(outfile, matrix):
     np.savez(
@@ -217,4 +268,4 @@ def loadTransitionMatrix(infile):
 #args = parser.parse_args()
 #
 #listFile = args.infile.name
-#topTwoGrams, topNGrams, matrix = estimateFrequencies(listFile)
+#symStat, topTwoGrams, topNGrams, transitionMatrix = estimateStatistics(commonUtils.loadFileList(listFile), 10, 10)

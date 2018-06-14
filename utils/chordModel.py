@@ -7,8 +7,10 @@ import os.path as path
 import os
 from scipy.misc import logsumexp
 import math
+import scipy.stats.mstats as ms
 
 PITCH_CLASS_NAMES = ["C", "Db", "D", "Eb", "E", "F", "F#", "G", "Ab", "A", "Bb", "B"]
+
 CHORD_KINDS = ["maj", "min", "dom", "hdim7", "dim"]
 CHORD_MIREX_KINDS = ["", ":min", ":7", ":hdim7", ":dim"]
 CHORD_NAMES = np.empty(60, dtype='object')
@@ -33,12 +35,19 @@ def substituteZeros(chromas):
 
 def ilr(chromaVector) :
     res = np.zeros(len(chromaVector) - 1)
+    logx = np.log(chromaVector)
     for j in xrange(len(chromaVector) - 1):
-        logx = np.log(chromaVector)
         i = float(j + 1.0)
         s = np.sum(logx[0:j+1]) / i - logx[j+1]
         res[j] = np.sqrt(i / (i + 1)) * s
     return res
+
+def alr(chromaVector) :
+    # alr to tonic.
+    return np.log(chromaVector[1:len(chromaVector)] / chromaVector[0])
+
+def clr(chromaVector) :
+    return np.log(chromaVector / ms.gmean(chromaVector))
 
 def perturbation(x,y):
     return rescale(x * y)
@@ -156,9 +165,6 @@ class ChordEmissionProbabilityModel:
     def logProbabilities(self, chromas):
         return np.zeros((len(chromas), N_CHORDS))
 
-    def kindsForCRooted(self, cRootedChroma):
-        return np.repeat('dom', len(cRootedChroma))
-
     def mirexChords(self, chromas):
         indices = np.argmax(self.logProbabilities(chromas))
         return map(lambda x: CHORD_NAMES[x], indices)
@@ -182,7 +188,7 @@ class BasicGMMParameters:
         norm : 'l1', 'l2', 'max', or None
         The norm to use to normalize each non zero sample.
 
-        preprocessing: 'log', 'log-ratio' or None.
+        preprocessing: 'log', 'ilr', 'alr', 'clr' or None.
 
         nComponents : numpy array of length of N_CHORD_KINDS. Contains number of GMM
         components for each chord type: maj, min, dom, hdim7, dim.
@@ -219,7 +225,11 @@ class BasicChordGMM(ChordEmissionProbabilityModel):
             chromas = preprocessing.normalize(chromas, norm=self.basicGMMParameters.norm)
         if (self.basicGMMParameters.preprocessing == 'log'):
             chromas = np.log(chromas)
-        elif (self.basicGMMParameters.preprocessing == 'log-ratio'):
+        elif (self.basicGMMParameters.preprocessing == 'alr'):
+            chromas = np.apply_along_axis(alr, 1, chromas)
+        elif (self.basicGMMParameters.preprocessing == 'clr'):
+            chromas = np.apply_along_axis(clr, 1, chromas)
+        elif (self.basicGMMParameters.preprocessing == 'ilr'):
             chromas = np.apply_along_axis(ilr, 1, chromas)
         elif (self.basicGMMParameters.preprocessing is not None):
             raise ValueError("Wrong preprocessing method: " + self.basicGMMParameters.preprocessing)
@@ -278,7 +288,7 @@ def trainBasicChordGMM(
                 max_iter=200,
                 random_state = 8), xrange(N_CHORD_KINDS))
     gmm = BasicChordGMM(basicGMMParameters, gmms)
-    gmm.fit(chromaEvaluator.loadChromasForAnnotationFileList(jsonListFile))
+    gmm.fit(chromaEvaluator.loadChromasForAnnotationFileListFile(jsonListFile))
     return gmm
 
 class ChordEstimator:
@@ -298,7 +308,7 @@ class ChordEstimator:
             self.chromaEvaluationParameters.stepSize,
             self.chromaEvaluationParameters.smoothingTime,
             self.chromaEvaluationParameters.sampleRate,
-            beatSegments.startTimes,
+            beatSegments.startTimes + 0.5 * beatSegments.durations,
             beatSegments.durations)
         logProbs = self.emissionModel.logProbabilities(chromaSegments.chromas)
         # No HMM

@@ -5,8 +5,6 @@ import re
 
 import vamp
 import madmom.features as mf
-import joblib
-import os
 import os.path as path
 import commonUtils
 import cacher
@@ -77,16 +75,20 @@ shortcuts={'maj':'(3,5)', 'min':'(b3,5)', 'dim':'(b3,b5)', 'aug':'(3,#5)', 'maj7
 'maj9':'(3,5,7,9)', 'min9':'(b3,5,b7,9)', 'sus4':'(4,5)'}
 UNCLASSIFIED = 'unclassified'
 
+def noteToNumber(note):
+    pitch=pitches[note[0]]
+    if (len(note) >= 2):
+        for i in range(1, len(note)):
+            pitch = pitch + alt[note[i]]
+    return pitch
+
 def toPitchAndKind(label):
     partsAndBass = label.split('/')
     parts = partsAndBass[0].split(':')
     note = parts[0]
     if (note[0] == 'N'):
         return 9, 'unclassified'
-    pitch=pitches[note[0]]
-    if (len(note) >= 2):
-        for i in range(1, len(note)):
-            pitch = pitch + alt[note[i]]
+    pitch = noteToNumber(note)
     if (len(parts) == 1) :
         kind = 'maj'
     else:
@@ -138,8 +140,7 @@ class AnnotatedChromaEvaluator:
                  chromaEvaluationParameters = ChromaEvaluationParameters()):
         self.chromaEvaluationParameters = chromaEvaluationParameters
 
-    # returns AnnotatedChromaSegments for the file list
-    def loadChromasForAnnotationFileList(self, fileListFile):
+    def loadChromasForAnnotationFileList(self, fileList):
         res = AnnotatedChromaSegments(
             labels=np.array([], dtype='object'),
             kinds=np.array([], dtype='object'),
@@ -147,16 +148,20 @@ class AnnotatedChromaEvaluator:
             mbids=np.array([], dtype='object'),
             startTimes=np.array([], dtype='float32'),
             durations=np.array([], dtype='float32'))
-        with open(fileListFile) as list_file:
-            for line in list_file:
-                chunk = self.loadChromasForAnnotationFile(line.rstrip())
-                res.chromas = np.concatenate((res.chromas, chunk.chromas))
-                res.labels = np.concatenate((res.labels, chunk.labels))
-                res.kinds = np.concatenate((res.kinds, chunk.kinds))
-                res.mbids = np.concatenate((res.mbids, chunk.mbids))
-                res.startTimes = np.concatenate((res.startTimes, chunk.startTimes))
-                res.durations = np.concatenate((res.durations, chunk.durations))
+        for file in fileList:
+            chunk = self.loadChromasForAnnotationFile(file)
+            res.chromas = np.concatenate((res.chromas, chunk.chromas))
+            res.labels = np.concatenate((res.labels, chunk.labels))
+            res.kinds = np.concatenate((res.kinds, chunk.kinds))
+            res.mbids = np.concatenate((res.mbids, chunk.mbids))
+            res.startTimes = np.concatenate((res.startTimes, chunk.startTimes))
+            res.durations = np.concatenate((res.durations, chunk.durations))
         return res
+
+    # returns AnnotatedChromaSegments for the file list
+    def loadChromasForAnnotationFileListFile(self, fileListFile):
+        return self.loadChromasForAnnotationFileList(
+            commonUtils.loadFileList(fileListFile))
 
     def getAnnotatedFileChromaParameters(self, annotationFileName):
         return FileChromaParameters(
@@ -331,6 +336,7 @@ def loadNNLSChromas(
         chroma = cachedRawChroma
     else:
         chroma = rawChromaFromAudio(audioInputFile, sampleRate, stepSize)
+    # TODO: make possible averaging by interbeat intervals.
     chroma = smooth(
         chroma,
         window_len=int(smoothingTime * sampleRate / stepSize), window='hanning').astype('float32')

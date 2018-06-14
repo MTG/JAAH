@@ -5,6 +5,21 @@ import re
 def getDataRoot():
     return os.environ['JAZZ_HARMONY_DATA_ROOT']
 
+def loadFileList(listFileName):
+    result = []
+    with open(listFileName) as list_file:
+        for line in list_file:
+            result.append(line.rstrip())
+    return result
+
+
+def loadFileListPlusPrefix(listFileName, pathPrefix):
+    result = []
+    with open(listFileName) as list_file:
+        for line in list_file:
+            result.append(line.rstrip())
+    return [pathPrefix + x for x in result]
+
 def allDivisors(n, startWith = 1):
     i = startWith
     if n < i:

@@ -70,18 +70,67 @@ TODOs (for each delivery entity):
         http://pythonhosted.org/jams/namespace.html (segment part, segment function)
 
 -------------------------------------------------------------------------------
+
+
 Paper.
 
 
 0. Title
 
 1. Abstract
+From "Billboard"
+
+Audio chord recognition has attracted much interest in recent years,
+but a severe lack of reliable training data—both in terms of quantity and range of
+ sampling—has hindered progress. Working with a team of trained jazz musicians,
+  we have collected time-aligned transcriptions of the harmony in more than a
+  thousand songs selected randomly from the Billboard “Hot 100” chart
+   in the United States between 1958 and 1991.
+   These transcriptions contain complete information about upper extensions and
+   alterations as well as information about meter, phrase, and larger musical
+   structure. We expect that these transcriptions will enable significant advances in
+    the quality of training for audio-chord-recognition algorithms, and furthermore,
+     because of an innovative sampling methodology, the data are usable as they stand
+      for computational musicology. The paper includes some summary figures and
+       statistics to help readers understand the scope of the data as well
+        as information for obtaining the transcriptions for their own research.
 
 2. Introduction
 
-3. Research goals and paper outline
+ TODO: BACKGROUND.
+Problem: MIR: mainly pop and rock music, jazz data is few.
+Problem: Jazz research: fragments (solo, chorus), no relation to audio.
+Problem: selection/bias.
+Problem: transcription methodology
 
-4. Related work.
+TODO: Aspect: why the jazz is interesting?
+why jazz is specific? Why harmony in jazz is important?
+TODO: Aspects/keywords: jazz education, established jazz styles, jazz scholars, chord transcription
+
+    Our paper introduces a dataset with annotations
+of jazz audio recordings which aimed to fill the mentioned gaps.
+
+TODO: EMPHASIZE NOVELTY!!!
+The reason for creating a new dataset is twofold.
+First, provide MIR community with the new source for content-based analysis,
+in particular for training and evaluating chord transcription and structure segmentation algorithms.
+Second, provide new dataseta to jazz researchers.
+
+Novelty:  contains not only leadsheet-style
+          symbolic information but features extracted from audio.
+Novelty: full track information
+Novelty: jazz
+
+We start with reviewing publicly available data sets related to jazz and to
+chords transcription in general.
+Based on preceding analysis we justify necessity of the new dataset and the new format.
+Then we describe annotation structure and methodology. Finally
+we demonstrate it's application for chord estimation algorithms evaluation
+and to computer-aided harmony analysis and visualization.
+All code used for dataset processing is openly available at TODO.
+
+3. RELATED WORK.
+
     Review related datasets and formats:
        I. chord-annotated audio datasets
        II. jazz-related datasets
@@ -106,6 +155,7 @@ Paper.
        * usages (MIR chord detection, corpus based research)
        * open audio (no)
 
+     Will be LaTeX table (?):
     (I)
        1 Isophonics (The Beatles(from Queen Mary: Beatles, Zweieck, Queen, Carole King).
          http://isophonics.net/content/reference-annotations
@@ -193,9 +243,14 @@ Ph.D. Student Inria / Ircam
     Announced at ISMIR'2014
     Eric J. Humphrey, Justin Salamon, Oriol Nieto, Jon Forsyth, Rachel M. Bittner, and Juan P. Bello, "JAMS: A JSON Annotated Music Specification for Reproducible MIR Research", Proceedings of the 15th International Conference on Music Information Retrieval, 2014.
 
-5. Proposed dataset
+5. PROPOSED DATASET
+   TODO: Aspect: chord transcription vs. chord estimation
+
    ? Why another one dataset:aspects?
    ? Why another one format: format description?
+   format description
+   data (smithsonian and other description)
+   MusicBrainz: we edit data on music brainz,....
    NOTE: chord notation semantics (use ISMIR format, but different meaning).
    Unordered aspects:
        * selection (why Smithsonian)
@@ -205,9 +260,15 @@ Ph.D. Student Inria / Ircam
          (beat tracking, using sources, using visual clues from NNLS chroma,
          background track generation).
          ... accompanying by chroma features and visualization.
-   "Site": 2-grams, N-grams, chroma hexagrams, what does they mean and illustrate.
 ....
-Conclusions
+
+6. CHORD TRANSCRIPTION ALGORITHMS BASELINE ESTIMATION
+
+7. IMPLICATIONS FOR CORPUS BASED RESEARCH
+   what could be generated
+   "Site": 2-grams, N-grams, chroma hexagrams, what does they mean and illustrate.
+
+CONCLUSIONS
 ....
 
 ATTIC (unordered ideas)
@@ -228,3 +289,4 @@ Write a review of possible approaches to jazz dataset building and  Smithsonian 
    - Consider adding ours, Chordino and CREMA algorithms runs as baseline estimation for jazz
      chord transcription.
 
+http://www.nue.tu-berlin.de/research/leadsheets

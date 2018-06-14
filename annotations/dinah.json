@@ -5,6 +5,12 @@
   "title": "Dinah",
   "tuning": 443.36,
   "metre": "4/4",
+  "sandbox": {
+    "path": "$JAZZ_HARMONY_DATA_ROOT/SmithsonianCollectionOfClassicJazz/Volume 2/19 - Quintette Of The Hot Club Of France - Dinah.flac",
+    "transcriptions": [
+      "$JAZZ_HARMONY_DATA_ROOT/Transcriptions/2 - Django Reinhardt (TORRENT-NO ALTER)/Definitive Collection/Definitive Collection.pdf"
+    ]
+  },
   "parts": [
     {
       "name": "intro",

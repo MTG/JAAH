@@ -126,31 +126,31 @@ def plotHexagram(ax, chroma, degrees, step = 30, gap = 0.005, labelSize = 12, ca
     plotLabels(ax, captionDegrees, size = labelSize)
 
 def plotMajHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
-    plotHexagram(ax, chroma, degrees = ['I', 'III', 'V', 'VII', 'VI', 'II', 'IV'], step=step, gap = gap, labelSize = labelSize)
+    plotHexagram(ax, chroma, degrees = ['I', 'V', 'III', 'VI', 'VII', 'II', 'IV'], step=step, gap = gap, labelSize = labelSize)
 
 def plotMinHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
-    plotHexagram(ax, chroma, degrees = ['I', 'IIIb', 'V', 'VIIb', 'VI', 'II', 'IV'], step=step, gap = gap, labelSize = labelSize)
+    plotHexagram(ax, chroma, degrees = ['I', 'V', 'IIIb', 'VIIb', 'IV', 'II', 'VI'], step=step, gap = gap, labelSize = labelSize)
 
 def plotDomHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
-    plotHexagram(ax, chroma, degrees = ['I', 'III', 'V', 'VIIb', 'VI', 'II', 'IV'], step=step, gap = gap, labelSize = labelSize)
+    plotHexagram(ax, chroma, degrees = ['I', 'V', 'III', 'VIIb', 'II', 'IV', 'VI'], step=step, gap = gap, labelSize = labelSize)
 
 def plotHdim7Hexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
-    plotHexagram(ax, chroma, degrees = ['I', 'IIIb', 'Vb', 'VIIb', 'VIb', 'IIb', 'IV'], step=step, gap = gap, labelSize = labelSize)
+    plotHexagram(ax, chroma, degrees = ['I', 'IIIb', 'VIIb', 'Vb', 'IV', 'V', 'II'], step=step, gap = gap, labelSize = labelSize)
 
 def plotDimHexagram(ax, chroma, step = 30, gap = 0.005, labelSize = 12):
     plotHexagram(
         ax,
         chroma,
-        degrees = ['I', 'IIIb', 'Vb', 'VI', 'VI', 'IIb', 'IV'],
+        degrees = ['I', 'Vb', 'IIIb', 'VI', 'IIb', 'VII', 'VIb'],
         step=step,
         gap = gap,
         labelSize = labelSize,
-        captionDegrees=['I', 'IIIb', 'Vb', 'VIIbb', 'VIIbb', 'IIb', 'IV'])
+        captionDegrees=['I', 'Vb', 'IIIb', 'VIIbb', 'IIb', 'VII', 'VIb'])
 
 def estimatePartition(partition, chromas):
     return np.sum(chromas[:, partition], axis=1)
 
-# sort chord/sclae degrees according to method ('mean', 'entropy', 'beta-likelihood')
+# sort chord/scale degrees according to method ('mean', 'entropy', 'beta-likelihood')
 def sortedDegrees(chromas, method='mean', flip = False, convertToIndices=False):
     av = np.mean(chromas, axis=0)
     t = np.empty(len(degrees), dtype=[('degree', object), ('entropy', float), ('mean', float), ('beta-likelihood', float)])
@@ -178,12 +178,10 @@ def plotStrongWeakHexagrams(
         sortedDegrees,
         step = 30, gap = 0.005, labelSize = 12):
     weakest = np.empty(7, dtype='object')
-    weakest[1:7] = sortedDegrees[0:6]
-    weakest[0] = sortedDegrees[11]
+    weakest[0:7] = sortedDegrees[0:7]
+    #weakest[0] = sortedDegrees[6]
     strongest = np.empty(7, dtype='object')
     strongest[0] = sortedDegrees[11]
     strongest[1:7] = sortedDegrees[5:11]
     plotHexagram(ax1, chromas, weakest, step = step, gap = gap, labelSize = labelSize)
     plotHexagram(ax2, chromas, strongest, step = step, gap = gap, labelSize = labelSize)
-
-
