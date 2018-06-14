@@ -48,8 +48,5 @@ def render(tpl_path, pathPrefix, jsonpathname, jsonname, annotation, recording, 
             recording = recording,
             statistics = statistics))
 
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
 
 renderAnnotaions('ready.txt', 'site/recording_template.rst', 'site/source/data', 'site/index.rst', 'site/source/index.rst')

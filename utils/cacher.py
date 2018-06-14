@@ -6,7 +6,7 @@ import os
 ######################################################################
 
 def getCaheDir():
-    if (os.environ.has_key('JAZZ_HARMONY_CACHE_DIR')):
+    if ('JAZZ_HARMONY_CACHE_DIR' in os.environ):
         return os.environ['JAZZ_HARMONY_CACHE_DIR']
     else:
         return None

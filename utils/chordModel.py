@@ -15,8 +15,8 @@ CHORD_KINDS = ["maj", "min", "dom", "hdim7", "dim"]
 CHORD_MIREX_KINDS = ["", ":min", ":7", ":hdim7", ":dim"]
 CHORD_NAMES = np.empty(60, dtype='object')
 
-for p in xrange(len(PITCH_CLASS_NAMES)):
-    for c in xrange(len(CHORD_MIREX_KINDS)):
+for p in range(len(PITCH_CLASS_NAMES)):
+    for c in range(len(CHORD_MIREX_KINDS)):
         CHORD_NAMES[p * 5 + c] = PITCH_CLASS_NAMES[p] + CHORD_MIREX_KINDS[c]
 
 N_PITCH_CLASSES = len(PITCH_CLASS_NAMES)
@@ -36,7 +36,7 @@ def substituteZeros(chromas):
 def ilr(chromaVector) :
     res = np.zeros(len(chromaVector) - 1)
     logx = np.log(chromaVector)
-    for j in xrange(len(chromaVector) - 1):
+    for j in range(len(chromaVector) - 1):
         i = float(j + 1.0)
         s = np.sum(logx[0:j+1]) / i - logx[j+1]
         res[j] = np.sqrt(i / (i + 1)) * s
@@ -60,7 +60,7 @@ def rescale(x):
 
 def loglogRatioBasisColumns(sz):
     basis = np.empty((sz, sz - 1), dtype='float')
-    for j in xrange(basis.shape[1]):
+    for j in range(basis.shape[1]):
         i = float(j + 1)
         x = np.empty(sz, dtype=float)
         x[0:j+1] = math.sqrt(1.0 / (i * (i+1)))
@@ -89,7 +89,7 @@ def removeUnclassified(chromaSegments):
 def viterbiStep(logProbs, logMatrix):
     newLogProbs = np.zeros(len(logProbs))
     bestIndices = np.zeros(len(logProbs), dtype='int')
-    for i in xrange(len(logProbs)):
+    for i in range(len(logProbs)):
         pathLogProbs = logProbs + logMatrix[:, i]
         p = np.argmax(pathLogProbs)
         newLogProbs[i] = pathLogProbs[p]
@@ -100,14 +100,14 @@ def viterbiStep(logProbs, logMatrix):
 def viterbi(trellis, logMatrix):
     paths = np.zeros(trellis.shape, dtype='int')
     s = trellis[0,:]
-    for i in xrange(1, trellis.shape[0]):
+    for i in range(1, trellis.shape[0]):
         s, prev = viterbiStep(s, logMatrix)
         paths[i, :] = prev
         s = s + trellis[i,:]
     best = np.empty(trellis.shape[0], dtype='int')
     strength = np.empty(trellis.shape[0], dtype='float')
     p = np.argmax(s)
-    for i in xrange(trellis.shape[0] - 1, -1, -1):
+    for i in range(trellis.shape[0] - 1, -1, -1):
         best[i] = p
         strength[i] = np.exp(trellis[i,p])
         p = paths[i, p]
@@ -144,7 +144,7 @@ def toMirexLab(startTime, endTime, beatSegments, symbols, strengths) :
     res = []
     if (startTime < beatSegments.startTimes[0]) :
         res.append(ChordSegment(startTime, beatSegments.startTimes[0], 'N'))
-    for i in xrange(len(symbols)) :
+    for i in range(len(symbols)) :
         sym = symbols[i] if strengths[i] > 0 else 'N'
         res.append(ChordSegment(
             beatSegments.startTimes[i],
@@ -236,19 +236,19 @@ class BasicChordGMM(ChordEmissionProbabilityModel):
         return chromas
 
     def fit(self, annotatedChromaSegments):
-        for i in xrange(N_CHORD_KINDS):
+        for i in range(N_CHORD_KINDS):
             self.gmms[i].fit(self.preprocess(
                 annotatedChromaSegments.chromas[
                     annotatedChromaSegments.kinds == CHORD_KINDS[i]]))
 
     def logProbabilities(self, chromas):
         lps = np.zeros((len(chromas), N_CHORDS))
-        for basePitch in xrange(N_PITCH_CLASSES):
+        for basePitch in range(N_PITCH_CLASSES):
             pos = basePitch * 5
             # NOTE: log-ratio preprocessing should be applied to shifted
             # chroma, so we always do it inside loop.
             preChromas = self.preprocess(chromas)
-            for kind in xrange(N_CHORD_KINDS):
+            for kind in range(N_CHORD_KINDS):
                 lps[:, pos + kind] = self.gmms[kind].score_samples(preChromas)
             chromas = np.roll(chromas, -1, axis=1)
         # normalize. TODO: rethink: is it really needed.
@@ -258,7 +258,7 @@ class BasicChordGMM(ChordEmissionProbabilityModel):
     def predictKindsForCRooted(self, cRootedChroma):
         scores = np.zeros((len(cRootedChroma), N_CHORD_KINDS))
         preChromas = self.preprocess(cRootedChroma)
-        for kind in xrange(N_CHORD_KINDS):
+        for kind in range(N_CHORD_KINDS):
             scores[:, kind] = self.gmms[kind].score_samples(preChromas)
         indices = np.argmax(scores, axis=1)
         np_kinds = np.array(CHORD_KINDS)
@@ -286,7 +286,7 @@ def trainBasicChordGMM(
                 n_components=basicGMMParameters.nComponents[x],
                 covariance_type=basicGMMParameters.covarianceTypes[x],
                 max_iter=200,
-                random_state = 8), xrange(N_CHORD_KINDS))
+                random_state = 8), range(N_CHORD_KINDS))
     gmm = BasicChordGMM(basicGMMParameters, gmms)
     gmm.fit(chromaEvaluator.loadChromasForAnnotationFileListFile(jsonListFile))
     return gmm

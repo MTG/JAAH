@@ -7,6 +7,7 @@ from collections import Counter
 from collections import OrderedDict
 import chordModel
 import os
+import functools
 
 class SymbolicAnalysisSegment :
     def __init__(self, labels, kind, root, duration, nBeats):
@@ -49,26 +50,26 @@ def toInterval(pitch1, pitch2) :
     return INTERTVALS[(pitch2 - pitch1) % 12]
 
 def toSequence(intervals) :
-    return reduce(lambda x,y: x + "-" + y.split('-',1)[1], intervals)
+    return functools.reduce(lambda x,y: x + "-" + y.split('-',1)[1], intervals)
 
 def updateNGrams(segments, twoGrams, nGrams, limit):
     # ignore unclassified.
     kinds = map(lambda x: x.kind, filter(lambda x: x.kind != ll.UNCLASSIFIED, segments))
     roots = map(lambda x: x.root, filter(lambda x: x.kind != ll.UNCLASSIFIED, segments))
     sequence = np.empty([len(kinds) - 1], dtype='object')
-    for i in xrange(len(sequence)):
+    for i in range(len(sequence)):
         sequence[i] = kinds[i] + '-' + toInterval(roots[i], roots[i + 1]) + '-' + kinds[i + 1]
     for s in sequence:
         twoGrams[s] += 1
-    for i in xrange(len(sequence)):
+    for i in range(len(sequence)):
         if (i == 0):
             nGrams[sequence[i]] +=1
-        for j in (xrange(i,max(0, i - limit),-1)):
+        for j in range(i,max(0, i - limit),-1):
             nGrams[toSequence(sequence[j:i + 1])] += 1
 
 def makeTransitionCRootPart(twoGrams, harmonicRhythm):
     result = np.zeros((chordModel.N_CHORDS, chordModel.N_CHORD_KINDS))
-    for i in xrange(chordModel.N_CHORD_KINDS):
+    for i in range(chordModel.N_CHORD_KINDS):
         column = result[:, i]
         sym = chordModel.CHORD_KINDS[i]
         relatedKeys = filter(lambda x: x.endswith(sym), twoGrams.keys())
@@ -149,7 +150,7 @@ def estimateStatistics(fileList, top = 300, maxNGram = 2000):
     nFiles = 0
     for infile in fileList:
         nFiles += 1
-        print infile
+        print(infile)
         with open(infile) as json_file:
             data = json.load(json_file)
             duration = data['duration']
@@ -181,7 +182,7 @@ def estimateStatistics(fileList, top = 300, maxNGram = 2000):
             else:
                 labelKinds[parts[1]] += 1
                 noBasslabelKinds[parts[1].split('/')[0]] += 1
-    print infile, totalDuration
+    print(infile, totalDuration)
     majDuration = sum(allDurations[allKinds == 'maj'])
     minDuration = sum(allDurations[allKinds == 'min'])
     domDuration = sum(allDurations[allKinds == 'dom'])
@@ -227,7 +228,7 @@ def estimateStatistics(fileList, top = 300, maxNGram = 2000):
     harmonicRhythm = float(sum(nBeats)) / len(nBeats)
     transitionCRootPart = makeTransitionCRootPart(twoGrams, harmonicRhythm)
     transitionMatrix = transitionCRootPart
-    for i in xrange(1, chordModel.N_PITCH_CLASSES):
+    for i in range(1, chordModel.N_PITCH_CLASSES):
         block = np.roll(transitionCRootPart, i * chordModel.N_CHORD_KINDS, 0)
         transitionMatrix = np.hstack((transitionMatrix, block))
 

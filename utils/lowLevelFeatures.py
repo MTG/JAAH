@@ -219,11 +219,11 @@ def smooth(x, window_len=11, window='hanning'):
     y = np.zeros(x.shape)
     for i in range(np.size(x,1)):
       if np.size(x, 0) < window_len:
-          raise ValueError, "Input vector needs to be bigger than window size."
+          raise ValueError("Input vector needs to be bigger than window size.")
       if window_len < 3:
           return x
       if not window in ['flat', 'hanning', 'hamming', 'bartlett', 'blackman']:
-          raise ValueError, "Window is on of 'flat', 'hanning', 'hamming', 'bartlett', 'blackman'"
+          raise ValueError("Window is on of 'flat', 'hanning', 'hamming', 'bartlett', 'blackman'")
       xx = x[:, i]
       s = np.r_[xx[window_len - 1:0:-1], xx, xx[-1:-window_len:-1]]
       # print(len(s))
@@ -287,7 +287,7 @@ def loadAnnotatedNNLSChromas(
         chroma,
         window_len=int(smoothingTime * sampleRate / stepSize), window='hanning').astype('float32')
     with open(jsonFileName) as json_file:
-        print json_file
+        print(json_file)
         data = json.load(json_file)
         mbid = data['mbid']
         duration = data['duration']
@@ -310,7 +310,7 @@ def loadAnnotatedNNLSChromas(
             e = int(float(segments[i].endTime) *
                     sampleRate / stepSize)
             if (s == e):
-                print "empty segment ", segments[i].startTime, segments[i].endTime
+                print("empty segment ", segments[i].startTime, segments[i].endTime)
                 raise
             chromas[i] = chroma[s]
             if (rollToCRoot):

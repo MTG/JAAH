@@ -84,7 +84,7 @@ def toMirexLab(startTime, endTime, beatSegments, symbols, strengths) :
     res = []
     if (startTime < beatSegments.startTimes[0]) :
         res.append(ChordSegment(startTime, beatSegments.startTimes[0], 'N'))
-    for i in xrange(len(symbols)) :
+    for i in range(len(symbols)) :
         sym = symbols[i] if strengths[i] > 0 else 'N'
         res.append(ChordSegment(
             beatSegments.startTimes[i],
@@ -102,12 +102,12 @@ def toBeatChordSegments(startTime, endTime, beats, symbols) :
     res = []
     if (startTime < beats[0]) :
         res.append(ChordSegment(startTime, beats[0], 'N'))
-    for i in xrange(len(symbols)) :
+    for i in range(len(symbols)) :
         sym = symbols[i]
         if (beats[i] < beats[i+1]):
             res.append(ChordSegment(beats[i], beats[i + 1], sym))
         else:
-            print "wrong beats order: " + str(beats[i]) + ", " + str(beats[i + 1])
+            print("wrong beats order: " + str(beats[i]) + ", " + str(beats[i + 1]))
         #    raise ValueError("wrong beats order: " + str(onsets[i]) + ", " + str(onsets[i+1]))
     if (res[-1].endTime < endTime) :
         res.append(ChordSegment(res[-1].endTime, endTime, 'N'))
