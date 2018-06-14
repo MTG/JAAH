@@ -1,5 +1,4 @@
-# JazzHarmonyCorpus
-Jazz harmony corpus.
+# Jazz Audio-Aligned Harmony (JAAH) Dataset
 
    * annotations - annotations in JSON format
    * docs - documentation
@@ -13,4 +12,4 @@ Coming soon:
    * notebooks
    * chroma
    * ismir2018paper
-
+  
