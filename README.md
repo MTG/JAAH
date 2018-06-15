@@ -1,5 +1,7 @@
 # Jazz Audio-Aligned Harmony (JAAH) Dataset
 
+[![DOI](https://zenodo.org/badge/84466539.svg)](https://zenodo.org/badge/latestdoi/84466539)
+
 The dataset documentationis available at  https://mtg.github.io/JAAH/.
 
 Content:
