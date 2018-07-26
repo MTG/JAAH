@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1940-05-25 - 1940-05-25
    * - Composer(s)
-     - 
+     - Jimmy McHugh
 .. _3fbcaf3e-e57b-4e8d-b903-edbd942fb76d: https://musicbrainz.org/recording/3fbcaf3e-e57b-4e8d-b903-edbd942fb76d
 
 Line-up
@@ -34,18 +34,18 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - Bernard Addison 
-   * - alto saxophone
-     - Benny Carter 
    * - tenor saxophone
      - Coleman Hawkins 
-   * - double bass
-     - John Kirby 
-   * - drums
+   * - membranophone
      - Sid Catlett 
+   * - alto saxophone
+     - Benny Carter 
    * - trumpet
      - Roy Eldridge 
+   * - guitar
+     - Bernard Addison 
+   * - double bass
+     - John Kirby 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -59,7 +59,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 211.32401445
    * - :term:`Mean Harmonic Rhythm`
-     - 5.33333333333
+     - 5.333333333333333
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -70,21 +70,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 308
      - 34.3366778149
      - 85.8
      - 33.6893356369
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 84
      - 9.36454849498
@@ -95,6 +85,26 @@ Symbolic Staistics From Annotation
      - 56.1872909699
      - 140.33
      - 55.1005182975
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 1
+     - 0.111482720178
+     - 5.12
+     - 2.01036594943
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

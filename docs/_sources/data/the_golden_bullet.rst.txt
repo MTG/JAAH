@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1950-05-16 - 1950-05-16
    * - Composer(s)
-     - 
+     - Count Basie, Bernie Ebbins
 .. _f63da1a2-4f9d-44a4-9bfa-14bde9da3f06: https://musicbrainz.org/recording/f63da1a2-4f9d-44a4-9bfa-14bde9da3f06
 
 Line-up
@@ -34,22 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - Freddie Green 
-   * - baritone saxophone
-     - Serge Chaloff 
    * - tenor saxophone
      - Charlie Rouse 
-   * - double bass
-     - Jimmy Lewis 
-   * - drums
+   * - membranophone
      - Buddy Rich 
-   * - piano
-     - Count Basie 
    * - trumpet
      - Clark Terry 
+   * - piano
+     - Count Basie 
    * - clarinet
      - Buddy DeFranco 
+   * - guitar
+     - Freddie Green 
+   * - double bass
+     - Jimmy Lewis 
+   * - baritone saxophone
+     - Serge Chaloff 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -63,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 207.144761397
    * - :term:`Mean Harmonic Rhythm`
-     - 4.29357798165
+     - 4.293577981651376
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -74,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 198
      - 38.2239382239
      - 55.69
      - 37.1167688616
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 54
      - 10.4247104247
@@ -99,6 +89,26 @@ Symbolic Staistics From Annotation
      - 41.6988416988
      - 60.13
      - 40.0759797387
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 50
+     - 9.65250965251
+     - 19.18
+     - 12.7832577979
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

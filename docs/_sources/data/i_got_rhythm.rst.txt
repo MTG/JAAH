@@ -51,7 +51,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 287.560687574
    * - :term:`Mean Harmonic Rhythm`
-     - 2.66240875912
+     - 2.6624087591240877
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -62,21 +62,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 66
-     - 4.51745379877
-     - 13.38
-     - 4.38918777063
    * - maj
      - 413
      - 28.2683093771
      - 83.57
      - 27.4143813148
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 136
      - 9.30869267625
@@ -87,6 +77,26 @@ Symbolic Staistics From Annotation
      - 57.7686516085
      - 171.51
      - 56.2623015352
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 66
+     - 4.51745379877
+     - 13.38
+     - 4.38918777063
+   * - N
+     - 2
+     - 0.136892539357
+     - 8.69
+     - 2.85067576434
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -34,24 +34,26 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - bongos and congas
-     - Chano Pozo 
-   * - baritone saxophone
-     - Cecil Payne 
+   * - membranophone
+     - Kenny Clarke 
    * - alto saxophone
      - Howard E. Johnson, John Brown 
-   * - tenor saxophone
-     - George "Big Nick" Nicholas, Joe Gayles 
-   * - double bass
-     - Al McKibbon 
-   * - drums
-     - Kenny Clarke 
-   * - trombone
-     - William Shepherd, Ted Kelly 
+   * - bongos and congas
+     - Chano Pozo 
    * - piano
      - John Lewis 
    * - trumpet
      - Elmon Wright, Lammar Wright, Jr., Dave Burns, Benny Bailey, Dizzy Gillespie 
+   * - tenor saxophone
+     - George "Big Nick" Nicholas, Joe Gayles 
+   * - double bass
+     - Al McKibbon 
+   * - baritone saxophone
+     - Cecil Payne 
+   * - trombone
+     - William Shepherd, Ted Kelly 
+   * - vocal
+     - Chano Pozo, Dizzy Gillespie 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -65,7 +67,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 168.818167448
    * - :term:`Mean Harmonic Rhythm`
-     - 7.88059701493
+     - 7.880597014925373
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -76,21 +78,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 32
      - 5.9925093633
      - 11.16
      - 5.88018336056
-   * - hdim7
-     - 24
-     - 4.49438202247
-     - 8.42
-     - 4.43648242795
    * - min
      - 16
      - 2.99625468165
@@ -101,6 +93,26 @@ Symbolic Staistics From Annotation
      - 85.393258427
      - 157.92
      - 83.2077559408
+   * - hdim7
+     - 24
+     - 4.49438202247
+     - 8.42
+     - 4.43648242795
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 6
+     - 1.12359550562
+     - 6.68
+     - 3.51967964592
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

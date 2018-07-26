@@ -36,11 +36,11 @@ Line-up
    
    * - tenor saxophone
      - John Coltrane 
-   * - piano
-     - Tommy Flanagan 
    * - double bass
      - Paul Chambers 
-   * - drumset
+   * - piano
+     - Tommy Flanagan 
+   * - drums (drum set)
      - Art Taylor 
 
 Symbolic Staistics From Annotation
@@ -55,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 283.507306889
    * - :term:`Mean Harmonic Rhythm`
-     - 2.50184501845
+     - 2.5018450184501844
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -66,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 692
      - 50.9572901325
      - 143.26
      - 49.8469032707
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 248
      - 18.2621502209
@@ -91,6 +81,26 @@ Symbolic Staistics From Annotation
      - 30.6332842415
      - 85.86
      - 29.8747390397
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.147275405007
+     - 7.0
+     - 2.43562978427
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

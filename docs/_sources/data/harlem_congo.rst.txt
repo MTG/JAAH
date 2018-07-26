@@ -34,24 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - Bobby Johnson 
-   * - alto saxophone
-     - Louis Jordan 
    * - tenor saxophone
      - Teddy McRae, Wayman Carver 
-   * - alto saxophone and clarinet
-     - Chauncey Haughton 
-   * - double bass
-     - Beverly Peer 
-   * - drums
+   * - membranophone
      - Chick Webb 
-   * - trombone
-     - Nat Story, Sandy Williams 
+   * - alto saxophone
+     - Louis Jordan 
    * - piano
      - Tommy Fulford 
    * - trumpet
      - Taft Jordan, Bobby Stark, Mario Bauzá 
+   * - guitar
+     - Bobby Johnson 
+   * - double bass
+     - Beverly Peer 
+   * - alto saxophone and clarinet
+     - Chauncey Haughton 
+   * - trombone
+     - Nat Story, Sandy Williams 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -65,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 260.350196539
    * - :term:`Mean Harmonic Rhythm`
-     - 2.59340659341
+     - 2.5934065934065935
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -76,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 32
-     - 3.76470588235
-     - 6.75
-     - 3.44581142478
    * - maj
      - 206
      - 24.2352941176
      - 50.24
      - 25.647046812
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 135
      - 15.8823529412
@@ -101,6 +91,26 @@ Symbolic Staistics From Annotation
      - 39.4117647059
      - 74.46
      - 38.0111286947
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 32
+     - 3.76470588235
+     - 6.75
+     - 3.44581142478
+   * - N
+     - 142
+     - 16.7058823529
+     - 31.34
+     - 15.9987748226
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

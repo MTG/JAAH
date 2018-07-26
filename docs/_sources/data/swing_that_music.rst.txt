@@ -34,22 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - Lee Blair 
-   * - alto saxophone
-     - Charlie Holmes, Henry Jones 
    * - tenor saxophone
      - Greely Walton, Bingie Madison 
-   * - double bass
-     - George "Pops" Foster 
-   * - drums
+   * - membranophone
      - Paul Barbarin 
-   * - trombone
-     - Jimmy Archey, Snub Mosley 
+   * - alto saxophone
+     - Charlie Holmes, Henry Jones 
    * - piano
      - Luis Russell 
    * - trumpet
      - Louis Bacon, Gus Aiken, Leonard "Ham" Davis, Louis Armstrong 
+   * - guitar
+     - Lee Blair 
+   * - double bass
+     - George "Pops" Foster 
+   * - trombone
+     - Jimmy Archey, Snub Mosley 
+   * - vocal
+     - Louis Armstrong 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -63,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 309.53064859
    * - :term:`Mean Harmonic Rhythm`
-     - 6.17931034483
+     - 6.179310344827586
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -74,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 56
-     - 6.23608017817
-     - 10.65
-     - 6.11822829896
    * - maj
      - 364
      - 40.5345211581
      - 68.84
      - 39.547308554
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 56
      - 6.23608017817
@@ -99,6 +91,26 @@ Symbolic Staistics From Annotation
      - 46.7706013363
      - 79.39
      - 45.6080886999
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 56
+     - 6.23608017817
+     - 10.65
+     - 6.11822829896
+   * - N
+     - 2
+     - 0.22271714922
+     - 4.64
+     - 2.66559430114
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

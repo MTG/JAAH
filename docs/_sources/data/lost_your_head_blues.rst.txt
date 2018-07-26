@@ -1,7 +1,7 @@
 .. index:: Lost Your Head Blues, Bessie Smith
 .. _hyperlink-name: "Lost Your Head Blues" Bessie Smith
 
-"Lost Your Head Blues" Bessie Smith/None
+"Lost Your Head Blues" Bessie Smith/1926
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 435.04 Hz
    * - Recording Dates
-     - None - None
+     - 1926-03-18 - 1926-03-18
    * - Composer(s)
-     - 
+     - Bessie Smith
 .. _bdf130fd-b72c-4cc1-89d0-1be77ecdbdd8: https://musicbrainz.org/recording/bdf130fd-b72c-4cc1-89d0-1be77ecdbdd8
 
 Line-up
@@ -34,6 +34,12 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - cornet
+     - Joe Smith 
+   * - vocal
+     - Bessie Smith 
+   * - piano
+     - Fletcher Henderson 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -58,21 +64,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 136
      - 52.7131782946
      - 91.05
      - 51.3826185102
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 4
      - 1.5503875969
@@ -83,6 +79,26 @@ Symbolic Staistics From Annotation
      - 44.9612403101
      - 77.25
      - 43.5948081264
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.77519379845
+     - 6.195
+     - 3.4960496614
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

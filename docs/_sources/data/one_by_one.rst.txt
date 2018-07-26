@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1963-06-16 - 1963-06-16
    * - Composer(s)
-     - 
+     - Wayne Shorter
 .. _3bdc8595-62e3-480f-8096-eb862cd6ba95: https://musicbrainz.org/recording/3bdc8595-62e3-480f-8096-eb862cd6ba95
 
 Line-up
@@ -34,18 +34,18 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - tenor saxophone
-     - Wayne Shorter 
-   * - double bass
-     - Reggie Workman 
-   * - drums
+   * - membranophone
      - Art Blakey 
-   * - trombone
-     - Curtis Fuller 
    * - piano
      - Cedar Walton 
    * - trumpet
      - Freddie Hubbard 
+   * - tenor saxophone
+     - Wayne Shorter 
+   * - double bass
+     - Reggie Workman 
+   * - trombone
+     - Curtis Fuller 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -59,7 +59,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 128.089359814
    * - :term:`Mean Harmonic Rhythm`
-     - 2.2985915493
+     - 2.2985915492957747
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -70,21 +70,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 78
      - 9.53545232274
      - 33.92
      - 8.85246757314
-   * - hdim7
-     - 150
-     - 18.337408313
-     - 67.37
-     - 17.5822741864
    * - min
      - 300
      - 36.6748166259
@@ -95,6 +85,26 @@ Symbolic Staistics From Annotation
      - 35.2078239609
      - 128.95
      - 33.6534697393
+   * - hdim7
+     - 150
+     - 18.337408313
+     - 67.37
+     - 17.5822741864
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.244498777506
+     - 19.14
+     - 4.99517185583
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

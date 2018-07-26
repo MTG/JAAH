@@ -34,10 +34,10 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - piano
-     - Muhal Richard Abrams 
    * - alto saxophone
      - Anthony Braxton 
+   * - piano
+     - Muhal Richard Abrams 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -51,7 +51,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 113.736338488
    * - :term:`Mean Harmonic Rhythm`
-     - 2.37714285714
+     - 2.3771428571428572
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -62,21 +62,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 26
-     - 6.22009569378
-     - 13.39
-     - 6.07228697111
    * - maj
      - 228
      - 54.5454545455
      - 117.96
      - 53.4941725999
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 36
      - 8.61244019139
@@ -87,6 +77,26 @@ Symbolic Staistics From Annotation
      - 30.1435406699
      - 65.03
      - 29.4907260442
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 26
+     - 6.22009569378
+     - 13.39
+     - 6.07228697111
+   * - N
+     - 2
+     - 0.478468899522
+     - 5.71
+     - 2.58945172555
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

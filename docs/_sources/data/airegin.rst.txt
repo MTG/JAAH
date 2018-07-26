@@ -34,24 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - bongos
-     - Johnny Rodriguez 
-   * - timbales
-     - Tito Puente 
    * - synthesizer
      - Rebeca Mauleón 
-   * - double bass
-     - Bobby Rodriguez 
-   * - saxophone
-     - Mitchell Frohman, Mary Fettig 
-   * - bongos and shekere
-     - John Santos 
-   * - trombone
-     - Sam Burtis 
+   * - timbales
+     - Tito Puente 
+   * - bongos
+     - Johnny Rodriguez 
    * - piano
      - Sonny Bravo 
+   * - saxophone
+     - Mitchell Frohman, Mary Fettig 
+   * - double bass
+     - Bobby Rodriguez 
    * - trumpet
      - David "Piro" Rodríguez, Robbie Kwock 
+   * - trombone
+     - Sam Burtis 
+   * - bongos and shekere
+     - John Santos 
    * - congas
      - José Madera 
 
@@ -78,21 +78,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 156
      - 16.9934640523
      - 42.58
      - 16.6594937204
-   * - hdim7
-     - 38
-     - 4.1394335512
-     - 10.39
-     - 4.06510426856
    * - min
      - 380
      - 41.394335512
@@ -103,6 +93,26 @@ Symbolic Staistics From Annotation
      - 28.5403050109
      - 71.68
      - 28.0449156853
+   * - hdim7
+     - 38
+     - 4.1394335512
+     - 10.39
+     - 4.06510426856
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 82
+     - 8.93246187364
+     - 27.47
+     - 10.7476818342
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

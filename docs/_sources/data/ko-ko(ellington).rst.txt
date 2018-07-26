@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1940-03-06 - 1940-03-06
    * - Composer(s)
-     - 
+     - Duke Ellington
 .. _887bc584-e245-4feb-a7a1-add0e483dd21: https://musicbrainz.org/recording/887bc584-e245-4feb-a7a1-add0e483dd21
 
 Line-up
@@ -34,32 +34,32 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - valve trombone
-     - Juan Tizol 
-   * - tenor saxophone
-     - Ben Webster 
-   * - drums
-     - Sonny Greer 
-   * - baritone saxophone
-     - Harry Carney 
-   * - alto saxophone
-     - Johnny Hodges 
-   * - guitar
-     - Fred Guy 
-   * - alto saxophone and clarinet
-     - Otto Hardwick 
-   * - double bass
-     - Jimmy Blanton 
-   * - clarinet and tenor saxophone
-     - Barney Bigard 
    * - trombone
      - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - alto saxophone
+     - Johnny Hodges 
+   * - valve trombone
+     - Juan Tizol 
+   * - guitar
+     - Fred Guy 
+   * - double bass
+     - Jimmy Blanton 
+   * - baritone saxophone
+     - Harry Carney 
+   * - membranophone
+     - Sonny Greer 
+   * - alto saxophone and clarinet
+     - Otto Hardwick 
+   * - cornet
+     - Rex Stewart 
    * - piano
      - Duke Ellington 
    * - trumpet
      - Cootie Williams, Wallace Jones 
-   * - cornet
-     - Rex Stewart 
+   * - tenor saxophone
+     - Ben Webster 
+   * - clarinet and tenor saxophone
+     - Barney Bigard 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -73,7 +73,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 153.610583696
    * - :term:`Mean Harmonic Rhythm`
-     - 14.3448275862
+     - 14.344827586206897
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -84,17 +84,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - hdim7
      - 0
      - 0.0
      - 0
@@ -109,6 +99,26 @@ Symbolic Staistics From Annotation
      - 13.3971291866
      - 21.18
      - 12.9723770442
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.478468899522
+     - 5.83
+     - 3.5707723403
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

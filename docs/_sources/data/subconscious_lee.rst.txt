@@ -1,7 +1,7 @@
 .. index:: Subconscious Lee, Lennie Tristano
 .. _hyperlink-name: "Subconscious Lee" Lennie Tristano
 
-"Subconscious Lee" Lennie Tristano/None
+"Subconscious Lee" Lennie Tristano/1949
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 444.67 Hz
    * - Recording Dates
-     - None - None
+     - 1949-01-11 - 1949-01-11
    * - Composer(s)
-     - 
+     - Lee Konitz
 .. _aa95b666-fbf4-4854-bcd5-b1e9900cba84: https://musicbrainz.org/recording/aa95b666-fbf4-4854-bcd5-b1e9900cba84
 
 Line-up
@@ -34,6 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - guitar
+     - Billy Bauer 
+   * - double bass
+     - Arnold Fishkind 
+   * - alto saxophone
+     - Lee Konitz 
+   * - piano
+     - Lennie Tristano 
+   * - drums (drum set)
+     - Shelly Manne 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 242.992874109
    * - :term:`Mean Harmonic Rhythm`
-     - 8.09523809524
+     - 8.095238095238095
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 176
      - 25.8064516129
      - 42.59
      - 25.2909738717
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 128
      - 18.7683284457
@@ -83,6 +83,26 @@ Symbolic Staistics From Annotation
      - 55.1319648094
      - 91.16
      - 54.1330166271
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.293255131965
+     - 3.63
+     - 2.15558194774
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

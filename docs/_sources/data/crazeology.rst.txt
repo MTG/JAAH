@@ -34,16 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - drumset
-     - Max Roach 
-   * - alto saxophone
-     - Charlie Parker 
-   * - double bass
-     - Tommy Potter 
    * - trombone
      - J.J. Johnson 
+   * - alto saxophone
+     - Charlie Parker 
    * - piano
      - Duke Jordan 
+   * - double bass
+     - Tommy Potter 
+   * - drums (drum set)
+     - Max Roach 
    * - trumpet
      - Miles Davis 
 
@@ -59,7 +59,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 256.723716381
    * - :term:`Mean Harmonic Rhythm`
-     - 2.97165991903
+     - 2.97165991902834
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -70,21 +70,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 34
-     - 4.41558441558
-     - 7.85
-     - 4.36208046232
    * - maj
      - 236
      - 30.6493506494
      - 54.56
      - 30.3178484108
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 184
      - 23.8961038961
@@ -95,6 +85,26 @@ Symbolic Staistics From Annotation
      - 36.3636363636
      - 64.45
      - 35.8135141142
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 34
+     - 4.41558441558
+     - 7.85
+     - 4.36208046232
+   * - N
+     - 36
+     - 4.67532467532
+     - 10.52
+     - 5.84574349856
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

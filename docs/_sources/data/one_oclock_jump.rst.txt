@@ -34,22 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - Freddie Green 
-   * - alto saxophone
-     - Earle Warren, Jack Washington 
    * - tenor saxophone
      - Herschel Evans, Lester Young 
-   * - double bass
-     - Walter Page 
-   * - drums
+   * - membranophone
      - Jo Jones 
-   * - trombone
-     - Dan Minor, George Hunt 
+   * - alto saxophone
+     - Earle Warren, Jack Washington 
    * - piano
      - Count Basie 
    * - trumpet
      - Buck Clayton, Bobby Moore, Ed Lewis 
+   * - guitar
+     - Freddie Green 
+   * - double bass
+     - Walter Page 
+   * - trombone
+     - Dan Minor, George Hunt 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -63,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 166.262332201
    * - :term:`Mean Harmonic Rhythm`
-     - 4.33898305085
+     - 4.338983050847458
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -74,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 224
      - 43.579766537
      - 79.0
      - 42.5898970295
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 50
      - 9.72762645914
@@ -99,6 +89,26 @@ Symbolic Staistics From Annotation
      - 46.3035019455
      - 83.8
      - 45.1776376085
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.389105058366
+     - 5.08
+     - 2.73869211278
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

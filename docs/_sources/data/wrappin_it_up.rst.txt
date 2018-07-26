@@ -1,7 +1,7 @@
 .. index:: Wrappin' It Up, Fletcher Henderson and His Orchestra
 .. _hyperlink-name: "Wrappin' It Up" Fletcher Henderson and His Orchestra
 
-"Wrappin' It Up" Fletcher Henderson and His Orchestra/None
+"Wrappin' It Up" Fletcher Henderson and His Orchestra/1934
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 439.26 Hz
    * - Recording Dates
-     - None - None
+     - 1934-09-12 - 1934-12-09
    * - Composer(s)
-     - 
+     - Fletcher Henderson
 .. _6af10606-1aef-42d6-8f26-9ff66395eae1: https://musicbrainz.org/recording/6af10606-1aef-42d6-8f26-9ff66395eae1
 
 Line-up
@@ -34,6 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Ben Webster 
+   * - clarinet
+     - Buster Bailey, Russell Procope, Hilton Jefferson 
+   * - alto saxophone
+     - Buster Bailey, Russell Procope, Hilton Jefferson 
+   * - piano
+     - Horace Henderson 
+   * - trumpet
+     - Henry “Red” Allen, Irving Randolph, Russell Smith 
+   * - guitar
+     - Lawrence Lucie 
+   * - double bass
+     - Elmer James 
+   * - trombone
+     - Keg Johnson, Claude Jones 
+   * - drums (drum set)
+     - Walter Johnson 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 205.782207639
    * - :term:`Mean Harmonic Rhythm`
-     - 4.56198347107
+     - 4.56198347107438
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 10
-     - 1.80505415162
-     - 2.9
-     - 1.79533213645
    * - maj
      - 184
      - 33.2129963899
      - 52.54
      - 32.526465672
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 65
      - 11.7328519856
@@ -83,6 +91,26 @@ Symbolic Staistics From Annotation
      - 52.8880866426
      - 83.92
      - 51.9531975484
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 10
+     - 1.80505415162
+     - 2.9
+     - 1.79533213645
+   * - N
+     - 2
+     - 0.361010830325
+     - 3.59
+     - 2.22249736891
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

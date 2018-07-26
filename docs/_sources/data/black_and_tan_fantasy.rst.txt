@@ -34,24 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - baritone saxophone
-     - Harry Carney 
+   * - membranophone
+     - Sonny Greer 
    * - alto saxophone
      - Otto Hardwick 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Bubber Miley, Louis Metcalf 
    * - tenor saxophone
      - Rudy Jackson 
    * - double bass
      - Wellman Braud 
-   * - drums
-     - Sonny Greer 
+   * - baritone saxophone
+     - Harry Carney 
    * - trombone
      - Joe "Tricky Sam" Nanton 
-   * - piano
-     - Duke Ellington 
    * - banjo
      - Fred Guy 
-   * - trumpet
-     - Bubber Miley, Louis Metcalf 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -65,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 115.578947368
    * - :term:`Mean Harmonic Rhythm`
-     - 5.07246376812
+     - 5.072463768115942
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -76,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 156
      - 42.6229508197
      - 78.93
      - 41.5421052632
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 69
      - 18.8524590164
@@ -101,6 +91,26 @@ Symbolic Staistics From Annotation
      - 34.1530054645
      - 63.26
      - 33.2947368421
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 16
+     - 4.37158469945
+     - 12.73
+     - 6.7
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -34,20 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - membranophone
+     - Arthur Herbert 
    * - alto saxophone
      - Eustis Moore, Jackie Fields 
-   * - tenor saxophone
-     - Coleman Hawkins 
-   * - double bass
-     - William Oscar Smith 
-   * - drums
-     - Arthur Herbert 
-   * - trombone
-     - Earl Hardy 
    * - piano
      - Gene Rodgers 
    * - trumpet
      - Tommy Lindsay, Joe Guy 
+   * - tenor saxophone
+     - Coleman Hawkins 
+   * - double bass
+     - William Oscar Smith 
+   * - trombone
+     - Earl Hardy 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -61,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 95.2224593663
    * - :term:`Mean Harmonic Rhythm`
-     - 2.11627906977
+     - 2.116279069767442
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -72,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 20
-     - 6.89655172414
-     - 12.61
-     - 6.90089202649
    * - maj
      - 55
      - 18.9655172414
      - 34.169
      - 18.6991736442
-   * - hdim7
-     - 1
-     - 0.344827586207
-     - 0.63
-     - 0.344770973568
    * - min
      - 108
      - 37.2413793103
@@ -97,6 +87,26 @@ Symbolic Staistics From Annotation
      - 30.6896551724
      - 56.087
      - 30.6939199912
+   * - hdim7
+     - 1
+     - 0.344827586207
+     - 0.63
+     - 0.344770973568
+   * - dim
+     - 20
+     - 6.89655172414
+     - 12.61
+     - 6.90089202649
+   * - N
+     - 17
+     - 5.86206896552
+     - 11.28
+     - 6.1730421934
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

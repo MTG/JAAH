@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1960-03-29 - 1960-03-29
    * - Composer(s)
-     - 
+     - Nat Adderley
 .. _1510f5f6-fd52-4676-a279-270c40bb4259: https://musicbrainz.org/recording/1510f5f6-fd52-4676-a279-270c40bb4259
 
 Line-up
@@ -34,16 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - piano
-     - Barry Harris 
    * - double bass
      - Sam Jones 
-   * - alto saxophone
-     - Cannonball Adderley 
-   * - drums
-     - Louis Hayes 
    * - cornet
      - Nat Adderley 
+   * - alto saxophone
+     - Cannonball Adderley 
+   * - membranophone
+     - Louis Hayes 
+   * - piano
+     - Barry Harris 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 165.568049632
    * - :term:`Mean Harmonic Rhythm`
-     - 5.0962962963
+     - 5.0962962962962965
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 25
      - 2.92740046838
      - 8.94
      - 2.8887165568
-   * - hdim7
-     - 36
-     - 4.21545667447
-     - 12.65
-     - 4.08750161561
    * - min
      - 463
      - 54.2154566745
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 19.2037470726
      - 58.707
      - 18.9695618457
+   * - hdim7
+     - 36
+     - 4.21545667447
+     - 12.65
+     - 4.08750161561
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 166
+     - 19.4379391101
+     - 63.363
+     - 20.4740209383
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

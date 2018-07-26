@@ -34,16 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - trombone
-     - Eddie Edwards 
    * - clarinet
      - Larry Shields 
-   * - piano
-     - Henry Ragas 
-   * - drums
-     - Tony Sbarbaro 
    * - cornet
      - Nick LaRocca 
+   * - trombone
+     - Eddie Edwards 
+   * - piano
+     - Henry Ragas 
+   * - membranophone
+     - Tony Sbarbaro 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 157.994125052
    * - :term:`Mean Harmonic Rhythm`
-     - 3.92105263158
+     - 3.9210526315789473
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 1
-     - 0.199203187251
-     - 0.41
-     - 0.215065044062
    * - maj
      - 213
      - 42.4302788845
      - 79.06
      - 41.4708350818
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 1
      - 0.199203187251
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 46.2151394422
      - 84.84
      - 44.5027276542
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 1
+     - 0.199203187251
+     - 0.41
+     - 0.215065044062
+   * - N
+     - 55
+     - 10.9561752988
+     - 25.95
+     - 13.6120436425
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

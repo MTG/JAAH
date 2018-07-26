@@ -1,7 +1,7 @@
 .. index:: Potato Head Blues, Louis Armstrong and His Hot Five
 .. _hyperlink-name: "Potato Head Blues" Louis Armstrong and His Hot Five
 
-"Potato Head Blues" Louis Armstrong and His Hot Five/None
+"Potato Head Blues" Louis Armstrong and His Hot Five/1927
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 443.27 Hz
    * - Recording Dates
-     - None - None
+     - 1927-05-13 - 1927-05-13
    * - Composer(s)
-     - 
+     - Louis Armstrong
 .. _d63fa5bc-3351-43b0-9678-b93a9cfd28d5: https://musicbrainz.org/recording/d63fa5bc-3351-43b0-9678-b93a9cfd28d5
 
 Line-up
@@ -34,6 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - brass
+     - Pete Briggs 
+   * - cornet
+     - Louis Armstrong 
+   * - banjo
+     - Johnny St. Cyr 
+   * - piano
+     - Lil Hardin Armstrong 
+   * - clarinet
+     - Johnny Dodds 
+   * - drums (drum set)
+     - Warren “Baby” Dodds 
+   * - trombone
+     - John Thomas 
+   * - vocal
+     - Louis Armstrong 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 178.988326848
    * - :term:`Mean Harmonic Rhythm`
-     - 4.44186046512
+     - 4.441860465116279
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 117
      - 22.1172022684
      - 38.37
      - 21.6376247674
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 78
      - 14.7448015123
@@ -83,6 +89,26 @@ Symbolic Staistics From Annotation
      - 35.3497164461
      - 61.29
      - 34.5626797496
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 147
+     - 27.7882797732
+     - 52.18
+     - 29.4253651384
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

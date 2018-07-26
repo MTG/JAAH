@@ -36,12 +36,12 @@ Line-up
    
    * - tenor saxophone
      - Sonny Rollins 
-   * - piano
-     - Tommy Flanagan 
    * - double bass
      - Doug Watkins 
-   * - drums
+   * - membranophone
      - Max Roach 
+   * - piano
+     - Tommy Flanagan 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -55,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 215.581173361
    * - :term:`Mean Harmonic Rhythm`
-     - 3.04142011834
+     - 3.0414201183431953
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -66,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 34
-     - 2.31607629428
-     - 9.39
-     - 2.29825978413
    * - maj
      - 427
      - 29.0871934605
      - 117.63
      - 28.7906601072
-   * - hdim7
-     - 68
-     - 4.63215258856
-     - 18.85
-     - 4.61365249529
    * - min
      - 204
      - 13.8964577657
@@ -91,6 +81,26 @@ Symbolic Staistics From Annotation
      - 20.0953678474
      - 81.3
      - 19.8986709744
+   * - hdim7
+     - 68
+     - 4.63215258856
+     - 18.85
+     - 4.61365249529
+   * - dim
+     - 34
+     - 2.31607629428
+     - 9.39
+     - 2.29825978413
+   * - N
+     - 440
+     - 29.9727520436
+     - 125.15
+     - 30.6312259833
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

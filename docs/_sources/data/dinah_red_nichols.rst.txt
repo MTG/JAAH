@@ -1,7 +1,7 @@
 .. index:: Dinah, Red Nichols & His Five Pennies
 .. _hyperlink-name: "Dinah" Red Nichols & His Five Pennies
 
-"Dinah" Red Nichols & His Five Pennies/None
+"Dinah" Red Nichols & His Five Pennies/1929
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 438.34 Hz
    * - Recording Dates
-     - None - None
+     - 1929-04-18 - 1929-04-18
    * - Composer(s)
-     - 
+     - Sam M. Lewis, Harry Akst
 .. _8e09f1ee-053d-42e3-baf5-50af6137549c: https://musicbrainz.org/recording/8e09f1ee-053d-42e3-baf5-50af6137549c
 
 Line-up
@@ -34,6 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Irving "Babe" Russin 
+   * - clarinet
+     - Benny Goodman 
+   * - piano
+     - Arthur Schutt 
+   * - trumpet
+     - Red Nichols, Manny Klein, Leo Mcconville 
+   * - guitar
+     - Carl Kress 
+   * - double bass
+     - Art Miller 
+   * - trombone
+     - Jack Teagarden 
+   * - drums (drum set)
+     - Gene Krupa 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 125.869832174
    * - :term:`Mean Harmonic Rhythm`
-     - 7.43396226415
+     - 7.433962264150943
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 200
      - 48.7804878049
      - 93.76
      - 47.9738027016
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 62
      - 15.1219512195
@@ -83,6 +89,26 @@ Symbolic Staistics From Annotation
      - 32.1951219512
      - 61.99
      - 31.7181743758
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 16
+     - 3.90243902439
+     - 10.82
+     - 5.5362259517
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

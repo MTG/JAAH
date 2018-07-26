@@ -1,7 +1,7 @@
 .. index:: Doggin' Around, Count Basie & His Orchestra
 .. _hyperlink-name: "Doggin' Around" Count Basie & His Orchestra
 
-"Doggin' Around" Count Basie & His Orchestra/None
+"Doggin' Around" Count Basie & His Orchestra/1938
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 443.01 Hz
    * - Recording Dates
-     - None - None
+     - 1938-06-06 - 1938-06-06
    * - Composer(s)
-     - 
+     - Herschel Evans
 .. _699579f6-d24a-4c64-9950-b6281c8a3b2e: https://musicbrainz.org/recording/699579f6-d24a-4c64-9950-b6281c8a3b2e
 
 Line-up
@@ -34,6 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Herschel Evans, Lester Young 
+   * - trombone
+     - Eddie Durham, Dan Minor, Benny Morton 
+   * - alto saxophone
+     - Earle Warren, Jack Washington 
+   * - double bass
+     - Walter Page 
+   * - piano
+     - Count Basie 
+   * - trumpet
+     - Buck Clayton, Harry “Sweets” Edison, Ed Lewis 
+   * - guitar
+     - Freddie Green 
+   * - drums (drum set)
+     - Jo Jones 
+   * - baritone saxophone
+     - Jack Washington 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 245.304969254
    * - :term:`Mean Harmonic Rhythm`
-     - 6.65346534653
+     - 6.653465346534653
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 291
      - 39.4308943089
      - 70.27
      - 38.9285912138
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 0
      - 0.0
@@ -83,6 +91,26 @@ Symbolic Staistics From Annotation
      - 51.6260162602
      - 91.68
      - 50.7894299485
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 66
+     - 8.94308943089
+     - 18.56
+     - 10.2819788377
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

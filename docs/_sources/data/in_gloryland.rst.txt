@@ -34,22 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - soprano clarinet
-     - George Lewis 
    * - tenor horn / alto horn
      - Isidore Barbarin 
-   * - baritone horn
-     - Adolphe "Tats" Alexander Jr. 
-   * - other instruments
-     - Joe "Red" Clark 
    * - trombone
      - Jim Robinson 
-   * - bass drum
-     - Lawrence Marrero 
-   * - snare drum
-     - Warren “Baby” Dodds 
+   * - soprano clarinet
+     - George Lewis 
    * - trumpet
      - Louis "Kid Shots" Madison, Bunk Johnson 
+   * - bass drum
+     - Lawrence Marrero 
+   * - baritone horn
+     - Adolphe "Tats" Alexander Jr. 
+   * - snare drum
+     - Warren “Baby” Dodds 
+   * - other instruments
+     - Joe "Red" Clark 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -63,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 96.7109562187
    * - :term:`Mean Harmonic Rhythm`
-     - 6.04444444444
+     - 6.044444444444444
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -74,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 240
      - 81.0810810811
      - 142.4
      - 77.5430189501
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 0
      - 0.0
@@ -99,6 +89,26 @@ Symbolic Staistics From Annotation
      - 10.8108108108
      - 18.71
      - 10.1884121107
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 24
+     - 8.10810810811
+     - 22.53
+     - 12.2685689392
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

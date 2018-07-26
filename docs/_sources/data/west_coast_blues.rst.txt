@@ -1,7 +1,7 @@
 .. index:: West Coast Blues (abridged), Wes Montgomery
 .. _hyperlink-name: "West Coast Blues (abridged)" Wes Montgomery
 
-"West Coast Blues (abridged)" Wes Montgomery/None
+"West Coast Blues (abridged)" Wes Montgomery/1960
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 434.32 Hz
    * - Recording Dates
-     - None - None
+     - 1960-01-26 - 1960-01-28
    * - Composer(s)
-     - 
+     - Wes Montgomery
 .. _02ffe965-bd93-45bd-ae9f-5671261871ae: https://musicbrainz.org/recording/02ffe965-bd93-45bd-ae9f-5671261871ae
 
 Line-up
@@ -34,6 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - guitar
+     - Wes Montgomery 
+   * - double bass
+     - Percy Heath 
+   * - piano
+     - Tommy Flanagan 
+   * - drums (drum set)
+     - Albert “Tootie” Heath 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 148.007251761
    * - :term:`Mean Harmonic Rhythm`
-     - 3.8691588785
+     - 3.869158878504673
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 150
      - 18.0722891566
      - 60.46
      - 17.9689125331
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 176
      - 21.2048192771
@@ -83,6 +81,26 @@ Symbolic Staistics From Annotation
      - 60.4819277108
      - 198.7
      - 59.054299046
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.240963855422
+     - 7.85
+     - 2.33304603679
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -34,20 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - tenor saxophone
-     - Frankie Trumbauer 
-   * - guitar
-     - Eddie Lang 
-   * - drums
-     - Chauncey Morehouse 
    * - trombone
      - Bill Rank 
+   * - tenor saxophone
+     - Frankie Trumbauer 
+   * - cornet
+     - Bix Beiderbecke 
    * - piano
      - Paul Madeira 
    * - clarinet
      - Jimmy Dorsey 
-   * - cornet
-     - Bix Beiderbecke 
+   * - guitar
+     - Eddie Lang 
+   * - membranophone
+     - Chauncey Morehouse 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -61,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 130.371173124
    * - :term:`Mean Harmonic Rhythm`
-     - 4.81578947368
+     - 4.815789473684211
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -72,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 12
-     - 2.99251870324
-     - 5.44
-     - 2.94771064752
    * - maj
      - 116
      - 28.927680798
      - 51.97
      - 28.1603901382
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 74
      - 18.4538653367
@@ -97,6 +87,26 @@ Symbolic Staistics From Annotation
      - 40.897755611
      - 73.05
      - 39.5827688973
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 12
+     - 2.99251870324
+     - 5.44
+     - 2.94771064752
+   * - N
+     - 35
+     - 8.72817955112
+     - 20.86
+     - 11.3031698727
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

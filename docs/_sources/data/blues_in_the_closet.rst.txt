@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1957-10-19 - 1957-10-19
    * - Composer(s)
-     - 
+     - Oscar Pettiford
 .. _e3ca10e3-13a5-4fe5-aa23-7af9db3815dc: https://musicbrainz.org/recording/e3ca10e3-13a5-4fe5-aa23-7af9db3815dc
 
 Line-up
@@ -34,18 +34,18 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - Herb Ellis 
    * - tenor saxophone
      - Stan Getz 
-   * - double bass
-     - Ray Brown 
-   * - drums
+   * - membranophone
      - Connie Kay 
-   * - trombone
-     - J.J. Johnson 
    * - piano
      - Oscar Peterson 
+   * - guitar
+     - Herb Ellis 
+   * - double bass
+     - Ray Brown 
+   * - trombone
+     - J.J. Johnson 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -59,7 +59,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 228.657362408
    * - :term:`Mean Harmonic Rhythm`
-     - 4.37974683544
+     - 4.379746835443038
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -70,17 +70,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - hdim7
      - 0
      - 0.0
      - 0
@@ -95,6 +85,26 @@ Symbolic Staistics From Annotation
      - 87.4879692012
      - 454.4
      - 83.3348616282
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.0962463907603
+     - 26.48
+     - 4.85630971812
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

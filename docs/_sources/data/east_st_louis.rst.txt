@@ -36,24 +36,24 @@ Line-up
    
    * - soprano saxophone
      - Otto Hardwick 
-   * - drumset
+   * - trombone
+     - Joe "Tricky Sam" Nanton 
+   * - alto saxophone
+     - Harry Carney, Otto Hardwick 
+   * - double bass
+     - Wellman Braud 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Bubber Miley, Louis Metcalf 
+   * - tenor saxophone
+     - Rudy Jackson 
+   * - drums (drum set)
      - Sonny Greer 
    * - baritone saxophone
      - Harry Carney, Otto Hardwick 
-   * - alto saxophone
-     - Harry Carney, Otto Hardwick 
-   * - tenor saxophone
-     - Rudy Jackson 
-   * - double bass
-     - Wellman Braud 
-   * - trombone
-     - Joe "Tricky Sam" Nanton 
-   * - piano
-     - Duke Ellington 
    * - banjo
      - Fred Guy 
-   * - trumpet
-     - Bubber Miley, Louis Metcalf 
    * - clarinet
      - Harry Carney, Rudy Jackson 
 
@@ -80,21 +80,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 102
-     - 21.3389121339
-     - 46.25
-     - 21.1158288819
    * - maj
      - 92
      - 19.2468619247
      - 41.28
      - 18.8467333242
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 131
      - 27.4058577406
@@ -105,6 +95,26 @@ Symbolic Staistics From Annotation
      - 28.6610878661
      - 62.62
      - 28.5896909099
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 102
+     - 21.3389121339
+     - 46.25
+     - 21.1158288819
+   * - N
+     - 16
+     - 3.34728033473
+     - 10.1
+     - 4.61124046934
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

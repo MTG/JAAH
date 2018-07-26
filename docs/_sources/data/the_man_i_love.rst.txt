@@ -1,7 +1,7 @@
 .. index:: The Man I Love, Coleman Hawkins Quartet
 .. _hyperlink-name: "The Man I Love" Coleman Hawkins Quartet
 
-"The Man I Love" Coleman Hawkins Quartet/None
+"The Man I Love" Coleman Hawkins Quartet/1943
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 440.43 Hz
    * - Recording Dates
-     - None - None
+     - 1943-12-23 - 1943-12-23
    * - Composer(s)
-     - 
+     - George Gershwin
 .. _4bca287b-305f-42f8-8a7b-c0bd58e884ce: https://musicbrainz.org/recording/4bca287b-305f-42f8-8a7b-c0bd58e884ce
 
 Line-up
@@ -34,6 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Coleman Hawkins 
+   * - double bass
+     - Oscar Pettiford 
+   * - piano
+     - Eddie Heywood, Jr. 
+   * - drums (drum set)
+     - Shelly Manne 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 205.151407427
    * - :term:`Mean Harmonic Rhythm`
-     - 5.81818181818
+     - 5.818181818181818
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 192
      - 18.1474480151
      - 55.36
      - 17.8909607989
-   * - hdim7
-     - 96
-     - 9.07372400756
-     - 27.73
-     - 8.96163914294
    * - min
      - 352
      - 33.2703213611
@@ -83,6 +81,26 @@ Symbolic Staistics From Annotation
      - 36.2948960302
      - 110.72
      - 35.7819215978
+   * - hdim7
+     - 96
+     - 9.07372400756
+     - 27.73
+     - 8.96163914294
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 34
+     - 3.21361058601
+     - 13.57
+     - 4.38548298484
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

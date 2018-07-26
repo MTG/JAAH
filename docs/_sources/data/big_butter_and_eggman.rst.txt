@@ -1,7 +1,7 @@
 .. index:: Big Butter and Egg Man From the West, Louis Armstrong and His Hot Seven
 .. _hyperlink-name: "Big Butter and Egg Man From the West" Louis Armstrong and His Hot Seven
 
-"Big Butter and Egg Man From the West" Louis Armstrong and His Hot Seven/None
+"Big Butter and Egg Man From the West" Louis Armstrong and His Hot Seven/1926
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 445.92 Hz
    * - Recording Dates
-     - None - None
+     - 1926-11-16 - 1929-11-16
    * - Composer(s)
-     - 
+     - Percy Venable
 .. _e3d72af4-c47b-422f-87b6-4218b68d2b7c: https://musicbrainz.org/recording/e3d72af4-c47b-422f-87b6-4218b68d2b7c
 
 Line-up
@@ -34,6 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Johnny Dodds 
+   * - vocal
+     - Kid Ory 
+   * - piano
+     - Lil Hardin Armstrong 
+   * - banjo
+     - Johnny St. Cyr 
+   * - trumpet
+     - Louis Armstrong 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 197.123893805
    * - :term:`Mean Harmonic Rhythm`
-     - 5.80392156863
+     - 5.803921568627451
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 18
-     - 3.0303030303
-     - 5.35
-     - 2.95907079646
    * - maj
      - 222
      - 37.3737373737
      - 66.08
      - 36.5486725664
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 64
      - 10.7744107744
@@ -83,6 +83,26 @@ Symbolic Staistics From Annotation
      - 48.4848484848
      - 85.56
      - 47.3230088496
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 18
+     - 3.0303030303
+     - 5.35
+     - 2.95907079646
+   * - N
+     - 2
+     - 0.3367003367
+     - 4.71
+     - 2.60508849558
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

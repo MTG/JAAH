@@ -34,18 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - tenor saxophone
-     - Happy Caldwell, Mezz Mezzrow 
-   * - drums
+   * - membranophone
      - George Stafford 
-   * - trombone
-     - Jack Teagarden 
-   * - piano
-     - Joe Sullivan 
    * - banjo
      - Eddie Condon 
+   * - piano
+     - Joe Sullivan 
    * - trumpet
      - Leonard "Ham" Davis 
+   * - tenor saxophone
+     - Happy Caldwell, Mezz Mezzrow 
+   * - trombone
+     - Jack Teagarden 
+   * - vocal
+     - Jack Teagarden 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -59,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 98.7074030552
    * - :term:`Mean Harmonic Rhythm`
-     - 3.41176470588
+     - 3.411764705882353
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -70,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 31
-     - 8.85714285714
-     - 17.35
-     - 8.15511163337
    * - maj
      - 116
      - 33.1428571429
      - 64.94
      - 30.5240893067
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 0
      - 0.0
@@ -95,6 +87,26 @@ Symbolic Staistics From Annotation
      - 57.4285714286
      - 112.42
      - 52.8413631022
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 31
+     - 8.85714285714
+     - 17.35
+     - 8.15511163337
+   * - N
+     - 2
+     - 0.571428571429
+     - 18.04
+     - 8.4794359577
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

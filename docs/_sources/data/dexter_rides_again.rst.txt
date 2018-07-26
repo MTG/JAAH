@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1946-01-26 - 1946-01-26
    * - Composer(s)
-     - 
+     - Dexter Gordon
 .. _2815658d-a6d0-4f37-ac9e-de0f83bba929: https://musicbrainz.org/recording/2815658d-a6d0-4f37-ac9e-de0f83bba929
 
 Line-up
@@ -36,14 +36,14 @@ Line-up
    
    * - tenor saxophone
      - Dexter Gordon 
-   * - piano
-     - Bud Powell 
    * - double bass
      - Curley Russell 
+   * - membranophone
+     - Max Roach 
+   * - piano
+     - Bud Powell 
    * - trumpet
      - Leonard Hawkins 
-   * - drums
-     - Max Roach 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 195.801352107
    * - :term:`Mean Harmonic Rhythm`
-     - 4.13605442177
+     - 4.136054421768708
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 276
      - 42.9906542056
      - 79.86
      - 40.5937071113
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 16
      - 2.49221183801
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 49.2211838006
      - 91.32
      - 46.4189498297
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 34
+     - 5.29595015576
+     - 20.92
+     - 10.633863671
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

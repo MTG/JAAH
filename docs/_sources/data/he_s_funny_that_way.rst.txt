@@ -1,7 +1,7 @@
 .. index:: He's Funny That Way, Billie Holiday
 .. _hyperlink-name: "He's Funny That Way" Billie Holiday
 
-"He's Funny That Way" Billie Holiday/None
+"He's Funny That Way" Billie Holiday/1937
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 444.66 Hz
    * - Recording Dates
-     - None - None
+     - 1937-09-13 - 1937-09-13
    * - Composer(s)
-     - 
+     - Charles N. Daniels
 .. _6d6020a9-3816-4bd1-8a2f-8672b0ea2921: https://musicbrainz.org/recording/6d6020a9-3816-4bd1-8a2f-8672b0ea2921
 
 Line-up
@@ -34,6 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Lester Young 
+   * - piano
+     - Claude Thornhill 
+   * - clarinet
+     - Buster Bailey 
+   * - guitar
+     - Freddie Green 
+   * - double bass
+     - Walter Page 
+   * - trumpet
+     - Buck Clayton 
+   * - vocal
+     - Billie Holiday 
+   * - drums (drum set)
+     - Jo Jones 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 102.296061228
    * - :term:`Mean Harmonic Rhythm`
-     - 2.69306930693
+     - 2.6930693069306932
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 114
      - 41.6058394161
      - 65.89
      - 40.9993155373
-   * - hdim7
-     - 12
-     - 4.3795620438
-     - 6.95
-     - 4.32455976604
    * - min
      - 64
      - 23.3576642336
@@ -83,6 +89,26 @@ Symbolic Staistics From Annotation
      - 29.9270072993
      - 47.5
      - 29.5563437247
+   * - hdim7
+     - 12
+     - 4.3795620438
+     - 6.95
+     - 4.32455976604
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.729927007299
+     - 3.31
+     - 2.0596104785
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

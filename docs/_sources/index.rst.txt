@@ -1,9 +1,9 @@
-.. JazzHarmony dataset documentation master file, created by
+.. Jazz Audio-Aligned Harmony (JAAH) Dataset documentation master file, created by
    sphinx-quickstart on Thu Jan 25 18:28:21 2018.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to JazzHarmony dataset's documentation!
+Welcome to Jazz Audio-Aligned Harmony (JAAH) Dataset's documentation!
 ===============================================
 
 * `Dataset statistics`_
@@ -27,9 +27,9 @@ Dataset statistics
    * - Number of Chord Segments
      - 17600
    * - Mean BPM
-     - 164.520438046
+     - 164.560654012
    * - :term:`Mean Harmonic Rhythm`
-     - 3.66505681818
+     - 3.6651136363636363
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -40,31 +40,41 @@ Dataset statistics
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - hdim7
-     - 1280
-     - 1.86673278012
-     - 511.15
-     - 2.04403889773
    * - maj
-     - 18590
-     - 27.1113768613
-     - 6605.794
-     - 26.415924653
-   * - dom
-     - 29786
-     - 43.4394551474
-     - 10563.263
-     - 42.2414564393
-   * - dim
-     - 1677
-     - 2.44571161895
-     - 582.86
-     - 2.33080017985
+     - 18591
+     - 27.1124398425
+     - 6606.114
+     - 26.4232764649
    * - min
      - 13172
-     - 19.2098470154
+     - 19.209566866
      - 4680.954
-     - 18.7186775985
+     - 18.7229802062
+   * - dom
+     - 29786
+     - 43.4388216421
+     - 10557.523
+     - 42.2282069328
+   * - hdim7
+     - 1280
+     - 1.86670555637
+     - 511.15
+     - 2.04450873313
+   * - dim
+     - 1677
+     - 2.44567595158
+     - 582.86
+     - 2.33133592916
+   * - N
+     - 3986
+     - 5.81303777162
+     - 2032.415
+     - 8.12929710818
+   * - unclassified
+     - 78
+     - 0.113752369841
+     - 30.1
+     - 0.120394625584
 
 Histogram by year
 -----------------
@@ -128,7 +138,7 @@ Glossary
        - first chord quality (i.e. Maj, Min, Dom, HDim7, Dim)
        - interval between first and second chord roots encoded by:
 
-          - Letter: **P**\ ure, **M**\ ajor  or
+          - Letter: **P**\ erfect, **M**\ ajor  or
             **m**\ inor
           - number (2 for second, 3 for third, etc)
 

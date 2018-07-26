@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1958-08-04 - 1958-08-04
    * - Composer(s)
-     - 
+     - George Gershwin
 .. _9708585c-b508-4357-b3f4-4a5c0b0af44f: https://musicbrainz.org/recording/9708585c-b508-4357-b3f4-4a5c0b0af44f
 
 Line-up
@@ -34,30 +34,30 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - alto flute and bass clarinet
-     - Danny Bank 
-   * - bass trombone
-     - Dick Hixson 
-   * - clarinet and flute
-     - Jerome Richardson 
-   * - flugelhorn and trumpet
-     - Miles Davis 
-   * - tuba
-     - Bill Barber 
-   * - alto saxophone
-     - Cannonball Adderley 
    * - trombone
      - Jimmy Cleveland, Frank Rehak, Joe Bennett 
+   * - alto saxophone
+     - Cannonball Adderley 
+   * - bass trombone
+     - Dick Hixson 
    * - double bass
      - Paul Chambers 
-   * - drums
+   * - clarinet and flute
+     - Jerome Richardson 
+   * - alto flute and bass clarinet
+     - Danny Bank 
+   * - alto flute and clarinet and flute
+     - Romeo Penque 
+   * - membranophone
      - Jimmy Cobb 
    * - French horn
      - Willie Ruff, Gunther Schuller, Julius Watkins 
+   * - tuba
+     - Bill Barber 
    * - trumpet
      - Ernie Royal, Johnny Coles, Bernie Glow, Louis R. Mucci 
-   * - alto flute and clarinet and flute
-     - Romeo Penque 
+   * - flugelhorn and trumpet
+     - Miles Davis 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -71,7 +71,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 103.182207877
    * - :term:`Mean Harmonic Rhythm`
-     - 2.69841269841
+     - 2.6984126984126986
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -82,21 +82,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 40
      - 11.7302052786
      - 22.12
      - 11.1553784861
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 190
      - 55.7184750733
@@ -107,6 +97,26 @@ Symbolic Staistics From Annotation
      - 32.2580645161
      - 61.06
      - 30.7932825659
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 1
+     - 0.293255131965
+     - 0.76
+     - 0.383277018508
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

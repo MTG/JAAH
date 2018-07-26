@@ -34,30 +34,30 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - valve trombone
-     - Juan Tizol 
-   * - tenor saxophone
-     - Ben Webster, Barney Bigard 
-   * - drumset
-     - Sonny Greer 
-   * - baritone saxophone
-     - Harry Carney 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
    * - alto saxophone
      - Otto Hardwick, Johnny Hodges 
+   * - trumpet
+     - Cootie Williams, Wallace Jones 
+   * - valve trombone
+     - Juan Tizol 
    * - guitar
      - Fred Guy 
    * - double bass
      - Jimmy Blanton 
-   * - trombone
-     - Joe "Tricky Sam" Nanton, Lawrence Brown 
-   * - piano
-     - Duke Ellington 
-   * - trumpet
-     - Cootie Williams, Wallace Jones 
+   * - baritone saxophone
+     - Harry Carney 
    * - clarinet
      - Barney Bigard 
    * - cornet
      - Rex Stewart 
+   * - piano
+     - Duke Ellington 
+   * - drums (drum set)
+     - Sonny Greer 
+   * - tenor saxophone
+     - Ben Webster, Barney Bigard 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -71,7 +71,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 99.0643918547
    * - :term:`Mean Harmonic Rhythm`
-     - 2.95294117647
+     - 2.9529411764705884
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -82,21 +82,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 134
      - 40.6060606061
      - 81.06
      - 40.5563616351
-   * - hdim7
-     - 2
-     - 0.606060606061
-     - 1.18
-     - 0.590383749437
    * - min
      - 29
      - 8.78787878788
@@ -107,6 +97,26 @@ Symbolic Staistics From Annotation
      - 26.0606060606
      - 51.0
      - 25.5165857808
+   * - hdim7
+     - 2
+     - 0.606060606061
+     - 1.18
+     - 0.590383749437
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 79
+     - 23.9393939394
+     - 49.21
+     - 24.6210036524
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

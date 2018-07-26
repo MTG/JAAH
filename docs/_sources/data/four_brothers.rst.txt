@@ -34,28 +34,28 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - tenor saxophone
-     - Stan Getz, Herbie Steward, Zoot Sims 
-   * - bass trombone
-     - Bob Swift 
-   * - baritone saxophone
-     - Serge Chaloff 
-   * - alto saxophone
-     - Sam Marowitz 
-   * - guitar
-     - Gene Sargent 
-   * - double bass
-     - Walter Yoder 
-   * - drums
-     - Don Lamond 
-   * - trombone
-     - Earl Swope, Ollie Wilson 
-   * - piano
-     - Fred Otis 
-   * - trumpet
-     - Shorty Rogers, Ernie Royal, Bernie Glow, Stan Fishelson, Marky Markowitz 
    * - clarinet
      - Woody Herman 
+   * - trombone
+     - Earl Swope, Ollie Wilson 
+   * - alto saxophone
+     - Sam Marowitz 
+   * - trumpet
+     - Shorty Rogers, Ernie Royal, Bernie Glow, Stan Fishelson, Marky Markowitz 
+   * - piano
+     - Fred Otis 
+   * - bass trombone
+     - Bob Swift 
+   * - tenor saxophone
+     - Stan Getz, Herbie Steward, Zoot Sims 
+   * - double bass
+     - Walter Yoder 
+   * - baritone saxophone
+     - Serge Chaloff 
+   * - membranophone
+     - Don Lamond 
+   * - guitar
+     - Gene Sargent 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -69,7 +69,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 215.796897038
    * - :term:`Mean Harmonic Rhythm`
-     - 2.68292682927
+     - 2.682926829268293
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -80,21 +80,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 10
-     - 1.40056022409
-     - 2.74
-     - 1.3802135805
    * - maj
      - 170
      - 23.8095238095
      - 47.15
      - 23.7507555914
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 200
      - 28.0112044818
@@ -105,6 +95,26 @@ Symbolic Staistics From Annotation
      - 39.2156862745
      - 76.73
      - 38.6510175297
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 10
+     - 1.40056022409
+     - 2.74
+     - 1.3802135805
+   * - N
+     - 54
+     - 7.56302521008
+     - 17.13
+     - 8.62885351602
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

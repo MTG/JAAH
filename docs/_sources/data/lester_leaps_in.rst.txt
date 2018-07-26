@@ -1,7 +1,7 @@
 .. index:: Lester Leaps In, Count Basie and the Kansas City 7
 .. _hyperlink-name: "Lester Leaps In" Count Basie and the Kansas City 7
 
-"Lester Leaps In" Count Basie and the Kansas City 7/None
+"Lester Leaps In" Count Basie and the Kansas City 7/1939
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 438.53 Hz
    * - Recording Dates
-     - None - None
+     - 1939-09-05 - 1939-09-05
    * - Composer(s)
-     - 
+     - Lester Young
 .. _89b0b7f7-564a-4ae9-9402-5c5576ac2f9d: https://musicbrainz.org/recording/89b0b7f7-564a-4ae9-9402-5c5576ac2f9d
 
 Line-up
@@ -34,6 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Lester Young 
+   * - trombone
+     - Dicky Wells 
+   * - double bass
+     - Walter Page 
+   * - piano
+     - Count Basie 
+   * - trumpet
+     - Buck Clayton 
+   * - guitar
+     - Freddie Green 
+   * - drums (drum set)
+     - Jo Jones 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 241.388135333
    * - :term:`Mean Harmonic Rhythm`
-     - 2.66287878788
+     - 2.662878787878788
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 32
-     - 4.07124681934
-     - 7.9
-     - 4.04360956135
    * - maj
      - 191
      - 24.3002544529
      - 47.08
      - 24.0978655884
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 194
      - 24.6819338422
@@ -83,6 +87,26 @@ Symbolic Staistics From Annotation
      - 36.3867684478
      - 69.97
      - 35.81409633
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 32
+     - 4.07124681934
+     - 7.9
+     - 4.04360956135
+   * - N
+     - 83
+     - 10.5597964377
+     - 23.02
+     - 11.7827711522
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

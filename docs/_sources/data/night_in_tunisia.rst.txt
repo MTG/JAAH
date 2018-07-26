@@ -34,11 +34,11 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - piano
-     - Bud Powell 
    * - double bass
      - Curley Russell 
-   * - drumset
+   * - piano
+     - Bud Powell 
+   * - drums (drum set)
      - Max Roach 
 
 Symbolic Staistics From Annotation
@@ -53,7 +53,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 163.293952509
    * - :term:`Mean Harmonic Rhythm`
-     - 4.04268292683
+     - 4.0426829268292686
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -64,21 +64,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 17
      - 2.43553008596
      - 6.07
      - 2.36674854759
-   * - hdim7
-     - 74
-     - 10.6017191977
-     - 26.41
-     - 10.2975006823
    * - min
      - 280
      - 40.1146131805
@@ -89,6 +79,26 @@ Symbolic Staistics From Annotation
      - 41.8338108883
      - 107.54
      - 41.9308301166
+   * - hdim7
+     - 74
+     - 10.6017191977
+     - 26.41
+     - 10.2975006823
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 35
+     - 5.01432664756
+     - 14.92
+     - 5.81744453542
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

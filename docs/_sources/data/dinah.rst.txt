@@ -18,9 +18,9 @@ Recording Information
    * - Key
      - 
    * - Duration
-     - 155.42666626 s
+     - 155.42 s
    * - Tuning
-     - TODO Hz
+     - 443.36 Hz
    * - Recording Dates
      - 1934-12 - 1934-12-28
    * - Composer(s)
@@ -36,10 +36,10 @@ Line-up
    
    * - guitar
      - Roger Chaput, Roger Chaput, Django Reinhardt, Django Reinhardt, Joseph Reinhardt, Joseph Reinhardt 
-   * - violin
-     - Stéphane Grappelli, Stéphane Grappelli 
    * - double bass
      - Louis Vola, Louis Vola 
+   * - violin
+     - Stéphane Grappelli, Stéphane Grappelli 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -51,9 +51,9 @@ Symbolic Staistics From Annotation
    * - Number of Chord Segments
      - 81
    * - Mean BPM
-     - 209.230505823
+     - 209.239480118
    * - :term:`Mean Harmonic Rhythm`
-     - 6.66666666667
+     - 6.666666666666667
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -64,31 +64,41 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
+   * - maj
+     - 273
+     - 50.36900369
+     - 76.63
+     - 49.3051087376
+   * - min
+     - 99
+     - 18.2656826568
+     - 28.0
+     - 18.0156993952
+   * - dom
+     - 167
+     - 30.8118081181
+     - 46.16
+     - 29.7001672886
    * - hdim7
      - 0
      - 0.0
      - 0
      - 0.0
-   * - maj
-     - 273
-     - 50.36900369
-     - 76.63
-     - 49.3029940382
-   * - dom
-     - 167
-     - 30.8118081181
-     - 46.16
-     - 29.6988934465
    * - dim
      - 1
      - 0.184501845018
      - 0.6
-     - 0.386034143585
-   * - min
-     - 99
-     - 18.2656826568
-     - 28.0
-     - 18.0149267006
+     - 0.386050701325
+   * - N
+     - 2
+     - 0.369003690037
+     - 4.03
+     - 2.59297387724
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

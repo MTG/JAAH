@@ -36,14 +36,14 @@ Line-up
    
    * - tenor saxophone
      - Sonny Rollins 
+   * - bass
+     - George Morrow 
+   * - membranophone
+     - Max Roach 
    * - piano
      - Richie Powell 
    * - trumpet
      - Clifford Brown 
-   * - bass
-     - George Morrow 
-   * - drums
-     - Max Roach 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 187.159467505
    * - :term:`Mean Harmonic Rhythm`
-     - 4.11173184358
+     - 4.111731843575419
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 504
      - 30.2521008403
      - 160.13
      - 29.981838267
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 480
      - 28.8115246098
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 29.2917166867
      - 155.48
      - 29.1111984871
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 194
+     - 11.6446578631
+     - 64.79
+     - 12.1309142654
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

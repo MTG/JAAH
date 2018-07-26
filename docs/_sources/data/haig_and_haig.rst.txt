@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1966 - 1966
    * - Composer(s)
-     - 
+     - Clark Terry
 .. _3a312349-bfa1-4e8d-bef3-3e151cb7b967: https://musicbrainz.org/recording/3a312349-bfa1-4e8d-bef3-3e151cb7b967
 
 Line-up
@@ -36,14 +36,14 @@ Line-up
    
    * - valve trombone
      - Bob Brookmeyer 
-   * - piano
-     - Hank Jones 
    * - double bass
      - Bob Cranshaw 
+   * - membranophone
+     - Dave Bailey 
+   * - piano
+     - Hank Jones 
    * - trumpet
      - Clark Terry 
-   * - drums
-     - Dave Bailey 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 272.59673797
    * - :term:`Mean Harmonic Rhythm`
-     - 2.53164556962
+     - 2.5316455696202533
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 58
-     - 4.70016207455
-     - 12.35
-     - 4.54696071573
    * - maj
      - 166
      - 13.4521880065
      - 35.6
      - 13.1070284599
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 220
      - 17.8282009724
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 61.2641815235
      - 161.54
      - 59.4749825117
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 58
+     - 4.70016207455
+     - 12.35
+     - 4.54696071573
+   * - N
+     - 34
+     - 2.75526742301
+     - 14.31
+     - 5.26858363094
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

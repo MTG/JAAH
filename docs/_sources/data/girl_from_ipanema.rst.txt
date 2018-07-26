@@ -34,20 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - drums
+   * - guitar family
+     - João Gilberto 
+   * - membranophone
      - Milton Banana 
-   * - drumset
+   * - piano
+     - Antônio Carlos Jobim 
+   * - bass guitar
+     - Tommy Williams 
+   * - tenor saxophone
+     - Stan Getz 
+   * - drums (drum set)
      - Milton Banana 
    * - guest and piano
      - Antônio Carlos Jobim 
-   * - tenor saxophone
-     - Stan Getz 
-   * - bass guitar
-     - Tommy Williams 
-   * - guitars
-     - João Gilberto 
-   * - piano
-     - Antônio Carlos Jobim 
+   * - vocal
+     - João Gilberto, Astrud Gilberto 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -61,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 128.320617704
    * - :term:`Mean Harmonic Rhythm`
-     - 6.56603773585
+     - 6.566037735849057
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -72,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 352
      - 50.4297994269
      - 162.08
      - 49.6614272145
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 144
      - 20.6303724928
@@ -97,6 +89,26 @@ Symbolic Staistics From Annotation
      - 28.6532951289
      - 92.11
      - 28.2225694764
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.286532951289
+     - 5.74
+     - 1.75874008028
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

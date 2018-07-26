@@ -34,14 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - drumset
+   * - drums (drum set)
      - Max Roach 
+   * - alto saxophone
+     - Charlie Parker 
    * - piano
      - John Lewis 
    * - double bass
      - Curley Russell 
-   * - alto saxophone
-     - Charlie Parker 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -55,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 76.8648648649
    * - :term:`Mean Harmonic Rhythm`
-     - 2.86419753086
+     - 2.8641975308641974
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -66,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 77
      - 32.4894514768
      - 60.186
      - 32.532972973
-   * - hdim7
-     - 8
-     - 3.37552742616
-     - 6.75
-     - 3.64864864865
    * - min
      - 46
      - 19.4092827004
@@ -91,6 +81,26 @@ Symbolic Staistics From Annotation
      - 42.6160337553
      - 79.274
      - 42.8508108108
+   * - hdim7
+     - 8
+     - 3.37552742616
+     - 6.75
+     - 3.64864864865
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 5
+     - 2.10970464135
+     - 3.84
+     - 2.07567567568
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

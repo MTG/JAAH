@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1947-01-10 - 1947-01-10
    * - Composer(s)
-     - 
+     - James F. Hanley
 .. _b890d832-b54d-4b61-b30f-36f53df79b3b: https://musicbrainz.org/recording/b890d832-b54d-4b61-b30f-36f53df79b3b
 
 Line-up
@@ -34,12 +34,12 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - piano
-     - Bud Powell 
    * - double bass
      - Curley Russell 
-   * - drums
+   * - membranophone
      - Max Roach 
+   * - piano
+     - Bud Powell 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -53,7 +53,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 309.479386097
    * - :term:`Mean Harmonic Rhythm`
-     - 3.80882352941
+     - 3.8088235294117645
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -64,21 +64,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 151
      - 17.6196032672
      - 28.729
      - 17.2910021065
-   * - hdim7
-     - 66
-     - 7.70128354726
-     - 12.3
-     - 7.40294914234
    * - min
      - 172
      - 20.0700116686
@@ -89,6 +79,26 @@ Symbolic Staistics From Annotation
      - 45.2742123687
      - 72.695
      - 43.7526331628
+   * - hdim7
+     - 66
+     - 7.70128354726
+     - 12.3
+     - 7.40294914234
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 80
+     - 9.33488914819
+     - 19.661
+     - 11.8332831779
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

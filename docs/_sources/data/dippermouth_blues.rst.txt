@@ -34,18 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - drums
-     - Warren “Baby” Dodds 
-   * - trombone
-     - Honoré Dutrey 
-   * - piano
-     - Lil Hardin Armstrong 
-   * - banjo
-     - Bill Johnson, Bud Scott 
    * - clarinet
      - Johnny Dodds 
    * - cornet
      - King Oliver, Louis Armstrong 
+   * - banjo
+     - Bill Johnson, Bud Scott 
+   * - piano
+     - Lil Hardin Armstrong 
+   * - trombone
+     - Honoré Dutrey 
+   * - membranophone
+     - Warren “Baby” Dodds 
+   * - vocal
+     - Bill Johnson 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -59,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 184.516215672
    * - :term:`Mean Harmonic Rhythm`
-     - 4.94252873563
+     - 4.942528735632184
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -70,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 14
-     - 3.05676855895
-     - 4.52
-     - 3.03498287786
    * - maj
      - 202
      - 44.1048034934
      - 64.16
      - 43.0806419123
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 0
      - 0.0
@@ -95,6 +87,26 @@ Symbolic Staistics From Annotation
      - 46.7248908297
      - 67.69
      - 45.4508829652
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 14
+     - 3.05676855895
+     - 4.52
+     - 3.03498287786
+   * - N
+     - 28
+     - 6.1135371179
+     - 12.56
+     - 8.43349224468
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

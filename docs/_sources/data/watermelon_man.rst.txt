@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1973-09 - 1973-09
    * - Composer(s)
-     - 
+     - Herbie Hancock
 .. _121cde3e-0177-40d3-b502-bf80049bdb0d: https://musicbrainz.org/recording/121cde3e-0177-40d3-b502-bf80049bdb0d
 
 Line-up
@@ -34,15 +34,15 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - soprano saxophone
-     - Bennie Maupin 
-   * - electric bass guitar
-     - Paul Jackson 
    * - Clavinet and Rhodes piano and synthesizer
      - Herbie Hancock 
+   * - soprano saxophone
+     - Bennie Maupin 
    * - congas and other instruments and shekere and tambourine
      - Bill Summers 
-   * - drums
+   * - electric bass guitar
+     - Paul Jackson 
+   * - membranophone
      - Harvey Mason 
 
 Symbolic Staistics From Annotation
@@ -68,17 +68,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - hdim7
      - 0
      - 0.0
      - 0
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 95.7219251337
      - 291.64
      - 74.4530392382
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 8
+     - 2.13903743316
+     - 93.68
+     - 23.9156518853
+   * - unclassified
+     - 6
+     - 1.60427807487
+     - 4.77
+     - 1.21773761201
 
 Top Bigrams
 -----------

@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1960-10-21 - 1960-10-21
    * - Composer(s)
-     - 
+     - Richard Rodgers
 .. _09620053-4631-4c90-8050-326761f0168f: https://musicbrainz.org/recording/09620053-4631-4c90-8050-326761f0168f
 
 Line-up
@@ -36,12 +36,12 @@ Line-up
    
    * - soprano saxophone
      - John Coltrane 
-   * - piano
-     - McCoy Tyner 
    * - double bass
      - Steve Davis 
-   * - drums
+   * - membranophone
      - Elvin Jones 
+   * - piano
+     - McCoy Tyner 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -55,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 157.217895309
    * - :term:`Mean Harmonic Rhythm`
-     - 3.77528089888
+     - 3.7752808988764044
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -66,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 69
      - 15.8986175115
      - 25.05
      - 15.1240717261
-   * - hdim7
-     - 45
-     - 10.3686635945
-     - 16.36
-     - 9.87743766226
    * - min
      - 156
      - 35.9447004608
@@ -91,6 +81,26 @@ Symbolic Staistics From Annotation
      - 15.2073732719
      - 23.83
      - 14.387490189
+   * - hdim7
+     - 45
+     - 10.3686635945
+     - 16.36
+     - 9.87743766226
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 26
+     - 5.99078341014
+     - 18.87
+     - 11.3928636117
+   * - unclassified
+     - 72
+     - 16.5898617512
+     - 25.33
+     - 15.2931232265
 
 Top Bigrams
 -----------

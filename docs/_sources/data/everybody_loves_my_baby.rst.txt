@@ -34,22 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - double bass
-     - Joe Tarto 
-   * - guitar
-     - Dick McDonough 
-   * - alto saxophone and clarinet
-     - Jimmy Dorsey 
-   * - drums
-     - Stan King 
-   * - trombone
-     - Tommy Dorsey 
    * - violin
      - Harry Hoffman 
+   * - trombone
+     - Tommy Dorsey 
    * - piano
      - Martha Boswell 
    * - trumpet
      - Bunny Berigan 
+   * - guitar
+     - Dick McDonough 
+   * - double bass
+     - Joe Tarto 
+   * - alto saxophone and clarinet
+     - Jimmy Dorsey 
+   * - membranophone
+     - Stan King 
+   * - vocal
+     - Vet Boswell, Connee Boswell, Martha Boswell 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -63,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 242.029387302
    * - :term:`Mean Harmonic Rhythm`
-     - 7.84931506849
+     - 7.8493150684931505
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -74,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 112
      - 19.2439862543
      - 24.66
      - 17.0917660105
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 228
      - 39.175257732
@@ -99,6 +91,26 @@ Symbolic Staistics From Annotation
      - 40.0343642612
      - 54.76
      - 37.9539783754
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 9
+     - 1.54639175258
+     - 6.68
+     - 4.62988633213
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

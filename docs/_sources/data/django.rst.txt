@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1954-12-23 - 1954-12-23
    * - Composer(s)
-     - 
+     - John Lewis
 .. _c3141ac9-74aa-439e-b9bc-16aae9c4d683: https://musicbrainz.org/recording/c3141ac9-74aa-439e-b9bc-16aae9c4d683
 
 Line-up
@@ -34,14 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - piano
-     - John Lewis 
    * - double bass
      - Percy Heath 
+   * - membranophone
+     - Kenny Clarke 
+   * - piano
+     - John Lewis 
    * - vibraphone
      - Milt Jackson 
-   * - drums
-     - Kenny Clarke 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -55,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 98.9810086367
    * - :term:`Mean Harmonic Rhythm`
-     - 3.17727272727
+     - 3.1772727272727272
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -66,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 24
-     - 3.42368045649
-     - 15.44
-     - 3.63353964182
    * - maj
      - 37
      - 5.27817403709
      - 26.93
      - 6.33751441414
-   * - hdim7
-     - 32
-     - 4.56490727532
-     - 19.44
-     - 4.57487115525
    * - min
      - 191
      - 27.2467902996
@@ -91,6 +81,26 @@ Symbolic Staistics From Annotation
      - 59.2011412268
      - 238.94
      - 56.2304379545
+   * - hdim7
+     - 32
+     - 4.56490727532
+     - 19.44
+     - 4.57487115525
+   * - dim
+     - 24
+     - 3.42368045649
+     - 15.44
+     - 3.63353964182
+   * - N
+     - 2
+     - 0.285306704708
+     - 4.82
+     - 1.13430447368
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -1,7 +1,7 @@
 .. index:: Blue Horizon, Sidney Bechet’s Blue Note Jazzmen
 .. _hyperlink-name: "Blue Horizon" Sidney Bechet’s Blue Note Jazzmen
 
-"Blue Horizon" Sidney Bechet’s Blue Note Jazzmen/None
+"Blue Horizon" Sidney Bechet’s Blue Note Jazzmen/1944
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 434.84 Hz
    * - Recording Dates
-     - None - None
+     - 1944-12-20 - 1944-12-20
    * - Composer(s)
-     - 
+     - Sidney Bechet
 .. _6a278fcb-224c-4c63-9e65-48cf3f0c1232: https://musicbrainz.org/recording/6a278fcb-224c-4c63-9e65-48cf3f0c1232
 
 Line-up
@@ -34,6 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - drums (drum set)
+     - Manzie Johnson 
+   * - double bass
+     - George "Pops" Foster 
+   * - trombone
+     - Vic Dickenson 
+   * - piano
+     - Art Hodes 
+   * - trumpet
+     - Sidney De Paris 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 64.5665773012
    * - :term:`Mean Harmonic Rhythm`
-     - 5.33333333333
+     - 5.333333333333333
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 132
      - 45.6747404844
      - 120.92
      - 45.0253202264
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 0
      - 0.0
@@ -83,6 +83,26 @@ Symbolic Staistics From Annotation
      - 53.9792387543
      - 146.94
      - 54.7140303843
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 1
+     - 0.346020761246
+     - 0.7
+     - 0.260649389336
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -1,7 +1,7 @@
 .. index:: Bags' Groove, Thelonious Monk
 .. _hyperlink-name: "Bags' Groove" Thelonious Monk
 
-"Bags' Groove" Thelonious Monk/None
+"Bags' Groove" Thelonious Monk/1954
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 440.39 Hz
    * - Recording Dates
-     - None - None
+     - 1954-12-24 - 1954-12-24
    * - Composer(s)
-     - 
+     - Milt Jackson
 .. _c4267824-c699-4c45-a06f-441a0b1fc7b9: https://musicbrainz.org/recording/c4267824-c699-4c45-a06f-441a0b1fc7b9
 
 Line-up
@@ -34,6 +34,12 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - double bass
+     - Percy Heath 
+   * - piano
+     - Thelonious Monk 
+   * - drums (drum set)
+     - Kenny Clarke 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +53,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 150.285681307
    * - :term:`Mean Harmonic Rhythm`
-     - 5.26829268293
+     - 5.2682926829268295
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,17 +64,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - hdim7
      - 0
      - 0.0
      - 0
@@ -83,6 +79,26 @@ Symbolic Staistics From Annotation
      - 87.0967741935
      - 147.04
      - 84.8617764183
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.460829493088
+     - 5.34
+     - 3.0818953079
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

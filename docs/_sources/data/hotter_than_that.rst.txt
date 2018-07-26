@@ -1,7 +1,7 @@
 .. index:: Hotter Than That, Louis Armstrong and His Hot Five
 .. _hyperlink-name: "Hotter Than That" Louis Armstrong and His Hot Five
 
-"Hotter Than That" Louis Armstrong and His Hot Five/None
+"Hotter Than That" Louis Armstrong and His Hot Five/1927
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 449.82 Hz
    * - Recording Dates
-     - None - None
+     - 1927-12-13 - 1927-12-13
    * - Composer(s)
-     - 
+     - Lil Hardin Armstrong
 .. _8fbdddb7-a518-46b3-9a2c-e0193669e002: https://musicbrainz.org/recording/8fbdddb7-a518-46b3-9a2c-e0193669e002
 
 Line-up
@@ -34,6 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Johnny Dodds 
+   * - cornet
+     - Louis Armstrong 
+   * - banjo
+     - Johnny St. Cyr 
+   * - piano
+     - Lil Hardin Armstrong 
+   * - guitar
+     - Lonnie Johnson 
+   * - trombone
+     - Kid Ory 
+   * - vocal
+     - Louis Armstrong 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 214.88787261
    * - :term:`Mean Harmonic Rhythm`
-     - 9.09090909091
+     - 9.090909090909092
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 4
-     - 0.615384615385
-     - 1.12
-     - 0.617113890572
    * - maj
      - 276
      - 42.4615384615
      - 76.15
      - 41.9582346135
-   * - hdim7
-     - 13
-     - 2.0
-     - 3.6
-     - 1.98358036255
    * - min
      - 8
      - 1.23076923077
@@ -83,6 +87,26 @@ Symbolic Staistics From Annotation
      - 30.6153846154
      - 54.89
      - 30.2440905835
+   * - hdim7
+     - 13
+     - 2.0
+     - 3.6
+     - 1.98358036255
+   * - dim
+     - 4
+     - 0.615384615385
+     - 1.12
+     - 0.617113890572
+   * - N
+     - 150
+     - 23.0769230769
+     - 43.49
+     - 23.9627527687
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

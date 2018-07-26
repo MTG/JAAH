@@ -34,30 +34,30 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - soprano saxophone
-     - Johnny Hodges 
-   * - drumset
-     - Sonny Greer 
-   * - bass saxophone
-     - Otto Hardwick 
-   * - baritone saxophone
-     - Harry Carney 
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
    * - alto saxophone
      - Harry Carney, Otto Hardwick, Johnny Hodges 
    * - guitar
      - Fred Guy 
    * - double bass
      - Billy Taylor Sr. 
-   * - trombone
-     - Joe "Tricky Sam" Nanton, Lawrence Brown 
-   * - piano
-     - Duke Ellington 
-   * - trumpet
-     - Cootie Williams, Wallace Jones 
+   * - baritone saxophone
+     - Harry Carney 
+   * - soprano saxophone
+     - Johnny Hodges 
+   * - drums (drum set)
+     - Sonny Greer 
    * - clarinet
      - Harry Carney, Johnny Hodges, Barney Bigard 
    * - cornet
      - Rex Stewart 
+   * - piano
+     - Duke Ellington 
+   * - trumpet
+     - Cootie Williams, Wallace Jones 
+   * - bass saxophone
+     - Otto Hardwick 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -71,7 +71,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 191.501762371
    * - :term:`Mean Harmonic Rhythm`
-     - 2.47084233261
+     - 2.470842332613391
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -82,21 +82,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 74
-     - 6.4347826087
-     - 22.85
-     - 6.34176126114
    * - maj
      - 283
      - 24.6086956522
      - 88.07
      - 24.442840887
-   * - hdim7
-     - 15
-     - 1.30434782609
-     - 4.66
-     - 1.29333074297
    * - min
      - 60
      - 5.21739130435
@@ -107,6 +97,26 @@ Symbolic Staistics From Annotation
      - 61.9130434783
      - 220.64
      - 61.236157753
+   * - hdim7
+     - 15
+     - 1.30434782609
+     - 4.66
+     - 1.29333074297
+   * - dim
+     - 74
+     - 6.4347826087
+     - 22.85
+     - 6.34176126114
+   * - N
+     - 6
+     - 0.521739130435
+     - 5.32
+     - 1.47650634176
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

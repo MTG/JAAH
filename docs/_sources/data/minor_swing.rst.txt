@@ -36,10 +36,10 @@ Line-up
    
    * - guitar
      - Django Reinhardt, Joseph Reinhardt, Eugène Vées 
-   * - violin
-     - Stéphane Grappelli 
    * - double bass
      - Louis Vola 
+   * - violin
+     - Stéphane Grappelli 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -53,7 +53,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 198.745201635
    * - :term:`Mean Harmonic Rhythm`
-     - 6.05714285714
+     - 6.057142857142857
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -64,17 +64,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - hdim7
      - 0
      - 0.0
      - 0
@@ -89,6 +79,26 @@ Symbolic Staistics From Annotation
      - 28.0373831776
      - 53.32
      - 27.5106286375
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 6
+     - 0.934579439252
+     - 4.606
+     - 2.3764807859
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1949-02-17 - 1949-02-17
    * - Composer(s)
-     - 
+     - Harry Warren
 .. _333f84f9-e2c4-4ebd-aec5-b710307c7c2b: https://musicbrainz.org/recording/333f84f9-e2c4-4ebd-aec5-b710307c7c2b
 
 Line-up
@@ -36,14 +36,14 @@ Line-up
    
    * - guitar
      - Chuck Wayne 
-   * - piano
-     - George Shearing 
    * - double bass
      - John Levy 
+   * - membranophone
+     - Denzil Best 
+   * - piano
+     - George Shearing 
    * - vibraphone
      - Marjorie Hyams 
-   * - drums
-     - Denzil Best 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 121.064638783
    * - :term:`Mean Harmonic Rhythm`
-     - 3.14285714286
+     - 3.142857142857143
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 168
      - 42.2110552764
      - 80.37
      - 40.7452471483
-   * - hdim7
-     - 18
-     - 4.52261306533
-     - 8.56
-     - 4.33967046895
    * - min
      - 78
      - 19.5979899497
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 33.1658291457
      - 63.12
      - 32.0
+   * - hdim7
+     - 18
+     - 4.52261306533
+     - 8.56
+     - 4.33967046895
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.502512562814
+     - 7.85
+     - 3.97972116603
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

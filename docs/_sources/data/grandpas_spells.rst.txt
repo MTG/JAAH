@@ -1,7 +1,7 @@
 .. index:: Grandpa's Spells, Jelly Roll Morton's Red Hot Peppers
 .. _hyperlink-name: "Grandpa's Spells" Jelly Roll Morton's Red Hot Peppers
 
-"Grandpa's Spells" Jelly Roll Morton's Red Hot Peppers/None
+"Grandpa's Spells" Jelly Roll Morton's Red Hot Peppers/1926
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 443.32 Hz
    * - Recording Dates
-     - None - None
+     - 1926-12-16 - 1926-12-16
    * - Composer(s)
-     - 
+     - Jelly Roll Morton
 .. _cc86ea4d-7a0b-443e-85f5-7352313de2e5: https://musicbrainz.org/recording/cc86ea4d-7a0b-443e-85f5-7352313de2e5
 
 Line-up
@@ -34,6 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Omer Simeon 
+   * - trombone
+     - Kid Ory 
+   * - double bass
+     - John Lindsay 
+   * - piano
+     - Jelly Roll Morton 
+   * - trumpet
+     - George Mitchell 
+   * - guitar
+     - Johnny St. Cyr 
+   * - drums (drum set)
+     - Andrew Hilaire 
+   * - banjo
+     - Johnny St. Cyr 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 205.976277372
    * - :term:`Mean Harmonic Rhythm`
-     - 3.68874172185
+     - 3.6887417218543046
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 48
-     - 7.97342192691
-     - 13.68
-     - 7.80109489051
    * - maj
      - 177
      - 29.4019933555
      - 50.49
      - 28.7921989051
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 12
      - 1.99335548173
@@ -83,6 +89,26 @@ Symbolic Staistics From Annotation
      - 53.1561461794
      - 91.45
      - 52.1498631387
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 48
+     - 7.97342192691
+     - 13.68
+     - 7.80109489051
+   * - N
+     - 45
+     - 7.47508305648
+     - 16.32
+     - 9.30656934307
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

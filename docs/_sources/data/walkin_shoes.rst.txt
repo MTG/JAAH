@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1952-10-15 - 1952-10-16
    * - Composer(s)
-     - 
+     - Gerry Mulligan
 .. _d0296909-0459-4596-86fd-9140dc1dac6a: https://musicbrainz.org/recording/d0296909-0459-4596-86fd-9140dc1dac6a
 
 Line-up
@@ -34,14 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - double bass
+     - Bob Whitlock 
+   * - membranophone
+     - Chico Hamilton 
    * - baritone saxophone
      - Gerry Mulligan 
    * - trumpet
      - Chet Baker 
-   * - drums
-     - Chico Hamilton 
-   * - double bass
-     - Bob Whitlock 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -55,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 133.778576933
    * - :term:`Mean Harmonic Rhythm`
-     - 3.35245901639
+     - 3.3524590163934427
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -66,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 104
      - 23.9631336406
      - 45.92
      - 23.5910608785
-   * - hdim7
-     - 40
-     - 9.21658986175
-     - 17.46
-     - 8.96994605703
    * - min
      - 116
      - 26.7281105991
@@ -91,6 +81,26 @@ Symbolic Staistics From Annotation
      - 34.331797235
      - 65.2
      - 33.4960184947
+   * - hdim7
+     - 40
+     - 9.21658986175
+     - 17.46
+     - 8.96994605703
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 25
+     - 5.76036866359
+     - 15.64
+     - 8.03493449782
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -1,7 +1,7 @@
 .. index:: When Lights Are Low, Lionel Hampton and His Orchestra
 .. _hyperlink-name: "When Lights Are Low" Lionel Hampton and His Orchestra
 
-"When Lights Are Low" Lionel Hampton and His Orchestra/None
+"When Lights Are Low" Lionel Hampton and His Orchestra/1939
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 444.75 Hz
    * - Recording Dates
-     - None - None
+     - 1939-09-11 - 1939-09-11
    * - Composer(s)
-     - 
+     - Benny Carter
 .. _be26b916-d04f-44fd-8ec3-47586711b4dd: https://musicbrainz.org/recording/be26b916-d04f-44fd-8ec3-47586711b4dd
 
 Line-up
@@ -34,6 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Coleman Hawkins, Leon "Chu" Berry, Ben Webster 
+   * - alto saxophone
+     - Benny Carter 
+   * - double bass
+     - Milt Hinton 
+   * - piano
+     - Clyde Hart 
+   * - trumpet
+     - Dizzy Gillespie 
+   * - guitar
+     - Charlie Christian 
+   * - drums (drum set)
+     - Cozy Cole 
+   * - vibraphone
+     - Lionel Hampton 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +63,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 189.302223201
    * - :term:`Mean Harmonic Rhythm`
-     - 2.37125748503
+     - 2.37125748502994
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 142
      - 33.023255814
      - 43.18
      - 31.6824418519
-   * - hdim7
-     - 18
-     - 4.18604651163
-     - 5.45
-     - 3.99882603272
    * - min
      - 90
      - 20.9302325581
@@ -83,6 +89,26 @@ Symbolic Staistics From Annotation
      - 33.9534883721
      - 44.24
      - 32.4601951721
+   * - hdim7
+     - 18
+     - 4.18604651163
+     - 5.45
+     - 3.99882603272
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 34
+     - 7.90697674419
+     - 16.14
+     - 11.8423948932
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -1,7 +1,7 @@
 .. index:: Blues for Alice, Charlie Parker
 .. _hyperlink-name: "Blues for Alice" Charlie Parker
 
-"Blues for Alice" Charlie Parker/None
+"Blues for Alice" Charlie Parker/1951
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 446.22 Hz
    * - Recording Dates
-     - None - None
+     - 1951 - 1951
    * - Composer(s)
-     - 
+     - Charlie Parker
 .. _a938db71-af38-4c0f-b804-d92362b8a932: https://musicbrainz.org/recording/a938db71-af38-4c0f-b804-d92362b8a932
 
 Line-up
@@ -34,6 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - drums (drum set)
+     - Kenny Clarke 
+   * - double bass
+     - Ray Brown 
+   * - piano
+     - John Lewis 
+   * - trumpet
+     - Red Rodney 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -45,9 +53,9 @@ Symbolic Staistics From Annotation
    * - Number of Chord Segments
      - 182
    * - Mean BPM
-     - 159.610983982
+     - 165.385070389
    * - :term:`Mean Harmonic Rhythm`
-     - 2.54395604396
+     - 2.5494505494505493
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,31 +66,41 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
+   * - maj
+     - 56
+     - 12.017167382
+     - 20.14
+     - 11.9129303206
+   * - min
+     - 158
+     - 33.9055793991
+     - 56.41
+     - 33.3668520052
+   * - dom
+     - 232
+     - 49.7854077253
+     - 82.74
+     - 48.9412043062
+   * - hdim7
+     - 18
+     - 3.86266094421
+     - 6.41
+     - 3.79155329469
    * - dim
      - 0
      - 0.0
      - 0
      - 0.0
-   * - maj
-     - 55
-     - 11.8279569892
-     - 19.82
-     - 11.3386727689
-   * - hdim7
-     - 18
-     - 3.87096774194
-     - 6.41
-     - 3.66704805492
-   * - min
-     - 158
-     - 33.9784946237
-     - 56.41
-     - 32.2711670481
-   * - dom
-     - 232
-     - 49.8924731183
-     - 88.48
-     - 50.6178489703
+   * - N
+     - 2
+     - 0.429184549356
+     - 3.36
+     - 1.98746007335
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

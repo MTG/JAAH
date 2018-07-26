@@ -34,24 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - baritone saxophone
-     - Gerry Mulligan 
-   * - tuba
-     - Bill Barber 
-   * - alto saxophone
-     - Lee Konitz 
    * - trombone
      - J.J. Johnson 
-   * - double bass
-     - Nelson Boyd 
-   * - drums
-     - Kenny Clarke 
+   * - alto saxophone
+     - Lee Konitz 
    * - French horn
      - Sanford J. Siegelstein 
+   * - tuba
+     - Bill Barber 
    * - piano
      - John Lewis 
    * - trumpet
      - Miles Davis 
+   * - double bass
+     - Nelson Boyd 
+   * - baritone saxophone
+     - Gerry Mulligan 
+   * - membranophone
+     - Kenny Clarke 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -65,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 132.012478792
    * - :term:`Mean Harmonic Rhythm`
-     - 2.5974025974
+     - 2.5974025974025974
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -76,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 18
-     - 4.4776119403
-     - 8.05
-     - 4.4058891139
    * - maj
      - 140
      - 34.8258706468
      - 62.2
      - 34.0430189918
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 108
      - 26.8656716418
@@ -101,6 +91,26 @@ Symbolic Staistics From Annotation
      - 33.3333333333
      - 59.4
      - 32.5105358218
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 18
+     - 4.4776119403
+     - 8.05
+     - 4.4058891139
+   * - N
+     - 2
+     - 0.497512437811
+     - 5.08
+     - 2.78036232281
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

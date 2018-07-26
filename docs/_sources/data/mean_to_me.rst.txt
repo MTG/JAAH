@@ -34,22 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - Allan Reuss 
-   * - alto saxophone
-     - Johnny Hodges 
    * - tenor saxophone
      - Lester Young 
-   * - double bass
-     - Artie Bernstein 
-   * - drums
+   * - membranophone
      - Cozy Cole 
-   * - clarinet
-     - Buster Bailey 
-   * - trumpet
-     - Buck Clayton 
+   * - alto saxophone
+     - Johnny Hodges 
    * - piano
      - Teddy Wilson 
+   * - clarinet
+     - Buster Bailey 
+   * - guitar
+     - Allan Reuss 
+   * - double bass
+     - Artie Bernstein 
+   * - trumpet
+     - Buck Clayton 
+   * - vocal
+     - Billie Holiday 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -63,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 105.930427494
    * - :term:`Mean Harmonic Rhythm`
-     - 2.28571428571
+     - 2.2857142857142856
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -74,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 18
-     - 5.3412462908
-     - 9.91
-     - 5.19174350377
    * - maj
      - 102
      - 30.2670623145
      - 56.46
      - 29.5787929589
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 78
      - 23.1454005935
@@ -99,6 +91,26 @@ Symbolic Staistics From Annotation
      - 40.9495548961
      - 80.59
      - 42.2202430847
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 18
+     - 5.3412462908
+     - 9.91
+     - 5.19174350377
+   * - N
+     - 1
+     - 0.296735905045
+     - 1.02
+     - 0.53436714166
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

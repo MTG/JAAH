@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1937-03-05 - 1937-03-05
    * - Composer(s)
-     - 
+     - Duke Ellington, Bubber Miley
 .. _8d38e1d4-01df-4429-8fb0-bb1f9d63ad4d: https://musicbrainz.org/recording/8d38e1d4-01df-4429-8fb0-bb1f9d63ad4d
 
 Line-up
@@ -34,32 +34,32 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - trombone
+     - Joe "Tricky Sam" Nanton, Lawrence Brown 
+   * - alto saxophone
+     - Otto Hardwick, Johnny Hodges 
    * - valve trombone
      - Juan Tizol 
-   * - chimes
-     - Freddy Jenkins 
-   * - drumset
+   * - guitar
+     - Fred Guy 
+   * - drums (drum set)
      - Sonny Greer 
    * - baritone saxophone
      - Harry Carney 
-   * - alto saxophone
-     - Otto Hardwick, Johnny Hodges 
-   * - guitar
-     - Fred Guy 
+   * - clarinet
+     - Harry Carney, Johnny Hodges, Barney Bigard 
+   * - cornet
+     - Rex Stewart 
+   * - chimes
+     - Freddy Jenkins 
    * - double bass
      - Hayes Alvis, Billy Taylor Sr. 
-   * - trombone
-     - Joe "Tricky Sam" Nanton, Lawrence Brown 
    * - piano
      - Duke Ellington 
    * - trumpet
      - Cootie Williams, Wallace Jones 
-   * - clarinet
-     - Harry Carney, Johnny Hodges, Barney Bigard 
    * - tenor saxophone
      - Johnny Hodges, Barney Bigard 
-   * - cornet
-     - Rex Stewart 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -73,7 +73,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 96.4149166066
    * - :term:`Mean Harmonic Rhythm`
-     - 2.74285714286
+     - 2.742857142857143
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -84,21 +84,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 90
-     - 31.0344827586
-     - 54.87
-     - 30.4039452541
    * - maj
      - 42
      - 14.4827586207
      - 25.68
      - 14.2295118302
-   * - hdim7
-     - 2
-     - 0.689655172414
-     - 1.29
-     - 0.714800243808
    * - min
      - 120
      - 41.3793103448
@@ -109,6 +99,26 @@ Symbolic Staistics From Annotation
      - 11.724137931
      - 20.48
      - 11.3481465063
+   * - hdim7
+     - 2
+     - 0.689655172414
+     - 1.29
+     - 0.714800243808
+   * - dim
+     - 90
+     - 31.0344827586
+     - 54.87
+     - 30.4039452541
+   * - N
+     - 2
+     - 0.689655172414
+     - 4.8
+     - 2.65972183742
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

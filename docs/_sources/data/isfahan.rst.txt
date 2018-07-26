@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1966-12-20 - 1966-12-20
    * - Composer(s)
-     - 
+     - Billy Strayhorn, Duke Ellington
 .. _a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2: https://musicbrainz.org/recording/a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2
 
 Line-up
@@ -34,22 +34,22 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - baritone saxophone
-     - Harry Carney 
+   * - membranophone
+     - Rufus Jones 
    * - alto saxophone
      - Russell Procope, Johnny Hodges 
-   * - tenor saxophone
-     - Paul Gonsalves, Jimmy Hamilton 
-   * - double bass
-     - John Lamb 
-   * - drums
-     - Rufus Jones 
-   * - trombone
-     - Buster Cooper, Chuck Connors, Lawrence Brown 
    * - piano
      - Duke Ellington 
    * - trumpet
      - Cootie Williams, Mercer Ellington, Herbie Jones, William “Cat” Anderson 
+   * - tenor saxophone
+     - Paul Gonsalves, Jimmy Hamilton 
+   * - double bass
+     - John Lamb 
+   * - baritone saxophone
+     - Harry Carney 
+   * - trombone
+     - Buster Cooper, Chuck Connors, Lawrence Brown 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -74,21 +74,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 100
      - 40.0
      - 100.92
      - 39.5702634881
-   * - hdim7
-     - 8
-     - 3.2
-     - 8.02
-     - 3.14460476788
    * - min
      - 10
      - 4.0
@@ -99,6 +89,26 @@ Symbolic Staistics From Annotation
      - 42.4
      - 106.57
      - 41.7856022585
+   * - hdim7
+     - 8
+     - 3.2
+     - 8.02
+     - 3.14460476788
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 26
+     - 10.4
+     - 29.49
+     - 11.5628920954
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

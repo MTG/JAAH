@@ -1,7 +1,7 @@
 .. index:: Four or Five Times, Jimmie Noone's Apex Club Orchestra
 .. _hyperlink-name: "Four or Five Times" Jimmie Noone's Apex Club Orchestra
 
-"Four or Five Times" Jimmie Noone's Apex Club Orchestra/None
+"Four or Five Times" Jimmie Noone's Apex Club Orchestra/1928
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 434.7 Hz
    * - Recording Dates
-     - None - None
+     - 1928-05-16 - 9128-05-16
    * - Composer(s)
-     - 
+     - Marco H. Hellman, Byron Gay
 .. _2483bae2-89a5-4c1f-aa76-a94ce6f2e09b: https://musicbrainz.org/recording/2483bae2-89a5-4c1f-aa76-a94ce6f2e09b
 
 Line-up
@@ -34,6 +34,18 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Jimmie Noone 
+   * - alto saxophone
+     - Joe Poston 
+   * - banjo
+     - Bud Scott 
+   * - piano
+     - Earl Hines 
+   * - drums (drum set)
+     - Johnny Wells 
+   * - vocal
+     - Jimmie Noone 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +59,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 125.289307206
    * - :term:`Mean Harmonic Rhythm`
-     - 3.51304347826
+     - 3.5130434782608697
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +70,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 34
-     - 8.37438423645
-     - 16.16
-     - 8.31147456668
    * - maj
      - 169
      - 41.6256157635
      - 81.25
      - 41.788818598
-   * - hdim7
-     - 4
-     - 0.985221674877
-     - 1.75
-     - 0.90006686211
    * - min
      - 29
      - 7.14285714286
@@ -83,6 +85,26 @@ Symbolic Staistics From Annotation
      - 41.3793103448
      - 80.36
      - 41.3310703081
+   * - hdim7
+     - 4
+     - 0.985221674877
+     - 1.75
+     - 0.90006686211
+   * - dim
+     - 34
+     - 8.37438423645
+     - 16.16
+     - 8.31147456668
+   * - N
+     - 2
+     - 0.492610837438
+     - 0.99
+     - 0.509180681994
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

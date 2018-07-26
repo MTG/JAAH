@@ -1,7 +1,7 @@
 .. index:: King Porter Stomp, Jelly Roll Morton
 .. _hyperlink-name: "King Porter Stomp" Jelly Roll Morton
 
-"King Porter Stomp" Jelly Roll Morton/None
+"King Porter Stomp" Jelly Roll Morton/1923
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 441.32 Hz
    * - Recording Dates
-     - None - None
+     - 1923-07-17 - 1923-07-17
    * - Composer(s)
-     - 
+     - Jelly Roll Morton
 .. _3f6f7104-11bc-41f4-96b0-11ed31a948d4: https://musicbrainz.org/recording/3f6f7104-11bc-41f4-96b0-11ed31a948d4
 
 Line-up
@@ -34,6 +34,8 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - piano
+     - Jelly Roll Morton 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +49,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 181.355068772
    * - :term:`Mean Harmonic Rhythm`
-     - 3.12426035503
+     - 3.1242603550295858
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +60,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 50
-     - 9.36329588015
-     - 16.09
-     - 9.10737533254
    * - maj
      - 184
      - 34.456928839
      - 60.21
      - 34.0804890474
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 74
      - 13.8576779026
@@ -83,6 +75,26 @@ Symbolic Staistics From Annotation
      - 41.1985018727
      - 71.63
      - 40.544518028
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 50
+     - 9.36329588015
+     - 16.09
+     - 9.10737533254
+   * - N
+     - 6
+     - 1.12359550562
+     - 4.57
+     - 2.58674364635
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

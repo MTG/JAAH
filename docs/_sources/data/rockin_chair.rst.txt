@@ -1,7 +1,7 @@
 .. index:: Rockin' Chair, Gene Krupa and His Orchestra
 .. _hyperlink-name: "Rockin' Chair" Gene Krupa and His Orchestra
 
-"Rockin' Chair" Gene Krupa and His Orchestra/None
+"Rockin' Chair" Gene Krupa and His Orchestra/1941
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 443.39 Hz
    * - Recording Dates
-     - None - None
+     - 1941-07-02 - 1941-07-02
    * - Composer(s)
-     - 
+     - Hoagy Carmichael
 .. _c24bd7bd-aeef-42d1-9445-9ecea0eb0827: https://musicbrainz.org/recording/c24bd7bd-aeef-42d1-9445-9ecea0eb0827
 
 Line-up
@@ -34,6 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Walter Bates, Sam Musiker 
+   * - clarinet
+     - Sam Musiker 
+   * - alto saxophone
+     - Musky Ruffo 
+   * - piano
+     - Milt Raskin 
+   * - trumpet
+     - Norman Murphy, Torg Halten, Roy Eldridge, Graham Young 
+   * - guitar
+     - Ray Biondi 
+   * - double bass
+     - Ed Mihelich 
+   * - trombone
+     - Babe Wagner, Jay Kelliher, John Grassi 
+   * - drums (drum set)
+     - Gene Krupa 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -58,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 1
-     - 0.37037037037
-     - 0.67
-     - 0.36746558438
    * - maj
      - 70
      - 25.9259259259
      - 47.73
      - 26.1778094664
-   * - hdim7
-     - 20
-     - 7.40740740741
-     - 13.74
-     - 7.53578676027
    * - min
      - 39
      - 14.4444444444
@@ -83,6 +91,26 @@ Symbolic Staistics From Annotation
      - 31.8518518519
      - 58.26
      - 31.9530521582
+   * - hdim7
+     - 20
+     - 7.40740740741
+     - 13.74
+     - 7.53578676027
+   * - dim
+     - 1
+     - 0.37037037037
+     - 0.67
+     - 0.36746558438
+   * - N
+     - 54
+     - 20.0
+     - 36.08
+     - 19.7882959469
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

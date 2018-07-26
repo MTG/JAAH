@@ -34,18 +34,18 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - soprano saxophone
-     - Sidney Bechet 
-   * - double bass
-     - Wilson Myers 
-   * - drums
+   * - membranophone
      - Morris Morand 
-   * - trombone
-     - Teddy Nixon 
    * - piano
      - Hank Duncan 
    * - trumpet
      - Tommy Ladnier 
+   * - soprano saxophone
+     - Sidney Bechet 
+   * - double bass
+     - Wilson Myers 
+   * - trombone
+     - Teddy Nixon 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -59,7 +59,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 260.142666072
    * - :term:`Mean Harmonic Rhythm`
-     - 5.01960784314
+     - 5.019607843137255
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -70,21 +70,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 44
-     - 5.65552699229
-     - 9.92
-     - 5.52831029871
    * - maj
      - 402
      - 51.6709511568
      - 90.09
      - 50.2061970575
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 56
      - 7.19794344473
@@ -95,6 +85,26 @@ Symbolic Staistics From Annotation
      - 34.1902313625
      - 59.52
      - 33.1698617922
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 44
+     - 5.65552699229
+     - 9.92
+     - 5.52831029871
+   * - N
+     - 10
+     - 1.2853470437
+     - 7.38
+     - 4.11279536335
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

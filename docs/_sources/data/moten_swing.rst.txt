@@ -34,26 +34,26 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - acoustic guitar
-     - Leroy "Buster" Berry 
-   * - tenor saxophone
-     - Ben Webster 
-   * - alto saxophone and clarinet
-     - Eddie Barefield 
-   * - double bass
-     - Walter Page 
-   * - drums
-     - Willie McWashington 
-   * - trombone
-     - Dan Minor 
    * - guitar and trombone
      - Eddie Durham 
+   * - alto saxophone and clarinet
+     - Eddie Barefield 
+   * - membranophone
+     - Willie McWashington 
    * - piano
      - Count Basie 
    * - trumpet
      - Hot Lips Page, Prince "Dee" Stewart, Joe Keyes 
+   * - tenor saxophone
+     - Ben Webster 
+   * - double bass
+     - Walter Page 
+   * - acoustic guitar
+     - Leroy "Buster" Berry 
    * - alto saxophone and baritone saxophone
      - Jack Washington 
+   * - trombone
+     - Dan Minor 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -67,7 +67,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 192.927919176
    * - :term:`Mean Harmonic Rhythm`
-     - 3.38461538462
+     - 3.3846153846153846
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -78,21 +78,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 10
-     - 1.51057401813
-     - 3.05
-     - 1.48144550223
    * - maj
      - 192
      - 29.003021148
      - 58.57
      - 28.4486108413
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 120
      - 18.1268882175
@@ -103,6 +93,26 @@ Symbolic Staistics From Annotation
      - 51.0574018127
      - 103.0
      - 50.0291431902
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 10
+     - 1.51057401813
+     - 3.05
+     - 1.48144550223
+   * - N
+     - 2
+     - 0.302114803625
+     - 4.76
+     - 2.31202642316
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

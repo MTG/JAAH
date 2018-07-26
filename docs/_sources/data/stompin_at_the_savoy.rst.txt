@@ -34,16 +34,18 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - Herb Ellis 
+   * - membranophone
+     - Louie Bellson 
    * - piano
      - Oscar Peterson 
-   * - double bass
-     - Ray Brown 
    * - trumpet
      - Louis Armstrong 
-   * - drums
-     - Louie Bellson 
+   * - guitar
+     - Herb Ellis 
+   * - double bass
+     - Ray Brown 
+   * - vocal
+     - Ella Fitzgerald, Louis Armstrong 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +59,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 181.236741285
    * - :term:`Mean Harmonic Rhythm`
-     - 2.5593220339
+     - 2.559322033898305
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +70,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 36
-     - 3.77358490566
-     - 12.18
-     - 3.85650508185
    * - maj
      - 312
      - 32.7044025157
      - 100.06
      - 31.6816008612
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 142
      - 14.8846960168
@@ -93,6 +85,26 @@ Symbolic Staistics From Annotation
      - 43.605870021
      - 136.3
      - 43.1561282969
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 36
+     - 3.77358490566
+     - 12.18
+     - 3.85650508185
+   * - N
+     - 48
+     - 5.03144654088
+     - 20.71
+     - 6.55732514327
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

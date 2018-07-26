@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1926-09-15 - 1926-09-15
    * - Composer(s)
-     - Ferdinand Joseph LaMothe, Jelly Roll Morton
+     - Jelly Roll Morton
 .. _67a88bd6-864f-4ff7-9579-9d649887deb1: https://musicbrainz.org/recording/67a88bd6-864f-4ff7-9579-9d649887deb1
 
 Line-up
@@ -34,20 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - double bass
-     - John Lindsay 
-   * - drums
-     - Andrew Hilaire 
-   * - trombone
-     - Kid Ory 
-   * - piano
-     - Jelly Roll Morton 
-   * - banjo
-     - Johnny St. Cyr 
    * - clarinet
      - Omer Simeon 
    * - cornet
      - George Mitchell 
+   * - piano
+     - Jelly Roll Morton 
+   * - trombone
+     - Kid Ory 
+   * - double bass
+     - John Lindsay 
+   * - membranophone
+     - Andrew Hilaire 
+   * - banjo
+     - Johnny St. Cyr 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -61,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 247.820100964
    * - :term:`Mean Harmonic Rhythm`
-     - 4.92715231788
+     - 4.927152317880795
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -72,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 44
-     - 5.43209876543
-     - 10.24
-     - 5.22155932895
    * - maj
      - 293
      - 36.1728395062
      - 69.06
      - 35.2149303962
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 63
      - 7.77777777778
@@ -97,6 +87,26 @@ Symbolic Staistics From Annotation
      - 42.4691358025
      - 81.15
      - 41.3798378461
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 44
+     - 5.43209876543
+     - 10.24
+     - 5.22155932895
+   * - N
+     - 66
+     - 8.14814814815
+     - 20.98
+     - 10.6980776095
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

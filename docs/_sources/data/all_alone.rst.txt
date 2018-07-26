@@ -1,7 +1,7 @@
 .. index:: All Alone, Sarah Vaughan
 .. _hyperlink-name: "All Alone" Sarah Vaughan
 
-"All Alone" Sarah Vaughan/None
+"All Alone" Sarah Vaughan/1967
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 442.07 Hz
    * - Recording Dates
-     - None - None
+     - 1967-01-23 - 1967-01-23
    * - Composer(s)
-     - 
+     - Irving Berlin
 .. _6f4aaccf-87df-4265-a3af-9c06742ea102: https://musicbrainz.org/recording/6f4aaccf-87df-4265-a3af-9c06742ea102
 
 Line-up
@@ -34,6 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - reeds
+     - Benny Golson, Phil Woods 
+   * - trombone
+     - J.J. Johnson, Kai Winding 
+   * - vocal
+     - Sarah Vaughan 
+   * - piano
+     - Bob James 
+   * - trumpet
+     - Clark Terry, Freddie Hubbard, Charlie Shavers, Joe Newman 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 128.814986319
    * - :term:`Mean Harmonic Rhythm`
-     - 4.16438356164
+     - 4.164383561643835
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 116
      - 37.908496732
      - 53.42
      - 37.479828808
-   * - hdim7
-     - 8
-     - 2.61437908497
-     - 3.67
-     - 2.57489651301
    * - min
      - 60
      - 19.6078431373
@@ -83,6 +83,26 @@ Symbolic Staistics From Annotation
      - 39.2156862745
      - 54.74
      - 38.4059496246
+   * - hdim7
+     - 8
+     - 2.61437908497
+     - 3.67
+     - 2.57489651301
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.653594771242
+     - 3.38
+     - 2.37143057602
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -1,7 +1,7 @@
 .. index:: Dead Man Blues, Jelly Roll Morton's Red Hot Peppers
 .. _hyperlink-name: "Dead Man Blues" Jelly Roll Morton's Red Hot Peppers
 
-"Dead Man Blues" Jelly Roll Morton's Red Hot Peppers/None
+"Dead Man Blues" Jelly Roll Morton's Red Hot Peppers/1926
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 435.97 Hz
    * - Recording Dates
-     - None - None
+     - 1926-09-21 - 1926-09-21
    * - Composer(s)
-     - 
+     - Jelly Roll Morton
 .. _c38bec92-e409-4bff-b148-75ff64c955ff: https://musicbrainz.org/recording/c38bec92-e409-4bff-b148-75ff64c955ff
 
 Line-up
@@ -34,6 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Darnell Howard, Omer Simeon, Barney Bigard 
+   * - trombone
+     - Kid Ory 
+   * - double bass
+     - John Lindsay 
+   * - piano
+     - Jelly Roll Morton 
+   * - trumpet
+     - George Mitchell 
+   * - drums (drum set)
+     - Andrew Hilaire 
+   * - banjo
+     - Johnny St. Cyr 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 116.985608913
    * - :term:`Mean Harmonic Rhythm`
-     - 4.57317073171
+     - 4.573170731707317
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 203
      - 53.7037037037
      - 94.69
      - 48.8420075308
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 24
      - 6.34920634921
@@ -83,6 +87,26 @@ Symbolic Staistics From Annotation
      - 39.1534391534
      - 68.38
      - 35.2710579254
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 3
+     - 0.793650793651
+     - 19.93
+     - 10.2800845928
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

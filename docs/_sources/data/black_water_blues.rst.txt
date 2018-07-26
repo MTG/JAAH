@@ -34,6 +34,8 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - vocal
+     - Bessie Smith 
    * - piano
      - James P. Johnson 
 
@@ -49,7 +51,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 103.432813512
    * - :term:`Mean Harmonic Rhythm`
-     - 4.84507042254
+     - 4.845070422535211
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -60,21 +62,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 164
      - 47.3988439306
      - 93.44
      - 46.554730706
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 14
      - 4.04624277457
@@ -85,6 +77,26 @@ Symbolic Staistics From Annotation
      - 47.9768786127
      - 94.34
      - 47.0031388571
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.578034682081
+     - 4.98
+     - 2.48119176922
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

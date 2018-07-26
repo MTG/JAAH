@@ -1,7 +1,7 @@
 .. index:: Riverboat Shuffle, Frankie Trumbauer and His Orchestra
 .. _hyperlink-name: "Riverboat Shuffle" Frankie Trumbauer and His Orchestra
 
-"Riverboat Shuffle" Frankie Trumbauer and His Orchestra/None
+"Riverboat Shuffle" Frankie Trumbauer and His Orchestra/1927
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 443.94 Hz
    * - Recording Dates
-     - None - None
+     - 1927-05-09 - 1927-05-09
    * - Composer(s)
-     - 
+     - Irving Mills, Hoagy Carmichael
 .. _5f08d6f0-73a2-41db-a06b-ab5db714bc3e: https://musicbrainz.org/recording/5f08d6f0-73a2-41db-a06b-ab5db714bc3e
 
 Line-up
@@ -34,6 +34,26 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Don Murray 
+   * - cornet
+     - Bix Beiderbecke 
+   * - alto saxophone
+     - Red Ingle 
+   * - piano
+     - Itzy Riskin 
+   * - saxophone
+     - Frankie Trumbauer 
+   * - guitar
+     - Eddie Lang 
+   * - drums (drum set)
+     - Chauncey Morehouse 
+   * - baritone saxophone
+     - Don Murray 
+   * - trombone
+     - Bill Rank 
+   * - banjo
+     - Eddie Lang 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +67,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 206.918238994
    * - :term:`Mean Harmonic Rhythm`
-     - 6.01834862385
+     - 6.018348623853211
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +78,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 216
      - 32.8267477204
      - 61.36
      - 32.1593291405
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 84
      - 12.7659574468
@@ -83,6 +93,26 @@ Symbolic Staistics From Annotation
      - 54.103343465
      - 100.45
      - 52.6467505241
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.303951367781
+     - 5.4
+     - 2.83018867925
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

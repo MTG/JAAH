@@ -1,7 +1,7 @@
 .. index:: You'd Be So Nice to Come Home To, Ella Fitzgerald
 .. _hyperlink-name: "You'd Be So Nice to Come Home To" Ella Fitzgerald
 
-"You'd Be So Nice to Come Home To" Ella Fitzgerald/None
+"You'd Be So Nice to Come Home To" Ella Fitzgerald/1964
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 444.06 Hz
    * - Recording Dates
-     - None - None
+     - 1964-07-28 - 1964-07-28
    * - Composer(s)
-     - 
+     - Cole Porter
 .. _de6cd145-7a74-4e4b-86ac-4094433b849f: https://musicbrainz.org/recording/de6cd145-7a74-4e4b-86ac-4094433b849f
 
 Line-up
@@ -34,6 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - drums (drum set)
+     - Gus Johnson 
+   * - double bass
+     - Bill Yancey 
+   * - vocal
+     - Ella Fitzgerald 
+   * - piano
+     - Tommy Flanagan 
+   * - trumpet
+     - Roy Eldridge 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 176.233105143
    * - :term:`Mean Harmonic Rhythm`
-     - 3.4965034965
+     - 3.4965034965034967
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 24
-     - 4.78087649402
-     - 7.7
-     - 4.5052951846
    * - maj
      - 72
      - 14.3426294821
      - 22.91
      - 13.4047159324
-   * - hdim7
-     - 78
-     - 15.5378486056
-     - 24.73
-     - 14.4696038851
    * - min
      - 180
      - 35.8565737052
@@ -83,6 +83,26 @@ Symbolic Staistics From Annotation
      - 29.0836653386
      - 46.15
      - 27.0025159441
+   * - hdim7
+     - 78
+     - 15.5378486056
+     - 24.73
+     - 14.4696038851
+   * - dim
+     - 24
+     - 4.78087649402
+     - 7.7
+     - 4.5052951846
+   * - N
+     - 2
+     - 0.398406374502
+     - 12.46
+     - 7.29038675326
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

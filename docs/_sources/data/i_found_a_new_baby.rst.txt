@@ -1,7 +1,7 @@
 .. index:: I Found a New Baby (feat. Charlie Christian & Count Basie), The Benny Goodman Sextet
 .. _hyperlink-name: "I Found a New Baby (feat. Charlie Christian & Count Basie)" The Benny Goodman Sextet
 
-"I Found a New Baby (feat. Charlie Christian & Count Basie)" The Benny Goodman Sextet/None
+"I Found a New Baby (feat. Charlie Christian & Count Basie)" The Benny Goodman Sextet/1941
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 442.64 Hz
    * - Recording Dates
-     - None - None
+     - 1941-01-15 - 1941-01-15
    * - Composer(s)
-     - 
+     - Spencer Williams, Jack Palmer
 .. _7299b208-023e-44c9-a11d-5237c6cff8fd: https://musicbrainz.org/recording/7299b208-023e-44c9-a11d-5237c6cff8fd
 
 Line-up
@@ -34,6 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Benny Goodman 
+   * - double bass
+     - Artie Bernstein 
+   * - piano
+     - Count Basie 
+   * - trumpet
+     - Cootie Williams 
+   * - tenor saxophone
+     - Georgie Auld 
+   * - drums (drum set)
+     - Jo Jones 
+   * - electric guitar
+     - Charlie Christian 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 204.611114258
    * - :term:`Mean Harmonic Rhythm`
-     - 6.72413793103
+     - 6.724137931034483
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 72
      - 11.9601328904
      - 20.66
      - 11.703393191
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 256
      - 42.5249169435
@@ -83,6 +87,26 @@ Symbolic Staistics From Annotation
      - 42.6910299003
      - 73.44
      - 41.6019939954
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 17
+     - 2.82392026578
+     - 8.55
+     - 4.84336939897
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

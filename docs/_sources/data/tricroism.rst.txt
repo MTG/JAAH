@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1956-01-24 - 1956-01-24
    * - Composer(s)
-     - 
+     - Oscar Pettiford
 .. _080a5a42-6260-4a73-b08c-768df63201bc: https://musicbrainz.org/recording/080a5a42-6260-4a73-b08c-768df63201bc
 
 Line-up
@@ -36,10 +36,10 @@ Line-up
    
    * - guitar
      - Skeeter Best 
-   * - tenor saxophone
-     - Lucky Thompson 
    * - double bass
      - Oscar Pettiford 
+   * - tenor saxophone
+     - Lucky Thompson 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -53,7 +53,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 158.23699422
    * - :term:`Mean Harmonic Rhythm`
-     - 3.83815028902
+     - 3.838150289017341
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -64,21 +64,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 30
-     - 4.1095890411
-     - 11.22
-     - 4.05346820809
    * - maj
      - 223
      - 30.5479452055
      - 83.15
      - 30.0397398844
-   * - hdim7
-     - 10
-     - 1.3698630137
-     - 3.75
-     - 1.35476878613
    * - min
      - 90
      - 12.3287671233
@@ -89,6 +79,26 @@ Symbolic Staistics From Annotation
      - 42.602739726
      - 116.39
      - 42.0484104046
+   * - hdim7
+     - 10
+     - 1.3698630137
+     - 3.75
+     - 1.35476878613
+   * - dim
+     - 30
+     - 4.1095890411
+     - 11.22
+     - 4.05346820809
+   * - N
+     - 66
+     - 9.04109589041
+     - 28.6
+     - 10.3323699422
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

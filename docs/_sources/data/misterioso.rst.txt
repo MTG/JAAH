@@ -34,14 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - piano
-     - Thelonious Monk 
    * - double bass
      - John Simmons 
+   * - membranophone
+     - Shadow Wilson 
+   * - piano
+     - Thelonious Monk 
    * - vibraphone
      - Milt Jackson 
-   * - drums
-     - Shadow Wilson 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -55,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 76.8516255194
    * - :term:`Mean Harmonic Rhythm`
-     - 6.77777777778
+     - 6.777777777777778
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -66,17 +66,7 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
-     - 0
-     - 0.0
-     - 0
-     - 0.0
-   * - hdim7
      - 0
      - 0.0
      - 0
@@ -91,6 +81,26 @@ Symbolic Staistics From Annotation
      - 85.4961832061
      - 170.98
      - 83.588364703
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 18
+     - 6.87022900763
+     - 18.3
+     - 8.94646785627
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

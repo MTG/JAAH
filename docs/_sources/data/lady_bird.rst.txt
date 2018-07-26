@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1948-09-13 - 1948-09-13
    * - Composer(s)
-     - 
+     - Tadd Dameron
 .. _ce2d8d18-590f-468c-a020-b334ae916caa: https://musicbrainz.org/recording/ce2d8d18-590f-468c-a020-b334ae916caa
 
 Line-up
@@ -36,14 +36,14 @@ Line-up
    
    * - tenor saxophone
      - Allen Eager, Wardell Gray 
-   * - piano
-     - Tadd Dameron 
    * - double bass
      - Curley Russell 
+   * - membranophone
+     - Kenny Clarke 
+   * - piano
+     - Tadd Dameron 
    * - trumpet
      - Fats Navarro 
-   * - drums
-     - Kenny Clarke 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 157.940111501
    * - :term:`Mean Harmonic Rhythm`
-     - 4.30188679245
+     - 4.30188679245283
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 224
      - 48.9082969432
      - 77.43
      - 44.5025576183
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 120
      - 26.2008733624
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 24.4541484716
      - 38.17
      - 21.9380424162
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 2
+     - 0.436681222707
+     - 17.12
+     - 9.83964595666
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1947-06-12 - 1947-06-12
    * - Composer(s)
-     - 
+     - Dexter Gordon
 .. _b5c9ca7e-ba9f-4ebf-8609-f4dc24339594: https://musicbrainz.org/recording/b5c9ca7e-ba9f-4ebf-8609-f4dc24339594
 
 Line-up
@@ -36,11 +36,11 @@ Line-up
    
    * - tenor saxophone
      - Dexter Gordon 
-   * - piano
-     - Jimmy Bunn 
    * - double bass
      - Red Callender 
-   * - drumset
+   * - piano
+     - Jimmy Bunn 
+   * - drums (drum set)
      - Chuck Thompson 
 
 Symbolic Staistics From Annotation
@@ -55,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 211.383601757
    * - :term:`Mean Harmonic Rhythm`
-     - 7.20792079208
+     - 7.207920792079208
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -66,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 20
      - 2.5974025974
      - 5.55
      - 2.53934846266
-   * - hdim7
-     - 48
-     - 6.23376623377
-     - 13.53
-     - 6.19051976574
    * - min
      - 490
      - 63.6363636364
@@ -91,6 +81,26 @@ Symbolic Staistics From Annotation
      - 22.0779220779
      - 47.7
      - 21.824670571
+   * - hdim7
+     - 48
+     - 6.23376623377
+     - 13.53
+     - 6.19051976574
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 42
+     - 5.45454545455
+     - 14.31
+     - 6.5474011713
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

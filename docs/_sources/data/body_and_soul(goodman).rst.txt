@@ -1,7 +1,7 @@
 .. index:: Body and Soul, The Benny Goodman Trio
 .. _hyperlink-name: "Body and Soul" The Benny Goodman Trio
 
-"Body and Soul" The Benny Goodman Trio/None
+"Body and Soul" The Benny Goodman Trio/1935
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 443.29 Hz
    * - Recording Dates
-     - None - None
+     - 1935-07-13 - 1935-07-13
    * - Composer(s)
-     - 
+     - Johnny Green
 .. _b7f4e20c-b9f9-45c5-b955-fe2cf18f4345: https://musicbrainz.org/recording/b7f4e20c-b9f9-45c5-b955-fe2cf18f4345
 
 Line-up
@@ -34,6 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Benny Goodman 
+   * - vocal
+     - Teddy Wilson, Benny Goodman 
+   * - piano
+     - Teddy Wilson 
+   * - drums (drum set)
+     - Gene Krupa 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 92.6882433777
    * - :term:`Mean Harmonic Rhythm`
-     - 2.28169014085
+     - 2.2816901408450705
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 14
-     - 4.29447852761
-     - 8.78
-     - 4.16054589395
    * - maj
      - 60
      - 18.4049079755
      - 38.34
      - 18.1680329811
-   * - hdim7
-     - 2
-     - 0.613496932515
-     - 1.27
-     - 0.60181016917
    * - min
      - 134
      - 41.1042944785
@@ -83,6 +81,26 @@ Symbolic Staistics From Annotation
      - 34.9693251534
      - 71.51
      - 33.8861773208
+   * - hdim7
+     - 2
+     - 0.613496932515
+     - 1.27
+     - 0.60181016917
+   * - dim
+     - 14
+     - 4.29447852761
+     - 8.78
+     - 4.16054589395
+   * - N
+     - 2
+     - 0.613496932515
+     - 6.34
+     - 3.0043121831
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

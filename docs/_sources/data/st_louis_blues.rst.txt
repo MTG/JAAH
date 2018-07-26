@@ -1,7 +1,7 @@
 .. index:: St. Louis Blues, Bessie Smith featuring Louis Armstrong
 .. _hyperlink-name: "St. Louis Blues" Bessie Smith featuring Louis Armstrong
 
-"St. Louis Blues" Bessie Smith featuring Louis Armstrong/None
+"St. Louis Blues" Bessie Smith featuring Louis Armstrong/1925
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 451.29 Hz
    * - Recording Dates
-     - None - None
+     - 1925-01-14 - 1925-01-14
    * - Composer(s)
-     - 
+     - William Christopher Handy
 .. _c0574bda-0b9c-4233-a201-f20766434c27: https://musicbrainz.org/recording/c0574bda-0b9c-4233-a201-f20766434c27
 
 Line-up
@@ -34,6 +34,12 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - cornet
+     - Louis Armstrong 
+   * - organ
+     - Fred Longshaw 
+   * - vocal
+     - Bessie Smith 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +53,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 66.4699487498
    * - :term:`Mean Harmonic Rhythm`
-     - 2.57317073171
+     - 2.573170731707317
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +64,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 3
-     - 1.40186915888
-     - 2.59
-     - 1.34078790702
    * - maj
      - 55
      - 25.7009345794
      - 49.05
      - 25.3921416369
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 25
      - 11.6822429907
@@ -83,6 +79,26 @@ Symbolic Staistics From Annotation
      - 59.8130841121
      - 115.19
      - 59.6314127453
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 3
+     - 1.40186915888
+     - 2.59
+     - 1.34078790702
+   * - N
+     - 3
+     - 1.40186915888
+     - 4.47
+     - 2.31402391676
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

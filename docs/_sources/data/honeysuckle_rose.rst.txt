@@ -34,24 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - electric guitar
-     - Charlie Christian 
+   * - clarinet
+     - Benny Goodman 
+   * - membranophone
+     - Nick Fatool 
    * - alto saxophone
      - Buff Estes, Toots Mondello 
+   * - piano
+     - Fletcher Henderson 
+   * - trumpet
+     - Ziggy Elman, Johnny Martel, Jimmy Maxwell 
    * - tenor saxophone
      - Jerry Jerome, Bus Bassey 
    * - double bass
      - Artie Bernstein 
-   * - drums
-     - Nick Fatool 
    * - trombone
      - Vernon Brown, Red Ballard, Ted Vesely 
-   * - clarinet
-     - Benny Goodman 
-   * - trumpet
-     - Ziggy Elman, Johnny Martel, Jimmy Maxwell 
-   * - piano
-     - Fletcher Henderson 
+   * - electric guitar
+     - Charlie Christian 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -65,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 211.00177448
    * - :term:`Mean Harmonic Rhythm`
-     - 2.44866920152
+     - 2.4486692015209126
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -76,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 30
-     - 4.5871559633
-     - 8.26
-     - 4.44157659838
    * - maj
      - 189
      - 28.8990825688
      - 51.98
      - 27.9507447438
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 162
      - 24.7706422018
@@ -101,6 +91,26 @@ Symbolic Staistics From Annotation
      - 40.2140672783
      - 72.48
      - 38.974028069
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 30
+     - 4.5871559633
+     - 8.26
+     - 4.44157659838
+   * - N
+     - 10
+     - 1.52905198777
+     - 8.35
+     - 4.48997150078
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

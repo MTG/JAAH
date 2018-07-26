@@ -1,7 +1,7 @@
 .. index:: Evidence, Thelonious Monk
 .. _hyperlink-name: "Evidence" Thelonious Monk
 
-"Evidence" Thelonious Monk/None
+"Evidence" Thelonious Monk/1948
 ===============================================
 
 
@@ -22,7 +22,7 @@ Recording Information
    * - Tuning
      - 438.68 Hz
    * - Recording Dates
-     - None - None
+     - 1948-07-02 - 1948-07-02
    * - Composer(s)
      - Thelonious Monk
 .. _b438e7a3-91b9-4e43-9551-03b07036f3f3: https://musicbrainz.org/recording/b438e7a3-91b9-4e43-9551-03b07036f3f3
@@ -34,6 +34,14 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - double bass
+     - John Simmons 
+   * - vibraphone
+     - Milt Jackson 
+   * - piano
+     - Thelonious Monk 
+   * - drums (drum set)
+     - Shadow Wilson 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +55,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 166.742066826
    * - :term:`Mean Harmonic Rhythm`
-     - 3.32773109244
+     - 3.327731092436975
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +66,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 48
      - 11.1627906977
      - 16.92
      - 10.9351774058
-   * - hdim7
-     - 36
-     - 8.37209302326
-     - 12.66
-     - 8.18199444193
    * - min
      - 110
      - 25.5813953488
@@ -83,6 +81,26 @@ Symbolic Staistics From Annotation
      - 46.976744186
      - 70.86
      - 45.7959025399
+   * - hdim7
+     - 36
+     - 8.37209302326
+     - 12.66
+     - 8.18199444193
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 34
+     - 7.90697674419
+     - 15.93
+     - 10.2953531959
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

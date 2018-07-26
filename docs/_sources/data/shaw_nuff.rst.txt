@@ -34,16 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - drumset
+   * - drums (drum set)
      - Max Roach 
-   * - piano
-     - Al Haig 
-   * - double bass
-     - Curley Russell 
-   * - trumpet
-     - Dizzy Gillespie 
    * - alto saxophone
      - Charlie Parker 
+   * - double bass
+     - Curley Russell 
+   * - piano
+     - Al Haig 
+   * - trumpet
+     - Dizzy Gillespie 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 40
-     - 4.77326968974
-     - 8.55
-     - 4.65356773526
    * - maj
      - 134
      - 15.9904534606
      - 29.22
      - 15.9037718391
-   * - hdim7
-     - 96
-     - 11.4558472554
-     - 20.42
-     - 11.1141348718
    * - min
      - 276
      - 32.9355608592
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 34.6062052506
      - 61.77
      - 33.6199858488
+   * - hdim7
+     - 96
+     - 11.4558472554
+     - 20.42
+     - 11.1141348718
+   * - dim
+     - 40
+     - 4.77326968974
+     - 8.55
+     - 4.65356773526
+   * - N
+     - 2
+     - 0.238663484487
+     - 4.66
+     - 2.53633048495
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

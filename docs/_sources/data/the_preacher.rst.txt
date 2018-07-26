@@ -36,14 +36,14 @@ Line-up
    
    * - tenor saxophone
      - Hank Mobley 
-   * - piano
-     - Horace Silver 
    * - double bass
      - Doug Watkins 
+   * - membranophone
+     - Art Blakey 
+   * - piano
+     - Horace Silver 
    * - trumpet
      - Kenny Dorham 
-   * - drums
-     - Art Blakey 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 177.699142275
    * - :term:`Mean Harmonic Rhythm`
-     - 3.74634146341
+     - 3.7463414634146344
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 48
-     - 6.23376623377
-     - 15.79
-     - 6.07331051194
    * - maj
      - 360
      - 46.7532467532
      - 118.66
      - 45.6402169314
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 24
      - 3.11688311688
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 43.6363636364
      - 110.27
      - 42.4131697373
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 48
+     - 6.23376623377
+     - 15.79
+     - 6.07331051194
+   * - N
+     - 2
+     - 0.25974025974
+     - 7.46
+     - 2.8693411285
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

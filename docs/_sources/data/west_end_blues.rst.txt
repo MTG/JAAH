@@ -34,18 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - drums
-     - Zutty Singleton 
-   * - trombone
-     - Fred Robinson 
-   * - piano
-     - Earl Hines 
-   * - banjo
-     - Mancy "Peck" Carr 
-   * - trumpet
-     - Louis Armstrong 
    * - clarinet
      - Jimmy Strong 
+   * - membranophone
+     - Zutty Singleton 
+   * - banjo
+     - Mancy "Peck" Carr 
+   * - piano
+     - Earl Hines 
+   * - trumpet
+     - Louis Armstrong 
+   * - trombone
+     - Fred Robinson 
+   * - vocal
+     - Louis Armstrong 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -70,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 4
-     - 1.48148148148
-     - 2.85
-     - 1.41586765363
    * - maj
      - 114
      - 42.2222222222
      - 83.42
      - 41.4426946197
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 0
      - 0.0
@@ -95,6 +87,26 @@ Symbolic Staistics From Annotation
      - 49.6296296296
      - 97.2
      - 48.2885389239
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 4
+     - 1.48148148148
+     - 2.85
+     - 1.41586765363
+   * - N
+     - 18
+     - 6.66666666667
+     - 17.82
+     - 8.85289880272
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

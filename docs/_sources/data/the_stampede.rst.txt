@@ -34,24 +34,24 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - clarinet and tenor saxophone
-     - Coleman Hawkins 
-   * - tuba
-     - Ralph Escudero 
    * - alto saxophone and clarinet
      - Buster Bailey, Don Redman 
-   * - drums
-     - Kaiser Marshall 
-   * - trombone
-     - Benny Morton 
-   * - piano
-     - Fletcher Henderson 
-   * - banjo
-     - Charlie Dixon 
-   * - trumpet
-     - Joe Smith, Russell Smith 
    * - cornet
      - Rex Stewart 
+   * - tuba
+     - Ralph Escudero 
+   * - piano
+     - Fletcher Henderson 
+   * - trumpet
+     - Joe Smith, Russell Smith 
+   * - trombone
+     - Benny Morton 
+   * - clarinet and tenor saxophone
+     - Coleman Hawkins 
+   * - membranophone
+     - Kaiser Marshall 
+   * - banjo
+     - Charlie Dixon 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -65,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 223.002902093
    * - :term:`Mean Harmonic Rhythm`
-     - 4.62237762238
+     - 4.6223776223776225
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -76,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 27
-     - 3.69863013699
-     - 7.24
-     - 3.68616669212
    * - maj
      - 46
      - 6.30136986301
      - 11.88
      - 6.04857186498
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 120
      - 16.4383561644
@@ -101,6 +91,26 @@ Symbolic Staistics From Annotation
      - 64.1095890411
      - 124.35
      - 63.3114403544
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 27
+     - 3.69863013699
+     - 7.24
+     - 3.68616669212
+   * - N
+     - 69
+     - 9.45205479452
+     - 20.81
+     - 10.5951835446
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

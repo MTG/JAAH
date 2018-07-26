@@ -34,18 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - guitar
-     - John Smith 
-   * - double bass
-     - Charlie Turner 
-   * - drums
+   * - clarinet
+     - Rudy Powell 
+   * - membranophone
      - Arnold Boling 
    * - piano
      - Fats Waller 
    * - trumpet
      - Herman Autrey 
-   * - clarinet
-     - Rudy Powell 
+   * - guitar
+     - John Smith 
+   * - double bass
+     - Charlie Turner 
+   * - vocal
+     - Fats Waller 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -70,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 30
-     - 4.45103857567
-     - 8.09
-     - 4.26620260507
    * - maj
      - 288
      - 42.7299703264
      - 77.21
      - 40.7161314138
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 152
      - 22.5519287834
@@ -95,6 +87,26 @@ Symbolic Staistics From Annotation
      - 29.9703264095
      - 53.89
      - 28.4184991826
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 30
+     - 4.45103857567
+     - 8.09
+     - 4.26620260507
+   * - N
+     - 2
+     - 0.296735905045
+     - 9.74
+     - 5.13631809313
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

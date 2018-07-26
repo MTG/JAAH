@@ -36,14 +36,14 @@ Line-up
    
    * - tenor saxophone
      - Harold Land 
-   * - piano
-     - Richie Powell 
    * - double bass
      - George Morrow 
+   * - membranophone
+     - Max Roach 
+   * - piano
+     - Richie Powell 
    * - trumpet
      - Clifford Brown 
-   * - drums
-     - Max Roach 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 227.319020654
    * - :term:`Mean Harmonic Rhythm`
-     - 2.85496183206
+     - 2.854961832061069
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - maj
      - 236
      - 25.376344086
      - 58.81
      - 23.9581211553
-   * - hdim7
-     - 20
-     - 2.15053763441
-     - 4.96
-     - 2.02061351693
    * - min
      - 164
      - 17.6344086022
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 35.2688172043
      - 81.14
      - 33.0549557991
+   * - hdim7
+     - 20
+     - 2.15053763441
+     - 4.96
+     - 2.02061351693
+   * - dim
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - N
+     - 182
+     - 19.5698924731
+     - 59.71
+     - 24.324764737
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

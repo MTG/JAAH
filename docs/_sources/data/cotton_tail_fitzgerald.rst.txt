@@ -34,28 +34,30 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - bass trombone
-     - Chuck Connors 
-   * - clarinet and tenor saxophone
-     - Jimmy Hamilton 
-   * - baritone saxophone
-     - Harry Carney 
+   * - trombone
+     - Buster Cooper, Lawrence Brown 
    * - alto saxophone
      - Johnny Hodges 
-   * - tenor saxophone
-     - Paul Gonsalves 
+   * - bass trombone
+     - Chuck Connors 
    * - alto saxophone and clarinet
      - Russell Procope 
    * - double bass
      - John Lamb 
-   * - drums
+   * - baritone saxophone
+     - Harry Carney 
+   * - membranophone
      - Louie Bellson 
-   * - trombone
-     - Buster Cooper, Lawrence Brown 
    * - piano
      - Duke Ellington, Jimmy Jones 
    * - trumpet
      - Cootie Williams, Mercer Ellington, Herbie Jones, William “Cat” Anderson 
+   * - tenor saxophone
+     - Paul Gonsalves 
+   * - clarinet and tenor saxophone
+     - Jimmy Hamilton 
+   * - vocal
+     - Ella Fitzgerald 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -69,7 +71,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 291.689299294
    * - :term:`Mean Harmonic Rhythm`
-     - 2.67010309278
+     - 2.670103092783505
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -80,21 +82,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 46
-     - 4.28305400372
-     - 9.19
-     - 4.15987687851
    * - maj
      - 260
      - 24.208566108
      - 53.12
      - 24.0449031324
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 232
      - 21.6014897579
@@ -105,6 +97,26 @@ Symbolic Staistics From Annotation
      - 46.3687150838
      - 100.03
      - 45.278833967
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 46
+     - 4.28305400372
+     - 9.19
+     - 4.15987687851
+   * - N
+     - 38
+     - 3.53817504655
+     - 11.9
+     - 5.3865652725
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

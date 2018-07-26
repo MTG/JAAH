@@ -36,22 +36,22 @@ Line-up
    
    * - tenor saxophone
      - Joe Thomas 
-   * - baritone saxophone
-     - Earl Carruthers 
+   * - membranophone
+     - Jimmy Crawford 
    * - alto saxophone
      - Willie Smith, Dan Grissom, Ed Brown 
-   * - guitar
-     - Al Norris 
-   * - double bass
-     - Moses Allen 
-   * - drums
-     - Jimmy Crawford 
-   * - trombone
-     - Eddie Durham, Russell Bowles, Elmer Crumbley 
    * - piano
      - Edwin Wilcox 
    * - trumpet
      - Eddie Tompkins, Sy Oliver, Paul Webster 
+   * - guitar
+     - Al Norris 
+   * - double bass
+     - Moses Allen 
+   * - baritone saxophone
+     - Earl Carruthers 
+   * - trombone
+     - Eddie Durham, Russell Bowles, Elmer Crumbley 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -65,7 +65,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 148.987553409
    * - :term:`Mean Harmonic Rhythm`
-     - 1.9801980198
+     - 1.9801980198019802
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -76,21 +76,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 50
-     - 12.4688279302
-     - 19.32
-     - 11.9635890767
    * - maj
      - 174
      - 43.391521197
      - 67.18
      - 41.6000990773
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 62
      - 15.4613466334
@@ -101,6 +91,26 @@ Symbolic Staistics From Annotation
      - 28.4289276808
      - 44.06
      - 27.2834231222
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 50
+     - 12.4688279302
+     - 19.32
+     - 11.9635890767
+   * - N
+     - 1
+     - 0.249376558603
+     - 7.14
+     - 4.42132639792
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

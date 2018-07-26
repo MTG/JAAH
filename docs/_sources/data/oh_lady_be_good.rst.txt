@@ -34,18 +34,18 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - drumset
-     - Lee Young 
    * - alto saxophone
      - Willie Smith, Charlie Parker 
-   * - tenor saxophone
-     - Lester Young 
    * - double bass
      - Billy Hadnott 
    * - piano
      - Arnold Ross 
    * - trumpet
      - Howard McGhee, Al Killian 
+   * - tenor saxophone
+     - Lester Young 
+   * - drums (drum set)
+     - Lee Young 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -59,7 +59,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 125.959580135
    * - :term:`Mean Harmonic Rhythm`
-     - 3.0534351145
+     - 3.053435114503817
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -70,21 +70,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 16
-     - 3.98009950249
-     - 6.92
-     - 3.61376573189
    * - maj
      - 122
      - 30.3482587065
      - 52.53
      - 27.4322418925
-   * - hdim7
-     - 10
-     - 2.48756218905
-     - 4.33
-     - 2.26121468484
    * - min
      - 118
      - 29.3532338308
@@ -95,6 +85,26 @@ Symbolic Staistics From Annotation
      - 33.3333333333
      - 57.43
      - 29.9911222518
+   * - hdim7
+     - 10
+     - 2.48756218905
+     - 4.33
+     - 2.26121468484
+   * - dim
+     - 16
+     - 3.98009950249
+     - 6.92
+     - 3.61376573189
+   * - N
+     - 2
+     - 0.497512437811
+     - 19.45
+     - 10.1571883649
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

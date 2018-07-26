@@ -34,16 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
-   * - piano
-     - Duke Jordan 
    * - double bass
      - Tommy Potter 
-   * - trumpet
-     - Miles Davis 
-   * - drums
+   * - membranophone
      - Max Roach 
    * - alto saxophone
      - Charlie Parker 
+   * - piano
+     - Duke Jordan 
+   * - trumpet
+     - Miles Davis 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -57,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 63.1689770135
    * - :term:`Mean Harmonic Rhythm`
-     - 2.55319148936
+     - 2.5531914893617023
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -68,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 6
-     - 2.5
-     - 5.53
-     - 2.4258641867
    * - maj
      - 53
      - 22.0833333333
      - 52.98
      - 23.2409194596
-   * - hdim7
-     - 17
-     - 7.08333333333
-     - 16.15
-     - 7.08457624145
    * - min
      - 98
      - 40.8333333333
@@ -93,6 +83,26 @@ Symbolic Staistics From Annotation
      - 27.5
      - 62.01
      - 27.2021407264
+   * - hdim7
+     - 17
+     - 7.08333333333
+     - 16.15
+     - 7.08457624145
+   * - dim
+     - 6
+     - 2.5
+     - 5.53
+     - 2.4258641867
+   * - N
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - unclassified
+     - 0
+     - 0.0
+     - 0
+     - 0.0
 
 Top Bigrams
 -----------

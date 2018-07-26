@@ -1,7 +1,7 @@
 .. index:: I Gotta Right to Sing the Blues, Louis Armstrong & His Orchestra
 .. _hyperlink-name: "I Gotta Right to Sing the Blues" Louis Armstrong & His Orchestra
 
-"I Gotta Right to Sing the Blues" Louis Armstrong & His Orchestra/None
+"I Gotta Right to Sing the Blues" Louis Armstrong & His Orchestra/1933
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 437.85 Hz
    * - Recording Dates
-     - None - None
+     - 1933-01-26 - 1933-01-26
    * - Composer(s)
-     - 
+     - Harold Arlen
 .. _c24c608d-d030-4c46-ab95-e0fa2d45b7c6: https://musicbrainz.org/recording/c24c608d-d030-4c46-ab95-e0fa2d45b7c6
 
 Line-up
@@ -34,6 +34,28 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - tenor saxophone
+     - Budd Johnson 
+   * - trombone
+     - Keg Johnson 
+   * - alto saxophone
+     - Scoville, George Oldham 
+   * - banjo
+     - Big Mike McKendrick 
+   * - piano
+     - Teddy Wilson 
+   * - clarinet
+     - Scoville, George Oldham, Budd Johnson 
+   * - guitar
+     - Big Mike McKendrick 
+   * - double bass
+     - Bill Oldham 
+   * - trumpet
+     - Elmer Whitlock, Zilner Randolph, Louis Armstrong 
+   * - vocal
+     - Louis Armstrong 
+   * - drums (drum set)
+     - Yank Porter 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -58,21 +80,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 8
-     - 2.36686390533
-     - 4.22
-     - 2.29847494553
    * - maj
      - 32
      - 9.4674556213
      - 16.28
      - 8.86710239651
-   * - hdim7
-     - 23
-     - 6.80473372781
-     - 11.68
-     - 6.36165577342
    * - min
      - 98
      - 28.9940828402
@@ -83,6 +95,26 @@ Symbolic Staistics From Annotation
      - 47.0414201183
      - 81.22
      - 44.2374727669
+   * - hdim7
+     - 23
+     - 6.80473372781
+     - 11.68
+     - 6.36165577342
+   * - dim
+     - 8
+     - 2.36686390533
+     - 4.22
+     - 2.29847494553
+   * - N
+     - 18
+     - 5.32544378698
+     - 19.72
+     - 10.7407407407
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -1,7 +1,7 @@
 .. index:: Struttin' With Some Barbecue, Louis Armstrong and His Hot Five
 .. _hyperlink-name: "Struttin' With Some Barbecue" Louis Armstrong and His Hot Five
 
-"Struttin' With Some Barbecue" Louis Armstrong and His Hot Five/None
+"Struttin' With Some Barbecue" Louis Armstrong and His Hot Five/1927
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 450.09 Hz
    * - Recording Dates
-     - None - None
+     - 1927-12-09 - 1927-12-09
    * - Composer(s)
-     - 
+     - Lil Hardin Armstrong
 .. _6259ce42-b0b2-4967-bb4a-a7c19d05ed4d: https://musicbrainz.org/recording/6259ce42-b0b2-4967-bb4a-a7c19d05ed4d
 
 Line-up
@@ -34,6 +34,16 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - cornet
+     - Louis Armstrong 
+   * - clarinet
+     - Johnny Dodds 
+   * - trombone
+     - Kid Ory 
+   * - piano
+     - Lil Hardin Armstrong 
+   * - banjo
+     - Johnny St. Cyr 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +57,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 192.267731175
    * - :term:`Mean Harmonic Rhythm`
-     - 5.82558139535
+     - 5.825581395348837
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +68,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 8
-     - 1.36518771331
-     - 2.44
-     - 1.33428118335
    * - maj
      - 241
      - 41.1262798635
      - 74.4
      - 40.6846393613
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 79
      - 13.4812286689
@@ -83,6 +83,26 @@ Symbolic Staistics From Annotation
      - 29.5221843003
      - 53.17
      - 29.075299393
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 8
+     - 1.36518771331
+     - 2.44
+     - 1.33428118335
+   * - N
+     - 85
+     - 14.5051194539
+     - 28.62
+     - 15.6504620769
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

@@ -24,7 +24,7 @@ Recording Information
    * - Recording Dates
      - 1960-10-19 - 1960-10-19
    * - Composer(s)
-     - 
+     - Harry Barris
 .. _6af0952a-e2f5-4d28-be98-eb03d6228449: https://musicbrainz.org/recording/6af0952a-e2f5-4d28-be98-eb03d6228449
 
 Line-up
@@ -34,6 +34,8 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - vocal
+     - Sarah Vaughan 
    * - piano
      - Jimmy Jones 
 
@@ -49,7 +51,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 122.56049961
    * - :term:`Mean Harmonic Rhythm`
-     - 2.15942028986
+     - 2.1594202898550723
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -60,21 +62,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 11
-     - 3.50318471338
-     - 5.22
-     - 3.39578454333
    * - maj
      - 54
      - 17.1974522293
      - 25.81
      - 16.7902680198
-   * - hdim7
-     - 4
-     - 1.27388535032
-     - 1.92
-     - 1.24902419984
    * - min
      - 113
      - 35.9872611465
@@ -85,6 +77,26 @@ Symbolic Staistics From Annotation
      - 36.9426751592
      - 54.89
      - 35.7077803799
+   * - hdim7
+     - 4
+     - 1.27388535032
+     - 1.92
+     - 1.24902419984
+   * - dim
+     - 11
+     - 3.50318471338
+     - 5.22
+     - 3.39578454333
+   * - N
+     - 16
+     - 5.09554140127
+     - 12.24
+     - 7.962529274
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------

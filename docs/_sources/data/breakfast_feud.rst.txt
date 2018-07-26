@@ -1,7 +1,7 @@
 .. index:: Breakfast Feud (composite) (feat. Charlie Christian), The Benny Goodman Sextet
 .. _hyperlink-name: "Breakfast Feud (composite) (feat. Charlie Christian)" The Benny Goodman Sextet
 
-"Breakfast Feud (composite) (feat. Charlie Christian)" The Benny Goodman Sextet/None
+"Breakfast Feud (composite) (feat. Charlie Christian)" The Benny Goodman Sextet/1940
 ===============================================
 
 
@@ -22,9 +22,9 @@ Recording Information
    * - Tuning
      - 446.82 Hz
    * - Recording Dates
-     - None - None
+     - 1940-12-19 - 1941-01-15
    * - Composer(s)
-     - 
+     - Benny Goodman
 .. _3d672385-79a6-4aa6-94b8-af59a0447db1: https://musicbrainz.org/recording/3d672385-79a6-4aa6-94b8-af59a0447db1
 
 Line-up
@@ -34,6 +34,20 @@ Line-up
    :widths: 30 60
    :header-rows: 0
    
+   * - clarinet
+     - Benny Goodman, Benny Goodman 
+   * - double bass
+     - Artie Bernstein, Artie Bernstein 
+   * - piano
+     - Count Basie, Ken Kersey 
+   * - trumpet
+     - Cootie Williams, Cootie Williams 
+   * - tenor saxophone
+     - Georgie Auld, Georgie Auld 
+   * - drums (drum set)
+     - Harry Jaeger, Jo Jones 
+   * - electric guitar
+     - Charlie Christian, Charlie Christian 
 
 Symbolic Staistics From Annotation
 -----------------------------------------------
@@ -47,7 +61,7 @@ Symbolic Staistics From Annotation
    * - Mean BPM
      - 205.587545319
    * - :term:`Mean Harmonic Rhythm`
-     - 4.36363636364
+     - 4.363636363636363
 
 .. list-table:: Chord Usage Summary
    :widths: 20 20 20 20 20
@@ -58,21 +72,11 @@ Symbolic Staistics From Annotation
      - Beats %
      - Duration (seconds)
      - Duration % 
-   * - dim
-     - 30
-     - 6.22406639004
-     - 8.35
-     - 5.93587829672
    * - maj
      - 230
      - 47.7178423237
      - 64.54
      - 45.8804293737
-   * - hdim7
-     - 0
-     - 0.0
-     - 0
-     - 0.0
    * - min
      - 30
      - 6.22406639004
@@ -83,6 +87,26 @@ Symbolic Staistics From Annotation
      - 39.4190871369
      - 53.24
      - 37.8474443734
+   * - hdim7
+     - 0
+     - 0.0
+     - 0
+     - 0.0
+   * - dim
+     - 30
+     - 6.22406639004
+     - 8.35
+     - 5.93587829672
+   * - N
+     - 2
+     - 0.414937759336
+     - 6.16
+     - 4.37904315064
+   * - unclassified
+     - 0
+     - 0.0
+     - 0.0
+     - 0.0
 
 Top Bigrams
 -----------
