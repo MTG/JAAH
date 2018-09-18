@@ -3,12 +3,8 @@
   "artist": "Duke Ellington & His Orchestra", 
   "title": "In a Mellotone", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/07 - Duke Ellington And His Famous Orchestra - In A Mellotone.flac", 
-   "transcriptions": [],
-    "key":"Db"
-  }, 
-  "mbid": "0d8187d0-854e-4221-adc4-95a49663020b", 
+  "key": "Db",
+  "mbid": "0d8187d0-854e-4221-adc4-95a49663020b",
   "duration": 199.27,
   "parts":
           [

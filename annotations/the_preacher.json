@@ -3,12 +3,8 @@
   "artist": "Horace Silver; The Jazz Messengers", 
   "title": "The Preacher", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 08 - The Preacher.flac", 
-   "transcriptions": [],
-   "key":"F"
-  }, 
-  "mbid": "c7ff468d-f263-41a4-b644-a935f9290f1c", 
+  "key": "F",
+  "mbid": "c7ff468d-f263-41a4-b644-a935f9290f1c",
   "duration": 259.99,
   "parts":
   [

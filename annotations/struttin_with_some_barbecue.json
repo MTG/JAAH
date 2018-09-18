@@ -3,12 +3,8 @@
   "artist": "Louis Armstrong and His Hot Five", 
   "title": "Struttin' With Some Barbecue", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/15 - Louis Armstrong And His Hot Five - Struttin' With Some Barbecue.flac", 
-   "transcriptions": [],
-   "key":"Ab"
-  }, 
-  "mbid": "6259ce42-b0b2-4967-bb4a-a7c19d05ed4d", 
+  "key": "Ab",
+  "mbid": "6259ce42-b0b2-4967-bb4a-a7c19d05ed4d",
   "duration": 182.87,
   "parts":
           [

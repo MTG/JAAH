@@ -3,12 +3,8 @@
   "artist": "Eddie Lang; Lonnie Johnson", 
   "title": "A Handful of Riffs", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 14 - Handfull of Riffs.flac", 
-   "transcriptions": [],
-   "key":"D"
-  }, 
-  "mbid": "d8fe08a8-b51e-4588-9547-9731134883f7", 
+  "key": "D",
+  "mbid": "d8fe08a8-b51e-4588-9547-9731134883f7",
   "duration": 187.85,
   "parts":
   [

@@ -2,13 +2,9 @@
   "tuning": 439.81, 
   "artist": "Louis Armstrong and His Hot Five", 
   "title": "West End Blues", 
-  "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 11 - West End Blues.flac", 
-   "transcriptions": [],
-    "key":"Eb"
-  }, 
-  "mbid": "47642404-0c14-4e75-a51b-abb862587fe9", 
+  "metre": "4/4",
+  "key": "Eb",
+  "mbid": "47642404-0c14-4e75-a51b-abb862587fe9",
   "duration": 201.29,
   "parts":
           [

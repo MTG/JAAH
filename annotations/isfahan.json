@@ -3,12 +3,8 @@
   "artist": "Duke Ellington and His Orchestra", 
   "title": "Isfahan", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 07 - Isfahan.flac", 
-   "transcriptions": [],
-   "key":"Db"
-  }, 
-  "mbid": "a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2", 
+  "key": "Db",
+  "mbid": "a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2",
   "duration": 255.04,
   "parts":
   [

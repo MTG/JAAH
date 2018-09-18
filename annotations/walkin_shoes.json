@@ -3,12 +3,8 @@
   "artist": "The Gerry Mulligan Quartet; Chet Baker", 
   "title": "Walkin' Shoes", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 04 - Walkin' Shoes.flac", 
-   "transcriptions": [],
-   "key":"G"
-  }, 
-  "mbid": "d0296909-0459-4596-86fd-9140dc1dac6a", 
+  "key": "G",
+  "mbid": "d0296909-0459-4596-86fd-9140dc1dac6a",
   "duration": 194.65,
   "parts":
           [

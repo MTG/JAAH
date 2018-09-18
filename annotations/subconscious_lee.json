@@ -3,12 +3,8 @@
   "artist": "Lennie Tristano", 
   "title": "Subconscious Lee", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 4/02 - Lennie Tristano Quintet - Subconscious Lee.flac", 
-   "transcriptions": [],
-   "key":"C"
-  }, 
-  "mbid": "aa95b666-fbf4-4854-bcd5-b1e9900cba84", 
+  "key": "C",
+  "mbid": "aa95b666-fbf4-4854-bcd5-b1e9900cba84",
   "duration": 168.4,
   "parts":
   [

@@ -3,12 +3,8 @@
   "artist": "Duke Ellington & His Orchestra", 
   "title": "Diminuendo in Blue and Crescendo in Blue", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/03 - Duke Ellington And His Famous Orchestra - Diminuendo In Blue & Crescendo In Blue.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "480098d7-8d65-4b1d-a415-71bc647ae6d8", 
+  "key": "Eb",
+  "mbid": "480098d7-8d65-4b1d-a415-71bc647ae6d8",
   "duration": 360.31,
   "parts":
   [

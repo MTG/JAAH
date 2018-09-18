@@ -3,12 +3,8 @@
   "artist": "The Modern Jazz Quartet", 
   "title": "Django", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 07 - Django.flac", 
-   "transcriptions": [],
-    "key":["F:min"]
-  }, 
-  "mbid": "c3141ac9-74aa-439e-b9bc-16aae9c4d683", 
+  "key": "F:min",
+  "mbid": "c3141ac9-74aa-439e-b9bc-16aae9c4d683",
   "duration": 424.93,
    "parts":
            [

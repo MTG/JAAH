@@ -3,12 +3,8 @@
   "artist": "Wes Montgomery", 
   "title": "West Coast Blues (abridged)", 
   "metre": "6/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 5/02 - Wes Montgomery Quartet - West Coast Blues [Abridged].flac", 
-   "transcriptions": [],
-   "key": "Bb"
-  }, 
-  "mbid": "02ffe965-bd93-45bd-ae9f-5671261871ae", 
+  "key": "Bb",
+  "mbid": "02ffe965-bd93-45bd-ae9f-5671261871ae",
   "duration": 336.47,
   "parts":
           [

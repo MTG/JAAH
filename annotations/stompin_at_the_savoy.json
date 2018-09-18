@@ -3,12 +3,8 @@
   "artist": "Louis Armstrong; Ella Fitzgerald", 
   "title": "Stompin' at the Savoy", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 15 - Stompin' at the Savoy.flac", 
-   "transcriptions": [],
-   "key":"Db"
-  }, 
-  "mbid": "5e6eb87d-7f9b-4ccd-b671-b0cdbc061a20", 
+  "key": "Db",
+  "mbid": "5e6eb87d-7f9b-4ccd-b671-b0cdbc061a20",
   "duration": 315.83,
   "parts":
   [

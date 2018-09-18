@@ -3,12 +3,8 @@
   "artist": "Tadd Dameron Sextet", 
   "title": "Lady Bird", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 21 - Lady Bird.flac", 
-   "transcriptions": [],
-   "key":"C"
-  }, 
-  "mbid": "ce2d8d18-590f-468c-a020-b334ae916caa", 
+  "key": "C",
+  "mbid": "ce2d8d18-590f-468c-a020-b334ae916caa",
   "duration": 173.99,
   "parts":
   [

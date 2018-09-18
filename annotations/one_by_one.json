@@ -3,12 +3,8 @@
   "artist": "Art Blakey & The Jazz Messengers", 
   "title": "One by One", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 01 - One by One.flac", 
-   "transcriptions": [],
-   "key":"G:min"
-  }, 
-  "mbid": "3bdc8595-62e3-480f-8096-eb862cd6ba95", 
+  "key": "G:min",
+  "mbid": "3bdc8595-62e3-480f-8096-eb862cd6ba95",
   "duration": 383.17,
   "parts":
   [

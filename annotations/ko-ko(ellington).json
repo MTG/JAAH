@@ -3,12 +3,8 @@
   "artist": "Duke Ellington and His Famous Orchestra", 
   "title": "Ko-Ko", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 07 - Ko-Ko.flac", 
-   "transcriptions": [],
-   "key":["Eb:min"]
-  }, 
-  "mbid": "887bc584-e245-4feb-a7a1-add0e483dd21", 
+  "key": "Eb:min",
+  "mbid": "887bc584-e245-4feb-a7a1-add0e483dd21",
   "duration": 163.27,
   "parts":
   [

@@ -3,12 +3,8 @@
   "artist": "Coleman Hawkins and His Orchestra", 
   "title": "Body and Soul", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 04 - Body and Soul.flac", 
-   "transcriptions": [],
-   "key":"Db"
-  }, 
-  "mbid": "0a51dede-9539-4c06-bfd3-e1785595a1a2", 
+  "key": "Db",
+  "mbid": "0a51dede-9539-4c06-bfd3-e1785595a1a2",
   "duration": 182.73,
   "parts":
           [

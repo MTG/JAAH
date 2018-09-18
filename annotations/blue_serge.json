@@ -3,12 +3,8 @@
   "artist": "Duke Ellington & His Orchestra", 
   "title": "Blue Serge", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/08 - Duke Ellington And His Famous Orchestra - Blue Serge.flac", 
-   "transcriptions": [],
-   "key":"C:min"
-  }, 
-  "mbid": "ab0af81c-1658-4212-8da3-3135c7a06396", 
+  "key": "C:min",
+  "mbid": "ab0af81c-1658-4212-8da3-3135c7a06396",
   "duration": 205.4,
   "parts":
   [

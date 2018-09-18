@@ -3,12 +3,8 @@
   "artist": "Charlie Parker Quintet", 
   "title": "Embraceable You", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 18 - Embraceable You.flac", 
-   "transcriptions": [],
-   "key":"F"
-  }, 
-  "mbid": "6e8c9071-6cf0-4592-b13f-693cae9b6669", 
+  "key": "F",
+  "mbid": "6e8c9071-6cf0-4592-b13f-693cae9b6669",
   "duration": 227.96,
   "parts":
   [

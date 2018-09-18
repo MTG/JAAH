@@ -3,12 +3,8 @@
   "artist": "Jelly Roll Morton's Red Hot Peppers", 
   "title": "Grandpa's Spells", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/08 - Jelly Roll Morton's Red Hot Peppers - Grandpa's Spells.flac", 
-   "transcriptions": [],
-   "key":"C"
-  }, 
-  "mbid": "cc86ea4d-7a0b-443e-85f5-7352313de2e5", 
+  "key": "C",
+  "mbid": "cc86ea4d-7a0b-443e-85f5-7352313de2e5",
   "duration": 175.36,
   "parts":
   [

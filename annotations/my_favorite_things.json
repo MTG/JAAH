@@ -3,12 +3,8 @@
   "artist": "John Coltrane Quartet", 
   "title": "My Favorite Things, Part 1 (Single Version)", 
   "metre": "3/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 10 - My Favorite Things, Part 1 (Single Version).flac", 
-   "transcriptions": [],
-   "key":"E"
-  }, 
-  "mbid": "09620053-4631-4c90-8050-326761f0168f", 
+  "key": "E",
+  "mbid": "09620053-4631-4c90-8050-326761f0168f",
   "duration": 165.63,
   "parts":
   [

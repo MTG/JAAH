@@ -3,12 +3,8 @@
   "artist": "Charlie Parker", 
   "title": "Oh, Lady Be Good (feat. Jazz at the Philharmonic)", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/13 - Charlie Parker With Jazz At The Philharmonic - Lady, Be Good.flac", 
-   "transcriptions": [],
-   "key":"G"
-  }, 
-  "mbid": "cb202ce1-d335-428f-942f-0f92ee1a6077", 
+  "key": "G",
+  "mbid": "cb202ce1-d335-428f-942f-0f92ee1a6077",
   "duration": 191.49,
   "parts":
   [

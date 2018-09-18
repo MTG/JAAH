@@ -3,12 +3,8 @@
   "artist": "Herbie Hancock", 
   "title": "Watermelon Man", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 12 - Watermelon Man.flac", 
-   "transcriptions": [],
-   "key":["F"]
-  }, 
-  "mbid": "121cde3e-0177-40d3-b502-bf80049bdb0d", 
+  "key": "F",
+  "mbid": "121cde3e-0177-40d3-b502-bf80049bdb0d",
   "duration": 391.71,
   "parts":
   [

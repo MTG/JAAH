@@ -3,12 +3,8 @@
   "artist": "The Boswell Sisters", 
   "title": "Everybody Loves My Baby", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 17 - Everybody Loves My Baby.flac", 
-   "transcriptions": [],
-   "key":"G:min"
-  }, 
-  "mbid": "c191ada7-4d41-4c10-8d2c-5d9906b693aa", 
+  "key": "G:min",
+  "mbid": "c191ada7-4d41-4c10-8d2c-5d9906b693aa",
   "duration": 144.28,
   "parts":
   [

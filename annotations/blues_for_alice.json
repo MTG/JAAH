@@ -3,12 +3,8 @@
   "artist": "Charlie Parker", 
   "title": "Blues for Alice", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Extra Songs//Charlie Parker Quintet - Blues for Alice.mp3",
-   "key": "F",
-   "transcriptions": []
-  }, 
-  "mbid": "a938db71-af38-4c0f-b804-d92362b8a932", 
+  "key": "F",
+  "mbid": "a938db71-af38-4c0f-b804-d92362b8a932",
   "duration": 169.06,
   "parts":
           [

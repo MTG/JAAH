@@ -3,12 +3,8 @@
   "artist": "Duke Ellington & His Orchestra", 
   "title": "Concerto for Cootie", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/05 - Duke Ellington And His Famous Orchestra - Concerto For Cootie.flac", 
-   "transcriptions": [],
-   "key":"F"
-  }, 
-  "mbid": "b54a7a8b-f06a-4d5d-baa8-5700f39941fd", 
+  "key": "F",
+  "mbid": "b54a7a8b-f06a-4d5d-baa8-5700f39941fd",
   "duration": 199.87,
   "parts":
   [

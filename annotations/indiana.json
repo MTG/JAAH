@@ -3,10 +3,8 @@
   "artist": "Bud Powell", 
   "title": "Indiana", 
   "metre": "4/4", 
+  "key": "F",
   "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 17 - Indiana.flac", 
-   "transcriptions": [],
-    "key":"F",
     "note":"BeatsShouldBeRevised"
   }, 
   "mbid": "b890d832-b54d-4b61-b30f-36f53df79b3b", 

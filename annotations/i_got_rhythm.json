@@ -2,13 +2,9 @@
   "tuning": 446.43, 
   "artist": "Don Byas; Slam Stewart", 
   "title": "I Got Rhythm", 
-  "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/09 - Don Byas And Slam Stewart - I Got Rhythm.flac", 
-   "transcriptions": [],
-   "key": "Bb"
-  }, 
-  "mbid": "34d74fae-5764-4015-aa6a-2c27b5cdb0f2", 
+  "metre": "4/4",
+  "key": "Bb",
+  "mbid": "34d74fae-5764-4015-aa6a-2c27b5cdb0f2",
   "duration": 304.84,
    "parts":
            [

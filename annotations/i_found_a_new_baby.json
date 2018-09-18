@@ -3,12 +3,8 @@
   "artist": "The Benny Goodman Sextet", 
   "title": "I Found a New Baby (feat. Charlie Christian & Count Basie)", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/23 - Benny Goodman Sextet Featuring Charlie Christian And Count Basie - I Found A New Baby.flac", 
-   "transcriptions": [],
-    "key":"F"
-  }, 
-  "mbid": "7299b208-023e-44c9-a11d-5237c6cff8fd", 
+  "key": "F",
+  "mbid": "7299b208-023e-44c9-a11d-5237c6cff8fd",
   "duration": 176.53,
   "parts":
           [

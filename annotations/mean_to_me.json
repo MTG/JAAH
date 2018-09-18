@@ -3,12 +3,8 @@
   "artist": "Billie Holiday; Teddy Wilson and His Orchestra", 
   "title": "Mean to Me", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 22 - Mean to Me.flac", 
-   "transcriptions": [],
-    "key":"C"
-  }, 
-  "mbid": "0e9806c6-1342-432b-87b7-11e5e2217311", 
+  "key": "C",
+  "mbid": "0e9806c6-1342-432b-87b7-11e5e2217311",
   "duration": 190.88,
   "parts":
   [

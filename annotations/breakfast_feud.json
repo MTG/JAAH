@@ -3,12 +3,8 @@
   "artist": "The Benny Goodman Sextet", 
   "title": "Breakfast Feud (composite) (feat. Charlie Christian)", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/24 - Benny Goodman Sextet Featuring Charlie Christian - Breakfast Feud [Composite].flac", 
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "3d672385-79a6-4aa6-94b8-af59a0447db1", 
+  "key": "Bb",
+  "mbid": "3d672385-79a6-4aa6-94b8-af59a0447db1",
   "duration": 140.67,
   "parts":
   [

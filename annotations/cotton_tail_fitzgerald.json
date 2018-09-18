@@ -3,12 +3,8 @@
   "artist": "Ella Fitzgerald; Duke Ellington Orchestra", 
   "title": "Cotton Tail", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 13 - Cotton Tail.flac", 
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "96cd1df4-1a44-4996-98a5-8449796b2598", 
+  "key": "Bb",
+  "mbid": "96cd1df4-1a44-4996-98a5-8449796b2598",
   "duration": 220.92,
   "parts":
           [

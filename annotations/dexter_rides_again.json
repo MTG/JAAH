@@ -3,12 +3,8 @@
   "artist": "Dexter Gordon", 
   "title": "Dexter Rides Again", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 15 - Dexter Rides Again.flac", 
-   "transcriptions": [],
-   "key":"F"
-  }, 
-  "mbid": "2815658d-a6d0-4f37-ac9e-de0f83bba929", 
+  "key": "F",
+  "mbid": "2815658d-a6d0-4f37-ac9e-de0f83bba929",
   "duration": 196.73,
   "parts":
   [

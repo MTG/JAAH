@@ -3,12 +3,8 @@
   "artist": "Louis Armstrong and His Hot Seven", 
   "title": "Big Butter and Egg Man From the West", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/13 - Louis Armstrong And His Hot Five - Big Butter And Egg Man From The West.flac", 
-   "transcriptions": [],
-   "key":"G"
-  }, 
-  "mbid": "e3d72af4-c47b-422f-87b6-4218b68d2b7c", 
+  "key": "G",
+  "mbid": "e3d72af4-c47b-422f-87b6-4218b68d2b7c",
   "duration": 180.8,
   "parts":
   [

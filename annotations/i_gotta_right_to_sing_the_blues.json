@@ -3,12 +3,8 @@
   "artist": "Louis Armstrong & His Orchestra", 
   "title": "I Gotta Right to Sing the Blues", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/20 - Louis Armstrong And His Orchestra - I Gotta Right To Sing The Blues.flac", 
-   "transcriptions": [],
-   "key":"G"
-  }, 
-  "mbid": "c24c608d-d030-4c46-ab95-e0fa2d45b7c6", 
+  "key": "G",
+  "mbid": "c24c608d-d030-4c46-ab95-e0fa2d45b7c6",
   "duration": 183.6,
   "parts":
   [

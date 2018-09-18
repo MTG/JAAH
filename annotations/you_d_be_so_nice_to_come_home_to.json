@@ -3,12 +3,8 @@
   "artist": "Ella Fitzgerald", 
   "title": "You'd Be So Nice to Come Home To", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/12 - Ella Fitzgerald - You'd Be So Nice To Come Home To.flac", 
-   "transcriptions": [],
-   "key": "Db"
-  }, 
-  "mbid": "de6cd145-7a74-4e4b-86ac-4094433b849f", 
+  "key": "Db",
+  "mbid": "de6cd145-7a74-4e4b-86ac-4094433b849f",
   "duration": 170.91,
   "parts":
   [

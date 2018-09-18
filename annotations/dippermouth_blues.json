@@ -3,12 +3,8 @@
   "artist": "King Oliver's Creole Jazz Band", 
   "title": "Dippermouth Blues", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 04 - Dipper Mouth Blues.flac", 
-   "transcriptions": [],
-    "key":"C"
-  }, 
-  "mbid": "8fecd84b-8d9e-43c7-865e-4e3e93292260", 
+  "key": "C",
+  "mbid": "8fecd84b-8d9e-43c7-865e-4e3e93292260",
   "duration": 148.93,
   "parts":
           [

@@ -3,11 +3,7 @@
   "artist": "The Clifford Brown\u2013Max Roach Quintet",
   "title": "Daahoud",
   "metre": "4/4",
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 06 - Daahoud.flac",
-   "transcriptions": [],
-    "key":["B"]
-  },
+  "key": "B",
   "mbid": "38fcd5b0-468a-4314-a662-ee326d657e84",
   "duration": 245.47,
   "parts":

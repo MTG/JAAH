@@ -3,12 +3,8 @@
   "artist": "Dizzy Gillespie & His All Stars", 
   "title": "Shaw 'Nuff", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/11 - Dizzy Gillespie All Star Quintette - Shaw 'Nuff.flac", 
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "cabedd06-3ea9-462f-9af5-b546e083a361", 
+  "key": "Bb",
+  "mbid": "cabedd06-3ea9-462f-9af5-b546e083a361",
   "duration": 183.73,
   "parts":
   [

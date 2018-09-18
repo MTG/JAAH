@@ -3,12 +3,8 @@
   "artist": "Jimmie Noone's Apex Club Orchestra", 
   "title": "Four or Five Times", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/23 - Jimmie Noone's Apex Club Orchestra - Four Or Five Times.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "2483bae2-89a5-4c1f-aa76-a94ce6f2e09b", 
+  "key": "Eb",
+  "mbid": "2483bae2-89a5-4c1f-aa76-a94ce6f2e09b",
   "duration": 194.43,
   "parts":
   [

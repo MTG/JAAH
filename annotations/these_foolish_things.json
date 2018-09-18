@@ -3,12 +3,8 @@
   "artist": "Billie Holiday", 
   "title": "These Foolish Things", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/11 - Billie Holiday And Her Orchestra - These Foolish Things.flac", 
-   "transcriptions": [],
-   "key":"Ab"
-   },
-  "mbid": "454d929d-f954-48bb-ac2c-755e349eb08d", 
+  "key": "Ab",
+  "mbid": "454d929d-f954-48bb-ac2c-755e349eb08d",
   "duration": 217.29,
   "parts":
             [

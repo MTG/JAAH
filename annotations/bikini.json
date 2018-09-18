@@ -3,12 +3,8 @@
   "artist": "Dexter Gordon Quartet", 
   "title": "Bikini", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/22 - Dexter Gordon Quartet - Bikini.flac", 
-   "transcriptions": [],
-   "key":"Bb:min"
-  }, 
-  "mbid": "b5c9ca7e-ba9f-4ebf-8609-f4dc24339594", 
+  "key": "Bb:min",
+  "mbid": "b5c9ca7e-ba9f-4ebf-8609-f4dc24339594",
   "duration": 218.56,
   "parts":
           [

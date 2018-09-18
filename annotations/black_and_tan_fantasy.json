@@ -3,12 +3,8 @@
   "artist": "Duke Ellington and His Orchestra", 
   "title": "Black and Tan Fantasy", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 09 - Black and Tan Fantasy.flac", 
-   "transcriptions": [],
-   "key":["Bb"]
-  }, 
-  "mbid": "3a68a14f-c514-4262-ba05-08e4e7ace04b", 
+  "key": "Bb",
+  "mbid": "3a68a14f-c514-4262-ba05-08e4e7ace04b",
   "duration": 190.0,
   "parts":
   [

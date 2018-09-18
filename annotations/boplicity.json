@@ -3,12 +3,8 @@
   "artist": "Miles Davis Nonet", 
   "title": "Boplicity", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 01 - Boplicity.flac", 
-   "transcriptions": [],
-    "key":"F"
-  }, 
-  "mbid": "75711684-1e71-4c0f-8070-89a82520552e", 
+  "key": "F",
+  "mbid": "75711684-1e71-4c0f-8070-89a82520552e",
   "duration": 182.71,
   "parts":
           [

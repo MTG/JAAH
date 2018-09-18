@@ -3,12 +3,8 @@
   "artist": "Thelonious Monk", 
   "title": "Evidence", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 4/07 - Thelonius Monk Quartet - Evidence.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "b438e7a3-91b9-4e43-9551-03b07036f3f3", 
+  "key": "Eb",
+  "mbid": "b438e7a3-91b9-4e43-9551-03b07036f3f3",
   "duration": 154.73,
   "parts":
   [

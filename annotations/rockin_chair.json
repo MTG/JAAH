@@ -3,12 +3,8 @@
   "artist": "Gene Krupa and His Orchestra", 
   "title": "Rockin' Chair", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/16 - Gene Krupa And His Orchestra - Rockin' Chair.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "c24bd7bd-aeef-42d1-9445-9ecea0eb0827", 
+  "key": "Eb",
+  "mbid": "c24bd7bd-aeef-42d1-9445-9ecea0eb0827",
   "duration": 182.33,
   "parts":
   [

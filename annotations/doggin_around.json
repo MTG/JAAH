@@ -3,12 +3,8 @@
   "artist": "Count Basie & His Orchestra", 
   "title": "Doggin' Around", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/20 - Count Basie And His Orchestra - Doggin' Around.flac", 
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "699579f6-d24a-4c64-9950-b6281c8a3b2e", 
+  "key": "Bb",
+  "mbid": "699579f6-d24a-4c64-9950-b6281c8a3b2e",
   "duration": 180.51,
   "parts":
   [

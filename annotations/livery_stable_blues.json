@@ -3,12 +3,8 @@
   "artist": "Original Dixieland Jazz Band", 
   "title": "Livery Stable Blues", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 03 - Livery Stable Blues.flac", 
-   "transcriptions": [],
-    "key":"Eb"
-  }, 
-  "mbid": "cad9a000-cb04-49ae-9c2e-94c16981dbc9", 
+  "key": "Eb",
+  "mbid": "cad9a000-cb04-49ae-9c2e-94c16981dbc9",
   "duration": 190.64,
   "parts":   [
         {

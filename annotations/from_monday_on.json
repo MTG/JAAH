@@ -3,12 +3,8 @@
   "artist": "Bix Beiderbecke; Paul Whiteman and His Orchestra", 
   "title": "From Monday On", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 10 - From Monday On.flac", 
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "e05f0970-2e3e-46ad-a87b-6b6055e6c099", 
+  "key": "Bb",
+  "mbid": "e05f0970-2e3e-46ad-a87b-6b6055e6c099",
   "duration": 183.13,
   "parts":
     [

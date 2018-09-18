@@ -3,12 +3,8 @@
   "artist": "Miles Davis; Gil Evans", 
   "title": "Summertime", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 18 - Summertime.flac", 
-   "transcriptions": [],
-   "key":["Bb:min"]
-  }, 
-  "mbid": "9708585c-b508-4357-b3f4-4a5c0b0af44f", 
+  "key": "Bb:min",
+  "mbid": "9708585c-b508-4357-b3f4-4a5c0b0af44f",
   "duration": 198.29,
   "parts":
           [

@@ -3,12 +3,8 @@
   "artist": "Bennie Moten and his Kansas City Orchestra", 
   "title": "Moten Swing", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 16 - Moten Swing.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "b56a075e-8c13-4ec7-8b60-02eff2202341", 
+  "key": "Eb",
+  "mbid": "b56a075e-8c13-4ec7-8b60-02eff2202341",
   "duration": 205.88,
   "parts":
           [

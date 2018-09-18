@@ -3,12 +3,8 @@
   "artist": "Stan Getz; J.J. Johnson", 
   "title": "Blues in the Closet", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 16 - Blues in the Closet.flac", 
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "e3ca10e3-13a5-4fe5-aa23-7af9db3815dc", 
+  "key": "Bb",
+  "mbid": "e3ca10e3-13a5-4fe5-aa23-7af9db3815dc",
   "duration": 545.27,
   "parts":
   [

@@ -3,12 +3,8 @@
   "artist": "Bessie Smith; Louis Armstrong", 
   "title": "St. Louis Blues", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/03 - Bessie Smith - St. Louis Blues.flac", 
-   "transcriptions": [],
-   "key":"D"
-  }, 
-  "mbid": "c0574bda-0b9c-4233-a201-f20766434c27", 
+  "key": "D",
+  "mbid": "c0574bda-0b9c-4233-a201-f20766434c27",
   "duration": 193.17,
   "parts":
           [

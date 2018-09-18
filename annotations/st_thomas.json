@@ -3,12 +3,8 @@
   "artist": "Sonny Rollins", 
   "title": "St. Thomas", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 12 - St. Thomas.flac", 
-   "transcriptions": [],
-    "key":"C"
-  }, 
-  "mbid": "5339f1ae-4254-460e-848e-23566ddd175f", 
+  "key": "C",
+  "mbid": "5339f1ae-4254-460e-848e-23566ddd175f",
   "duration": 408.57,
   "parts":
           [

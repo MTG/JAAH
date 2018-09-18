@@ -3,12 +3,8 @@
   "artist": "Fletcher Henderson and His Orchestra", 
   "title": "Wrappin' It Up", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/02 - Fletcher Henderson And His Orchestra - Wrappin' It Up.flac", 
-   "transcriptions": [],
-   "key":"Db"
-  }, 
-  "mbid": "6af10606-1aef-42d6-8f26-9ff66395eae1", 
+  "key": "Db",
+  "mbid": "6af10606-1aef-42d6-8f26-9ff66395eae1",
   "duration": 161.53,
   "parts":
   [

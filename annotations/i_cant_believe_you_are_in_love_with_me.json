@@ -3,12 +3,8 @@
   "artist": "The Chocolate Dandies", 
   "title": "I Can't Believe That You're in Love With Me", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 09 - I Can't Believe That You're in Love With Me.flac", 
-   "transcriptions": [],
-   "key":"C#"
-  }, 
-  "mbid": "3fbcaf3e-e57b-4e8d-b903-edbd942fb76d", 
+  "key": "C#",
+  "mbid": "3fbcaf3e-e57b-4e8d-b903-edbd942fb76d",
   "duration": 254.68,
   "parts":
   [

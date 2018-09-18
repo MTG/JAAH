@@ -3,12 +3,8 @@
   "artist": "Fletcher Henderson and His Orchestra", 
   "title": "The Stampede", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 05 - The Stampede.flac", 
-   "transcriptions": [],
-   "key":["Ab"]
-  }, 
-  "mbid": "b0e36ae6-05c5-4246-99a4-fca6f6681fc1", 
+  "key": "Ab",
+  "mbid": "b0e36ae6-05c5-4246-99a4-fca6f6681fc1",
   "duration": 196.41,
   "parts":
     [

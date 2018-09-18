@@ -3,12 +3,8 @@
   "artist": "Jimmie Lunceford and His Orchestra", 
   "title": "Organ Grinder's Swing", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/15 - Jimmie Lunceford And His Orchestra - Organ Grinder's Swing.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "175e965e-eff8-4989-85b2-5cdae052557e", 
+  "key": "Eb",
+  "mbid": "175e965e-eff8-4989-85b2-5cdae052557e",
   "duration": 160.67,
   "parts":
   [

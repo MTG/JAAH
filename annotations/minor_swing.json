@@ -3,11 +3,7 @@
   "artist": "Quintette du Hot Club de France",
   "title": "Minor Swing",
   "metre": "4/4",
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 01 - Minor Swing.flac",
-   "transcriptions": ["$DATA_ROOT/Transcriptions/2 - Django Reinhardt (TORRENT-NO ALTER)/Definitive Collection/Definitive Collection.pdf"],
-    "key":"A:min"
-  },
+  "key": "A:min",
   "mbid": "490a4ca1-1800-4d21-8d78-b6e9415779db",
   "duration": "193.816",
   "parts": [

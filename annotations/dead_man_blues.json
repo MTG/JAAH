@@ -3,12 +3,8 @@
   "artist": "Jelly Roll Morton's Red Hot Peppers", 
   "title": "Dead Man Blues", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/07 - Jelly Roll Morton's Red Hot Peppers - Dead Man Blues.flac", 
-   "transcriptions": [],
-   "key":["Bb"]
-  }, 
-  "mbid": "c38bec92-e409-4bff-b148-75ff64c955ff", 
+  "key": "Bb",
+  "mbid": "c38bec92-e409-4bff-b148-75ff64c955ff",
   "duration": 193.87,
   "parts":
   [

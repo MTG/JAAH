@@ -3,12 +3,8 @@
   "artist": "Louis Armstrong; Earl Hines", 
   "title": "Weather Bird", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 12 - Weather Bird.flac",
-   "transcriptions": [],
-   "key":"Ab"
-  }, 
-  "mbid": "d172970c-5751-44bf-8a45-65bc3223410e", 
+  "key": "Ab",
+  "mbid": "d172970c-5751-44bf-8a45-65bc3223410e",
   "duration": 165.67,
   "parts":
   [

@@ -3,12 +3,8 @@
   "artist": "Sarah Vaughan", 
   "title": "All Alone", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 4/04 - Sarah Vaughan - All Alone.flac", 
-   "transcriptions": [],
-   "key":"C"
-  }, 
-  "mbid": "6f4aaccf-87df-4265-a3af-9c06742ea102", 
+  "key": "C",
+  "mbid": "6f4aaccf-87df-4265-a3af-9c06742ea102",
   "duration": 142.53,
   "parts":
   [

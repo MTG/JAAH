@@ -3,12 +3,8 @@
   "artist": "Dizzy Gillespie Sextet", 
   "title": "I Can't Get Started", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/10 - Dizzy Gillespie Sextet - I Can't Get Started.flac", 
-   "transcriptions": [],
-   "key":"C"
-  }, 
-  "mbid": "24fe0c12-91a4-435b-9282-634526e562c7", 
+  "key": "C",
+  "mbid": "24fe0c12-91a4-435b-9282-634526e562c7",
   "duration": 186.16,
   "parts":
   [

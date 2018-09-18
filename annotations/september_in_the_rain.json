@@ -3,12 +3,8 @@
   "artist": "The George Shearing Quintet", 
   "title": "September in the Rain", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 23 - September in the Rain.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "333f84f9-e2c4-4ebd-aec5-b710307c7c2b", 
+  "key": "Eb",
+  "mbid": "333f84f9-e2c4-4ebd-aec5-b710307c7c2b",
   "duration": 197.25,
   "parts":
    [

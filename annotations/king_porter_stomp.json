@@ -3,12 +3,8 @@
   "artist": "Jelly Roll Morton", 
   "title": "King Porter Stomp", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/09 - Jelly Roll Morton - King Porter Stomp.flac", 
-   "transcriptions": [],
-    "key":"Ab"
-  }, 
-  "mbid": "3f6f7104-11bc-41f4-96b0-11ed31a948d4", 
+  "key": "Ab",
+  "mbid": "3f6f7104-11bc-41f4-96b0-11ed31a948d4",
   "duration": 176.67,
   "parts":
           [

@@ -2,13 +2,9 @@
 	"tuning": 439.16, 
   "artist": "Meade \"Lux\" Lewis", 
   "title": "Honky Tonk Train Blues", 
-  "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 21 - Honky Tonk Train Blues.flac", 
-   "transcriptions": [],
-   "key":"G"
-  }, 
-  "mbid": "4b8f321c-8a2d-43ac-858f-096df5dcfa88", 
+  "metre": "4/4",
+  "key": "G",
+  "mbid": "4b8f321c-8a2d-43ac-858f-096df5dcfa88",
   "duration": 180.39,
 	"parts": [
 		{

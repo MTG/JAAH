@@ -3,12 +3,8 @@
   "artist": "Count Basie Octet", 
   "title": "The Golden Bullet", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD3/Disc 3 - 02 - The Golden Bullet.flac", 
-   "transcriptions": [],
-   "key":"F"
-  }, 
-  "mbid": "f63da1a2-4f9d-44a4-9bfa-14bde9da3f06", 
+  "key": "F",
+  "mbid": "f63da1a2-4f9d-44a4-9bfa-14bde9da3f06",
   "duration": 150.04,
   "parts":
   [

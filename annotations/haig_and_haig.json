@@ -3,12 +3,8 @@
   "artist": "Clark Terry-Bob Brookmeyer Quintet", 
   "title": "Haig & Haig",
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD5/Disc 5 - 05 - Haig & Haig.flac",
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "3a312349-bfa1-4e8d-bef3-3e151cb7b967", 
+  "key": "Bb",
+  "mbid": "3a312349-bfa1-4e8d-bef3-3e151cb7b967",
   "duration": 271.61,
   "parts":
   [

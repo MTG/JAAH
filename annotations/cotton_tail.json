@@ -3,12 +3,8 @@
   "artist": "Duke Ellington & His Orchestra", 
   "title": "Cotton Tail", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/06 - Duke Ellington And His Famous Orchestra - Cotton Tail.flac", 
-   "transcriptions": [],
-    "key":"Bb"
-  },
-  "mbid": "a5fae57b-d0a7-4cc8-958d-f90600c30eb8", 
+  "key": "Bb",
+  "mbid": "a5fae57b-d0a7-4cc8-958d-f90600c30eb8",
   "duration": 191.6,
   "parts":
           [

@@ -3,12 +3,8 @@
   "artist": "Duke Ellington & His Orchestra", 
   "title": "East St. Louis Toodle-Oo", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/01 - Duke Ellington And His Orchestra - East St. Louis Toodle-Oo.flac", 
-   "transcriptions": [],
-   "key":"C:min"
-  }, 
-  "mbid": "20d24e07-a14b-4b44-b372-8ea3b9f21c4e", 
+  "key": "C:min",
+  "mbid": "20d24e07-a14b-4b44-b372-8ea3b9f21c4e",
   "duration": 219.03,
 
   "parts":

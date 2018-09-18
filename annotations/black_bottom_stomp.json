@@ -3,12 +3,8 @@
   "artist": "Jelly Roll Morton's Red Hot Peppers", 
   "title": "Black Bottom Stomp", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 06 - Black Bottom Stomp.flac", 
-   "transcriptions": [],
-    "key":"Bb"
-  }, 
-  "mbid": "67a88bd6-864f-4ff7-9579-9d649887deb1", 
+  "key": "Bb",
+  "mbid": "67a88bd6-864f-4ff7-9579-9d649887deb1",
   "duration": 196.11,
   "parts":
           [

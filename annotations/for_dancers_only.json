@@ -3,12 +3,8 @@
   "artist": "Jimmie Lunceford and His Orchestra", 
   "title": "For Dancers Only", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 23 - For Dancers Only.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "b26fa5c2-4ddf-48af-9bf7-bd9a9d7d9657", 
+  "key": "Eb",
+  "mbid": "b26fa5c2-4ddf-48af-9bf7-bd9a9d7d9657",
   "duration": 161.49,
   "parts":
   [

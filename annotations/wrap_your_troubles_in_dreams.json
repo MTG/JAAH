@@ -3,12 +3,8 @@
   "artist": "Sarah Vaughan", 
   "title": "Wrap Your Troubles in Dreams", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 09 - Wrap Your Troubles in Dreams.flac", 
-   "transcriptions": [],
-   "key":"A"
-  }, 
-  "mbid": "6af0952a-e2f5-4d28-be98-eb03d6228449", 
+  "key": "A",
+  "mbid": "6af0952a-e2f5-4d28-be98-eb03d6228449",
   "duration": 153.72,
   "parts":
             [

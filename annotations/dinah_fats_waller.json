@@ -3,12 +3,8 @@
   "artist": "Fats Waller and His Rhythm", 
   "title": "Dinah", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 19 - Dinah.flac", 
-   "transcriptions": [],
-   "key":"Ab"
-  }, 
-  "mbid": "d9747359-db30-43f9-82cd-0d9566114658", 
+  "key": "Ab",
+  "mbid": "d9747359-db30-43f9-82cd-0d9566114658",
   "duration": 189.63,
   "parts":
   [

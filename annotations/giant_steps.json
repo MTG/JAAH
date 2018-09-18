@@ -3,11 +3,7 @@
   "artist": "John Coltrane", 
   "title": "Giant Steps", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD4/Disc 4 - 04 - Giant Steps.flac", 
-   "transcriptions": []
-  }, 
-  "mbid": "cc14d998-bf97-4c94-a835-d4ed9717bc7a", 
+  "mbid": "cc14d998-bf97-4c94-a835-d4ed9717bc7a",
   "duration": 287.4,
   "parts":
           [

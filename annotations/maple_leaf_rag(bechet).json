@@ -3,12 +3,8 @@
   "artist": "New Orleans Feetwarmers", 
   "title": "Maple Leaf Rag", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 18 - Maple Leaf Rag.flac", 
-   "transcriptions": [],
-   "key":"Eb"
-  }, 
-  "mbid": "a1315c6c-9a3c-4ae2-819d-63505727a24c", 
+  "key": "Eb",
+  "mbid": "a1315c6c-9a3c-4ae2-819d-63505727a24c",
   "duration": 179.44,
   "parts":
           [

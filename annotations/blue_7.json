@@ -3,12 +3,8 @@
   "artist": "Sonny Rollins", 
   "title": "Blue 7", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 5/01 - Sonny Rollins Quartet - Blue 7.flac", 
-   "transcriptions":[],
-   "key":"Bb"
-  }, 
-  "mbid": "27c5ca66-7079-49b6-a7f1-961cecbea199", 
+  "key": "Bb",
+  "mbid": "27c5ca66-7079-49b6-a7f1-961cecbea199",
   "duration": 674.6,
   "parts":
     [

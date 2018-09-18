@@ -3,12 +3,8 @@
   "artist": "Woody Herman and His Orchestra", 
   "title": "Four Brothers", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 19 - Four Brothers.flac", 
-   "transcriptions": [],
-   "key":"Ab"
-  }, 
-  "mbid": "8a9dc1eb-b86c-402c-9e7a-116ee9c06eaf", 
+  "key": "Ab",
+  "mbid": "8a9dc1eb-b86c-402c-9e7a-116ee9c06eaf",
   "duration": 198.52,
   "parts":
     [

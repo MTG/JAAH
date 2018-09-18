@@ -3,12 +3,8 @@
   "artist": "Eddie Condon's Hot Shots", 
   "title": "That's a Serious Thing", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 13 - That's a Serious Thing.flac", 
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "57e1ed14-f9a5-45b6-89d5-96932e6cfa30", 
+  "key": "Bb",
+  "mbid": "57e1ed14-f9a5-45b6-89d5-96932e6cfa30",
   "duration": 212.75,
   "parts":
   [

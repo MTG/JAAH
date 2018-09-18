@@ -3,12 +3,8 @@
   "artist": "Thelonious Monk Quartet", 
   "title": "Misterioso", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 20 - Misterioso.flac", 
-   "transcriptions": [],
-   "key":"Bb"
-  }, 
-  "mbid": "fc696e6a-b402-45f5-89ae-1d7677510155", 
+  "key": "Bb",
+  "mbid": "fc696e6a-b402-45f5-89ae-1d7677510155",
   "duration": 204.55,
   "parts":
   [

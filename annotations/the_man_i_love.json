@@ -3,12 +3,8 @@
   "artist": "Coleman Hawkins Quartet", 
   "title": "The Man I Love", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/09 - Coleman Hawkins Quartet - The Man I Love.flac", 
-   "transcriptions": [],
-   "key": "Eb"
-  }, 
-  "mbid": "4bca287b-305f-42f8-8a7b-c0bd58e884ce", 
+  "key": "Eb",
+  "mbid": "4bca287b-305f-42f8-8a7b-c0bd58e884ce",
   "duration": 309.43,
   "parts":
   [

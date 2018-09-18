@@ -3,12 +3,8 @@
   "artist": "Count Basie and His Orchestra", 
   "title": "One O'Clock Jump", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT/Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 24 - One O'Clock Jump.flac", 
-   "key": "F",
-   "transcriptions": []
-  }, 
-  "mbid": "f712230f-9df9-4a88-9ee6-02cfc2eb4eb6", 
+  "key": "F",
+  "mbid": "f712230f-9df9-4a88-9ee6-02cfc2eb4eb6",
   "duration": 185.49,
   "parts":
           [

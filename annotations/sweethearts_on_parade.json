@@ -3,12 +3,8 @@
   "artist": "Louis Armstrong & His Orchestra", 
   "title": "Sweethearts on Parade", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 1/19 - Louis Armstrong And His Orchestra - Sweethearts On Parade.flac", 
-   "transcriptions": [],
-   "key":"F"
-  }, 
-  "mbid": "79e051ea-feea-492f-954f-dd7f4bb1c832", 
+  "key": "F",
+  "mbid": "79e051ea-feea-492f-954f-dd7f4bb1c832",
   "duration": 200.53,
   "parts":
   [

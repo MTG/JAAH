@@ -2,12 +2,8 @@
   "tuning": 434.83, 
   "artist": "Louis Armstrong and His Orchestra", 
   "title": "Swing That Music", 
-  "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD1/Disc 1 - 20 - Swing That Music.flac", 
-   "transcriptions": [],
-    "key":"C"
-  },
+  "metre": "4/4",
+  "key": "C",
   "mbid": "7a3b16fb-d992-4285-954c-8c6cf7566d44",
   "duration": "174.07",
   "parts":

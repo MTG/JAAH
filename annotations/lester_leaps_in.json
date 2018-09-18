@@ -3,12 +3,8 @@
   "artist": "Count Basie and the Kansas City 7", 
   "title": "Lester Leaps In", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 2/22 - Count Basie's Kansas City Seven - Lester Leaps In.flac", 
-   "transcriptions": [],
-   "key":["Bb"]
-  }, 
-  "mbid": "89b0b7f7-564a-4ae9-9402-5c5576ac2f9d", 
+  "key": "Bb",
+  "mbid": "89b0b7f7-564a-4ae9-9402-5c5576ac2f9d",
   "duration": 195.37,
   "parts":
   [

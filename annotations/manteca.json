@@ -3,12 +3,8 @@
   "artist": "Dizzy Gillespie and His Orchestra", 
   "title": "Manteca", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 13 - Manteca.flac", 
-   "transcriptions": [],
-    "key":"Bb"
-  }, 
-  "mbid": "2394cfd9-ea6a-47cc-9aea-00d84c50746f", 
+  "key": "Bb",
+  "mbid": "2394cfd9-ea6a-47cc-9aea-00d84c50746f",
   "duration": 189.79,
   "parts":
           [

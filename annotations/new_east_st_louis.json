@@ -3,12 +3,8 @@
   "artist": "Duke Ellington & His Orchestra", 
   "title": "The New East St. Louis Toodle-Oo", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//SmithsonianCollectionOfClassicJazz/Volume 3/02 - Duke Ellington And His Famous Orchestra - The New East St. Louis Toodle-O.flac", 
-   "transcriptions": [],
-   "key":"F:min"
-  }, 
-  "mbid": "8d38e1d4-01df-4429-8fb0-bb1f9d63ad4d", 
+  "key": "F:min",
+  "mbid": "8d38e1d4-01df-4429-8fb0-bb1f9d63ad4d",
   "duration": 180.47,
   "parts":
   [

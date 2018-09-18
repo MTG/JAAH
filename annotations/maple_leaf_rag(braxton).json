@@ -3,12 +3,8 @@
   "artist": "Anthony Braxton; Muhal Richard Abrams", 
   "title": "Maple Leaf Rag", 
   "metre": "2/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD6/Disc 6 - 01 - Maple Leaf Rag.flac", 
-   "transcriptions": [],
-   "key":["Ab"]
-  }, 
-  "mbid": "90521ab0-9419-45bc-9576-18a5332aa409", 
+  "key": "Ab",
+  "mbid": "90521ab0-9419-45bc-9576-18a5332aa409",
   "duration": 220.51,
   "parts":
           [

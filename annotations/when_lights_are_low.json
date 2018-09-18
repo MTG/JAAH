@@ -3,12 +3,8 @@
   "artist": "Lionel Hampton and His Orchestra", 
   "title": "When Lights Are Low", 
   "metre": "4/4", 
-  "sandbox": {
-   "path": "$JAZZ_HARMONY_DATA_ROOT//Jazz_ The Smithsonian Anthology/CD2/Disc 2 - 03 - When Lights Are Low.flac", 
-   "transcriptions": [],
-   "key":["Ab"]
-  }, 
-  "mbid": "be26b916-d04f-44fd-8ec3-47586711b4dd", 
+  "key": "Ab",
+  "mbid": "be26b916-d04f-44fd-8ec3-47586711b4dd",
   "duration": 136.29,
   "parts":
    [
