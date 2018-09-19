@@ -1,0 +1,906 @@
+[
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "i_gotta_right_to_sing_the_blues.csv.gz"
+        },
+        "uid": "c24c608d-d030-4c46-ab95-e0fa2d45b7c6"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "black_water_blues.csv.gz"
+        },
+        "uid": "631a1e8b-184d-4967-b1ae-946c3e0a53c9"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "ko-ko(ellington).csv.gz"
+        },
+        "uid": "887bc584-e245-4feb-a7a1-add0e483dd21"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "haig_and_haig.csv.gz"
+        },
+        "uid": "3a312349-bfa1-4e8d-bef3-3e151cb7b967"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "blues_for_alice.csv.gz"
+        },
+        "uid": "a938db71-af38-4c0f-b804-d92362b8a932"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "for_dancers_only.csv.gz"
+        },
+        "uid": "b26fa5c2-4ddf-48af-9bf7-bd9a9d7d9657"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "honeysuckle_rose.csv.gz"
+        },
+        "uid": "0cd67ec0-b480-4d82-b38d-be022b71dd12"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "maple_leaf_rag(hyman).csv.gz"
+        },
+        "uid": "1c60e1f6-51ad-4d20-a236-afd5a31629de"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "maple_leaf_rag(braxton).csv.gz"
+        },
+        "uid": "90521ab0-9419-45bc-9576-18a5332aa409"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "in_a_mellotone.csv.gz"
+        },
+        "uid": "0d8187d0-854e-4221-adc4-95a49663020b"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "airegin.csv.gz"
+        },
+        "uid": "8454b48d-cd0b-4114-b696-b5429443c597"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "giant_steps.csv.gz"
+        },
+        "uid": "cc14d998-bf97-4c94-a835-d4ed9717bc7a"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "harlem_congo.csv.gz"
+        },
+        "uid": "461c9fea-67b6-43a2-be45-dc291a4a1179"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "bags_groove.csv.gz"
+        },
+        "uid": "c4267824-c699-4c45-a06f-441a0b1fc7b9"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "minor_swing.csv.gz"
+        },
+        "uid": "490a4ca1-1800-4d21-8d78-b6e9415779db"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "work_song.csv.gz"
+        },
+        "uid": "1510f5f6-fd52-4676-a279-270c40bb4259"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "blues_in_the_closet.csv.gz"
+        },
+        "uid": "e3ca10e3-13a5-4fe5-aa23-7af9db3815dc"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "honky_tonk_train.csv.gz"
+        },
+        "uid": "4b8f321c-8a2d-43ac-858f-096df5dcfa88"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "i_cant_believe_you_are_in_love_with_me.csv.gz"
+        },
+        "uid": "3fbcaf3e-e57b-4e8d-b903-edbd942fb76d"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "bikini.csv.gz"
+        },
+        "uid": "b5c9ca7e-ba9f-4ebf-8609-f4dc24339594"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "dinah_red_nichols.csv.gz"
+        },
+        "uid": "8e09f1ee-053d-42e3-baf5-50af6137549c"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "i_got_rhythm.csv.gz"
+        },
+        "uid": "34d74fae-5764-4015-aa6a-2c27b5cdb0f2"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "moanin.csv.gz"
+        },
+        "uid": "517cca8f-ab9a-4eee-92d1-1016907b3fc5"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "weather_bird.csv.gz"
+        },
+        "uid": "d172970c-5751-44bf-8a45-65bc3223410e"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "tricroism.csv.gz"
+        },
+        "uid": "080a5a42-6260-4a73-b08c-768df63201bc"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "moten_swing.csv.gz"
+        },
+        "uid": "b56a075e-8c13-4ec7-8b60-02eff2202341"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "the_golden_bullet.csv.gz"
+        },
+        "uid": "f63da1a2-4f9d-44a4-9bfa-14bde9da3f06"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "indiana.csv.gz"
+        },
+        "uid": "b890d832-b54d-4b61-b30f-36f53df79b3b"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "singin_the_blues.csv.gz"
+        },
+        "uid": "168ea61b-9fdd-4d7f-908a-2970073becd1"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "i_found_a_new_baby.csv.gz"
+        },
+        "uid": "7299b208-023e-44c9-a11d-5237c6cff8fd"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "parkers_mood.csv.gz"
+        },
+        "uid": "c50ea630-b5f0-4c12-8e75-0321757d69a3"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "rockin_chair.csv.gz"
+        },
+        "uid": "c24bd7bd-aeef-42d1-9445-9ecea0eb0827"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "dinah.csv.gz"
+        },
+        "uid": "e8acee6a-d3f0-4ab9-b489-3deb44432575"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "wrap_your_troubles_in_dreams.csv.gz"
+        },
+        "uid": "6af0952a-e2f5-4d28-be98-eb03d6228449"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "blue_horizon.csv.gz"
+        },
+        "uid": "6a278fcb-224c-4c63-9e65-48cf3f0c1232"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "the_stampede.csv.gz"
+        },
+        "uid": "b0e36ae6-05c5-4246-99a4-fca6f6681fc1"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "body_and_soul(goodman).csv.gz"
+        },
+        "uid": "b7f4e20c-b9f9-45c5-b955-fe2cf18f4345"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "watermelon_man.csv.gz"
+        },
+        "uid": "121cde3e-0177-40d3-b502-bf80049bdb0d"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "i_cant_get_started.csv.gz"
+        },
+        "uid": "24fe0c12-91a4-435b-9282-634526e562c7"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "four_brothers.csv.gz"
+        },
+        "uid": "8a9dc1eb-b86c-402c-9e7a-116ee9c06eaf"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "mean_to_me.csv.gz"
+        },
+        "uid": "0e9806c6-1342-432b-87b7-11e5e2217311"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "east_st_louis.csv.gz"
+        },
+        "uid": "20d24e07-a14b-4b44-b372-8ea3b9f21c4e"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "these_foolish_things.csv.gz"
+        },
+        "uid": "454d929d-f954-48bb-ac2c-755e349eb08d"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "potato_head_blues.csv.gz"
+        },
+        "uid": "d63fa5bc-3351-43b0-9678-b93a9cfd28d5"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "black_bottom_stomp.csv.gz"
+        },
+        "uid": "67a88bd6-864f-4ff7-9579-9d649887deb1"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "st_louis_blues.csv.gz"
+        },
+        "uid": "c0574bda-0b9c-4233-a201-f20766434c27"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "cotton_tail_fitzgerald.csv.gz"
+        },
+        "uid": "96cd1df4-1a44-4996-98a5-8449796b2598"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "manteca.csv.gz"
+        },
+        "uid": "2394cfd9-ea6a-47cc-9aea-00d84c50746f"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "embraceable_you.csv.gz"
+        },
+        "uid": "6e8c9071-6cf0-4592-b13f-693cae9b6669"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "struttin_with_some_barbecue.csv.gz"
+        },
+        "uid": "6259ce42-b0b2-4967-bb4a-a7c19d05ed4d"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "west_coast_blues.csv.gz"
+        },
+        "uid": "02ffe965-bd93-45bd-ae9f-5671261871ae"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "four_or_five_times.csv.gz"
+        },
+        "uid": "2483bae2-89a5-4c1f-aa76-a94ce6f2e09b"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "riverboat_shuffle.csv.gz"
+        },
+        "uid": "5f08d6f0-73a2-41db-a06b-ab5db714bc3e"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "wrappin_it_up.csv.gz"
+        },
+        "uid": "6af10606-1aef-42d6-8f26-9ff66395eae1"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "swing_that_music.csv.gz"
+        },
+        "uid": "7a3b16fb-d992-4285-954c-8c6cf7566d44"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "concerto_for_cootie.csv.gz"
+        },
+        "uid": "b54a7a8b-f06a-4d5d-baa8-5700f39941fd"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "diminuendo_and_crescendo_in_blue.csv.gz"
+        },
+        "uid": "480098d7-8d65-4b1d-a415-71bc647ae6d8"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "girl_from_ipanema.csv.gz"
+        },
+        "uid": "fd889e33-a067-498f-bbf8-9ffe305bde16"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "handful_of_riffs.csv.gz"
+        },
+        "uid": "d8fe08a8-b51e-4588-9547-9731134883f7"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "doggin_around.csv.gz"
+        },
+        "uid": "699579f6-d24a-4c64-9950-b6281c8a3b2e"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "september_in_the_rain.csv.gz"
+        },
+        "uid": "333f84f9-e2c4-4ebd-aec5-b710307c7c2b"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "one_by_one.csv.gz"
+        },
+        "uid": "3bdc8595-62e3-480f-8096-eb862cd6ba95"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "dead_man_blues.csv.gz"
+        },
+        "uid": "c38bec92-e409-4bff-b148-75ff64c955ff"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "lady_bird.csv.gz"
+        },
+        "uid": "ce2d8d18-590f-468c-a020-b334ae916caa"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "my_favorite_things.csv.gz"
+        },
+        "uid": "09620053-4631-4c90-8050-326761f0168f"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "misterioso.csv.gz"
+        },
+        "uid": "fc696e6a-b402-45f5-89ae-1d7677510155"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "west_end_blues.csv.gz"
+        },
+        "uid": "47642404-0c14-4e75-a51b-abb862587fe9"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "blue_7.csv.gz"
+        },
+        "uid": "27c5ca66-7079-49b6-a7f1-961cecbea199"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "daahoud.csv.gz"
+        },
+        "uid": "38fcd5b0-468a-4314-a662-ee326d657e84"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "sweethearts_on_parade.csv.gz"
+        },
+        "uid": "79e051ea-feea-492f-954f-dd7f4bb1c832"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "when_lights_are_low.csv.gz"
+        },
+        "uid": "be26b916-d04f-44fd-8ec3-47586711b4dd"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "lost_your_head_blues.csv.gz"
+        },
+        "uid": "bdf130fd-b72c-4cc1-89d0-1be77ecdbdd8"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "cotton_tail.csv.gz"
+        },
+        "uid": "a5fae57b-d0a7-4cc8-958d-f90600c30eb8"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "new_east_st_louis.csv.gz"
+        },
+        "uid": "8d38e1d4-01df-4429-8fb0-bb1f9d63ad4d"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "organ_grinders_swing.csv.gz"
+        },
+        "uid": "175e965e-eff8-4989-85b2-5cdae052557e"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "the_preacher.csv.gz"
+        },
+        "uid": "c7ff468d-f263-41a4-b644-a935f9290f1c"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "you_d_be_so_nice_to_come_home_to.csv.gz"
+        },
+        "uid": "de6cd145-7a74-4e4b-86ac-4094433b849f"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "boplicity.csv.gz"
+        },
+        "uid": "75711684-1e71-4c0f-8070-89a82520552e"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "st_thomas.csv.gz"
+        },
+        "uid": "5339f1ae-4254-460e-848e-23566ddd175f"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "maple_leaf_rag(bechet).csv.gz"
+        },
+        "uid": "a1315c6c-9a3c-4ae2-819d-63505727a24c"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "big_butter_and_eggman.csv.gz"
+        },
+        "uid": "e3d72af4-c47b-422f-87b6-4218b68d2b7c"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "walkin_shoes.csv.gz"
+        },
+        "uid": "d0296909-0459-4596-86fd-9140dc1dac6a"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "in_gloryland.csv.gz"
+        },
+        "uid": "043694ff-e370-43f2-a68b-84a476f96194"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "lester_leaps_in.csv.gz"
+        },
+        "uid": "89b0b7f7-564a-4ae9-9402-5c5576ac2f9d"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "king_porter_stomp.csv.gz"
+        },
+        "uid": "3f6f7104-11bc-41f4-96b0-11ed31a948d4"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "he_s_funny_that_way.csv.gz"
+        },
+        "uid": "6d6020a9-3816-4bd1-8a2f-8672b0ea2921"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "from_monday_on.csv.gz"
+        },
+        "uid": "e05f0970-2e3e-46ad-a87b-6b6055e6c099"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "subconscious_lee.csv.gz"
+        },
+        "uid": "aa95b666-fbf4-4854-bcd5-b1e9900cba84"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "oh_lady_be_good.csv.gz"
+        },
+        "uid": "cb202ce1-d335-428f-942f-0f92ee1a6077"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "dexter_rides_again.csv.gz"
+        },
+        "uid": "2815658d-a6d0-4f37-ac9e-de0f83bba929"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "grandpas_spells.csv.gz"
+        },
+        "uid": "cc86ea4d-7a0b-443e-85f5-7352313de2e5"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "django.csv.gz"
+        },
+        "uid": "c3141ac9-74aa-439e-b9bc-16aae9c4d683"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "stompin_at_the_savoy.csv.gz"
+        },
+        "uid": "5e6eb87d-7f9b-4ccd-b671-b0cdbc061a20"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "blue_serge.csv.gz"
+        },
+        "uid": "ab0af81c-1658-4212-8da3-3135c7a06396"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "evidence.csv.gz"
+        },
+        "uid": "b438e7a3-91b9-4e43-9551-03b07036f3f3"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "all_alone.csv.gz"
+        },
+        "uid": "6f4aaccf-87df-4265-a3af-9c06742ea102"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "pentup_house.csv.gz"
+        },
+        "uid": "2723facd-9233-4286-809b-62df780ca474"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "thats_a_serious_thing.csv.gz"
+        },
+        "uid": "57e1ed14-f9a5-45b6-89d5-96932e6cfa30"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "hotter_than_that.csv.gz"
+        },
+        "uid": "8fbdddb7-a518-46b3-9a2c-e0193669e002"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "livery_stable_blues.csv.gz"
+        },
+        "uid": "cad9a000-cb04-49ae-9c2e-94c16981dbc9"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "isfahan.csv.gz"
+        },
+        "uid": "a8db791d-8fef-4c0d-9cd3-f8f05a4bf5f2"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "dinah_fats_waller.csv.gz"
+        },
+        "uid": "d9747359-db30-43f9-82cd-0d9566114658"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "body_and_soul(hawkins).csv.gz"
+        },
+        "uid": "0a51dede-9539-4c06-bfd3-e1785595a1a2"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "breakfast_feud.csv.gz"
+        },
+        "uid": "3d672385-79a6-4aa6-94b8-af59a0447db1"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "the_man_i_love.csv.gz"
+        },
+        "uid": "4bca287b-305f-42f8-8a7b-c0bd58e884ce"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "night_in_tunisia.csv.gz"
+        },
+        "uid": "a0acca3d-7d17-4ee8-8087-e5d4b46fa047"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "black_and_tan_fantasy.csv.gz"
+        },
+        "uid": "3a68a14f-c514-4262-ba05-08e4e7ace04b"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "crazeology.csv.gz"
+        },
+        "uid": "776cdc89-829b-475a-8b9e-eeda8baca6e5"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "dippermouth_blues.csv.gz"
+        },
+        "uid": "8fecd84b-8d9e-43c7-865e-4e3e93292260"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "one_oclock_jump.csv.gz"
+        },
+        "uid": "f712230f-9df9-4a88-9ee6-02cfc2eb4eb6"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "everybody_loves_my_baby.csv.gz"
+        },
+        "uid": "c191ada7-4d41-4c10-8d2c-5d9906b693aa"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "shaw_nuff.csv.gz"
+        },
+        "uid": "cabedd06-3ea9-462f-9af5-b546e083a361"
+    },
+    {
+        "nnls_chroma": {
+            "step_size": 2048,
+            "sample_rate": 44100,
+            "path": "summertime.csv.gz"
+        },
+        "uid": "9708585c-b508-4357-b3f4-4a5c0b0af44f"
+    }
+]
