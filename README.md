@@ -13,4 +13,4 @@ Content:
    * labs.zip - chord annotations in the lab format
    * utils - python utils used for creating and exploring the dataset
 
-"Jazz5Functions" chord comparison is implemented in https://github.com/MTG/MusOOEvaluator
+"Jazz5Functions" chord comparison is implemented in MusOOEvaluator fork: https://github.com/MTG/MusOOEvaluator
