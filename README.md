@@ -12,3 +12,5 @@ Content:
    * docs_utils - python utils for documentation generation
    * labs.zip - chord annotations in the lab format
    * utils - python utils used for creating and exploring the dataset
+
+"Jazz5Functions" chord comparison is implemented in https://github.com/MTG/MusOOEvaluator
