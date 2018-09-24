@@ -16,6 +16,6 @@ Requirements:
    PYCHORD_TOOLS_PATH_DB_FILES environment variable should contain absolute pathes to files with MBID to audio or chroma files mappig.
    E.g., db.json from ../features directory could be used.
    
-   Mapping file for the audio on a local disk could be produced with "python -m pychord_tools.fill_audio_db  -p <root directory with audio> -o <output file name>".
+   Mapping file for the audio on a local disk could be produced with "python -m pychord_tools.fill_audio_db  -p \<root directory with audio\> -o \<output file name\>".
 
    In order to make things faster, PYCHORD_TOOLS_CACHE_DIR shoucl be set to some directory to store cache files.
