@@ -24,5 +24,6 @@ def get_args():
 choice, in_dir, out_dir = get_args()
 for f in [os.path.join(in_dir, x) for x in os.listdir(in_dir)]:
     path, name = os.path.split(f)
+    print(name)
     name, ext = os.path.splitext(name)
     json_to_lab(choice, f, os.path.join(out_dir, name + '.lab'))

@@ -3,7 +3,7 @@ from pychord_tools.common_utils import json_to_lab
 
 def get_args():
     parser = argparse.ArgumentParser(
-        description='convert input .json file to MIREX .lab file')
+        description='convert input .json file to MIREX .lab file with chord segments')
     parser.add_argument(
         '-c', '--choose', type=str, default='chords', help='choose information to extract (options: chords/keys)', action='store', choices=['chords', 'keys'])
     parser.add_argument(
