@@ -3,7 +3,7 @@
   "artist": "Count Basie and His Orchestra", 
   "title": "One O'Clock Jump", 
   "metre": "4/4", 
-  "key": "F",
+  "key": "F major",
   "mbid": "f712230f-9df9-4a88-9ee6-02cfc2eb4eb6",
   "duration": 185.49,
   "parts":
@@ -39,7 +39,7 @@
             },
             {
               "name": "Tenor Sax Solo, Trombone solo - Blues",
-              "key": "Db",
+              "key": "Db major",
               "beats":
                       [
                         45.54, 45.9, 46.26, 46.61, 46.98, 47.33, 47.69, 48.06, 48.41, 48.75, 49.12, 49.48, 49.84, 50.19, 50.56, 50.9,

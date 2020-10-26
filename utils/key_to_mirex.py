@@ -248,15 +248,17 @@ def to_mirex(ann):
 
 
 def reformat_file(path):
-    with open(path, 'r+') as f:
-        content = f.readlines()
-        f.seek(0)
-        #For major:
-        content = re.sub('("key": ".[b#]?)"', r'\1 major"', content, flags=re.MULTILINE)
-        #For minor
-        content = re.sub('("key": ".[b#]?):min"', r'\1 minor"', content, flags=re.MULTILINE)
-        f.write(content)
-        f.truncate()
+    data = []
+    with open(path, 'r') as f:
+        data = f.readlines()
+        for i, content in enumerate(data):
+            # For major:
+            content = re.sub('("key": ".[b#]?)"', r'\1 major"', content, flags=re.MULTILINE)
+            # For minor
+            data[i] = re.sub('("key": ".[b#]?):min"', r'\1 minor"', content, flags=re.MULTILINE)
+    with open(path, 'w') as f:
+        for row in data:
+            f.write(row)
 
 
 def reformat_keys():
